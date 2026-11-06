@@ -1,0 +1,944 @@
+{
+  "status": "SOURCE_MAPPED_BODY_AND_BATTERY_DESIGN_DELTA_REVIEW_NOT_A_COMPLETE_ACTUAL_BOM",
+  "date": "2026-11-03",
+  "CAD_modified": false,
+  "sources": {
+    "original_tree": {
+      "path": "source:/cad_60pct_baseline/analysis/leg_connection_compare.json",
+      "sha256": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7"
+    },
+    "original_connection_interpretation": {
+      "path": "source:/cad_60pct_baseline/analysis/connection_notes.md",
+      "sha256": "76ada90dd0b28d410ac305e2a30d661314ffd5fbdb7d851c32acea8e517d4bb1"
+    },
+    "source_subset_manifest": {
+      "path": "source:/cad_60pct_baseline/extraction_manifest.json",
+      "sha256": "a2cc150c483705cbb33dcfa07547c453684e9b8cbb55de984edcd9c62c0d4ec0"
+    },
+    "original_context": {
+      "path": "source:/pa35_single_leg_v6/four_leg_fit/original_context_exact.json",
+      "sha256": "6211e3079104f1d2f5b357f67b45c865020bff442b037654d2d3ad1f9d598633"
+    },
+    "R1_inventory": {
+      "path": "source:/pa35_whole_robot_R1/whole_inventory.json",
+      "sha256": "45ce510e660e4dc4ca43d34179f035055f879bca17ceb71bed4061328862c09d"
+    },
+    "R2_manifest": {
+      "path": "source:/pa35_whole_robot_R2_internal_battery/whole_robot_manifest.json",
+      "sha256": "1d5ca20c3993a963983236fcc816bb9bc932b9b733b392e2109fa35f039d5626"
+    },
+    "R2_builder": {
+      "path": "source:/pa35_whole_robot_R2_internal_battery/build_internal_battery.py",
+      "sha256": "c66486d874850d8d99a8fa547aaa7c20202b5cf5ec4b0884550c3ffdfc135a11"
+    },
+    "R2_description": {
+      "path": "source:/pa35_whole_robot_R2_internal_battery/MODEL_REVIEW_README_CN.md",
+      "sha256": "caddf4b1f876b52a31e4e64a93a387dbfa54b72e1d6c323cbe80953135608ba7"
+    },
+    "bilateral_shared_builder": {
+      "path": "source:/pa35_whole_robot_R1/prepare_bilateral_shared.py",
+      "sha256": "166d87b78a0f1af91f1c7774d3f7807f9b69f6a1e20c0ffc2060221748b86446"
+    }
+  },
+  "counting_policy": "按已识别的加工件和完整采购模组归并。实体/壳/叶子/文件不自动等于物理件。源与新件的未展开硬件、采购内部BOM保持未知。",
+  "scope": "机身固定结构含前后共享支架、7001端板与抱箍、型材、横梁、下支撑块；不含12电机/四腿/头部。电池采购整体另计。",
+  "structural_mappings": [
+    {
+      "title": "前后7001端板与抱箍",
+      "original_instances": [
+        {
+          "instance_index": 141,
+          "rep": "48079",
+          "name": "1584-7001：机身固定板",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "1584-7001：机身固定板"
+          ],
+          "geometry_rep": "193851",
+          "parent_relationship": "2427"
+        },
+        {
+          "instance_index": 158,
+          "rep": "48079",
+          "name": "1584-7001：机身固定板",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "1584-7001：机身固定板"
+          ],
+          "geometry_rep": "193851",
+          "parent_relationship": "381502"
+        }
+      ],
+      "current_labels": [
+        "FRONT_7001_V1_local_motor_clearance",
+        "REAR_7001_V1_local_motor_clearance"
+      ],
+      "normalized_old_count": 6,
+      "normalized_new_count": 6,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型或保留，件数不变",
+      "evidence": [
+        "original_tree: 141/158 share REP48079, geometry193851 containing three BReps",
+        "original_connection_interpretation: source7001 group=one fixed plate+two clamps",
+        "bilateral_shared_builder: retain source candidate, only cut left motor clearance, preserve solid count"
+      ],
+      "counting_rule": "每端按1固定板+2抱箍=3个已识别加工件；不是按一叶=一件，也不是对任意多实体通用此规则。"
+    },
+    {
+      "title": "前后共享大腿固定支架",
+      "original_instances": [
+        {
+          "instance_index": 2,
+          "rep": "360040",
+          "name": "复件 复件 复件 大腿固定支架",
+          "path": [
+            "教育版狗261028",
+            "复件 复件 复件 大腿固定支架"
+          ],
+          "geometry_rep": "194026",
+          "parent_relationship": "6139"
+        },
+        {
+          "instance_index": 91,
+          "rep": "360040",
+          "name": "复件 复件 复件 大腿固定支架",
+          "path": [
+            "教育版狗261028",
+            "复件 复件 复件 大腿固定支架"
+          ],
+          "geometry_rep": "194026",
+          "parent_relationship": "326612"
+        }
+      ],
+      "current_labels": [
+        "REAR_shared_support_V1_clearance_candidate",
+        "FRONT_shared_support_V1_clearance_candidate"
+      ],
+      "normalized_old_count": 2,
+      "normalized_new_count": 2,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型或保留，件数不变",
+      "evidence": [
+        "bilateral_shared_builder: source proper transform rear2 to front91; one support per end"
+      ]
+    },
+    {
+      "title": "纵梁155",
+      "original_instances": [
+        {
+          "instance_index": 155,
+          "rep": "591304",
+          "name": "2",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "2"
+          ],
+          "geometry_rep": "639674",
+          "parent_relationship": "317432"
+        }
+      ],
+      "current_labels": [
+        "R2_RAIL_155_SHORT165_Z85"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，主梁数量不变",
+      "evidence": [
+        "R2_builder: rail_ids; measured original profile; centre span165; lateral shift43"
+      ],
+      "related_added_labels": [
+        "R2_OFFSET_ADAPTER_155_REAR",
+        "R2_OFFSET_ADAPTER_155_FRONT"
+      ],
+      "caveat": "完整连接拓扑为原一根整梁→一根移位中段+两个原位端部转接件；相关转接件另计新增。"
+    },
+    {
+      "title": "纵梁161",
+      "original_instances": [
+        {
+          "instance_index": 161,
+          "rep": "591304",
+          "name": "2",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "2"
+          ],
+          "geometry_rep": "639674",
+          "parent_relationship": "445502"
+        }
+      ],
+      "current_labels": [
+        "R2_RAIL_161_SHORT165_Z85"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，主梁数量不变",
+      "evidence": [
+        "R2_builder: rail_ids; measured original profile; centre span165; lateral shift43"
+      ],
+      "related_added_labels": [
+        "R2_OFFSET_ADAPTER_161_REAR",
+        "R2_OFFSET_ADAPTER_161_FRONT"
+      ],
+      "caveat": "完整连接拓扑为原一根整梁→一根移位中段+两个原位端部转接件；相关转接件另计新增。"
+    },
+    {
+      "title": "纵梁164",
+      "original_instances": [
+        {
+          "instance_index": 164,
+          "rep": "591304",
+          "name": "2",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "2"
+          ],
+          "geometry_rep": "639674",
+          "parent_relationship": "509724"
+        }
+      ],
+      "current_labels": [
+        "R2_RAIL_164_SHORT165_Z85"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，主梁数量不变",
+      "evidence": [
+        "R2_builder: rail_ids; measured original profile; centre span165; lateral shift43"
+      ],
+      "related_added_labels": [
+        "R2_OFFSET_ADAPTER_164_REAR",
+        "R2_OFFSET_ADAPTER_164_FRONT"
+      ],
+      "caveat": "完整连接拓扑为原一根整梁→一根移位中段+两个原位端部转接件；相关转接件另计新增。"
+    },
+    {
+      "title": "纵梁167",
+      "original_instances": [
+        {
+          "instance_index": 167,
+          "rep": "591304",
+          "name": "2",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "2"
+          ],
+          "geometry_rep": "639674",
+          "parent_relationship": "574007"
+        }
+      ],
+      "current_labels": [
+        "R2_RAIL_167_SHORT165_Z85"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，主梁数量不变",
+      "evidence": [
+        "R2_builder: rail_ids; measured original profile; centre span165; lateral shift43"
+      ],
+      "related_added_labels": [
+        "R2_OFFSET_ADAPTER_167_REAR",
+        "R2_OFFSET_ADAPTER_167_FRONT"
+      ],
+      "caveat": "完整连接拓扑为原一根整梁→一根移位中段+两个原位端部转接件；相关转接件另计新增。"
+    },
+    {
+      "title": "下横梁170",
+      "original_instances": [
+        {
+          "instance_index": 170,
+          "rep": "324312",
+          "name": "1",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "1"
+          ],
+          "geometry_rep": "86349",
+          "parent_relationship": "638146"
+        }
+      ],
+      "current_labels": [
+        "R2_BELLY_CROSSMEMBER_R"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，横梁数量不变",
+      "evidence": [
+        "original_tree/R1_inventory: source170 atX=-33.9,173 atX=+33.9 after0.6",
+        "R2_builder: two replacement ribbed crossmembers atX+-33.9"
+      ]
+    },
+    {
+      "title": "下横梁173",
+      "original_instances": [
+        {
+          "instance_index": 173,
+          "rep": "324312",
+          "name": "1",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "1"
+          ],
+          "geometry_rep": "86349",
+          "parent_relationship": "702300"
+        }
+      ],
+      "current_labels": [
+        "R2_BELLY_CROSSMEMBER_F"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件改型，横梁数量不变",
+      "evidence": [
+        "original_tree/R1_inventory: source170 atX=-33.9,173 atX=+33.9 after0.6",
+        "R2_builder: two replacement ribbed crossmembers atX+-33.9"
+      ]
+    },
+    {
+      "title": "下支撑块143",
+      "original_instances": [
+        {
+          "instance_index": 143,
+          "rep": "327086",
+          "name": "下支撑块",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "下支撑块"
+          ],
+          "geometry_rep": "664127",
+          "parent_relationship": "13447"
+        }
+      ],
+      "current_labels": [
+        "R2_RETAINED_SUPPORT_PAD_143"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件保留并移位，数量不变",
+      "evidence": [
+        "R2_builder: retain four original lower support blocks; X move+-1,Z move+-43"
+      ]
+    },
+    {
+      "title": "下支撑块146",
+      "original_instances": [
+        {
+          "instance_index": 146,
+          "rep": "327086",
+          "name": "下支撑块",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "下支撑块"
+          ],
+          "geometry_rep": "664127",
+          "parent_relationship": "77698"
+        }
+      ],
+      "current_labels": [
+        "R2_RETAINED_SUPPORT_PAD_146"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件保留并移位，数量不变",
+      "evidence": [
+        "R2_builder: retain four original lower support blocks; X move+-1,Z move+-43"
+      ]
+    },
+    {
+      "title": "下支撑块149",
+      "original_instances": [
+        {
+          "instance_index": 149,
+          "rep": "327086",
+          "name": "下支撑块",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "下支撑块"
+          ],
+          "geometry_rep": "664127",
+          "parent_relationship": "141742"
+        }
+      ],
+      "current_labels": [
+        "R2_RETAINED_SUPPORT_PAD_149"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件保留并移位，数量不变",
+      "evidence": [
+        "R2_builder: retain four original lower support blocks; X move+-1,Z move+-43"
+      ]
+    },
+    {
+      "title": "下支撑块178",
+      "original_instances": [
+        {
+          "instance_index": 178,
+          "rep": "327086",
+          "name": "下支撑块",
+          "path": [
+            "教育版狗261028",
+            "机身",
+            "下支撑块"
+          ],
+          "geometry_rep": "664127",
+          "parent_relationship": "777345"
+        }
+      ],
+      "current_labels": [
+        "R2_RETAINED_SUPPORT_PAD_178"
+      ],
+      "normalized_old_count": 1,
+      "normalized_new_count": 1,
+      "explicit_ledger_delta": 0,
+      "category": "原件保留并移位，数量不变",
+      "evidence": [
+        "R2_builder: retain four original lower support blocks; X move+-1,Z move+-43"
+      ]
+    },
+    {
+      "title": "纵梁端部转接件",
+      "original_instances": [],
+      "current_labels": [
+        "R2_OFFSET_ADAPTER_155_REAR",
+        "R2_OFFSET_ADAPTER_155_FRONT",
+        "R2_OFFSET_ADAPTER_161_REAR",
+        "R2_OFFSET_ADAPTER_161_FRONT",
+        "R2_OFFSET_ADAPTER_164_REAR",
+        "R2_OFFSET_ADAPTER_164_FRONT",
+        "R2_OFFSET_ADAPTER_167_REAR",
+        "R2_OFFSET_ADAPTER_167_FRONT"
+      ],
+      "normalized_old_count": 0,
+      "normalized_new_count": 8,
+      "explicit_ledger_delta": 8,
+      "category": "确定新增加工件",
+      "evidence": [
+        "R2_builder: each original rail creates two separate end stubs fused with transverse plates",
+        "R2_description:8 adapters connect displaced rails to retained end plate interfaces"
+      ],
+      "reason": "这是加宽腹架方案额外引入的连接级，并非STEP表示拆分或单纯缩放所必需。"
+    }
+  ],
+  "structural_count_supported_by_source_component_interpretation": {
+    "original": 18,
+    "R2": 26,
+    "delta": 8,
+    "without_two_shared_hip_supports": {
+      "original": 16,
+      "R2": 24,
+      "delta": 8
+    },
+    "all_increase_from_separate_end_adapters": true
+  },
+  "hardware": {
+    "original_explicit_fastener_leaves": 21,
+    "original_explicit_name_counts": {
+      "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N": 8,
+      "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N": 8,
+      "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N": 5
+    },
+    "retained_old_end_fasteners": [
+      {
+        "instance_index": 142,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "7891"
+      },
+      {
+        "instance_index": 144,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "66698"
+      },
+      {
+        "instance_index": 145,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "72193"
+      },
+      {
+        "instance_index": 147,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "130847"
+      },
+      {
+        "instance_index": 148,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "136272"
+      },
+      {
+        "instance_index": 150,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "194831"
+      },
+      {
+        "instance_index": 151,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "200291"
+      },
+      {
+        "instance_index": 153,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "258791"
+      },
+      {
+        "instance_index": 156,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "322887"
+      },
+      {
+        "instance_index": 159,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "386954"
+      },
+      {
+        "instance_index": 162,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "450935"
+      },
+      {
+        "instance_index": 165,
+        "rep": "49459",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N"
+        ],
+        "geometry_rep": "571449",
+        "parent_relationship": "515217"
+      },
+      {
+        "instance_index": 168,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "579502"
+      },
+      {
+        "instance_index": 171,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "643655"
+      },
+      {
+        "instance_index": 174,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "707747"
+      },
+      {
+        "instance_index": 177,
+        "rep": "325684",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N"
+        ],
+        "geometry_rep": "745174",
+        "parent_relationship": "771923"
+      }
+    ],
+    "retained_old_count": 16,
+    "removed_old_fasteners": [
+      {
+        "instance_index": 152,
+        "rep": "50826",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N"
+        ],
+        "geometry_rep": "827350",
+        "parent_relationship": "205809"
+      },
+      {
+        "instance_index": 166,
+        "rep": "50826",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N"
+        ],
+        "geometry_rep": "827350",
+        "parent_relationship": "520762"
+      },
+      {
+        "instance_index": 169,
+        "rep": "50826",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N"
+        ],
+        "geometry_rep": "827350",
+        "parent_relationship": "584967"
+      },
+      {
+        "instance_index": 172,
+        "rep": "50826",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N"
+        ],
+        "geometry_rep": "827350",
+        "parent_relationship": "649163"
+      },
+      {
+        "instance_index": 175,
+        "rep": "50826",
+        "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+        "path": [
+          "教育版狗261028",
+          "机身",
+          "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N"
+        ],
+        "geometry_rep": "827350",
+        "parent_relationship": "713249"
+      }
+    ],
+    "removed_old_count": 5,
+    "removed_old_function": {
+      "152": "one modeled lower-support bolt used as placement prototype by R2 builder",
+      "166,169,172,175": "four original lower-crossmember bolts"
+    },
+    "added_adapter_connection": {
+      "connection_positions": 16,
+      "screws": 16,
+      "washers": 16,
+      "Tslot_nuts": 16,
+      "explicit_piece_count": 48,
+      "labels": [
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_REAR_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_REAR_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_REAR_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_REAR_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_REAR_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_REAR_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_FRONT_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_FRONT_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_FRONT_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_FRONT_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_FRONT_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_FRONT_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_REAR_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_REAR_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_REAR_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_REAR_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_REAR_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_REAR_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_FRONT_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_FRONT_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_FRONT_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_FRONT_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_FRONT_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_FRONT_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_REAR_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_REAR_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_REAR_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_REAR_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_REAR_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_REAR_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_FRONT_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_FRONT_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_FRONT_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_FRONT_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_FRONT_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_FRONT_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_REAR_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_REAR_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_REAR_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_REAR_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_REAR_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_REAR_2",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_FRONT_1",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_FRONT_1",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_FRONT_1",
+        "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_FRONT_2",
+        "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_FRONT_2",
+        "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_FRONT_2"
+      ],
+      "overlays_or_replaces_old_end_connection": false,
+      "finding": "原端部16颗源螺钉仍在。每根梁新增中段至两端转接件的4个T槽夹持点；原端部连接之外增加16组三件式连接副，共48件，不是48组。"
+    },
+    "replacement_crossmember_connection": {
+      "connection_positions": 8,
+      "screws": 8,
+      "washers": 8,
+      "Tslot_nuts": 8,
+      "new_explicit_piece_count": 24,
+      "removed_original_explicit_screws": 4,
+      "explicit_ledger_delta": 20,
+      "labels": [
+        "R2_SLOT_NUT_M2_CROSS_R_N1",
+        "R2_SCREW_M2x6_CROSS_R_N1",
+        "R2_WASHER_M2_CROSS_R_N1",
+        "R2_SLOT_NUT_M2_CROSS_R_N2",
+        "R2_SCREW_M2x6_CROSS_R_N2",
+        "R2_WASHER_M2_CROSS_R_N2",
+        "R2_SLOT_NUT_M2_CROSS_R_P1",
+        "R2_SCREW_M2x6_CROSS_R_P1",
+        "R2_WASHER_M2_CROSS_R_P1",
+        "R2_SLOT_NUT_M2_CROSS_R_P2",
+        "R2_SCREW_M2x6_CROSS_R_P2",
+        "R2_WASHER_M2_CROSS_R_P2",
+        "R2_SLOT_NUT_M2_CROSS_F_N1",
+        "R2_SCREW_M2x6_CROSS_F_N1",
+        "R2_WASHER_M2_CROSS_F_N1",
+        "R2_SLOT_NUT_M2_CROSS_F_N2",
+        "R2_SCREW_M2x6_CROSS_F_N2",
+        "R2_WASHER_M2_CROSS_F_N2",
+        "R2_SLOT_NUT_M2_CROSS_F_P1",
+        "R2_SCREW_M2x6_CROSS_F_P1",
+        "R2_WASHER_M2_CROSS_F_P1",
+        "R2_SLOT_NUT_M2_CROSS_F_P2",
+        "R2_SCREW_M2x6_CROSS_F_P2",
+        "R2_WASHER_M2_CROSS_F_P2"
+      ]
+    },
+    "replacement_support_block_connection": {
+      "connection_positions": 4,
+      "screws": 4,
+      "washers": 4,
+      "Tslot_nuts": 4,
+      "new_explicit_piece_count": 12,
+      "removed_original_explicit_screws": 1,
+      "explicit_ledger_delta": 11,
+      "labels": [
+        "R2_SLOT_NUT_M2_SUPPORT_PAD_143",
+        "R2_SCREW_M2x6_SUPPORT_PAD_143",
+        "R2_WASHER_M2_SUPPORT_PAD_143",
+        "R2_SLOT_NUT_M2_SUPPORT_PAD_146",
+        "R2_SCREW_M2x6_SUPPORT_PAD_146",
+        "R2_WASHER_M2_SUPPORT_PAD_146",
+        "R2_SLOT_NUT_M2_SUPPORT_PAD_149",
+        "R2_SCREW_M2x6_SUPPORT_PAD_149",
+        "R2_WASHER_M2_SUPPORT_PAD_149",
+        "R2_SLOT_NUT_M2_SUPPORT_PAD_178",
+        "R2_SCREW_M2x6_SUPPORT_PAD_178",
+        "R2_WASHER_M2_SUPPORT_PAD_178"
+      ]
+    },
+    "R2_body_explicit_hardware_count": 100,
+    "explicit_hardware_ledger_delta": 79,
+    "actual_whole_original_hardware_BOM_known": false,
+    "actual_hardware_net_delta": null,
+    "limits": [
+      "原CAD只有1颗明确标出的支撑块螺钉，但有4个支撑块；不能据此断言原实物只用1颗。",
+      "原型材内可能有未单列的螺母/连接件或端部螺纹，须由原装配图和BOM确认。",
+      "新增16组转接连接是本方案增加的接口，原端部连接仍保留；这不同于把原漏画硬件当不存在。"
+    ]
+  },
+  "battery": {
+    "original_procurement_or_integrated_component": {
+      "instance_index": 176,
+      "rep": "600829",
+      "name": "电池",
+      "path": [
+        "教育版狗261028",
+        "机身",
+        "电池"
+      ],
+      "geometry_rep": "50387",
+      "parent_relationship": "766410"
+    },
+    "original_integrated_geometry": {
+      "MANIFOLD_SOLID_BREP": 1,
+      "ADVANCED_FACE": 661,
+      "topological_vertex_count": 1272
+    },
+    "original_is_simple_bare_cell_placeholder": false,
+    "original_internal_manufacturing_BOM_known": false,
+    "original_component_includes_casing": null,
+    "original_internal_case_lid_cell_count": null,
+    "R2_reference_battery_label": "R2_BATTERY_REFERENCE_INTERNAL_ROTATED90Y",
+    "R2_retains_entire_original_reference_geometry": true,
+    "retained_reference_geometry_method": "R2_builder loads original_battery_reference_60pct.step and applies proper90deg Y rotation plusY=-4 translation; no split/scale/strip casing.",
+    "reference_pack_comparable_count_before_after": [
+      1,
+      1
+    ],
+    "new_external_cassette_items": {
+      "box": 1,
+      "lid": 1,
+      "bottom_pad": 1,
+      "top_clamps": 2,
+      "top_compression_pads": 4,
+      "hand_knobs": 4,
+      "washers": 4,
+      "Tslot_nuts": 4,
+      "explicit_piece_total": 21,
+      "labels": [
+        "R2_INTERNAL_CASSETTE_BOX",
+        "R2_INTERNAL_CASSETTE_LID",
+        "R2_INTERNAL_BATTERY_PAD",
+        "R2_REMOVABLE_TOP_CLAMP_R",
+        "R2_SLOT_NUT_M2_TOP_R_N",
+        "R2_HAND_KNOB_M2_TOP_R_N",
+        "R2_WASHER_M2_TOP_R_N",
+        "R2_SLOT_NUT_M2_TOP_R_P",
+        "R2_HAND_KNOB_M2_TOP_R_P",
+        "R2_WASHER_M2_TOP_R_P",
+        "R2_TOP_CLAMP_PAD_R_N",
+        "R2_TOP_CLAMP_PAD_R_P",
+        "R2_REMOVABLE_TOP_CLAMP_F",
+        "R2_SLOT_NUT_M2_TOP_F_N",
+        "R2_HAND_KNOB_M2_TOP_F_N",
+        "R2_WASHER_M2_TOP_F_N",
+        "R2_SLOT_NUT_M2_TOP_F_P",
+        "R2_HAND_KNOB_M2_TOP_F_P",
+        "R2_WASHER_M2_TOP_F_P",
+        "R2_TOP_CLAMP_PAD_F_N",
+        "R2_TOP_CLAMP_PAD_F_P"
+      ]
+    },
+    "new_outer_box_is_not_unfolded_original_pack_internal_BOM": true,
+    "explicit_external_attachment_ledger_delta": 21,
+    "actual_original_battery_fixing_BOM_net_delta": null,
+    "limits": [
+      "一个原电池叶子不等于一块裸电芯，也不证明原来没有壳体或盖。",
+      "661面一体几何可能已表达外壳/细节，但仅据实体数不能确认其采购内部BOM或材料边界。",
+      "R2把完整参考包继续保留并另加外部盒、盖与夹持；这些是额外设计的外附件，不是原采购组件内部件数被展开。",
+      "真实电池型号、原固定工艺和原外壳功能未核实，不能把这21项都宣称必需净新增。"
+    ]
+  },
+  "explicit_normalized_external_component_ledger_only": {
+    "original_body_structure": 18,
+    "original_explicit_body_hardware": 21,
+    "original_battery_integrated": 1,
+    "original_total": 40,
+    "R2_body_structure": 26,
+    "R2_explicit_body_hardware": 100,
+    "R2_battery_integrated_plus_external_items": 22,
+    "R2_total": 148,
+    "delta_of_explicit_ledger": 108,
+    "is_verified_actual_complete_BOM_delta": false,
+    "warning": "该+108只用于追溯当前模型的新增来源，包含原BOM未展开的不确定性，不能作为实物总增件结论。"
+  },
+  "actual_complete_physical_BOM_delta": null,
+  "clear_unnecessary_complexity_from_current_design": [
+    "原4根整梁被改为4根移位中段+8端部转接件。",
+    "原端部连接保留，又新增16个T槽连接点，每点螺钉/垫圈/螺母三件，共48件。",
+    "新增外电池盒盖夹持系统叠在完整参考电池外，原采购包外壳与原固定功能未核实。"
+  ],
+  "no_new_manufacturing_release": true,
+  "all_read_inputs_unchanged": true
+}

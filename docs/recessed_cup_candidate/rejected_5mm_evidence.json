@@ -1,0 +1,170 @@
+{
+  "revision": "D1_LOCAL_RECESSED_CUP",
+  "candidate_only": true,
+  "formal_R4_modified": false,
+  "C1_modified": false,
+  "manufacturing_release": false,
+  "motor_scale": 1.0,
+  "corner": "RR",
+  "translation_M3_and_downstream_target_z_mm": -5.0,
+  "downstream_complete_leg_rebuilt": false,
+  "cup_inner_diameter_mm": 47.2,
+  "cup_outer_diameter_mm": 52.0,
+  "cup_depth_mm": 20.0,
+  "nominal_radial_clearance_vs_motor_max_xy_bbox_mm": 0.5959182553000026,
+  "nominal_interface_separation_before_mm": 14.0,
+  "nominal_interface_separation_after_mm": 9.0,
+  "interface_separation_reduction_mm": 5.0,
+  "whole_robot_width_reduction_validated": false,
+  "part_bounds_mm": [
+    -171.46,
+    -32.67459033690089,
+    45.57,
+    -104.1729985128,
+    31.0,
+    74.57
+  ],
+  "part_volume_mm3": 27947.49888539124,
+  "part_valid": true,
+  "part_solids": 1,
+  "readback_valid": true,
+  "static_checks": [
+    {
+      "id": "M2",
+      "translation_z_mm": 0,
+      "intersection_mm3": 1.1956785250480025e-12,
+      "clear_volume": true
+    },
+    {
+      "id": "M3",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 7.275628699400163e-12,
+      "clear_volume": true
+    },
+    {
+      "id": "7017_V3_positive_q2_stop_column",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "7007_V4_M2_supported_clearance",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_1",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_2",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_3",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_4",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_5",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_output_M4x8_6",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M3_rear_M3x6_1",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M3_rear_M3x6_2",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M3_rear_M3x6_3",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M3_rear_M3x6_4",
+      "translation_z_mm": -5.0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_shell_M3x6_low_head_1",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_shell_M3x6_low_head_2",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_shell_M3x6_low_head_3",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    },
+    {
+      "id": "M2_shell_M3x6_low_head_4",
+      "translation_z_mm": 0,
+      "intersection_mm3": 0.0,
+      "clear_volume": true
+    }
+  ],
+  "motor_motor_intersection_mm3": 0.0,
+  "retained_outer_stop_material_lost_mm3": 0.0,
+  "counts": {
+    "R4_local_structures": 2,
+    "R4_local_AB_hardware": 8,
+    "D1_local_structures": 1,
+    "D1_local_AB_hardware": 0,
+    "local_reduction_vs_R4": 9,
+    "additional_reduction_vs_C1": 0,
+    "four_leg_reduction_if_rebuilt_and_validated": 36,
+    "actual_rebuilt_legs": 1,
+    "formal_reduction": 0
+  },
+  "retained_motor_hardware_count": 10,
+  "protected_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/CURRENT_MODEL.json": "ebb4be7fed08bccd8776eb924cf4cf19965bebe13f87569643dda8c40fd8b5ef",
+    "source:/whole_robot_click_compare/original_architecture_candidate/PA35_C1_ORIGINAL_CONNECTION_QUADRUPED_CANDIDATE.step": "f06a40e396d1112ee7f9d73c7d5a22469197058247b7f45cf9993c53b91593c0"
+  },
+  "part_sha256": "b87d82b2a9fe90b5b74b8b2d29c22c04a511f6e8eaec9e28190bdcb2e7234b47",
+  "limitations": [
+    "Only RR M2/M3 local connection built. No four-leg or full-robot adoption.",
+    "The 5mm shift needs the entire M3-side leg group to move and linkage/stop/clearance revalidation.",
+    "Cup wall and mounting web not load/FEA/fatigue/tolerance qualified.",
+    "All retained fasteners still require thread-stack and tool/withdrawal checks at new positions.",
+    "Static results are recorded numerically; any nonzero overlap is unresolved, not hidden."
+  ],
+  "static_volume_screen_all_clear": true
+}

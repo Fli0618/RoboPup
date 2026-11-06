@@ -1,0 +1,20 @@
+{
+  "status": "OFFICIAL_DESIGN_MAIN",
+  "selected_design": "D1",
+  "revision": "D1_MAIN_DIRECT_GRIPS_004",
+  "date": "2026-11-05",
+  "manifest": "source:/main/main-design.json",
+  "manifest_sha256": "acdb0f8095dfa92b3483bcec4fa92af590d4059e66460376e280e4a3a7ba591c",
+  "connection_STEP": "source:/main/PA35_MAIN_D1_CONNECTION.step",
+  "connection_STEP_sha256": "184cc3e993ee6a17b2ac01446451a496668f70c74397534dd00f1394b95cb2f0",
+  "local_assembly_STEP": "source:/main/PA35_MAIN_D1_LOCAL_ASSEMBLY.step",
+  "local_assembly_STEP_sha256": "5719c171b600d74e842b48b1ccd02ac53e75c1bc2fa60d0dcf46a61326e04c0d",
+  "whole_robot_integrated": true,
+  "complete_assembly_export_pointer": "source:/CURRENT_MODEL.json",
+  "manufacturing_release": false,
+  "whole_robot_STEP": "source:/main/whole_robot_D1_direct_grips/PA35_MAIN_D1_WHOLE_ROBOT.step",
+  "whole_robot_STEP_sha256": "5d18ed864f2478689b7ad4cd1c0b43c3c7c099f0a9c41125cf140a89ecc06412",
+  "mechanical_model_count": 356,
+  "upper_pin_route": "ORIGINAL_PIN_WASHER_AXIAL_SCREW",
+  "direct_grips_adopted": true
+}

@@ -1,0 +1,142 @@
+{
+  "status": "READ_ONLY_CONCEPT_REVIEW_NOT_APPROVED_REDUCTION",
+  "date": "2026-11-04",
+  "current_revision": "R4_ORIGINAL_FRAME_ADAPTIVE_BATTERY",
+  "current_model_sha256": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "formal_CAD_modified": false,
+  "baseline": {
+    "whole_mechanical_model_without_battery": 396,
+    "legother_original": 159,
+    "legother_current": 296,
+    "legother_delta": 137,
+    "current_interface_screws_four_legs": 144,
+    "directly_demonstrated_safe_deletion_count": 0
+  },
+  "groups": [
+    {
+      "id": "M1_output",
+      "current_four_legs": 24,
+      "initial_disposition": "KEEP_ALL_SIX_PER_MOTOR",
+      "reason": "输出盘与7017的扭矩传递连接；机身抱箍固定的是M1定子，不能代替输出端连接。原CAD未画全不等于只用一颗就足够。",
+      "supported_net_reduction": null
+    },
+    {
+      "id": "M2_output",
+      "current_four_legs": 24,
+      "initial_disposition": "KEEP_ALL_SIX_PER_MOTOR",
+      "reason": "把M2输出接至A/B或其一体替代主支架。恢复一体7003思路可以去掉A/B接缝，不能因此取消输出端的必要固定。",
+      "supported_net_reduction": null
+    },
+    {
+      "id": "M2_shell",
+      "current_four_legs": 16,
+      "initial_disposition": "RETAIN_STATOR_ATTACHMENT",
+      "reason": "7017与M2前壳连接，承担M2定子到髋法兰的固定，和M2输出端不是同一功能。若回到原夹持方式，应设计足够有效夹持长度、抗转/轴向定位及夹紧螺钉，再按新旧全部件净计数。",
+      "supported_net_reduction": null
+    },
+    {
+      "id": "M3_output",
+      "current_four_legs": 24,
+      "initial_disposition": "KEEP_ALL_SIX_PER_MOTOR",
+      "reason": "7009与M3输出盘的扭矩传递连接。现有低宽肩、薄边和螺钉头工具通道均围绕六孔布置评审，没有减少为三孔的承载证明。",
+      "supported_net_reduction": null
+    },
+    {
+      "id": "M3_rear_and_front_shell",
+      "current_four_legs": 28,
+      "initial_disposition": "PRIORITY_FOR_LOAD_PATH_CONSOLIDATION_REVIEW",
+      "reason": "每腿后端4颗把B载板接到M3后壳，前壳3颗把7007接到M3壳体；两者虽同属M3定子，却分别固定两个不同结构件。目前不能直接互相替代。V2明确原2.69mm短衬套仅作辅助定位，主要抗转转至前壳三孔。",
+      "supported_net_reduction": null,
+      "gross_candidate_branches": [
+        {
+          "branch": "KEEP_REAR_FOUR_REMOVE_FRONT_THREE",
+          "gross_screw_reduction_four_legs": 12,
+          "legother_count_if_no_offsetting_new_items": 284,
+          "legother_delta_if_no_offsetting_new_items": 125,
+          "requirement": "7007须经新的一体正向结构可靠接至载板或重做足够长度的原式夹持，恢复M2输出→大腿、M3壳体→大腿两条载荷路径；所有新增连接件、夹紧螺钉都必须抵扣。",
+          "net_reduction_validated": false
+        },
+        {
+          "branch": "KEEP_FRONT_THREE_REMOVE_REAR_FOUR",
+          "gross_screw_reduction_four_legs": 16,
+          "legother_count_if_no_offsetting_new_items": 280,
+          "legother_delta_if_no_offsetting_new_items": 121,
+          "requirement": "M2输出载板须以正向结构直接连接7007/大腿组，不能只松掉B到M3后壳；原式支架与大腿的连接需实际建模并计入所有新件。",
+          "net_reduction_validated": false
+        }
+      ],
+      "branches_are_mutually_exclusive": true,
+      "do_not_add_12_and_16": true,
+      "both_routes_removed_gross_28_not_supported": "只有重建完整M3定子夹持/定位路径并核对新增紧固件、夹持长度与壳体承压后才可讨论，当前不能作为目标承诺。"
+    },
+    {
+      "id": "plate",
+      "current_four_legs": 20,
+      "initial_disposition": "KEEP_FIVE_CONNECTIONS_PER_LEG",
+      "reason": "原7005/7007已有五处板间连接孔，只画一颗螺钉。回到一颗不是恢复实际工艺，而是恢复不完整模型。四腿模型差额中的16项补画不宜以删螺钉方式消除。",
+      "supported_net_reduction": null
+    },
+    {
+      "id": "q2_stop",
+      "current_four_legs": 8,
+      "initial_disposition": "KEEP_REPLACEABLE_STOP_TWO_SCREWS",
+      "reason": "PA可换止挡依赖两颗固定螺钉与正向接触面。保持原材料和快拆可换风格时，没有取消其中一颗的已验证方案。",
+      "supported_net_reduction": null
+    }
+  ],
+  "outside_legother137_architecture_candidates": {
+    "AB_joint_four_legs": {
+      "gross_model_items_reduction": 36,
+      "formula": "每腿A/B两结构件改一件：1 + 接缝螺钉4 + 垫圈4 =9，四腿36",
+      "condition": "一体主支架实际设计、两台电机安装顺序、工具与螺钉退出、工艺及承载验证后，不再增加替代接缝连接件。",
+      "already_adopted": false
+    },
+    "M1_M3_independent_reducers": {
+      "gross_model_items_reduction": 8,
+      "formula": "M1及M3每腿各一只独立衬套，四腿共8",
+      "condition": "重做配对夹持/定位面；并非只缩一只抱箍即能删除衬套。M3短衬套目前为辅助定位，不可借取消衬套同时宣称壳体螺钉都可删。",
+      "already_adopted": false
+    },
+    "combined_candidate_total": 44,
+    "whole_model_count_if_all_realized_without_new_items": 352,
+    "note": "44属于整机其他分区的明确结构算术目标，不是137内部已经验证可删44。"
+  },
+  "material_and_motion_constraints": {
+    "original_7003_material": "6061，见源图提取记录",
+    "original_7007_material": "6061，见源图提取记录",
+    "current_new_carrier_material_basis": "V2声明新增局部结构沿对应原主件材料；原7003为6061。未获得独立B件工艺/处理状态证书，不自动改用其他材料。",
+    "consolidation_material_inference": "7003架构与7007原标注均为6061，因此不存在已经确认的异种材料冲突；这不代表两者可直接合成一个易加工零件，也不允许合并PA止挡或ALSi10Mg回转盘。需保持供应商相同工艺和处理状态。",
+    "motion_relation": "A/B载板、M3壳、7007/7005均属M2输出的q2同动组；M3输出7009为相对q3运动件。B到7007的正向桥接在运动学上可位于同一刚体组，原则上无需跨关节连接，但现实空间可能被电机与7009运动包络遮挡。",
+    "new_connections_accounting": "若桥接采用独立件或增加螺钉，必须逐件从12或16毛减中扣回；若采用同一6061主件扩展，也需重新证明加工、装拆、M3壳体承压及全部运动包络。不把桥接视为空间上自动存在。",
+    "no_336_promise": "首轮整机44项目标对应396→352；再做M3路线整合的12或16是互斥毛减假设，不能承诺396→336或340。"
+  },
+  "source_evidence": [
+    {
+      "file": "source:/pa35_single_leg_v2/README_V2.md",
+      "sections": ["固定与传动分开落实", "装配次序候选"],
+      "supports": "PA35输出六孔PCD24、前壳8孔PCD41.5、后盖4孔PCD38.5不同接口；M2壳4、M3壳3作用不同；短衬套非主要抗转。"
+    },
+    {
+      "file": "source:/pa35_single_leg_v3/sequence_work/7005_sequence/README_7005_SEQUENCE.md",
+      "supports": "7005/7007双侧承载大腿，原五处板间孔仅画一颗；小腿销及拆装依赖。"
+    },
+    {
+      "file": "source:/pa35_supplier_model_R8_review/MODEL_REVIEW_NOTES_CN.md",
+      "supports": "六输出孔沿用，薄边及螺钉预紧仍需审核；原模型未证明实际安装螺纹承载。"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/legother_audit/legother-audit.json",
+      "supports": "144+(76-83)=137；83/76净差不代表7颗实际删除。"
+    },
+    {
+      "file": "source:/pa35_single_leg_v2/analysis/source_drawing_text.json",
+      "supports": "7003与7007源加工图均标6061；7004为PA、7009为ALSi10Mg，材料边界保持。"
+    },
+    {
+      "file": "source:/pa35_single_leg_v3/motion_work/README_motion.md",
+      "supports": "A/B、M3壳、大腿同属q2刚体运动组；7009属于相对q3运动组。"
+    }
+  ],
+  "recommended_next_concept": "先恢复一体7003主支架思路并直接适配原夹持/定位面，优先去掉独立衬套和A/B接缝；137内部优先评审M3前后固定路线的整合，保留输出端六孔、五处大腿板连接及两颗止挡。逐件真实前后图后再实施。",
+  "limitations": "这是读取已有设计说明后的架构评估，未新建候选模型、未计算新夹持承载、未进行新装拆/静力/疲劳仿真；全部减件数均为附条件的模型计数，不是制造放行。"
+}

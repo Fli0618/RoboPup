@@ -1,0 +1,370 @@
+{
+  "status": "LEGOTHER_137_DELIVERY_INTEGRITY_PASS",
+  "date": "2026-11-04",
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "checks": [
+    {
+      "label": "Component audit assertions all passed",
+      "pass": true
+    },
+    {
+      "label": "Audit, CAD render source and current model share the same assembly hash",
+      "pass": true
+    },
+    {
+      "label": "Explanation changes no formal CAD",
+      "pass": true
+    },
+    {
+      "label": "Unchanged audit input: leg_connection_compare.json",
+      "pass": true
+    },
+    {
+      "label": "Unchanged audit input: complete_mechanical_count.json",
+      "pass": true
+    },
+    {
+      "label": "Unchanged audit input: whole_robot_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "Individually identified rows reconcile 159 to 296",
+      "pass": true
+    },
+    {
+      "label": "Every counted row exists in the CAD/source ledger",
+      "pass": true
+    },
+    {
+      "label": "144 interface screws are unique actual current instances",
+      "pass": true
+    },
+    {
+      "label": "Five installation groups reconcile 36 per leg and 144 across four legs",
+      "pass": true
+    },
+    {
+      "label": "Eight changed categories reconcile 31 to 24, net minus seven",
+      "pass": true
+    },
+    {
+      "label": "Other 52 connection entries have equal modeled quantities",
+      "pass": true
+    },
+    {
+      "label": "Original four-leg asymmetries are retained rather than multiplying one leg blindly",
+      "pass": true
+    },
+    {
+      "label": "Net difference is 144 plus 76 minus 83",
+      "pass": true
+    },
+    {
+      "label": "Rendered highlighted hardware IDs exactly match group m1",
+      "pass": true
+    },
+    {
+      "label": "Rendered label counts match component audit: m1",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m1 before",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m1 after",
+      "pass": true
+    },
+    {
+      "label": "Rendered highlighted hardware IDs exactly match group m2",
+      "pass": true
+    },
+    {
+      "label": "Rendered label counts match component audit: m2",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m2 before",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m2 after",
+      "pass": true
+    },
+    {
+      "label": "Rendered highlighted hardware IDs exactly match group m3",
+      "pass": true
+    },
+    {
+      "label": "Rendered label counts match component audit: m3",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m3 before",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: m3 after",
+      "pass": true
+    },
+    {
+      "label": "Rendered highlighted hardware IDs exactly match group plate",
+      "pass": true
+    },
+    {
+      "label": "Rendered label counts match component audit: plate",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: plate before",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: plate after",
+      "pass": true
+    },
+    {
+      "label": "Rendered highlighted hardware IDs exactly match group stop",
+      "pass": true
+    },
+    {
+      "label": "Rendered label counts match component audit: stop",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: stop before",
+      "pass": true
+    },
+    {
+      "label": "CAD group image exists: stop after",
+      "pass": true
+    },
+    {
+      "label": "Render contract links to the actual residual audit",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m1_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m1_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: m1_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m1_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m1_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: m1_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m2_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m2_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: m2_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m2_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m2_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: m2_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m3_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m3_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: m3_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: m3_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: m3_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: m3_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: plate_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: plate_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: plate_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: plate_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: plate_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: plate_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: stop_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: stop_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: stop_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: stop_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: stop_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: stop_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: current_36_screw_tray.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: current_36_screw_tray.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: overview_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: overview_before.png",
+      "pass": true
+    },
+    {
+      "label": "Original view contains only right-rear leg plus explicit shared rear plate: overview_before.png []",
+      "pass": true
+    },
+    {
+      "label": "CAD image hash agrees with render evidence: overview_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image dimensions are correct: overview_after.png",
+      "pass": true
+    },
+    {
+      "label": "Current representative view contains right-rear instances only: overview_after.png",
+      "pass": true
+    },
+    {
+      "label": "All six before/after pairs and the individual screw tray are documented",
+      "pass": true
+    },
+    {
+      "label": "Individual 36-screw count tray exists",
+      "pass": true
+    }
+  ],
+  "audited_reconciliation": {
+    "original": 159,
+    "current": 296,
+    "delta": 137,
+    "unchangedStructure": 64,
+    "unchangedMotors": 12,
+    "originalOtherConnections": 83,
+    "currentOtherConnections": 76,
+    "currentInterfaceScrews": 144,
+    "otherConnectionDelta": -7,
+    "commonConnectionGroupCountEachSide": 52,
+    "changedConnectionGroupBefore": 31,
+    "changedConnectionGroupAfter": 24,
+    "formula": "144 + (76 − 83) = 137",
+    "fullFormula": "(64 + 12 + 76 + 144) − (64 + 12 + 83) = 137"
+  },
+  "counts_by_group": [
+    {
+      "id": "m1",
+      "name": "M1输出端",
+      "perLeg": 6,
+      "currentTotal": 24
+    },
+    {
+      "id": "m2",
+      "name": "M2输出端与壳体",
+      "perLeg": 10,
+      "currentTotal": 40
+    },
+    {
+      "id": "m3",
+      "name": "M3输出、壳体与后端",
+      "perLeg": 13,
+      "currentTotal": 52
+    },
+    {
+      "id": "plate",
+      "name": "内外大腿板连接",
+      "perLeg": 5,
+      "currentTotal": 20
+    },
+    {
+      "id": "stop",
+      "name": "q2止挡固定",
+      "perLeg": 2,
+      "currentTotal": 8
+    }
+  ],
+  "audited_inputs": {
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/assembly_delta_review/complete_mechanical_count.json": "2b0aed2e8bc289304c5e9b8c6f0fa87315f57cc6bfbd03a44f6b6caf6153d15f",
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695"
+  },
+  "data_sha256": {
+    "legother_audit\\legother-audit.json": "bcf1b23cab17feabdb57371d8b07585d8a40af07ad19c3d0fca3a234ff249879",
+    "legother_audit\\legother-audit.js": "8b2278fc4e470bd10fb32d9b612e52dbfeeb6efcb3d777cdedb23e4d4935d1b6",
+    "legother_audit\\assets\\legother-assets.json": "120ddd397cd6a3130801617ddb461719bf79dbb28a20b311b37015db274a261c",
+    "legother_audit\\assets\\legother-assets.js": "34513f9b5dad533503b1e3fe97c26e5723759e63a80eef94a597ebf372f34c1a",
+    "legother_audit\\assets\\render-evidence.json": "8b0de68839e388932eabbc0eded0d4b229989cce3df97cde0998342cbefe3981"
+  },
+  "source3_boundary_note": "原根级source3位于右后髋部/M1与机身交界，沿用原台账归腿部；不据此宣称已验证其实际装配。",
+  "manufacturing_release": false,
+  "formal_CAD_modified": false
+}

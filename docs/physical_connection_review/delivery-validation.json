@@ -1,0 +1,13 @@
+{
+  "status": "PHYSICAL_CONNECTION_SCOPE_DELIVERY_PASS",
+  "main_CAD_modified": false,
+  "main_count_modified": false,
+  "protected_MAIN_unchanged": true,
+  "mainCount": 356,
+  "pin_delta_vs_original": 0,
+  "legother_model_delta": 137,
+  "legother_physical_delta": null,
+  "browser_checks": 34,
+  "source_evidence": "evidence.json",
+  "canonical_page": "source:/whole_robot_click_compare/index.html"
+}

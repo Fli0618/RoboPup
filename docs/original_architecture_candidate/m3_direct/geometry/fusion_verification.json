@@ -1,0 +1,30 @@
+{
+  "status": "FOUR_POSITIVE_OVERLAP_ONE_SOLID_PASS",
+  "corners": [
+    {
+      "corner": "RR",
+      "positive_fusion_material_overlap_mm3": 28.991453029222612,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "5da1f9120b4295f8982c7078c44a165bba022a0c9d515c9ef59765d1e7942204"
+    },
+    {
+      "corner": "FR",
+      "positive_fusion_material_overlap_mm3": 28.993794035952305,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "39d8dce024f76415760b4ce6d659480df1b4ac46703543f956c2cd39a5396e3b"
+    },
+    {
+      "corner": "RL",
+      "positive_fusion_material_overlap_mm3": 28.943259702857176,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "5fa8ebc3c7c8f542457d6e0425af5b63f65445b5e9a481c11f846696c74e51e3"
+    },
+    {
+      "corner": "FL",
+      "positive_fusion_material_overlap_mm3": 28.944679091695434,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "3b0ddf4c04a4b239708c02d4115f5e5ef686e1f5dcddfdb73410fc4d89b1fcbc"
+    }
+  ],
+  "formal_R4_hashes_unchanged": true
+}

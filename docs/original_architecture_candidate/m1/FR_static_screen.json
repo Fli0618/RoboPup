@@ -1,0 +1,72 @@
+{
+  "corner": "FR",
+  "actual_motor_surface_static_screen": [
+    {
+      "part": "fixed7001",
+      "common_surface_area_mm2": 0.0,
+      "common_solid_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.07217231356733274,
+      "motor_source_has_solids": 0,
+      "pass_no_surface_penetration": true,
+      "seconds": 72.81305599212646
+    },
+    {
+      "part": "removable7002",
+      "common_surface_area_mm2": 0.0,
+      "common_solid_volume_mm3": 0.0,
+      "minimum_distance_mm": 0.07217231356733311,
+      "motor_source_has_solids": 0,
+      "pass_no_surface_penetration": true,
+      "seconds": 18.879088640213013
+    }
+  ],
+  "split_cap_to_fixed_distance_mm": 0.29999999999999716,
+  "cap_fixed_common_volume_mm3": 0.0,
+  "original_cap_clamp_screw_axes_radii_retained": true,
+  "original_fixed_outer_bounds_preserved": true,
+  "retained_part_static_screen": [
+    {
+      "label": "HEAD_original_0deg_UNCHANGED",
+      "added_material_common_area_mm2": 0.0,
+      "added_material_common_volume_mm3": 0.0,
+      "source_solids": 1,
+      "positive_common_requires_review": false
+    },
+    {
+      "label": "BODY_SOURCE_168",
+      "added_material_common_area_mm2": 0.3370975241219785,
+      "added_material_common_volume_mm3": 0.0032653785549440666,
+      "source_solids": 1,
+      "positive_common_requires_review": false,
+      "construction_blank_common_volume_mm3": 0.0032653785549440666,
+      "construction_blank_common_area_mm2": 0.3370975241219785,
+      "actual_new_material_common_volume_mm3": 0.0,
+      "actual_new_material_common_area_mm2": 0.0,
+      "retained_part_before_common_volume_mm3": 8.486824058112711,
+      "retained_part_after_common_volume_mm3": 8.486824058112711,
+      "retained_part_common_volume_increase_mm3": 0,
+      "classification": "inherited_source_thread_pilot_overlap_not_increased",
+      "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+    },
+    {
+      "label": "BODY_SOURCE_177",
+      "added_material_common_area_mm2": 0.337148471078225,
+      "added_material_common_volume_mm3": 0.0032660257931886438,
+      "source_solids": 1,
+      "positive_common_requires_review": false,
+      "construction_blank_common_volume_mm3": 0.0032660257931886438,
+      "construction_blank_common_area_mm2": 0.337148471078225,
+      "actual_new_material_common_volume_mm3": 0.0,
+      "actual_new_material_common_area_mm2": 0.0,
+      "retained_part_before_common_volume_mm3": 8.4868240581126,
+      "retained_part_after_common_volume_mm3": 8.4868240581126,
+      "retained_part_common_volume_increase_mm3": 0,
+      "classification": "inherited_source_thread_pilot_overlap_not_increased",
+      "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+    }
+  ],
+  "retained_part_new_interference_flags": [],
+  "status": "PASS_STATIC_UNLOADED_GEOMETRY_ONLY",
+  "original_fixed_clamp_pilot_axes_and_radius_retained": true,
+  "original_fixed_clamp_pilot_diameter_mm": 2.52
+}

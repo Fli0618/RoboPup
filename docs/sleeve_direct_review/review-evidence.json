@@ -1,0 +1,107 @@
+{
+  "status": "SLEEVE_DIRECT_ADAPTATION_REVIEW_ONLY",
+  "currentMainRevision": "D1_MAIN_WHOLE_ORIGINAL_PIN_003",
+  "currentCount": 364,
+  "targetCount": 356,
+  "adopted": false,
+  "MAIN_modified": false,
+  "candidateCountReduction": 8,
+  "records": [
+    {
+      "group": "m1",
+      "source_label": "REAR_7001_V1_local_motor_clearance",
+      "source_main_SHA": "3eee3bcc7301cc8e32200d0b5f7618456d7329a4101af655e49861e6a1213dba",
+      "candidate_file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_after.step",
+      "candidate_SHA": "d9a2cb4f0187805f50db671a01a5f54ffb960a4d497e997195f360b85e727438",
+      "source_world_position_unchanged": true,
+      "physical_solids": 3
+    },
+    {
+      "group": "m1",
+      "source_label": "FRONT_7001_V1_local_motor_clearance",
+      "source_main_SHA": "48294a280b33e508032badf1310388b7b44c356cf865cb4dadbe28b8fa0d324f",
+      "candidate_file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_after.step",
+      "candidate_SHA": "ca7e6446a463a87e4beac2b6db7aa634ac0d15ef58030e2ad9b550c1ff7bfd7b",
+      "source_world_position_unchanged": true,
+      "physical_solids": 3
+    },
+    {
+      "group": "m3",
+      "source_label": "RR_7007_V4_M2_supported_clearance",
+      "source_main_SHA": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+      "candidate_file": "source:/whole_robot_click_compare/sleeve_direct_review/RR_7007_direct_location_D1_preview.step",
+      "candidate_SHA": "b33574a48fc8e47e051b804281e85c6dee888d94b8e1542d404424502bbe56bb",
+      "translation_from_C1_mm": [
+        0.0,
+        0.0,
+        -4.0
+      ],
+      "physical_solids": 1,
+      "manufacturing_release": false,
+      "near_seam_boolean_repair_required": true
+    },
+    {
+      "group": "m3",
+      "source_label": "FR_7007_V4_M2_supported_clearance",
+      "source_main_SHA": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+      "candidate_file": "source:/whole_robot_click_compare/sleeve_direct_review/FR_7007_direct_location_D1_preview.step",
+      "candidate_SHA": "0132dd003c932604e6c0552b795d43f28a416ef6847937aa86481cf97ddc1c7e",
+      "translation_from_C1_mm": [
+        0.0,
+        0,
+        -4
+      ],
+      "physical_solids": 1,
+      "manufacturing_release": false,
+      "near_seam_boolean_repair_required": true
+    },
+    {
+      "group": "m3",
+      "source_label": "RL_7007_V4_M2_supported_clearance",
+      "source_main_SHA": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+      "candidate_file": "source:/whole_robot_click_compare/sleeve_direct_review/RL_7007_direct_location_D1_preview.step",
+      "candidate_SHA": "e91b049193b6c3ec2489642fc68ac2f38146131e1c508d9c63a14607d1c508fa",
+      "translation_from_C1_mm": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "physical_solids": 1,
+      "manufacturing_release": false,
+      "near_seam_boolean_repair_required": true
+    },
+    {
+      "group": "m3",
+      "source_label": "FL_7007_V4_M2_supported_clearance",
+      "source_main_SHA": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+      "candidate_file": "source:/whole_robot_click_compare/sleeve_direct_review/FL_7007_direct_location_D1_preview.step",
+      "candidate_SHA": "7b198dace8e9eaf7f8a63171abfeba71ac09f0f7ec212e440bfaecb6ab6dfd72",
+      "translation_from_C1_mm": [
+        0.0,
+        0,
+        4
+      ],
+      "physical_solids": 1,
+      "manufacturing_release": false,
+      "near_seam_boolean_repair_required": true
+    }
+  ],
+  "representative_render_files": {
+    "m1_before": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before_with_sleeve.step",
+    "m1_after": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after_direct.step",
+    "m1_ring": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_removed_sleeve.step",
+    "m3_before": "source:/whole_robot_click_compare/sleeve_direct_review/RR_M3_before_pair.step",
+    "m3_after": "source:/whole_robot_click_compare/sleeve_direct_review/RR_7007_direct_location_D1_preview.step",
+    "m3_ring": "source:/whole_robot_click_compare/sleeve_direct_review/RR_M3_ring_before.step"
+  },
+  "protected_main_SHA256": {
+    "source:/MAIN_DESIGN.json": "43cb3e9eba0df8d999e8ba392d31047aae254cb24a09703a8526513da596f386",
+    "source:/main/main-design.json": "b380461d3be94ae6fae0780fe3daeb700fd8f349b36121b54d6d207425d620e6",
+    "source:/main/whole_robot_D1_pin_original/PA35_MAIN_D1_WHOLE_ROBOT.step": "8f9cb7e5946a0aaddc5753be50506bbaa558870204771f0ef52c24d759689c3d"
+  },
+  "limits": [
+    "M1 bore and split margin are unloaded CAD design, not clamp-preload or friction/load approval.",
+    "M3 is an auxiliary locator; stator/output screws retained, near-seam geometry must be repaired before machining.",
+    "Original large-bore finished parts cannot be bored smaller; remanufacture the modified clamp/plate to original process."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "status": "SAME_PAGE_OPTIMIZATION_DELIVERY_PASS",
+  "date": "2026-11-05",
+  "checks": [
+    {
+      "label": "All page and preview metadata bind to the same current assembly",
+      "pass": true
+    },
+    {
+      "label": "Current stable and revision STEP remain unchanged",
+      "pass": true
+    },
+    {
+      "label": "Formal counts remain 396 / +177 / legother +137",
+      "pass": true
+    },
+    {
+      "label": "No preview potential is promoted as verified reduction",
+      "pass": true
+    },
+    {
+      "label": "All current connections have a functional disposition",
+      "pass": true
+    },
+    {
+      "label": "First-round retain pool is 192, without claiming an irreducible minimum",
+      "pass": true
+    },
+    {
+      "label": "All-137 blanket deletion is not claimed",
+      "pass": true
+    },
+    {
+      "label": "Candidate review creates no separate HTML page",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: whole_robot_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 009_011_7007_V4_M2_supported_clearance_b5fe47f976.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 004_006_M3_slotted_thigh_reducer_d2255c5dc7.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 007_009_7017_V3_positive_q2_stop_column_41566a1c77.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 085_PA35-10-8_498dc64cdb.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 018_023_M3_rear_M3x6_1_380bef829c.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 019_024_M3_rear_M3x6_2_d6fb336400.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 020_025_M3_rear_M3x6_3_30ae9d25e8.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 021_026_M3_rear_M3x6_4_cc7c2c4586.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 040_045_M3_output_V3E_M4x6_1_c2f6f6f4ee.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 041_046_M3_output_V3E_M4x6_2_130a7ac358.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 042_047_M3_output_M4x6_third_seat_raised_1mm_nominal_3c23baf002.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 043_048_M3_output_V3E_M4x6_4_8a04e9adb1.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 044_049_M3_output_V3E_M4x6_5_b999dc6753.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 045_050_M3_output_V3E_M4x6_6_cb143bbf58.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: 008_010_7009_R8_lower_rim_clearance_REVIEW_367336c854.step",
+      "pass": true
+    },
+    {
+      "label": "Candidate exported STEP was reimported as valid one-solid geometry",
+      "pass": true
+    },
+    {
+      "label": "Preview is not manufacturing release",
+      "pass": true
+    },
+    {
+      "label": "Export hash: part",
+      "pass": true
+    },
+    {
+      "label": "Export hash: assembly",
+      "pass": true
+    },
+    {
+      "label": "Real CAD image matches render evidence: before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image resolution: before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image provenance: before.png",
+      "pass": true
+    },
+    {
+      "label": "Real CAD image matches render evidence: after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image resolution: after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image provenance: after.png",
+      "pass": true
+    },
+    {
+      "label": "Real CAD image matches render evidence: parts_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image resolution: parts_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image provenance: parts_before.png",
+      "pass": true
+    },
+    {
+      "label": "Real CAD image matches render evidence: parts_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image resolution: parts_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image provenance: parts_after.png",
+      "pass": true
+    },
+    {
+      "label": "Each before/after pair has identical camera and scale",
+      "pass": true
+    },
+    {
+      "label": "Primary candidate comparison displays complete parts",
+      "pass": true
+    },
+    {
+      "label": "Potential 12 hardware and 4 structure stay in separate scopes",
+      "pass": true
+    },
+    {
+      "label": "Candidate removes front three and retains rear four",
+      "pass": true
+    },
+    {
+      "label": "Specified motor-core column clears this candidate structure",
+      "pass": true
+    },
+    {
+      "label": "Representative-leg-only status is explicit",
+      "pass": true
+    }
+  ],
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "formalCADModified": false,
+  "formalReduction": 0,
+  "samePageOnly": true
+}

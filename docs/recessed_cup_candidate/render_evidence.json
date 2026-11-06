@@ -1,0 +1,81 @@
+{
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/part_before.png",
+      "sha256": "670c5e3e4be191736c895a70b0998c316b7f99d5ee3f6feb88b48e8e137d0d83",
+      "actual_CAD": true,
+      "section_display_only": false,
+      "camera": {
+        "focus": [
+          -140.46,
+          0,
+          58
+        ],
+        "direction": [
+          -140,
+          110,
+          210
+        ],
+        "scale": 53.0
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/part_after.png",
+      "sha256": "0e92543cd3a61e85b9c26262fd0ee4aec7278518d13b3b134ae657366a44870b",
+      "actual_CAD": true,
+      "section_display_only": false,
+      "camera": {
+        "focus": [
+          -140.46,
+          0,
+          58
+        ],
+        "direction": [
+          -140,
+          110,
+          210
+        ],
+        "scale": 53.0
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/section_before.png",
+      "sha256": "4d7ebf88d0bafd7954691faa4285cf9ffe325b2341e5198fd78f54bbfebd3ab4",
+      "actual_CAD": true,
+      "section_display_only": true,
+      "camera": {
+        "focus": [
+          -140.46,
+          0,
+          53.5
+        ],
+        "direction": [
+          -110,
+          240,
+          95
+        ],
+        "scale": 74.0
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/section_after.png",
+      "sha256": "f64f18b6b53cb5ed6b5cb96467088160b65ddc783006c81ce3fa8c51e8ce3e35",
+      "actual_CAD": true,
+      "section_display_only": true,
+      "camera": {
+        "focus": [
+          -140.46,
+          0,
+          53.5
+        ],
+        "direction": [
+          -110,
+          240,
+          95
+        ],
+        "scale": 74.0
+      }
+    }
+  ],
+  "same_camera_same_scale": true
+}

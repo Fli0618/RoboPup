@@ -1,0 +1,326 @@
+{
+  "id": "m3_B_7007_integrated",
+  "title": "B载板与7007一体连接，保留M3后端4颗，取消前壳3颗",
+  "status": "REAL_CAD_CANDIDATE_GEOMETRY_PASS_NOT_RELEASED",
+  "formal_R4_modified": false,
+  "formal_R4_unchanged_sha256": true,
+  "candidate_only": true,
+  "manufacturing_release": false,
+  "promoted_net_reduction": 0,
+  "images": {
+    "before": "legother_optimization_candidates/m3/before.png",
+    "after": "legother_optimization_candidates/m3/after.png",
+    "parts_before": "legother_optimization_candidates/m3/parts_before.png",
+    "parts_after": "legother_optimization_candidates/m3/parts_after.png"
+  },
+  "files": {
+    "part": "legother_optimization_candidates/m3/RR_B_7007_integrated_candidate.step",
+    "assembly": "archive-downloads.html?file=whole_robot_click_compare/legother_optimization_candidates/m3/M3_local_candidate_assembly.step",
+    "evidence": "legother_optimization_candidates/m3/candidate.json"
+  },
+  "parts_before": [
+    "B载板",
+    "7007内大腿板"
+  ],
+  "parts_after": [
+    "B+7007一体候选"
+  ],
+  "removed_hardware_per_leg": [
+    "RR_M3_shell_V3F_M3x6_1",
+    "RR_M3_shell_V3F_M3x6_2",
+    "RR_M3_shell_V3F_M3x6_3"
+  ],
+  "retained_rear_hardware_per_leg": [
+    "RR_M3_rear_M3x6_1",
+    "RR_M3_rear_M3x6_2",
+    "RR_M3_rear_M3x6_3",
+    "RR_M3_rear_M3x6_4"
+  ],
+  "counts": {
+    "hardware_gross_reduction_per_leg": 3,
+    "hardware_gross_reduction_four_legs_within_137": 12,
+    "structure_gross_reduction_per_leg_outside_137": 1,
+    "structure_gross_reduction_four_legs_outside_137": 4,
+    "combined_gross_reduction_four_legs": 16,
+    "confirmed_formal_net_reduction": 0
+  },
+  "geometry": {
+    "integrated_closed_solid": {
+      "volume_mm3": 33499.25812414719,
+      "surface_area_mm2": 29628.610745868496,
+      "valid": true,
+      "stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 693,
+        "edges": 3656,
+        "bounds_xyz_mm": [
+          -189.4966151766,
+          -145.66180592253895,
+          53.57,
+          -104.1729985128,
+          32.40000009999748,
+          110.74000017030554
+        ],
+        "extents_xyz_mm": [
+          85.32361666379998,
+          178.06180602253642,
+          57.170000170305535
+        ]
+      }
+    },
+    "full_part_with_inherited_open_shell": {
+      "volume_mm3": 33517.92031295742,
+      "surface_area_mm2": 29665.932866593143,
+      "valid": true,
+      "stats": {
+        "solids": 1,
+        "shells": 2,
+        "faces": 695,
+        "edges": 3664,
+        "bounds_xyz_mm": [
+          -189.4966151766,
+          -145.66180592253895,
+          53.57,
+          -104.1729985128,
+          32.40000009999748,
+          110.74000017030554
+        ],
+        "extents_xyz_mm": [
+          85.32361666379998,
+          178.06180602253642,
+          57.170000170305535
+        ]
+      }
+    },
+    "bridge_bounds_mm": [
+      -165.46,
+      -25.0,
+      59.07,
+      -159.46,
+      -18.999999999999982,
+      98.0
+    ],
+    "bridge_B_common": {
+      "volume_mm3": 8.182212979328957,
+      "surface_area_mm2": 42.11947441248513,
+      "valid": true,
+      "stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 5,
+        "edges": 18,
+        "bounds_xyz_mm": [
+          -164.95489742783178,
+          -24.494897427831802,
+          59.07,
+          -159.45999999999998,
+          -18.999999999999996,
+          59.57
+        ],
+        "extents_xyz_mm": [
+          5.494897427831802,
+          5.4948974278318055,
+          0.5
+        ]
+      }
+    },
+    "bridge_7007_common": {
+      "volume_mm3": 20.83928677744614,
+      "surface_area_mm2": 55.346546849596855,
+      "valid": true,
+      "stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 7,
+        "edges": 30,
+        "bounds_xyz_mm": [
+          -165.45174313179658,
+          -24.991743133243695,
+          95.97999989635521,
+          -159.4599999,
+          -18.999999899999988,
+          98.00000010000002
+        ],
+        "extents_xyz_mm": [
+          5.991743231796562,
+          5.991743233243707,
+          2.0200002036448126
+        ]
+      }
+    },
+    "front_ring_removed_mm3": 7005.963490505326,
+    "restored_through_bore_diameter_mm": 55.8,
+    "motor_body_diameter_checked_mm": 46.3,
+    "motor_core_axial_column_Z_mm": [
+      59.570001,
+      180
+    ],
+    "motor_core_axial_column_intersection": {
+      "volume_mm3": 0.0,
+      "surface_area_mm2": 0.0,
+      "valid": true,
+      "stats": {
+        "empty": true,
+        "solids": 0
+      }
+    },
+    "original_open_shells_preserved": 1,
+    "new_bridge_local_static_obstacle_checks": [
+      {
+        "source_id": "M3_slotted_thigh_reducer",
+        "volume_mm3": 0.0,
+        "area_mm2": 0.0
+      },
+      {
+        "source_id": "7017_V3_positive_q2_stop_column",
+        "volume_mm3": 0.0,
+        "area_mm2": 0.0
+      },
+      {
+        "source_id": "M3",
+        "volume_mm3": 0.0,
+        "area_mm2": 0.0
+      }
+    ]
+  },
+  "changes": [
+    "同为6061且同属q2大腿刚体的B载板与7007通过外缘桥连成一个有效闭合实体。",
+    "7007电机处新增前壳安装环去掉，通口恢复Ø55.8。",
+    "每腿取消M3前壳连接3颗，保留后端连接4颗；M3输出端6颗保留。"
+  ],
+  "limits": [
+    "只建立右后腿代表性真实CAD；其余三腿未输出各自候选。",
+    "Ø46.3圆柱体从名义后端配合面Z59.570001沿+Z至180对本一体结构无实体或面交叠；该证据覆盖该圆柱包络及本结构，不等于整机完整维修路径。",
+    "实际电机后部小凸点、后端4颗真实退牙、A/B连接、q2全行程、工具、线束与所有拆卸前置顺序未重新验证。",
+    "连接桥对附近保留件仅做当前静态实际几何布尔；未做完整运动、强度、疲劳、公差及制造验证。",
+    "137内只能计取消3颗/腿的硬件毛减12；结构四腿减4在137之外，正式R4净减仍为0。"
+  ],
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/009_011_7007_V4_M2_supported_clearance_b5fe47f976.step": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/004_006_M3_slotted_thigh_reducer_d2255c5dc7.step": "d2255c5dc770c472d9cec5891edc6fdfac3ecceb167284d0e72c0967892a760d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/007_009_7017_V3_positive_q2_stop_column_41566a1c77.step": "41566a1c776c706500dc963bfc6b524b1f63ec3197d172f9b2bc44130f78e919",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/040_045_M3_output_V3E_M4x6_1_c2f6f6f4ee.step": "c2f6f6f4ee0c93b64b33894bbbca5bb6f90cac51f75944af7f1cb5a789431a58",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/041_046_M3_output_V3E_M4x6_2_130a7ac358.step": "130a7ac358810be9e33cf8f3da8699e2d959e81dde009e6694246d0ccfb8bd88",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/042_047_M3_output_M4x6_third_seat_raised_1mm_nominal_3c23baf002.step": "3c23baf0024b5ccc0c6c5d4cc2badc810f7ce1556e630498521ee96ebc0cd6d9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/043_048_M3_output_V3E_M4x6_4_8a04e9adb1.step": "8a04e9adb1f68860444698ccb7e86e48dd5c9ee90268f9c15d9cd5510c7cd0f8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/044_049_M3_output_V3E_M4x6_5_b999dc6753.step": "b999dc6753b3ea4d446c14d90769501126201aaff38138961f3fdae71037fb7e",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/045_050_M3_output_V3E_M4x6_6_cb143bbf58.step": "cb143bbf58e8906ce9835cde55d850068259059f0379201b1e1662cf5f51e761",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/008_010_7009_R8_lower_rim_clearance_REVIEW_367336c854.step": "367336c8545e80cd531dd87180aba92502d66f53c050d240f07b7f06e8dcac34"
+  },
+  "image_evidence": [
+    {
+      "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/before.png",
+      "sha256": "acf6216b46a08d75f9abb36b82b91739c1a527b4090b2fca7ab0905035dc304e",
+      "camera": {
+        "focal": [
+          -139.0,
+          -1.5,
+          80.0
+        ],
+        "position": [
+          -689.0,
+          -231.5,
+          730.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 54.0
+      },
+      "actual_CAD": true,
+      "render_only_clip_y_lower_than_mm": -39,
+      "motor_opacity": 0.22,
+      "formal_CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/after.png",
+      "sha256": "60872a3ecae3ef8aaddd74d8e5e94743fbcef695e32ee73d617f95f566d73951",
+      "camera": {
+        "focal": [
+          -139.0,
+          -1.5,
+          80.0
+        ],
+        "position": [
+          -689.0,
+          -231.5,
+          730.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 54.0
+      },
+      "actual_CAD": true,
+      "render_only_clip_y_lower_than_mm": -39,
+      "motor_opacity": 0.22,
+      "formal_CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/parts_before.png",
+      "sha256": "d2bf54026953f6dfe2b112644e0f2b9f49c37479836334b87c7f33a8ddea849d",
+      "camera": {
+        "focal": [
+          -143.0,
+          -53.0,
+          81.0
+        ],
+        "position": [
+          -693.0,
+          -283.0,
+          731.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 114.0
+      },
+      "actual_CAD": true,
+      "render_only_clip_y_lower_than_mm": null,
+      "motor_opacity": null,
+      "formal_CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/parts_after.png",
+      "sha256": "51bf1a97f780c63b3f6a2822f9c6a643e61db401adac57bb157af01cf1028201",
+      "camera": {
+        "focal": [
+          -143.0,
+          -53.0,
+          81.0
+        ],
+        "position": [
+          -693.0,
+          -283.0,
+          731.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 114.0
+      },
+      "actual_CAD": true,
+      "render_only_clip_y_lower_than_mm": null,
+      "motor_opacity": null,
+      "formal_CAD_modified": false
+    }
+  ],
+  "same_camera_same_scale": true
+}

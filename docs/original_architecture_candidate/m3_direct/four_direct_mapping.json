@@ -1,0 +1,33 @@
+{
+  "status": "FOUR_M3_DIRECT_LOCATION_GEOMETRY_PASS_NOT_RELEASED",
+  "replacements": [
+    {
+      "source_label": "RR_7007_V4_M2_supported_clearance",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RR_7007_integral_M3_aux_locator.step"
+    },
+    {
+      "source_label": "FR_7007_V4_M2_supported_clearance",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FR_7007_integral_M3_aux_locator.step"
+    },
+    {
+      "source_label": "RL_7007_V4_M2_supported_clearance",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RL_7007_integral_M3_aux_locator.step"
+    },
+    {
+      "source_label": "FL_7007_V4_M2_supported_clearance",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FL_7007_integral_M3_aux_locator.step"
+    }
+  ],
+  "removed_reducer_labels": [
+    "RR_M3_slotted_thigh_reducer",
+    "FR_M3_slotted_thigh_reducer",
+    "RL_M3_slotted_thigh_reducer",
+    "FL_M3_slotted_thigh_reducer"
+  ],
+  "mechanical_count_delta": -4,
+  "legother137_delta_change": 0,
+  "formal_R4_modified": false,
+  "all_static_checks_pass": true,
+  "fusion_verification_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/fusion_verification.json",
+  "geometry_evidence_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/evidence.json"
+}

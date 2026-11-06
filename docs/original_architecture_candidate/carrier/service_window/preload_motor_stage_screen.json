@@ -1,0 +1,12 @@
+{
+  "preloaded_screw_maxZ_mm": 59.47,
+  "actual_M3_motor_minZ_mm": 59.468046198939994,
+  "axial_interval_requiring_distance_bound_mm": 0.001955801060004423,
+  "actual_source_M3_to_preloaded_screws_distance_mm": 0.0999999999965695,
+  "initial_clearance_greater_than_interval": true,
+  "remaining_positiveZ_motor_positions_Z_halfspace_clear": true,
+  "M2_motor_approach_clear_of_preloaded_M3_screws_by_Z": true,
+  "preload_screw_minZ_mm": 50.47,
+  "actual_M2_maxZ_mm": 48.320000100000115,
+  "note": "Only motor vs4preloaded screws, not whole surrounding leg motor removal/installation route."
+}

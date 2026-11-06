@@ -1,0 +1,1259 @@
+{
+  "status": "FOUR_CORNERS_INITIAL_M3_INSERTION_AND_M2_SERVICE_WITH_PRELOAD_GEOMETRY_PASS",
+  "components": [
+    {
+      "corner": "RR",
+      "candidate_label": "RR_SERVICE_WINDOW_V2",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+      "after_sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+      "definition_to_world_matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "A_label": "RR_Z12_A_V3_local_head_reliefs",
+      "B_label": "RR_Z12_B_V3_stop_ears_and_head_relief",
+      "replace_labels": [
+        "RR_Z12_A_V3_local_head_reliefs",
+        "RR_Z12_B_V3_stop_ears_and_head_relief"
+      ],
+      "removed_AB_hardware_labels": [
+        "RR_AB_join_M3x10_1",
+        "RR_AB_join_thin_washer_1",
+        "RR_AB_join_M3x10_2",
+        "RR_AB_join_thin_washer_2",
+        "RR_AB_join_M3x10_3",
+        "RR_AB_join_thin_washer_3",
+        "RR_AB_join_M3x10_4",
+        "RR_AB_join_thin_washer_4"
+      ],
+      "remove_labels": [
+        "RR_AB_join_M3x10_1",
+        "RR_AB_join_thin_washer_1",
+        "RR_AB_join_M3x10_2",
+        "RR_AB_join_thin_washer_2",
+        "RR_AB_join_M3x10_3",
+        "RR_AB_join_thin_washer_3",
+        "RR_AB_join_M3x10_4",
+        "RR_AB_join_thin_washer_4"
+      ],
+      "before_count": 10,
+      "after_count": 1,
+      "source_A": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step",
+        "sha256": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330"
+      },
+      "source_B": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step",
+        "sha256": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24"
+      },
+      "actual_corner_source_geometry": true,
+      "mirrored_RR_geometry_substitution": false,
+      "geometry": {
+        "valid": true,
+        "geometry": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 148,
+          "edges": 840,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            45.57,
+            -104.1729985128,
+            31.0,
+            61.97
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 16075.305295631084,
+        "area_mm2": 12183.80537891259
+      },
+      "removed_from_base_mm3": 14510.18249116479,
+      "new_material_outside_base_mm3": 0.0,
+      "preserved_bearing_envelopes": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        }
+      ],
+      "unbroken_four_external_ribs": [
+        {
+          "angle_deg": 81.99999999983257,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 171.99999999990908,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 262.0000000000378,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 351.9999999999613,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        }
+      ],
+      "installed_10_retained_hardware_static_checks": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "installed_hardware_intersection_mm3": 0.0
+        }
+      ],
+      "path_scope": "RR specific local screen in path_screen.json; continuous carrier/target and explicit-tool evidence, no entire-leg release",
+      "full_assembly_sequence_verified": false,
+      "load_capacity_release": false,
+      "initial_M3_loading_relief": {
+        "hole_radius_mm": 3,
+        "local_Z_mm": [
+          45.47,
+          56.57
+        ],
+        "source_before_relief": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_BEFORE_INITIAL_LOADING_RELIEF.step",
+        "source_sha256": "55dc9251ea2e9cb133c1ace7bb0abbdecbb21f17845172609f6ac7284121731f",
+        "added_material_outside_previous_window_mm3": 0.0,
+        "new_material_removed_mm3": 11.630231527847066,
+        "source_path_clearance_transfer": "New part subset of old part; previously clear tool/screw paths against old carrier remain clear against new carrier. Explicit source SHA kept in backup.",
+        "protected_bearings": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          }
+        ],
+        "full_initial_M3_screw_sweeps": [
+          {
+            "sid": "M3_rear_M3x6_1",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          }
+        ],
+        "M2_install_with_4_M3_preloaded_checks": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "corner": "FR",
+      "candidate_label": "FR_SERVICE_WINDOW_V2",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FR_SERVICE_WINDOW_V2.step",
+      "after_sha256": "0667e057b409d543d6c39f970628ebab4708ae2ba7f3be092095c40d103bd56b",
+      "definition_to_world_matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "A_label": "FR_Z12_A_V3_local_head_reliefs",
+      "B_label": "FR_Z12_B_V3_stop_ears_and_head_relief",
+      "replace_labels": [
+        "FR_Z12_A_V3_local_head_reliefs",
+        "FR_Z12_B_V3_stop_ears_and_head_relief"
+      ],
+      "removed_AB_hardware_labels": [
+        "FR_AB_join_M3x10_1",
+        "FR_AB_join_thin_washer_1",
+        "FR_AB_join_M3x10_2",
+        "FR_AB_join_thin_washer_2",
+        "FR_AB_join_M3x10_3",
+        "FR_AB_join_thin_washer_3",
+        "FR_AB_join_M3x10_4",
+        "FR_AB_join_thin_washer_4"
+      ],
+      "remove_labels": [
+        "FR_AB_join_M3x10_1",
+        "FR_AB_join_thin_washer_1",
+        "FR_AB_join_M3x10_2",
+        "FR_AB_join_thin_washer_2",
+        "FR_AB_join_M3x10_3",
+        "FR_AB_join_thin_washer_3",
+        "FR_AB_join_M3x10_4",
+        "FR_AB_join_thin_washer_4"
+      ],
+      "before_count": 10,
+      "after_count": 1,
+      "source_A": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/089_FR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_03be1786f5.step",
+        "sha256": "03be1786f5d79b7c53fce2fb2753c2a63e7930ee45fa5e43b654a411c58bfffa"
+      },
+      "source_B": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/090_FR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_456cb9e3a2.step",
+        "sha256": "456cb9e3a2f0036b74b38160b5f9083ea4cbc9917eecf0996b4c666e88d68221"
+      },
+      "actual_corner_source_geometry": true,
+      "mirrored_RR_geometry_substitution": false,
+      "geometry": {
+        "valid": true,
+        "geometry": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 168,
+          "edges": 988,
+          "bounds_xyz_mm": [
+            109.46,
+            -32.674590336900856,
+            45.57,
+            176.7470014872,
+            31.0,
+            61.97
+          ],
+          "extents_xyz_mm": [
+            67.28700148720002,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 15778.79610693815,
+        "area_mm2": 12492.16225625603
+      },
+      "removed_from_base_mm3": 14266.121617965435,
+      "new_material_outside_base_mm3": 0.0,
+      "preserved_bearing_envelopes": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        }
+      ],
+      "unbroken_four_external_ribs": [
+        {
+          "angle_deg": 81.99999999983257,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 171.99999999990908,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 262.0000000000378,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 351.9999999999613,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        }
+      ],
+      "installed_10_retained_hardware_static_checks": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "installed_hardware_intersection_mm3": 0.0
+        }
+      ],
+      "path_scope": "Actual corner geometry+hole-seat/rib/static-hardware checks only. RR paths are not automatically transferred.",
+      "full_assembly_sequence_verified": false,
+      "load_capacity_release": false,
+      "initial_M3_loading_relief": {
+        "hole_radius_mm": 3,
+        "local_Z_mm": [
+          45.47,
+          56.57
+        ],
+        "source_before_relief": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FR_BEFORE_INITIAL_LOADING_RELIEF.step",
+        "source_sha256": "ff4165e062641200efcbf395b7f9b2a63407a88b72892dc461b0f071c7797d8f",
+        "added_material_outside_previous_window_mm3": 0.0,
+        "new_material_removed_mm3": 11.630231527847254,
+        "source_path_clearance_transfer": "New part subset of old part; previously clear tool/screw paths against old carrier remain clear against new carrier. Explicit source SHA kept in backup.",
+        "protected_bearings": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          }
+        ],
+        "full_initial_M3_screw_sweeps": [
+          {
+            "sid": "M3_rear_M3x6_1",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          }
+        ],
+        "M2_install_with_4_M3_preloaded_checks": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "corner": "RL",
+      "candidate_label": "RL_SERVICE_WINDOW_V2",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RL_SERVICE_WINDOW_V2.step",
+      "after_sha256": "285fb3200592d7ddc3e9f0194600dc69d343b02b7ed10aa40cda67ed4d855bae",
+      "definition_to_world_matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "A_label": "RL_Z12_A_V3_local_head_reliefs",
+      "B_label": "RL_Z12_B_V3_stop_ears_and_head_relief",
+      "replace_labels": [
+        "RL_Z12_A_V3_local_head_reliefs",
+        "RL_Z12_B_V3_stop_ears_and_head_relief"
+      ],
+      "removed_AB_hardware_labels": [
+        "RL_AB_join_M3x10_1",
+        "RL_AB_join_thin_washer_1",
+        "RL_AB_join_M3x10_2",
+        "RL_AB_join_thin_washer_2",
+        "RL_AB_join_M3x10_3",
+        "RL_AB_join_thin_washer_3",
+        "RL_AB_join_M3x10_4",
+        "RL_AB_join_thin_washer_4"
+      ],
+      "remove_labels": [
+        "RL_AB_join_M3x10_1",
+        "RL_AB_join_thin_washer_1",
+        "RL_AB_join_M3x10_2",
+        "RL_AB_join_thin_washer_2",
+        "RL_AB_join_M3x10_3",
+        "RL_AB_join_thin_washer_3",
+        "RL_AB_join_M3x10_4",
+        "RL_AB_join_thin_washer_4"
+      ],
+      "before_count": 10,
+      "after_count": 1,
+      "source_A": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/096_RL_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_a6d6217115.step",
+        "sha256": "a6d62171155cb43914e449a9e6eb0afbdc05b40fa7225ba2bf7b0912db010d02"
+      },
+      "source_B": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/097_RL_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_144ba94745.step",
+        "sha256": "144ba94745c55a536cd9e8061109a90cb1711e62f77df505b36de5a6cef1c522"
+      },
+      "actual_corner_source_geometry": true,
+      "mirrored_RR_geometry_substitution": false,
+      "geometry": {
+        "valid": true,
+        "geometry": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 176,
+          "edges": 1032,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            -61.97,
+            -104.1729985128,
+            31.0,
+            -45.57
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 15648.655993324215,
+        "area_mm2": 12552.356139762514
+      },
+      "removed_from_base_mm3": 14136.544383920624,
+      "new_material_outside_base_mm3": 0.0,
+      "preserved_bearing_envelopes": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        }
+      ],
+      "unbroken_four_external_ribs": [
+        {
+          "angle_deg": 98.00000000009095,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 188.00000000016746,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 278.0000000000387,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.999999999962199,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        }
+      ],
+      "installed_10_retained_hardware_static_checks": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "installed_hardware_intersection_mm3": 0.0
+        }
+      ],
+      "path_scope": "Actual corner geometry+hole-seat/rib/static-hardware checks only. RR paths are not automatically transferred.",
+      "full_assembly_sequence_verified": false,
+      "load_capacity_release": false,
+      "initial_M3_loading_relief": {
+        "hole_radius_mm": 3,
+        "local_Z_mm": [
+          45.47,
+          56.57
+        ],
+        "source_before_relief": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RL_BEFORE_INITIAL_LOADING_RELIEF.step",
+        "source_sha256": "607f3d1827cb9819228f9225fbdc004dd559688eca502d0c062310fab9c2b1cb",
+        "added_material_outside_previous_window_mm3": 0.0,
+        "new_material_removed_mm3": 11.630231527845813,
+        "source_path_clearance_transfer": "New part subset of old part; previously clear tool/screw paths against old carrier remain clear against new carrier. Explicit source SHA kept in backup.",
+        "protected_bearings": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          }
+        ],
+        "full_initial_M3_screw_sweeps": [
+          {
+            "sid": "M3_rear_M3x6_1",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          }
+        ],
+        "M2_install_with_4_M3_preloaded_checks": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "corner": "FL",
+      "candidate_label": "FL_SERVICE_WINDOW_V2",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FL_SERVICE_WINDOW_V2.step",
+      "after_sha256": "12da323dd2415499b02919b050a1a105a0aa226c63bf6ed63418dcdbd82c70c8",
+      "definition_to_world_matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "A_label": "FL_Z12_A_V3_local_head_reliefs",
+      "B_label": "FL_Z12_B_V3_stop_ears_and_head_relief",
+      "replace_labels": [
+        "FL_Z12_A_V3_local_head_reliefs",
+        "FL_Z12_B_V3_stop_ears_and_head_relief"
+      ],
+      "removed_AB_hardware_labels": [
+        "FL_AB_join_M3x10_1",
+        "FL_AB_join_thin_washer_1",
+        "FL_AB_join_M3x10_2",
+        "FL_AB_join_thin_washer_2",
+        "FL_AB_join_M3x10_3",
+        "FL_AB_join_thin_washer_3",
+        "FL_AB_join_M3x10_4",
+        "FL_AB_join_thin_washer_4"
+      ],
+      "remove_labels": [
+        "FL_AB_join_M3x10_1",
+        "FL_AB_join_thin_washer_1",
+        "FL_AB_join_M3x10_2",
+        "FL_AB_join_thin_washer_2",
+        "FL_AB_join_M3x10_3",
+        "FL_AB_join_thin_washer_3",
+        "FL_AB_join_M3x10_4",
+        "FL_AB_join_thin_washer_4"
+      ],
+      "before_count": 10,
+      "after_count": 1,
+      "source_A": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/116_FL_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_01a1ef4ce7.step",
+        "sha256": "01a1ef4ce7fe21a6ab04fcce8a6df4d2fa50c9ba115400e92fd89f5407132b5f"
+      },
+      "source_B": {
+        "file": "source:/pa35_whole_robot_R4_original_frame/02_parts/117_FL_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_7649746285.step",
+        "sha256": "764974628594bd971f54077e5827e7c80c023aad5092e78a0702b4f27695fdc7"
+      },
+      "actual_corner_source_geometry": true,
+      "mirrored_RR_geometry_substitution": false,
+      "geometry": {
+        "valid": true,
+        "geometry": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 184,
+          "edges": 1084,
+          "bounds_xyz_mm": [
+            109.46,
+            -32.674590336900856,
+            -61.97,
+            176.7470014872,
+            31.0,
+            -45.57
+          ],
+          "extents_xyz_mm": [
+            67.28700148720002,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 15646.071285961732,
+        "area_mm2": 12557.700905072132
+      },
+      "removed_from_base_mm3": 14018.964745021653,
+      "new_material_outside_base_mm3": 0.0,
+      "preserved_bearing_envelopes": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "protected_bearing_envelope_removed_mm3": 0.0
+        }
+      ],
+      "unbroken_four_external_ribs": [
+        {
+          "angle_deg": 98.00000000009094,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 188.00000000016746,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 278.0000000000387,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.999999999962199,
+          "unbroken_witness_volume_mm3": 60,
+          "missing_mm3": 0.0
+        }
+      ],
+      "installed_10_retained_hardware_static_checks": [
+        {
+          "sid": "M2_output_M4x8_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_4",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_5",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M2_output_M4x8_6",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_1",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_2",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_3",
+          "installed_hardware_intersection_mm3": 0.0
+        },
+        {
+          "sid": "M3_rear_M3x6_4",
+          "installed_hardware_intersection_mm3": 0.0
+        }
+      ],
+      "path_scope": "Actual corner geometry+hole-seat/rib/static-hardware checks only. RR paths are not automatically transferred.",
+      "full_assembly_sequence_verified": false,
+      "load_capacity_release": false,
+      "initial_M3_loading_relief": {
+        "hole_radius_mm": 3,
+        "local_Z_mm": [
+          45.47,
+          56.57
+        ],
+        "source_before_relief": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FL_BEFORE_INITIAL_LOADING_RELIEF.step",
+        "source_sha256": "54bcaa7691d840d51c5a31574ca0133c9ae4a0957eb9c536fecaf85852dfe6e9",
+        "added_material_outside_previous_window_mm3": 0.0,
+        "new_material_removed_mm3": 11.63023152784676,
+        "source_path_clearance_transfer": "New part subset of old part; previously clear tool/screw paths against old carrier remain clear against new carrier. Explicit source SHA kept in backup.",
+        "protected_bearings": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_1",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "new_head_load_relief_removed_protected_bearing_mm3": 0.0
+          }
+        ],
+        "full_initial_M3_screw_sweeps": [
+          {
+            "sid": "M3_rear_M3x6_1",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_2",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_3",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          },
+          {
+            "sid": "M3_rear_M3x6_4",
+            "continuous_full_head_shaft_initial_insertion_sweep_mm3": 0.0,
+            "M2_absent": true
+          }
+        ],
+        "M2_install_with_4_M3_preloaded_checks": [
+          {
+            "sid": "M2_output_M4x8_1",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_2",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_3",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_4",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_5",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          },
+          {
+            "sid": "M2_output_M4x8_6",
+            "full_M2_screw_sweep_vs_4_preloaded_M3_mm3": 0.0,
+            "driver_envelope_vs_4_preloaded_M3_mm3": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "formal_R4_modified": false,
+  "release": false
+}

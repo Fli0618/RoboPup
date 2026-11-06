@@ -1,0 +1,337 @@
+{
+  "status": "EXPORTED_CHANGED_CLOSED_BODIES_POSITIVE_SIGNED_VOLUME_PASS",
+  "date": "2026-11-05",
+  "items": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+      "sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 16075.305295631084,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 148,
+        "edges": 840,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          45.57,
+          -104.1729985128,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          16.4
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FR_SERVICE_WINDOW_V2.step",
+      "sha256": "0667e057b409d543d6c39f970628ebab4708ae2ba7f3be092095c40d103bd56b",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 15778.79610693815,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 168,
+        "edges": 988,
+        "bounds_xyz_mm": [
+          109.46,
+          -32.674590336900856,
+          45.57,
+          176.7470014872,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.28700148720002,
+          63.674590336900856,
+          16.4
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RL_SERVICE_WINDOW_V2.step",
+      "sha256": "285fb3200592d7ddc3e9f0194600dc69d343b02b7ed10aa40cda67ed4d855bae",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 15648.655993324215,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 176,
+        "edges": 1032,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          -61.97,
+          -104.1729985128,
+          31.0,
+          -45.57
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          16.4
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FL_SERVICE_WINDOW_V2.step",
+      "sha256": "12da323dd2415499b02919b050a1a105a0aa226c63bf6ed63418dcdbd82c70c8",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 15646.071285961732,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 184,
+        "edges": 1084,
+        "bounds_xyz_mm": [
+          109.46,
+          -32.674590336900856,
+          -61.97,
+          176.7470014872,
+          31.0,
+          -45.57
+        ],
+        "extents_xyz_mm": [
+          67.28700148720002,
+          63.674590336900856,
+          16.4
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_after.step",
+      "sha256": "d9a2cb4f0187805f50db671a01a5f54ffb960a4d497e997195f360b85e727438",
+      "expected_physical_bodies": 3,
+      "solids": [
+        {
+          "signed_volume_mm3": 31489.86034232038,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "signed_volume_mm3": 5978.595137277586,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "signed_volume_mm3": 5978.595108000404,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 3,
+        "shells": 3,
+        "faces": 819,
+        "edges": 4308,
+        "bounds_xyz_mm": [
+          -102.30000010000005,
+          -47.49000010000002,
+          -65.4000001,
+          -88.49999989999102,
+          47.49000010000001,
+          65.4000001
+        ],
+        "extents_xyz_mm": [
+          13.800000200009023,
+          94.98000020000003,
+          130.8000002
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_after.step",
+      "sha256": "ca7e6446a463a87e4beac2b6db7aa634ac0d15ef58030e2ad9b550c1ff7bfd7b",
+      "expected_physical_bodies": 3,
+      "solids": [
+        {
+          "signed_volume_mm3": 31489.860342340544,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "signed_volume_mm3": 5978.5951318432135,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "signed_volume_mm3": 5978.595113434766,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 3,
+        "shells": 3,
+        "faces": 819,
+        "edges": 4308,
+        "bounds_xyz_mm": [
+          88.49999989999101,
+          -47.49000010000002,
+          -65.4000001,
+          102.30000010000005,
+          47.49000010000001,
+          65.4000001
+        ],
+        "extents_xyz_mm": [
+          13.800000200009038,
+          94.98000020000003,
+          130.8000002
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RR_7007_integral_M3_aux_locator.step",
+      "sha256": "5da1f9120b4295f8982c7078c44a165bba022a0c9d515c9ef59765d1e7942204",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 24416.085753033396,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 2,
+        "faces": 696,
+        "edges": 3618,
+        "bounds_xyz_mm": [
+          -189.4966151766,
+          -145.66180592253895,
+          95.97999989852259,
+          -108.0599998989,
+          32.40000009999748,
+          110.74000017030554
+        ],
+        "extents_xyz_mm": [
+          81.43661527769999,
+          178.06180602253642,
+          14.760000271782943
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FR_7007_integral_M3_aux_locator.step",
+      "sha256": "39d8dce024f76415760b4ce6d659480df1b4ac46703543f956c2cd39a5396e3b",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 24416.083413716184,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 2,
+        "faces": 696,
+        "edges": 3618,
+        "bounds_xyz_mm": [
+          91.42338482340001,
+          -145.66180592253895,
+          95.97999989852259,
+          172.8600001011,
+          32.40000009999748,
+          110.74000017030554
+        ],
+        "extents_xyz_mm": [
+          81.4366152777,
+          178.06180602253642,
+          14.760000271782943
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RL_7007_integral_M3_aux_locator.step",
+      "sha256": "5fa8ebc3c7c8f542457d6e0425af5b63f65445b5e9a481c11f846696c74e51e3",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 24418.4470020356,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 2,
+        "faces": 696,
+        "edges": 3614,
+        "bounds_xyz_mm": [
+          -189.4966151766,
+          -145.66180592253895,
+          -110.74000017030554,
+          -108.0599998989,
+          32.40000009999748,
+          -95.97999989852158
+        ],
+        "extents_xyz_mm": [
+          81.43661527769999,
+          178.06180602253642,
+          14.760000271783952
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FL_7007_integral_M3_aux_locator.step",
+      "sha256": "3b0ddf4c04a4b239708c02d4115f5e5ef686e1f5dcddfdb73410fc4d89b1fcbc",
+      "expected_physical_bodies": 1,
+      "solids": [
+        {
+          "signed_volume_mm3": 24418.445584353554,
+          "valid": true,
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "shape_stats": {
+        "solids": 1,
+        "shells": 2,
+        "faces": 696,
+        "edges": 3614,
+        "bounds_xyz_mm": [
+          91.42338482340001,
+          -145.66180592253895,
+          -110.74000017030554,
+          172.8600001011,
+          32.40000009999748,
+          -95.97999989852158
+        ],
+        "extents_xyz_mm": [
+          81.4366152777,
+          178.06180602253642,
+          14.760000271783952
+        ]
+      }
+    }
+  ],
+  "source_open_surfaces_not_counted_as_bodies": true
+}

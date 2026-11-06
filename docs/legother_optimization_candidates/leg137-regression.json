@@ -1,0 +1,721 @@
+{
+  "status": "LEGOTHER_137_BROWSER_PASS",
+  "date": "2026-11-04",
+  "testedURL": "http://127.0.0.1:8770/whole_robot_click_compare/index.html?version=r4&region=legother&view=iso",
+  "direct_file_protocol_tested": false,
+  "checks": [
+    {
+      "label": "Fixed entry retains R4 totals and opens legother deep link",
+      "pass": true
+    },
+    {
+      "label": "Audited five-location explanation is visible",
+      "pass": true
+    },
+    {
+      "label": "Old M3-only detail is removed from current legother explanation",
+      "pass": true
+    },
+    {
+      "label": "Displayed explanation closes 144 plus 76 minus 83 to 137",
+      "pass": true
+    },
+    {
+      "label": "Five installed groups show exact per-leg and four-leg populations",
+      "pass": true
+    },
+    {
+      "label": "Both full-leg diagrams expose five clickable CAD-projected locations",
+      "pass": true
+    },
+    {
+      "label": "Eight screw subgroups, four leg balances and eight residual classes are populated",
+      "pass": true
+    },
+    {
+      "label": "Residual classes reconcile net minus seven",
+      "pass": true
+    },
+    {
+      "label": "Group button selects m1",
+      "pass": true
+    },
+    {
+      "label": "Full-leg before location selects m1",
+      "pass": true
+    },
+    {
+      "label": "Full-leg after location selects m1",
+      "pass": true
+    },
+    {
+      "label": "Installed group m1 loads its own actual CAD pair",
+      "pass": true
+    },
+    {
+      "label": "Group m1 shows four-leg quantity",
+      "pass": true
+    },
+    {
+      "label": "Group button selects m2",
+      "pass": true
+    },
+    {
+      "label": "Full-leg before location selects m2",
+      "pass": true
+    },
+    {
+      "label": "Full-leg after location selects m2",
+      "pass": true
+    },
+    {
+      "label": "Installed group m2 loads its own actual CAD pair",
+      "pass": true
+    },
+    {
+      "label": "Group m2 shows four-leg quantity",
+      "pass": true
+    },
+    {
+      "label": "Group button selects m3",
+      "pass": true
+    },
+    {
+      "label": "Full-leg before location selects m3",
+      "pass": true
+    },
+    {
+      "label": "Full-leg after location selects m3",
+      "pass": true
+    },
+    {
+      "label": "Installed group m3 loads its own actual CAD pair",
+      "pass": true
+    },
+    {
+      "label": "Group m3 shows four-leg quantity",
+      "pass": true
+    },
+    {
+      "label": "Group button selects plate",
+      "pass": true
+    },
+    {
+      "label": "Full-leg before location selects plate",
+      "pass": true
+    },
+    {
+      "label": "Full-leg after location selects plate",
+      "pass": true
+    },
+    {
+      "label": "Installed group plate loads its own actual CAD pair",
+      "pass": true
+    },
+    {
+      "label": "Group plate shows four-leg quantity",
+      "pass": true
+    },
+    {
+      "label": "Group button selects stop",
+      "pass": true
+    },
+    {
+      "label": "Full-leg before location selects stop",
+      "pass": true
+    },
+    {
+      "label": "Full-leg after location selects stop",
+      "pass": true
+    },
+    {
+      "label": "Installed group stop loads its own actual CAD pair",
+      "pass": true
+    },
+    {
+      "label": "Group stop shows four-leg quantity",
+      "pass": true
+    },
+    {
+      "label": "Individual 36-screw tray opens at full resolution",
+      "pass": true
+    },
+    {
+      "label": "Tray zoom closes with Escape",
+      "pass": true
+    },
+    {
+      "label": "Zoom works for overview-after",
+      "pass": true
+    },
+    {
+      "label": "Zoom works for group-after",
+      "pass": true
+    },
+    {
+      "label": "Detailed ledger exposes source IDs and hip/body boundary explanation",
+      "pass": true
+    },
+    {
+      "label": "Leg detail fits mobile width",
+      "pass": true
+    },
+    {
+      "label": "Historical R2 retains its scope and does not masquerade as the new R4 explanation",
+      "pass": true
+    },
+    {
+      "label": "Historical M3 image remains unchanged for historical R2",
+      "pass": true
+    },
+    {
+      "label": "Returning to R4 restores audited leg explanation",
+      "pass": true
+    },
+    {
+      "label": "Other seven region details retain their existing layout",
+      "pass": true
+    },
+    {
+      "label": "Whole robot side view and region hotspots still work",
+      "pass": true
+    },
+    {
+      "label": "Direct link selects a specific hardware location",
+      "pass": true
+    },
+    {
+      "label": "All 13 new CAD images load from local assets",
+      "pass": true
+    },
+    {
+      "label": "Missing LEGOTHER_AUDIT pauses only the leg breakdown",
+      "pass": true
+    },
+    {
+      "label": "Missing LEGOTHER_AUDIT never falls back to misleading M3-only figure",
+      "pass": true
+    },
+    {
+      "label": "Missing LEGOTHER_ASSETS pauses only the leg breakdown",
+      "pass": true
+    },
+    {
+      "label": "Missing LEGOTHER_ASSETS never falls back to misleading M3-only figure",
+      "pass": true
+    },
+    {
+      "label": "No JavaScript errors or external dependencies",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "groups": [
+    {
+      "id": "m1",
+      "images": [
+        {
+          "src": "legother_audit/assets/m1_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/m1_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "images": [
+        {
+          "src": "legother_audit/assets/m2_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/m2_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "images": [
+        {
+          "src": "legother_audit/assets/m3_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/m3_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "plate",
+      "images": [
+        {
+          "src": "legother_audit/assets/plate_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/plate_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "id": "stop",
+      "images": [
+        {
+          "src": "legother_audit/assets/stop_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/stop_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    }
+  ],
+  "newCADImages": [
+    {
+      "src": "legother_audit/assets/overview_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/overview_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/current_36_screw_tray.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m1_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m1_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m2_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m2_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m3_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/m3_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/plate_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/plate_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/stop_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "legother_audit/assets/stop_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "audit": {
+    "status": "SYNCED_CURRENT_MODEL",
+    "mode": "r4",
+    "currentRevision": "R4",
+    "displayedRevision": "R4",
+    "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "original": 219,
+    "current": 396,
+    "delta": 177,
+    "comparisonScope": "两版均不计电池包；R4电池固定件待设计，未纳入当前数量。原CAD已有机身支撑和紧固件照常计入。",
+    "excludedBattery": true,
+    "regionSum": 177,
+    "regions": [
+      {
+        "id": "m1",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "ab",
+        "before": 8,
+        "after": 44,
+        "delta": 36,
+        "partsSum": 36,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "m3",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "pin",
+        "before": 12,
+        "after": 8,
+        "delta": -4,
+        "partsSum": -4,
+        "type": "reduction",
+        "includedInCount": true
+      },
+      {
+        "id": "legother",
+        "before": 159,
+        "after": 296,
+        "delta": 137,
+        "partsSum": 137,
+        "type": "model",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyadapter",
+        "before": 0,
+        "after": 0,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyother",
+        "before": 39,
+        "after": 39,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "battery",
+        "before": null,
+        "after": null,
+        "delta": null,
+        "partsSum": null,
+        "type": "pending",
+        "includedInCount": false
+      }
+    ],
+    "view": "iso",
+    "selected": "legother",
+    "all": false,
+    "hotspotCount": 16,
+    "availableViews": [
+      "iso",
+      "side"
+    ],
+    "hasAssetManifest": true,
+    "assetErrors": [],
+    "images": [
+      {
+        "src": "assets/r4/whole_original_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/whole_current_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "legother_audit/assets/overview_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "legother_audit/assets/overview_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "legother_audit/assets/m1_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "legother_audit/assets/m1_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "legother_audit/assets/current_36_screw_tray.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "anchors": {
+      "before": {
+        "m1": [
+          0.408836,
+          0.326045
+        ],
+        "ab": [
+          0.369656,
+          0.354581
+        ],
+        "m3": [
+          0.388757,
+          0.364074
+        ],
+        "pin": [
+          0.404342,
+          0.340408
+        ],
+        "legother": [
+          0.362014,
+          0.520593
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      },
+      "after": {
+        "m1": [
+          0.403054,
+          0.327906
+        ],
+        "ab": [
+          0.365104,
+          0.352319
+        ],
+        "m3": [
+          0.410825,
+          0.375044
+        ],
+        "pin": [
+          0.424612,
+          0.342349
+        ],
+        "legother": [
+          0.377103,
+          0.528092
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      }
+    },
+    "legBreakdown": {
+      "visible": true,
+      "validated": true,
+      "selectedGroup": "m1",
+      "groupCount": 5,
+      "reconciliation": {
+        "original": 159,
+        "current": 296,
+        "delta": 137,
+        "unchangedStructure": 64,
+        "unchangedMotors": 12,
+        "originalOtherConnections": 83,
+        "currentOtherConnections": 76,
+        "currentInterfaceScrews": 144,
+        "otherConnectionDelta": -7,
+        "commonConnectionGroupCountEachSide": 52,
+        "changedConnectionGroupBefore": 31,
+        "changedConnectionGroupAfter": 24,
+        "formula": "144 + (76 − 83) = 137",
+        "fullFormula": "(64 + 12 + 76 + 144) − (64 + 12 + 83) = 137"
+      },
+      "groups": [
+        {
+          "id": "m1",
+          "name": "M1输出端",
+          "perLeg": 6,
+          "currentTotal": 24
+        },
+        {
+          "id": "m2",
+          "name": "M2输出端与壳体",
+          "perLeg": 10,
+          "currentTotal": 40
+        },
+        {
+          "id": "m3",
+          "name": "M3输出、壳体与后端",
+          "perLeg": 13,
+          "currentTotal": 52
+        },
+        {
+          "id": "plate",
+          "name": "内外大腿板连接",
+          "perLeg": 5,
+          "currentTotal": 20
+        },
+        {
+          "id": "stop",
+          "name": "q2止挡固定",
+          "perLeg": 2,
+          "currentTotal": 8
+        }
+      ],
+      "credits": [
+        {
+          "id": "old-m4x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "old-m3x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "root-m4x10",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "m2p5x6",
+          "before": 3,
+          "after": 4,
+          "delta": 1
+        },
+        {
+          "id": "m6-springwasher",
+          "before": 2,
+          "after": 4,
+          "delta": 2
+        },
+        {
+          "id": "m6-screws",
+          "before": 6,
+          "after": 4,
+          "delta": -2
+        },
+        {
+          "id": "m6-flatwasher",
+          "before": 2,
+          "after": 0,
+          "delta": -2
+        },
+        {
+          "id": "6-1-spacers",
+          "before": 9,
+          "after": 12,
+          "delta": 3
+        }
+      ]
+    },
+    "CADModified": false,
+    "simplification": {
+      "validated": true,
+      "visible": true,
+      "confirmedReduction": 0,
+      "phase1target": 44,
+      "phase1WholeTarget": 352,
+      "m3Alternatives": [
+        12,
+        16
+      ]
+    },
+    "optimization": {
+      "validated": true,
+      "visible": true,
+      "connectionTotal": 220,
+      "retainAndCheck": 192,
+      "m3ResearchPool": 28,
+      "canJustifyDeletingAll137": false,
+      "comparison": "original_current",
+      "candidateAvailable": true,
+      "formalCADModified": false,
+      "verifiedReduction": 0
+    }
+  },
+  "executionDateClient": "2026-11-05"
+}

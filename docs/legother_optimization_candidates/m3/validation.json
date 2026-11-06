@@ -1,0 +1,30 @@
+{
+  "status": "CANDIDATE_EXPORT_AND_IMAGES_VERIFIED",
+  "reimported_part_valid": true,
+  "reimported_part_stats": {
+    "solids": 1,
+    "shells": 2,
+    "faces": 695,
+    "edges": 3658,
+    "bounds_xyz_mm": [
+      -189.4966151766,
+      -145.66180592253895,
+      53.57,
+      -104.1729985128,
+      32.40000009999748,
+      110.74000017030554
+    ],
+    "extents_xyz_mm": [
+      85.32361666379998,
+      178.06180602253642,
+      57.170000170305535
+    ]
+  },
+  "formal_source_inputs_unchanged": true,
+  "images_verified": 4,
+  "part_sha256": "880554332815dead0c3cf57c70223368f6872be3cd28e7afb0b42017984f4ba5",
+  "assembly_sha256": "bb8556286450ee05f37ab5b23397b479f037f8cdfb89c8b7d28cdecacab7d2be",
+  "same_camera_same_scale": true,
+  "formal_promoted_net_reduction": 0,
+  "manufacturing_release": false
+}

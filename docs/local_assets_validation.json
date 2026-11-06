@@ -1,0 +1,306 @@
+{
+  "status": "NO_EXTERNAL_DEPENDENCIES_ALL20_LOCAL_CAD_IMAGES_PASS",
+  "unexpected": [],
+  "checks": [
+    {
+      "src": "assets/whole_original_iso.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/whole_current_iso.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/whole_original_side.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/whole_current_side.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/m1_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/m1_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/ab_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/ab_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/m3_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/m3_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/pin_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/pin_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/legother_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/legother_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/bodyadapter_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/bodyadapter_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/bodyother_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/bodyother_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/battery_before.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    },
+    {
+      "src": "assets/battery_after.png",
+      "width": 1600,
+      "height": 1200,
+      "pass": true
+    }
+  ],
+  "all20LocalImagesLoaded": true,
+  "audit": {
+    "original": 220,
+    "current": 505,
+    "delta": 285,
+    "regionSum": 285,
+    "regions": [
+      {
+        "id": "m1",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new"
+      },
+      {
+        "id": "ab",
+        "before": 8,
+        "after": 44,
+        "delta": 36,
+        "partsSum": 36,
+        "type": "new"
+      },
+      {
+        "id": "m3",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new"
+      },
+      {
+        "id": "pin",
+        "before": 12,
+        "after": 8,
+        "delta": -4,
+        "partsSum": -4,
+        "type": "reduction"
+      },
+      {
+        "id": "legother",
+        "before": 159,
+        "after": 296,
+        "delta": 137,
+        "partsSum": 137,
+        "type": "model"
+      },
+      {
+        "id": "bodyadapter",
+        "before": 0,
+        "after": 56,
+        "delta": 56,
+        "partsSum": 56,
+        "type": "new"
+      },
+      {
+        "id": "bodyother",
+        "before": 39,
+        "after": 70,
+        "delta": 31,
+        "partsSum": 31,
+        "type": "model"
+      },
+      {
+        "id": "battery",
+        "before": 1,
+        "after": 22,
+        "delta": 21,
+        "partsSum": 21,
+        "type": "model"
+      }
+    ],
+    "view": "iso",
+    "selected": "ab",
+    "all": false,
+    "hotspotCount": 16,
+    "availableViews": [
+      "iso",
+      "side"
+    ],
+    "hasAssetManifest": true,
+    "assetErrors": [],
+    "images": [
+      {
+        "src": "assets/whole_original_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/whole_current_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/ab_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/ab_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "anchors": {
+      "before": {
+        "m1": [
+          0.408836,
+          0.326045
+        ],
+        "ab": [
+          0.369656,
+          0.354581
+        ],
+        "m3": [
+          0.388757,
+          0.364074
+        ],
+        "pin": [
+          0.404342,
+          0.340408
+        ],
+        "legother": [
+          0.362014,
+          0.520593
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.27556
+        ]
+      },
+      "after": {
+        "m1": [
+          0.403054,
+          0.327906
+        ],
+        "ab": [
+          0.365104,
+          0.352319
+        ],
+        "m3": [
+          0.410825,
+          0.375044
+        ],
+        "pin": [
+          0.424612,
+          0.342349
+        ],
+        "legother": [
+          0.377103,
+          0.528092
+        ],
+        "bodyadapter": [
+          0.447785,
+          0.25666
+        ],
+        "bodyother": [
+          0.444578,
+          0.394462
+        ],
+        "battery": [
+          0.484847,
+          0.284272
+        ]
+      }
+    },
+    "CADModified": false
+  }
+}

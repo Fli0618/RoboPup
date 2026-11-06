@@ -1,0 +1,110 @@
+[
+  {
+    "file": "source:/whole_robot_click_compare/sleeve_direct_review/m1_before.png",
+    "sha256": "deb0d601ab47bcef4acb322b125983bf309f21635762785a08f4ccc67bc6e65c",
+    "source_file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before_with_sleeve.step",
+    "source_SHA": "d23bb5edbbf99f6c0cf94959133ff38dd9993d70ae9667dbc7c710754d00a415",
+    "actual_CAD": true,
+    "camera": {
+      "focus": [
+        -96.72,
+        0,
+        33.6
+      ],
+      "position": [
+        63.28,
+        -60,
+        128.6
+      ],
+      "scale": 54,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "display_clip_Z_ge_0": true,
+    "source_STEP_not_clipped": true
+  },
+  {
+    "file": "source:/whole_robot_click_compare/sleeve_direct_review/m1_after.png",
+    "sha256": "79b52590016526e308f80038b3dc67da28c25f045b65509deacdf54133b35592",
+    "source_file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after_direct.step",
+    "source_SHA": "5de37e5a46f24f1b4e8510a8fc4a58c17cecdf6ccf6f9c1fe3fa257f40d6a11f",
+    "actual_CAD": true,
+    "camera": {
+      "focus": [
+        -96.72,
+        0,
+        33.6
+      ],
+      "position": [
+        63.28,
+        -60,
+        128.6
+      ],
+      "scale": 54,
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    "display_clip_Z_ge_0": true,
+    "source_STEP_not_clipped": true
+  },
+  {
+    "file": "source:/whole_robot_click_compare/sleeve_direct_review/m3_before.png",
+    "sha256": "5690844617ef7a5d3724588cae8bcbca6999ed78ad24aa062968f13372822e68",
+    "source_file": "source:/whole_robot_click_compare/sleeve_direct_review/RR_M3_before_pair.step",
+    "source_SHA": "84ebde15c9ea97f99ff51474482e63d727b2f4dfd045a8160081037a0de687a0",
+    "actual_CAD": true,
+    "camera": {
+      "focus": [
+        -148.7,
+        -56.6,
+        99
+      ],
+      "position": [
+        -328.7,
+        53.4,
+        -181
+      ],
+      "scale": 125,
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    "display_clip_Z_ge_0": false,
+    "source_STEP_not_clipped": true
+  },
+  {
+    "file": "source:/whole_robot_click_compare/sleeve_direct_review/m3_after.png",
+    "sha256": "2d9aeddff381220b694d22debc75c82c072c98cf2622f09f3640631eb294f287",
+    "source_file": "source:/whole_robot_click_compare/sleeve_direct_review/RR_7007_direct_location_D1_preview.step",
+    "source_SHA": "b33574a48fc8e47e051b804281e85c6dee888d94b8e1542d404424502bbe56bb",
+    "actual_CAD": true,
+    "camera": {
+      "focus": [
+        -148.7,
+        -56.6,
+        99
+      ],
+      "position": [
+        -328.7,
+        53.4,
+        -181
+      ],
+      "scale": 125,
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    "display_clip_Z_ge_0": false,
+    "source_STEP_not_clipped": true
+  }
+]

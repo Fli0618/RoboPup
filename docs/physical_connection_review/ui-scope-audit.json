@@ -1,0 +1,47 @@
+{
+  "status": "READ_ONLY_UI_SCOPE_AUDIT",
+  "currentMainRevision": "D1_MAIN_DIRECT_GRIPS_004",
+  "mainModelCount": 356,
+  "CADModified": false,
+  "UIEdited": false,
+  "findings": [
+    {
+      "id": "PIN_BADGE_STALE_R4",
+      "sources": ["app.js:31", "app.js:175", "app.js:180", "app.js:200", "main-whole-view.js:23"],
+      "finding": "MAIN image and selected pin detail show restored original pin, but region button and both whole-image hotspot tip/aria are still generated from frozen R4 pin delta -4.",
+      "currentTruth": "Original CAD pin/washer/axial screw 12 -> current MAIN 12, delta 0.",
+      "fix": "Override MAIN navigation badges, hotspot tips and aria in renderWholeMain for all selections. Keep R4 historical source ledger -4. Do not rely on selected pin detail override alone."
+    },
+    {
+      "id": "OTHER_CURRENT_BADGES_STALE",
+      "sources": ["app.js:180", "app.js:200", "main-whole-view.js:23"],
+      "finding": "AB button/hotspot also retain original-to-R4 +36 after D1 already merged. M1/M3 badges say adopted but tips retain +4.",
+      "fix": "For MAIN-vs-original display, use actual current partition: m1 0->0, ab 8->8, m3 0->0, pin 12->12; interface historical differences should stay explicitly scoped to R4."
+    },
+    {
+      "id": "MODEL_DELTA_VS_PHYSICAL_DELTA",
+      "sources": ["app.js:30", "app.js:154", "app.js:160", "app.js:161", "index.html:104"],
+      "finding": "Legother already says model difference and warns against physical-new inference, but primary title and some tables use current without naming R4. The imported 137 ledger is original159 -> R4296, and same smallpart population is retained in MAIN. Neither original CAD missing screws nor photo-hidden screws proves physical absence.",
+      "fix": "Use title '模型已画差额+137；实物净增待核' and explicit model/physical columns. Label reused split images '历史R4接口展开，螺钉组沿用至MAIN'. Do not show actual physical increase 0 or137 without original assembly/BOM evidence."
+    },
+    {
+      "id": "AUDIT_TOP_LEVEL_IS_FROZEN_R4",
+      "sources": ["app.js:222", "main-whole-view.js:28", "pin-main-detail.js:5"],
+      "finding": "compareAudit current/delta/regions remain frozen R4 396/+177/pin-4 even when wholeMain.count=356 and pin detail delta0. Automated consumers can conflate scopes.",
+      "fix": "Retain frozen source audit fields or rename sourceRegions, and add an explicit mainComparison with revision356, original219, modeledDelta137, accurate current regions, physicalAddedCount null. Avoid silently mutating historical source inputs or R4 guard."
+    }
+  ],
+  "derivedMainPartitionPendingComponentAudit": {
+    "m1": [0, 0],
+    "ab": [8, 8],
+    "m3": [0, 0],
+    "pin": [12, 12],
+    "legother": [159, 296],
+    "bodyadapter": [0, 0],
+    "bodyother": [39, 39],
+    "unchangedHead": [1, 1],
+    "modelTotals": [219, 356],
+    "physicalIncrease": null
+  },
+  "safeMinimalHook": "Extend renderWholeMain active MAIN block so select(), renderMode(), renderHotspots(), view change and main/history switch apply consistent nav/tip labels. Historical ledger is already clearly labeled R4 and should preserve original -4 entries."
+}

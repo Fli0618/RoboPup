@@ -1,0 +1,49 @@
+{
+  "status": "SOURCE_REVIEW_NOT_PHYSICAL_BOM",
+  "date": "2026-11-06",
+  "CAD_modified": false,
+  "count_modified": false,
+  "currentMainCount": 356,
+  "pin_net_change_vs_original": 0,
+  "model_delta_legother": 137,
+  "physical_delta_legother": null,
+  "model_audit": "model-vs-physical-audit.json",
+  "pdf_source": "source:/inputs/甬擎智控_RT-X05_教育整体解决方案.pdf",
+  "pdf_sha256": "00c7f3021251ee6d9ee3c3c5c621c5518cf5d5c88ce82d4fe10e9c5d7046532f",
+  "pdf_relevant_pages": [
+    5,
+    6
+  ],
+  "observations": [
+    "User photo shows compact original architecture; backside/inside fastening is occluded and cannot be counted.",
+    "PDF page5 parts display contains fastener-shaped items on the right; not a verified manufacturing BOM for this exact photographed unit.",
+    "PDF page6 is an exploded illustration showing screw connections; no per-interface quantity/specification schedule is supplied.",
+    "Original CAD counts83 other connecting pieces; zero separately modeled screws at some motor axes does not establish zero real screws.",
+    "Current MAIN retains144 modeled motor/plate/stop interface screws and76 other connecting model items.",
+    "At least16 model additions are a documented outerplate hole/screw depiction completion; remaining physical net is not determined."
+  ],
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/original-robot-photo.jpg",
+      "sha256": "954589e2df94205730193cbf6d10d49deb5184b2d0fe65e7c5afc491353dd832"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/pdf5_native_photo_0.jpeg",
+      "sha256": "b6f20e3b6d614b804184e9687adab97e4e9e62aeead240ed07d1024de9e94546"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/pdf-page-5.png",
+      "sha256": "32141a12887bd86d493fdae926e6a4091a7ca2d076f86c981c72d33b02f99964"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/pdf-page-6.png",
+      "sha256": "40180fcca090b2907e7da710de32284662d8fd70485c4992691ba89e1ecc8358"
+    }
+  ],
+  "protected_MAIN_SHA256": {
+    "source:/MAIN_DESIGN.json": "d78676d100d10d719a5122214c764c88b8b88fbf0b14cea7f82c1961cfa823d7",
+    "source:/main/main-design.json": "acdb0f8095dfa92b3483bcec4fa92af590d4059e66460376e280e4a3a7ba591c",
+    "source:/main/whole_robot_D1_direct_grips/PA35_MAIN_D1_WHOLE_ROBOT.step": "5d18ed864f2478689b7ad4cd1c0b43c3c7c099f0a9c41125cf140a89ecc06412"
+  },
+  "user_visible_data": "review-data.json"
+}

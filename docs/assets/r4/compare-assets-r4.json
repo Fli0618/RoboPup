@@ -1,0 +1,237 @@
+{
+  "views": {
+    "iso": {
+      "before": "assets/r4/whole_original_iso.png",
+      "after": "assets/r4/whole_current_iso.png",
+      "anchors": {
+        "before": {
+          "m1": [
+            0.408836,
+            0.326045
+          ],
+          "ab": [
+            0.369656,
+            0.354581
+          ],
+          "m3": [
+            0.388757,
+            0.364074
+          ],
+          "pin": [
+            0.404342,
+            0.340408
+          ],
+          "legother": [
+            0.362014,
+            0.520593
+          ],
+          "bodyadapter": [
+            0.417851,
+            0.252434
+          ],
+          "bodyother": [
+            0.444578,
+            0.365905
+          ],
+          "battery": [
+            0.484847,
+            0.275851
+          ]
+        },
+        "after": {
+          "m1": [
+            0.403054,
+            0.327906
+          ],
+          "ab": [
+            0.365104,
+            0.352319
+          ],
+          "m3": [
+            0.410825,
+            0.375044
+          ],
+          "pin": [
+            0.424612,
+            0.342349
+          ],
+          "legother": [
+            0.377103,
+            0.528092
+          ],
+          "bodyadapter": [
+            0.417851,
+            0.252434
+          ],
+          "bodyother": [
+            0.444578,
+            0.365905
+          ],
+          "battery": [
+            0.484847,
+            0.275851
+          ]
+        }
+      }
+    },
+    "side": {
+      "before": "assets/r4/whole_original_side.png",
+      "after": "assets/r4/whole_current_side.png",
+      "anchors": {
+        "before": {
+          "m1": [
+            0.301848,
+            0.239796
+          ],
+          "ab": [
+            0.214883,
+            0.245579
+          ],
+          "m3": [
+            0.214882,
+            0.25118
+          ],
+          "pin": [
+            0.209398,
+            0.215543
+          ],
+          "legother": [
+            0.148465,
+            0.416187
+          ],
+          "bodyadapter": [
+            0.303373,
+            0.149505
+          ],
+          "bodyother": [
+            0.401754,
+            0.323065
+          ],
+          "battery": [
+            0.461203,
+            0.230435
+          ]
+        },
+        "after": {
+          "m1": [
+            0.293272,
+            0.239804
+          ],
+          "ab": [
+            0.214883,
+            0.244244
+          ],
+          "m3": [
+            0.214893,
+            0.25766
+          ],
+          "pin": [
+            0.209398,
+            0.211735
+          ],
+          "legother": [
+            0.148463,
+            0.420611
+          ],
+          "bodyadapter": [
+            0.303373,
+            0.149505
+          ],
+          "bodyother": [
+            0.401754,
+            0.323065
+          ],
+          "battery": [
+            0.461203,
+            0.230435
+          ]
+        }
+      }
+    }
+  },
+  "details": {
+    "bodyadapter": {
+      "before": "assets/r4/bodyadapter_before.png",
+      "after": "assets/r4/bodyadapter_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": false,
+      "battery_excluded_from_BOM": true,
+      "selection_ghost_NONBOM": false
+    },
+    "bodyother": {
+      "before": "assets/r4/bodyother_before.png",
+      "after": "assets/r4/bodyother_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": false,
+      "battery_excluded_from_BOM": true,
+      "selection_ghost_NONBOM": false
+    },
+    "battery": {
+      "before": "assets/r4/battery_before.png",
+      "after": "assets/r4/battery_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": false,
+      "battery_excluded_from_BOM": true,
+      "selection_ghost_NONBOM": true
+    },
+    "m1": {
+      "before": "assets/m1_before.png",
+      "after": "assets/m1_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": true,
+      "unchanged_from_R2": true
+    },
+    "ab": {
+      "before": "assets/ab_before.png",
+      "after": "assets/ab_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": true,
+      "unchanged_from_R2": true
+    },
+    "m3": {
+      "before": "assets/m3_before.png",
+      "after": "assets/m3_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": true,
+      "unchanged_from_R2": true
+    },
+    "pin": {
+      "before": "assets/pin_before.png",
+      "after": "assets/pin_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": true,
+      "unchanged_from_R2": true
+    },
+    "legother": {
+      "before": "assets/legother_before.png",
+      "after": "assets/legother_after.png",
+      "same_camera_same_scale": true,
+      "render_only_explosion": true,
+      "unchanged_from_R2": true
+    }
+  },
+  "source": {
+    "revision": "R4_CURRENT",
+    "original": "Original strict60% mechanical assembly; wiring layouts and unselected battery excluded.",
+    "current": "Official R4 original-width frame, all12 PA35 unchanged; no purchased battery or mounting system in STEP.",
+    "original_mechanical_count_excluding_battery": 219,
+    "current_mechanical_count_excluding_battery": 396,
+    "mechanical_model_delta_excluding_battery": 177,
+    "same_camera_same_scale": true,
+    "same_whole_camera_as_historical_R2_comparison": true,
+    "cad_unchanged": true,
+    "battery_selection_reference_NONBOM_LWH_mm": [
+      110,
+      68,
+      60
+    ],
+    "battery_ghost_on_whole": false,
+    "currentRevision": "R4",
+    "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "proof": "assets/r4/render-comparison-evidence.json"
+  },
+  "image_dimensions": [
+    1600,
+    1200
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/before.png",
+    "sha256": "acf6216b46a08d75f9abb36b82b91739c1a527b4090b2fca7ab0905035dc304e",
+    "camera": {
+      "focal": [
+        -139.0,
+        -1.5,
+        80.0
+      ],
+      "position": [
+        -689.0,
+        -231.5,
+        730.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "parallel_scale": 54.0
+    },
+    "actual_CAD": true,
+    "render_only_clip_y_lower_than_mm": -39,
+    "motor_opacity": 0.22,
+    "formal_CAD_modified": false
+  },
+  {
+    "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/after.png",
+    "sha256": "60872a3ecae3ef8aaddd74d8e5e94743fbcef695e32ee73d617f95f566d73951",
+    "camera": {
+      "focal": [
+        -139.0,
+        -1.5,
+        80.0
+      ],
+      "position": [
+        -689.0,
+        -231.5,
+        730.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "parallel_scale": 54.0
+    },
+    "actual_CAD": true,
+    "render_only_clip_y_lower_than_mm": -39,
+    "motor_opacity": 0.22,
+    "formal_CAD_modified": false
+  },
+  {
+    "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/parts_before.png",
+    "sha256": "d2bf54026953f6dfe2b112644e0f2b9f49c37479836334b87c7f33a8ddea849d",
+    "camera": {
+      "focal": [
+        -143.0,
+        -53.0,
+        81.0
+      ],
+      "position": [
+        -693.0,
+        -283.0,
+        731.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "parallel_scale": 114.0
+    },
+    "actual_CAD": true,
+    "render_only_clip_y_lower_than_mm": null,
+    "motor_opacity": null,
+    "formal_CAD_modified": false
+  },
+  {
+    "file": "source:/whole_robot_click_compare/legother_optimization_candidates/m3/parts_after.png",
+    "sha256": "51bf1a97f780c63b3f6a2822f9c6a643e61db401adac57bb157af01cf1028201",
+    "camera": {
+      "focal": [
+        -143.0,
+        -53.0,
+        81.0
+      ],
+      "position": [
+        -693.0,
+        -283.0,
+        731.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "parallel_scale": 114.0
+    },
+    "actual_CAD": true,
+    "render_only_clip_y_lower_than_mm": null,
+    "motor_opacity": null,
+    "formal_CAD_modified": false
+  }
+]

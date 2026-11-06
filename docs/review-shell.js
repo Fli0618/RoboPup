@@ -1,0 +1,50 @@
+/* Navigation layer for the existing, source-backed review. CAD data is unchanged. */
+(() => {
+ 'use strict';
+ const q=s=>document.querySelector(s), root=q('main');
+ if(!root||!window.MAIN_WHOLE_D1)return;
+ const initial=new URL(performance.getEntriesByType('navigation')[0]?.name||location.href);
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const model=window.MAIN_WHOLE_D1, sim=window.PA35_ISAAC_SIM_REVIEW;
+ q('.page-header').classList.add('legacy-header');
+ const top=document.createElement('header');top.className='rp-header';
+ top.innerHTML=`<a class="rp-brand" href="?section=main#reviewOverview" aria-label="RoboPup当前方案"><span class="rp-mark">R<span>P</span></span><span>RoboPup<small>PA35 四足机器人 · 设计评审</small></span></a><div class="rp-header-meta"><span class="rp-live-dot"></span>MAIN · D1 <span class="rp-date">2026.11.06</span><a href="https://github.com/Fli0618/RoboPup" target="_blank" rel="noopener">GitHub ↗</a></div>`;
+ root.prepend(top);
+ const navigation=document.createElement('nav');navigation.className='rp-navigation';navigation.setAttribute('aria-label','评审内容');
+ const labels={main:'当前方案',parts:'部件对比',sim:'仿真进展',history:'历史记录'};
+ navigation.innerHTML=Object.entries(labels).map(([key,label],i)=>`<button type="button" data-review-section="${key}" aria-controls="review-${key}" aria-pressed="false"><span>0${i+1}</span>${label}</button>`).join('');top.after(navigation);
+ const panels={};Object.entries(labels).forEach(([key,label])=>{const p=document.createElement('section');p.id='review-'+key;p.className='rp-panel';p.dataset.reviewPanel=key;p.setAttribute('aria-label',label);p.hidden=true;panels[key]=p;root.append(p);});
+ const move=(selector,panel)=>{const el=q(selector);if(el)panels[panel].append(el);};
+ panels.main.innerHTML=`<section id="reviewOverview" class="rp-overview"><div class="rp-overview-copy"><p class="rp-kicker">CURRENT DESIGN / D1</p><h1>沿用原架构，<br>适配 PA35。</h1><p class="rp-lead">杯式连接、直接夹持、原销固定。<br>当前采用方案与历史探索，在这里分开查看。</p><div class="rp-pills"><span>设计已选定</span><span class="rp-pending">制造待放行</span></div><div class="rp-hero-actions"><button type="button" data-review-go="parts">查看整机与部件对比 <b>↗</b></button><button type="button" data-review-go="sim">查看实际仿真 ↗</button></div></div><figure class="rp-hero-figure"><img src="${esc(model.views.iso.image)}" alt="当前MAIN D1完整四足CAD，12台PA35，一体杯式连接和原件直接适配"><figcaption><span>当前完整整机 · 实际 CAD 渲染</span><span>D1_MAIN_DIRECT_GRIPS_004</span></figcaption></figure></section><section class="rp-summary" aria-label="当前模型摘要"><div><small>机械建模项</small><strong>356 <em>项</em></strong><span>原CAD已画219项；差额不等于实物净增</span></div><div><small>实际电机模组</small><strong>12 <em>台</em></strong><span>沿用 PA35 原尺寸；固定件分别计数</span></div><div><small>本轮几何精简</small><strong>−40 <em>项 / 对比R4</em></strong><span>396 → 364 → 356；去衬套已合并</span></div></section><section class="rp-current-content"><div class="rp-section-heading"><div><p class="rp-kicker">ADOPTED / 已采用</p><h2>当前方案，三处关键决定</h2></div><p>以完整STEP与实际部件前后图为准。</p></div><div class="rp-decision-grid"><button data-rp-region="ab"><span>01 / 两关节连接</span><h3>D1 一体杯式支架</h3><p>内圈接M2输出，外圈接M3后壳。取消A/B接缝连接层。</p><b>看连接关系 ↗</b></button><button data-rp-region="m1"><span>02 / 原件直接适配</span><h3>M1、M3 无独立衬套</h3><p>适配内形并入原夹座与大腿端部；四腿共取消8只衬套。</p><b>看部件前后 ↗</b></button><button data-rp-region="pin"><span>03 / 最小改动</span><h3>保留原上销固定</h3><p>原销轴、垫圈和轴向螺钉保留。原12项 → MAIN12项，净变化0。</p><b>看原方案保留 ↗</b></button></div></section><section class="rp-state-grid"><article><p class="rp-kicker">SIMULATION / 已验证范围</p><h2>站立与一轮微步通过</h2><p>Isaac Lab：10秒自由站立＋14.2秒四足微步，共11616步。质量与驱动参数为探索假设。</p><button data-review-go="sim">看真实回放与运行记录 ↗</button></article><article class="rp-open-items"><p class="rp-kicker">ENGINEERING / 待完成</p><h2>设计采纳 ≠ 制造放行</h2><p>夹紧预紧、M3螺钉0.10mm座面、销接合、完整运动干涉与承载仍待收口。连续行走与小跑尚未验证。</p><button data-review-go="parts">查看部位与待验证项 ↗</button></article></section><section class="rp-downloads" id="reviewDownloads"><div><p class="rp-kicker">FILES / 当前主线</p><h2>模型与仿真文件</h2><p>整机模型不含待选电池包；仿真含电池与电子设备代理质量。</p></div><div><a href="${esc(model.wholeStep)}">完整四足 STEP <span>↗</span></a><a href="${esc(sim?.packageFile||'https://github.com/Fli0618/RoboPup/releases/download/design-main-2026-11-06/PA35_MAIN_ISAAC_SIM_v1.zip')}">完整仿真运行包 <span>↗</span></a></div></section>`;
+ const d1=document.createElement('details');d1.className='rp-d1-details';d1.innerHTML='<summary>展开 D1 杯式接口：孔位、杯口朝向与当前设计文件 <span>＋</span></summary>';panels.main.append(d1);d1.append(q('#designMain'));
+ panels.parts.innerHTML='<div class="rp-panel-heading"><p class="rp-kicker">ASSEMBLY / 前后对比</p><h1>先看整机，再点具体部位。</h1><p>图中编号与下面的部位按钮同步。当前采用MAIN D1；切换历史模型时会单独标记。</p></div>';
+ ['#baselineComparisonHeading','#wholeDesignSwitch','.whole-section','.context','#regionList','#detail'].forEach(s=>move(s,'parts'));
+ move('#isaacSimulationReview','sim');
+ panels.history.innerHTML='<div class="rp-panel-heading"><p class="rp-kicker">ARCHIVE / 方案演变</p><h1>历史留档，不与当前主线混用。</h1><p>R2、R4、C1记录当时的模型和计数。当前采用D1，机械建模项356；模型差额不等于采购BOM差额。</p></div><div class="rp-history-shortcuts"><button data-history-model="r4">查看历史 R4 整机对照 ↗</button><button data-history-model="r2">查看历史 R2 整机对照 ↗</button><button data-review-go="main">回当前 MAIN ↗</button></div>';
+ ['.revision-bar','#revisionNote','#reviewNavigation','#originalArchitectureCandidate','.reconciliation','main > footer'].forEach(s=>move(s,'history'));
+ const footer=document.createElement('footer');footer.className='rp-footer';footer.innerHTML='<span>RoboPup · PA35 四足设计评审</span><span>模型计数、实物BOM与仿真工况分别记录。最后整理：2026.11.06</span>';root.append(footer);
+ let current='main';
+ function activate(key,update=false,scroll=false){if(!panels[key])return;current=key;Object.entries(panels).forEach(([k,p])=>p.hidden=k!==key);navigation.querySelectorAll('button').forEach(b=>{const yes=b.dataset.reviewSection===key;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',String(yes));});document.body.dataset.reviewSection=key;if(key!=='sim')document.querySelectorAll('video').forEach(v=>v.pause());if(update){const url=new URL(location.href);url.searchParams.set('section',key);url.hash=key==='main'?'reviewOverview':key==='parts'?'baselineComparisonHeading':key==='sim'?'isaacSimulationReview':'review-history';history.replaceState(null,'',url);}if(scroll)navigation.scrollIntoView({block:'start',behavior:'instant'});}
+ function owner(el){if(!el)return null;for(const [k,p] of Object.entries(panels))if(p.contains(el)||p===el)return k;return null;}
+ function reveal(el){const section=owner(el);if(section)activate(section);for(let p=el?.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;}
+ const nativeScroll=Element.prototype.scrollIntoView;
+ Element.prototype.scrollIntoView=function(...args){if(root.contains(this))reveal(this);return nativeScroll.apply(this,args);};
+ function go(key){activate(key,true,true);}
+ function showRegion(id){activate('parts',true);if(window.compareAudit?.().mode!=='r4')q('[data-mode="r4"]')?.click();q('[data-whole-design="main"]')?.click();window.compareSelect?.(id);q('#detail').scrollIntoView({block:'start',behavior:'instant'});const u=new URL(location.href);u.searchParams.set('section','parts');u.hash='detail';history.replaceState(null,'',u);}
+ root.addEventListener('click',e=>{
+  const tab=e.target.closest('button[data-review-section],button[data-review-go]');if(tab){e.preventDefault();go(tab.dataset.reviewSection||tab.dataset.reviewGo);return;}
+  const region=e.target.closest('[data-rp-region]');if(region){showRegion(region.dataset.rpRegion);return;}
+  const old=e.target.closest('[data-history-model]');if(old){activate('parts',true);q('[data-mode="'+old.dataset.historyModel+'"]')?.click();if(old.dataset.historyModel==='r4')q('[data-whole-design="r4"]')?.click();q('.whole-section').scrollIntoView({block:'start'});return;}
+  const link=e.target.closest('a');if(link){const u=new URL(link.href,location.href);if(u.origin===location.origin&&u.pathname===location.pathname){const target=document.getElementById(decodeURIComponent(u.hash.slice(1)));if(target&&owner(target)){e.preventDefault();reveal(target);if(u.searchParams.has('section'))activate(u.searchParams.get('section'));history.replaceState(null,'',u);target.scrollIntoView({block:'start'});}}}
+ });
+ const oldSelect=window.compareSelect;window.compareSelect=(...args)=>{activate('parts');return oldSelect(...args);};
+ const oldLeg=window.compareLegSelect;window.compareLegSelect=(...args)=>{activate('parts');return oldLeg(...args);};
+ const home=window.showDesignMain;window.showDesignMain=()=>{activate('main',true);d1.open=true;home?.();};
+ const detail=window.showDesignMainDetails;window.showDesignMainDetails=()=>{activate('parts',true);detail?.();};
+ const sync=()=>{document.title='RoboPup · PA35四足设计评审';const h=q('#baselineComparisonHeading');if(h)h.textContent=window.compareAudit?.().mode==='r2'?'历史 R2 · 整机与部件对照':window.compareAudit?.().wholeMain?.mode==='r4'?'历史 R4 · 整机与部件对照':'原CAD → 当前 MAIN · 整机与部件对照';};
+ ['renderWholeMain','renderDesignMain'].forEach(name=>{const f=window[name];if(f)window[name]=(...args)=>{const r=f(...args);sync();return r;};});
+ function fromURL(url){const target=document.getElementById(decodeURIComponent(url.hash.slice(1)));const key=owner(target)||url.searchParams.get('section')||(url.searchParams.get('version')==='r2'||url.searchParams.has('region')?'parts':'main');activate(key);if(target){reveal(target);requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}));}}
+ fromURL(initial);sync();
+ addEventListener('hashchange',()=>fromURL(new URL(location.href)));addEventListener('popstate',()=>fromURL(new URL(location.href)));
+ window.roboPupReview={activate:key=>go(key),audit:()=>({section:current,sections:Object.keys(panels),visiblePanels:Object.entries(panels).filter(([,p])=>!p.hidden).map(([k])=>k),mechanicalCount:model.count,sourceRevision:window.DESIGN_MAIN_STATE.revision,manufacturingRelease:false})};
+})();

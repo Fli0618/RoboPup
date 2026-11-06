@@ -1,0 +1,2907 @@
+{
+  "status": "CURRENT_MAIN_CONNECTION_MODEL_VS_PHYSICAL_REVIEW",
+  "date": "2026-11-06",
+  "CAD_modified": false,
+  "UI_modified": false,
+  "main_revision": "D1_MAIN_DIRECT_GRIPS_004",
+  "whole_model_count": 356,
+  "upper_pin": {
+    "original_CAD_model_count": 12,
+    "current_MAIN_model_count": 12,
+    "model_count_delta_vs_original": 0,
+    "per_leg": [
+      "one pin",
+      "one washer",
+      "one axial screw"
+    ],
+    "keeper_adopted": false,
+    "old_R4_or_keeper_delta_minus4_is_not_current_MAIN_delta": true,
+    "current_labels": [
+      "RR_ORIGINAL_LINK_PIN",
+      "FR_ORIGINAL_LINK_PIN",
+      "RL_ORIGINAL_LINK_PIN",
+      "FL_ORIGINAL_LINK_PIN",
+      "RR_ORIGINAL_PIN_WASHER",
+      "RR_ORIGINAL_PIN_AXIAL_SCREW",
+      "FR_ORIGINAL_PIN_WASHER",
+      "FR_ORIGINAL_PIN_AXIAL_SCREW",
+      "RL_ORIGINAL_PIN_WASHER",
+      "RL_ORIGINAL_PIN_AXIAL_SCREW",
+      "FL_ORIGINAL_PIN_WASHER",
+      "FL_ORIGINAL_PIN_AXIAL_SCREW"
+    ]
+  },
+  "legother": {
+    "source_model_count": 159,
+    "current_MAIN_mapped_model_count": 296,
+    "model_count_delta": 137,
+    "all_historical_R4_legother_rows_found_in_current_MAIN": true,
+    "mapped_named_instances": 288,
+    "source_structure_model_count": 64,
+    "current_structure_model_count": 64,
+    "source_motor_model_count": 12,
+    "current_motor_model_count": 12,
+    "source_other_connection_model_count": 83,
+    "current_other_connection_model_count": 76,
+    "current_explicit_interface_screws": 144,
+    "formula": "144 + (76 - 83) = 137",
+    "physical_net_added_parts": null,
+    "physical_net_added_parts_status": "NOT_ESTABLISHED",
+    "counted_scope_note": "Historical scope excludes AB cup/stop-piece subassembly, M1/M3 adapter sleeves and upper-pin fixation. Current MAIN retains same model count in that scope, although 7007 and 7009 parent geometry changed."
+  },
+  "five_current_interface_screw_groups": [
+    {
+      "id": "m1",
+      "name": "M1输出端",
+      "per_leg": 6,
+      "four_legs": 24,
+      "all_current_definitions_match_R4": true,
+      "screw_names": [
+        "RR_M1_output_M4x8_1",
+        "RR_M1_output_M4x8_2",
+        "RR_M1_output_M4x8_3",
+        "RR_M1_output_M4x8_4",
+        "RR_M1_output_M4x8_5",
+        "RR_M1_output_M4x8_6",
+        "FR_M1_output_M4x8_1",
+        "FR_M1_output_M4x8_2",
+        "FR_M1_output_M4x8_3",
+        "FR_M1_output_M4x8_4",
+        "FR_M1_output_M4x8_5",
+        "FR_M1_output_M4x8_6",
+        "RL_M1_output_M4x8_1",
+        "RL_M1_output_M4x8_2",
+        "RL_M1_output_M4x8_3",
+        "RL_M1_output_M4x8_4",
+        "RL_M1_output_M4x8_5",
+        "RL_M1_output_M4x8_6",
+        "FL_M1_output_M4x8_1",
+        "FL_M1_output_M4x8_2",
+        "FL_M1_output_M4x8_3",
+        "FL_M1_output_M4x8_4",
+        "FL_M1_output_M4x8_5",
+        "FL_M1_output_M4x8_6"
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "M2输出端与壳体",
+      "per_leg": 10,
+      "four_legs": 40,
+      "all_current_definitions_match_R4": true,
+      "screw_names": [
+        "RR_M2_output_M4x8_1",
+        "RR_M2_output_M4x8_2",
+        "RR_M2_output_M4x8_3",
+        "RR_M2_output_M4x8_4",
+        "RR_M2_output_M4x8_5",
+        "RR_M2_output_M4x8_6",
+        "RR_M2_shell_M3x6_low_head_1",
+        "RR_M2_shell_M3x6_low_head_2",
+        "RR_M2_shell_M3x6_low_head_3",
+        "RR_M2_shell_M3x6_low_head_4",
+        "FR_M2_output_M4x8_1",
+        "FR_M2_output_M4x8_2",
+        "FR_M2_output_M4x8_3",
+        "FR_M2_output_M4x8_4",
+        "FR_M2_output_M4x8_5",
+        "FR_M2_output_M4x8_6",
+        "FR_M2_shell_M3x6_low_head_1",
+        "FR_M2_shell_M3x6_low_head_2",
+        "FR_M2_shell_M3x6_low_head_3",
+        "FR_M2_shell_M3x6_low_head_4",
+        "RL_M2_output_M4x8_1",
+        "RL_M2_output_M4x8_2",
+        "RL_M2_output_M4x8_3",
+        "RL_M2_output_M4x8_4",
+        "RL_M2_output_M4x8_5",
+        "RL_M2_output_M4x8_6",
+        "RL_M2_shell_M3x6_low_head_1",
+        "RL_M2_shell_M3x6_low_head_2",
+        "RL_M2_shell_M3x6_low_head_3",
+        "RL_M2_shell_M3x6_low_head_4",
+        "FL_M2_output_M4x8_1",
+        "FL_M2_output_M4x8_2",
+        "FL_M2_output_M4x8_3",
+        "FL_M2_output_M4x8_4",
+        "FL_M2_output_M4x8_5",
+        "FL_M2_output_M4x8_6",
+        "FL_M2_shell_M3x6_low_head_1",
+        "FL_M2_shell_M3x6_low_head_2",
+        "FL_M2_shell_M3x6_low_head_3",
+        "FL_M2_shell_M3x6_low_head_4"
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "M3输出、壳体与后端",
+      "per_leg": 13,
+      "four_legs": 52,
+      "all_current_definitions_match_R4": true,
+      "screw_names": [
+        "RR_M3_rear_M3x6_1",
+        "RR_M3_rear_M3x6_2",
+        "RR_M3_rear_M3x6_3",
+        "RR_M3_rear_M3x6_4",
+        "RR_M3_output_V3E_M4x6_1",
+        "RR_M3_output_V3E_M4x6_2",
+        "RR_M3_output_V3G_NBK_SET_M4x6_3",
+        "RR_M3_output_V3E_M4x6_4",
+        "RR_M3_output_V3E_M4x6_5",
+        "RR_M3_output_V3E_M4x6_6",
+        "RR_M3_shell_V3F_M3x6_1",
+        "RR_M3_shell_V3F_M3x6_2",
+        "RR_M3_shell_V3F_M3x6_3",
+        "FR_M3_rear_M3x6_1",
+        "FR_M3_rear_M3x6_2",
+        "FR_M3_rear_M3x6_3",
+        "FR_M3_rear_M3x6_4",
+        "FR_M3_output_V3E_M4x6_1",
+        "FR_M3_output_V3E_M4x6_2",
+        "FR_M3_output_V3G_NBK_SET_M4x6_3",
+        "FR_M3_output_V3E_M4x6_4",
+        "FR_M3_output_V3E_M4x6_5",
+        "FR_M3_output_V3E_M4x6_6",
+        "FR_M3_shell_V3F_M3x6_1",
+        "FR_M3_shell_V3F_M3x6_2",
+        "FR_M3_shell_V3F_M3x6_3",
+        "RL_M3_rear_M3x6_1",
+        "RL_M3_rear_M3x6_2",
+        "RL_M3_rear_M3x6_3",
+        "RL_M3_rear_M3x6_4",
+        "RL_M3_output_V3E_M4x6_1",
+        "RL_M3_output_V3E_M4x6_2",
+        "RL_M3_output_V3G_NBK_SET_M4x6_3",
+        "RL_M3_output_V3E_M4x6_4",
+        "RL_M3_output_V3E_M4x6_5",
+        "RL_M3_output_V3E_M4x6_6",
+        "RL_M3_shell_V3F_M3x6_1",
+        "RL_M3_shell_V3F_M3x6_2",
+        "RL_M3_shell_V3F_M3x6_3",
+        "FL_M3_rear_M3x6_1",
+        "FL_M3_rear_M3x6_2",
+        "FL_M3_rear_M3x6_3",
+        "FL_M3_rear_M3x6_4",
+        "FL_M3_output_V3E_M4x6_1",
+        "FL_M3_output_V3E_M4x6_2",
+        "FL_M3_output_V3G_NBK_SET_M4x6_3",
+        "FL_M3_output_V3E_M4x6_4",
+        "FL_M3_output_V3E_M4x6_5",
+        "FL_M3_output_V3E_M4x6_6",
+        "FL_M3_shell_V3F_M3x6_1",
+        "FL_M3_shell_V3F_M3x6_2",
+        "FL_M3_shell_V3F_M3x6_3"
+      ]
+    },
+    {
+      "id": "plate",
+      "name": "内外大腿板连接",
+      "per_leg": 5,
+      "four_legs": 20,
+      "all_current_definitions_match_R4": true,
+      "screw_names": [
+        "RR_plate_SNS_M2_5_MS_1",
+        "RR_plate_SNS_M2_5_MS_2",
+        "RR_plate_SNS_M2_5_MS_3",
+        "RR_plate_SNS_M2_5_MS_4",
+        "RR_plate_SNS_M2_5_MS_5",
+        "FR_plate_SNS_M2_5_MS_1",
+        "FR_plate_SNS_M2_5_MS_2",
+        "FR_plate_SNS_M2_5_MS_3",
+        "FR_plate_SNS_M2_5_MS_4",
+        "FR_plate_SNS_M2_5_MS_5",
+        "RL_plate_SNS_M2_5_MS_1",
+        "RL_plate_SNS_M2_5_MS_2",
+        "RL_plate_SNS_M2_5_MS_3",
+        "RL_plate_SNS_M2_5_MS_4",
+        "RL_plate_SNS_M2_5_MS_5",
+        "FL_plate_SNS_M2_5_MS_1",
+        "FL_plate_SNS_M2_5_MS_2",
+        "FL_plate_SNS_M2_5_MS_3",
+        "FL_plate_SNS_M2_5_MS_4",
+        "FL_plate_SNS_M2_5_MS_5"
+      ]
+    },
+    {
+      "id": "stop",
+      "name": "q2止挡固定",
+      "per_leg": 2,
+      "four_legs": 8,
+      "all_current_definitions_match_R4": true,
+      "screw_names": [
+        "RR_q2_stop_M3x8_1",
+        "RR_q2_stop_M3x8_2",
+        "FR_q2_stop_M3x8_1",
+        "FR_q2_stop_M3x8_2",
+        "RL_q2_stop_M3x8_1",
+        "RL_q2_stop_M3x8_2",
+        "FL_q2_stop_M3x8_1",
+        "FL_q2_stop_M3x8_2"
+      ]
+    }
+  ],
+  "eight_current_parent_geometry_changes_without_part_count_change": [
+    {
+      "before": "RR_7009_V3G2_short_pocket",
+      "after": "RR_7009_ORIGINAL_PIN_SEAT",
+      "kind": "restored_original_pin_fixing",
+      "count_delta": 0
+    },
+    {
+      "before": "RR_7007_V4_M2_supported_clearance",
+      "after": "RR_7007_V4_M2_supported_clearance",
+      "kind": "adopted_direct_m3",
+      "count_delta": 0
+    },
+    {
+      "before": "FR_7009_V3G2_short_pocket",
+      "after": "FR_7009_ORIGINAL_PIN_SEAT",
+      "kind": "restored_original_pin_fixing",
+      "count_delta": 0
+    },
+    {
+      "before": "FR_7007_V4_M2_supported_clearance",
+      "after": "FR_7007_V4_M2_supported_clearance",
+      "kind": "adopted_direct_m3",
+      "count_delta": 0
+    },
+    {
+      "before": "RL_7009_V3G2_short_pocket",
+      "after": "RL_7009_ORIGINAL_PIN_SEAT",
+      "kind": "restored_original_pin_fixing",
+      "count_delta": 0
+    },
+    {
+      "before": "RL_7007_V4_M2_supported_clearance",
+      "after": "RL_7007_V4_M2_supported_clearance",
+      "kind": "adopted_direct_m3",
+      "count_delta": 0
+    },
+    {
+      "before": "FL_7009_V3G2_short_pocket",
+      "after": "FL_7009_ORIGINAL_PIN_SEAT",
+      "kind": "restored_original_pin_fixing",
+      "count_delta": 0
+    },
+    {
+      "before": "FL_7007_V4_M2_supported_clearance",
+      "after": "FL_7007_V4_M2_supported_clearance",
+      "kind": "adopted_direct_m3",
+      "count_delta": 0
+    }
+  ],
+  "original_connection_evidence": {
+    "original_CAD_already_contains_connections": true,
+    "original_other_connection_count": 83,
+    "old_M4x8_output_screws_modeled": 4,
+    "old_M3x8_plate_screws_modeled": 4,
+    "plate": {
+      "original_available_holes_per_leg": 5,
+      "original_independently_modeled_screws_four_legs": 4,
+      "current_modeled_screws_four_legs": 20,
+      "new_modeled_screw_instances_at_existing_source_holes": 16,
+      "actual_original_screw_population_confirmed": false
+    },
+    "stator_interfaces": [
+      {
+        "id": "M2_rear_stator",
+        "original_structural_part": "7017_hip_flange",
+        "available_matching_hole_positions": 4,
+        "max_axis_offset_mm": 5.830640458194916e-10,
+        "original_independently_modeled_external_screws_on_axes": 0,
+        "actual_original_screw_population_confirmed": false
+      },
+      {
+        "id": "M2_front_stator",
+        "original_structural_part": "7017_hip_flange",
+        "available_matching_hole_positions": 4,
+        "max_axis_offset_mm": 5.49308375938833e-10,
+        "original_independently_modeled_external_screws_on_axes": 0,
+        "actual_original_screw_population_confirmed": false
+      },
+      {
+        "id": "M3_rear_stator",
+        "original_structural_part": "7003_support",
+        "available_matching_hole_positions": 8,
+        "max_axis_offset_mm": 6.002648213901639e-10,
+        "original_independently_modeled_external_screws_on_axes": 0,
+        "actual_original_screw_population_confirmed": false
+      },
+      {
+        "id": "M3_front_stator",
+        "original_structural_part": "7007_inner_thigh",
+        "available_matching_hole_positions": 8,
+        "max_axis_offset_mm": 7.830984699025844e-10,
+        "original_independently_modeled_external_screws_on_axes": 0,
+        "actual_original_screw_population_confirmed": false
+      }
+    ],
+    "source_mount_route_conclusion": "原M2/M3不是纯短环摩擦夹持。7017前后各4孔、7003后8孔、7007前8孔分别与原电机定子固定孔精确同轴。M1抱箍不能泛化成M2/M3原固定方式。",
+    "remaining_connection_count_differences": [
+      {
+        "id": "old-m4x8",
+        "before": 4,
+        "after": 0,
+        "delta": -4,
+        "note": "原CAD每腿画1颗，当前没有保留这些源实例；对应安装仍须由当前接口螺钉完成，不能理解为不再需要固定。"
+      },
+      {
+        "id": "old-m3x8",
+        "before": 4,
+        "after": 0,
+        "delta": -4,
+        "note": "旧源实例未保留；这不是取消该连接功能的证明。"
+      },
+      {
+        "id": "root-m4x10",
+        "before": 1,
+        "after": 0,
+        "delta": -1,
+        "note": "原根级叶实例，按原台账归入腿部连接。位于RR的M1与机身固定板／7017髋法兰／挡块交界；原坐标约X−172.5、Y41.052、Z67 mm。当前未保留此源实例。空间位置已核，不把它直接断言为M1或M2输出螺钉。"
+      },
+      {
+        "id": "m2p5x6",
+        "before": 3,
+        "after": 4,
+        "delta": 1,
+        "note": "原CAD只列3颗（含根级180）；当前按RR模板各腿保留1颗，共4颗。"
+      },
+      {
+        "id": "m6-springwasher",
+        "before": 2,
+        "after": 4,
+        "delta": 2,
+        "note": "原后腿各1片，当前四腿各1片；这是模板重复与原模型不对称产生的数量变化。"
+      },
+      {
+        "id": "m6-screws",
+        "before": 6,
+        "after": 4,
+        "delta": -2,
+        "note": "原6颗含根级5、8及前腿38、51；当前四腿各复制source191一颗。尺寸和功能需按最终紧固方案审核。"
+      },
+      {
+        "id": "m6-flatwasher",
+        "before": 2,
+        "after": 0,
+        "delta": -2,
+        "note": "原前腿各1片；当前复制的RR模板未保留该类型，不能据此宣称实物可省去2片。"
+      },
+      {
+        "id": "6-1-spacers",
+        "before": 9,
+        "after": 12,
+        "delta": 3,
+        "note": "原两类杆端各4件加根级224一件，共9件；当前三处模板source213/220/224各复制4件，共12件。"
+      }
+    ],
+    "source_asymmetry": [
+      {
+        "corner": "RR",
+        "original": 43,
+        "current": 74,
+        "delta": 31
+      },
+      {
+        "corner": "RL",
+        "original": 40,
+        "current": 74,
+        "delta": 34
+      },
+      {
+        "corner": "FR",
+        "original": 38,
+        "current": 74,
+        "delta": 36
+      },
+      {
+        "corner": "FL",
+        "original": 38,
+        "current": 74,
+        "delta": 36
+      }
+    ]
+  },
+  "supported_conclusions_zh": [
+    "上销相对原CAD净差为0，旧keeper方案的-4不能用作当前MAIN结论。",
+    "腿部基础结构件数64与电机模块数12原今相同；当前其余腿部范围296件，模型差额+137仍存在。",
+    "这+137主要由显式建模接口螺钉及原模型未完整表达固定件的差异构成，不能据此认定实物多装137件。",
+    "原CAD已经有83件腿部连接小件，外板及输出端也已画部分螺钉；原来并非完全没有螺钉。",
+    "原M2/M3定子安装面有与原电机螺纹孔精确同轴的孔；支持原方案存在螺钉固定路线，不支持将原结构解释为无需螺钉的纯摩擦抱持。",
+    "不能将未在原模型/实拍角度看见的螺钉当作原实物没有，也不能把+137直接改写成物理差额0。",
+    "实际原实物与新PA35方案的小件净差，仍需原装配BOM、实际装满孔数或可辨认近照逐接口对照。"
+  ],
+  "limits_zh": [
+    "本审计不从孔位数量推断每个孔实物必须安装螺钉。",
+    "未新做强度、预紧、装配路径或拆机验证。",
+    "用户实拍与方案PDF的可见范围由主代理另行核对；本文件只记录可追溯CAD/当前MAIN证据。"
+  ],
+  "source_files": {
+    "original_and_R4_audit": {
+      "path": "source:/whole_robot_click_compare/legother_audit/legother-audit.json",
+      "sha256": "bcf1b23cab17feabdb57371d8b07585d8a40af07ad19c3d0fca3a234ff249879"
+    },
+    "main_manifest": {
+      "path": "source:/main/whole_robot_D1_direct_grips/whole_robot_manifest.json",
+      "sha256": "25a5d9a470427f033bd6cdfe93788dbdfe1274c7eb5326b28d48719a61b2d8bb"
+    },
+    "main_pointer": {
+      "path": "source:/MAIN_DESIGN.json",
+      "sha256": "d78676d100d10d719a5122214c764c88b8b88fbf0b14cea7f82c1961cfa823d7"
+    },
+    "mount_route": {
+      "path": "source:/whole_robot_click_compare/original_architecture_candidate/mount_route/mount_route_review.json",
+      "sha256": "961ba17e7838d3a7e3d078fc05812fbda9a96b5d39fde480d4f1acb407d213df"
+    },
+    "plate_stop": {
+      "path": "source:/whole_robot_click_compare/legother_simplification_review/plate_stop_analysis.json",
+      "sha256": "a4fd7c03836c68f57cd83d4f6ad98031b45e51c4a7e054e18f407ccee1003a60"
+    },
+    "original_CAD_source": {
+      "path": "source:/cad_60pct_baseline/analysis/leg_connection_compare.json",
+      "sha256": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7"
+    }
+  },
+  "protected_main_hashes": {
+    "source:/MAIN_DESIGN.json": "d78676d100d10d719a5122214c764c88b8b88fbf0b14cea7f82c1961cfa823d7",
+    "source:/main/whole_robot_D1_direct_grips/whole_robot_manifest.json": "25a5d9a470427f033bd6cdfe93788dbdfe1274c7eb5326b28d48719a61b2d8bb"
+  },
+  "mapped_legother_rows": [
+    {
+      "historical_label": "RR_extension_shaft_V1_local_clearance",
+      "current_label": "RR_extension_shaft_V1_local_clearance",
+      "source_id": "extension_shaft_V1_local_clearance",
+      "group": "RR_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "RR_body_stop_V1_clearance_candidate",
+      "current_label": "RR_body_stop_V1_clearance_candidate",
+      "source_id": "body_stop_V1_clearance_candidate",
+      "group": "RR_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "RR_7017_V3_positive_q2_stop_column",
+      "current_label": "RR_7017_V3_positive_q2_stop_column",
+      "source_id": "7017_V3_positive_q2_stop_column",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_7009_V3G2_short_pocket",
+      "current_label": "RR_7009_ORIGINAL_PIN_SEAT",
+      "source_id": "7009_V3G2_short_pocket",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_7007_V4_M2_supported_clearance",
+      "current_label": "RR_7007_V4_M2_supported_clearance",
+      "source_id": "7007_V4_M2_supported_clearance",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_7005_V4_M2_pilot_1p6",
+      "current_label": "RR_7005_V4_M2_pilot_1p6",
+      "source_id": "7005_V4_M2_pilot_1p6",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_1",
+      "current_label": "RR_M2_output_M4x8_1",
+      "source_id": "M2_output_M4x8_1",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_2",
+      "current_label": "RR_M2_output_M4x8_2",
+      "source_id": "M2_output_M4x8_2",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_3",
+      "current_label": "RR_M2_output_M4x8_3",
+      "source_id": "M2_output_M4x8_3",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_4",
+      "current_label": "RR_M2_output_M4x8_4",
+      "source_id": "M2_output_M4x8_4",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_5",
+      "current_label": "RR_M2_output_M4x8_5",
+      "source_id": "M2_output_M4x8_5",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_output_M4x8_6",
+      "current_label": "RR_M2_output_M4x8_6",
+      "source_id": "M2_output_M4x8_6",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_rear_M3x6_1",
+      "current_label": "RR_M3_rear_M3x6_1",
+      "source_id": "M3_rear_M3x6_1",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_rear_M3x6_2",
+      "current_label": "RR_M3_rear_M3x6_2",
+      "source_id": "M3_rear_M3x6_2",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_rear_M3x6_3",
+      "current_label": "RR_M3_rear_M3x6_3",
+      "source_id": "M3_rear_M3x6_3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_rear_M3x6_4",
+      "current_label": "RR_M3_rear_M3x6_4",
+      "source_id": "M3_rear_M3x6_4",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_shell_M3x6_low_head_1",
+      "current_label": "RR_M2_shell_M3x6_low_head_1",
+      "source_id": "M2_shell_M3x6_low_head_1",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_shell_M3x6_low_head_2",
+      "current_label": "RR_M2_shell_M3x6_low_head_2",
+      "source_id": "M2_shell_M3x6_low_head_2",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_shell_M3x6_low_head_3",
+      "current_label": "RR_M2_shell_M3x6_low_head_3",
+      "source_id": "M2_shell_M3x6_low_head_3",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_shell_M3x6_low_head_4",
+      "current_label": "RR_M2_shell_M3x6_low_head_4",
+      "source_id": "M2_shell_M3x6_low_head_4",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_1",
+      "current_label": "RR_M1_output_M4x8_1",
+      "source_id": "M1_output_M4x8_1",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_2",
+      "current_label": "RR_M1_output_M4x8_2",
+      "source_id": "M1_output_M4x8_2",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_3",
+      "current_label": "RR_M1_output_M4x8_3",
+      "source_id": "M1_output_M4x8_3",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_4",
+      "current_label": "RR_M1_output_M4x8_4",
+      "source_id": "M1_output_M4x8_4",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_5",
+      "current_label": "RR_M1_output_M4x8_5",
+      "source_id": "M1_output_M4x8_5",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_output_M4x8_6",
+      "current_label": "RR_M1_output_M4x8_6",
+      "source_id": "M1_output_M4x8_6",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3E_M4x6_1",
+      "current_label": "RR_M3_output_V3E_M4x6_1",
+      "source_id": "M3_output_V3E_M4x6_1",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3E_M4x6_2",
+      "current_label": "RR_M3_output_V3E_M4x6_2",
+      "source_id": "M3_output_V3E_M4x6_2",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3G_NBK_SET_M4x6_3",
+      "current_label": "RR_M3_output_V3G_NBK_SET_M4x6_3",
+      "source_id": "M3_output_V3G_NBK_SET_M4x6_3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3E_M4x6_4",
+      "current_label": "RR_M3_output_V3E_M4x6_4",
+      "source_id": "M3_output_V3E_M4x6_4",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3E_M4x6_5",
+      "current_label": "RR_M3_output_V3E_M4x6_5",
+      "source_id": "M3_output_V3E_M4x6_5",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_output_V3E_M4x6_6",
+      "current_label": "RR_M3_output_V3E_M4x6_6",
+      "source_id": "M3_output_V3E_M4x6_6",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_shell_V3F_M3x6_1",
+      "current_label": "RR_M3_shell_V3F_M3x6_1",
+      "source_id": "M3_shell_V3F_M3x6_1",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_shell_V3F_M3x6_2",
+      "current_label": "RR_M3_shell_V3F_M3x6_2",
+      "source_id": "M3_shell_V3F_M3x6_2",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_shell_V3F_M3x6_3",
+      "current_label": "RR_M3_shell_V3F_M3x6_3",
+      "source_id": "M3_shell_V3F_M3x6_3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_q2_stop_M3x8_1",
+      "current_label": "RR_q2_stop_M3x8_1",
+      "source_id": "q2_stop_M3x8_1",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_q2_stop_M3x8_2",
+      "current_label": "RR_q2_stop_M3x8_2",
+      "source_id": "q2_stop_M3x8_2",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_plate_SNS_M2_5_MS_1",
+      "current_label": "RR_plate_SNS_M2_5_MS_1",
+      "source_id": "plate_SNS_M2_5_MS_1",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_plate_SNS_M2_5_MS_2",
+      "current_label": "RR_plate_SNS_M2_5_MS_2",
+      "source_id": "plate_SNS_M2_5_MS_2",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_plate_SNS_M2_5_MS_3",
+      "current_label": "RR_plate_SNS_M2_5_MS_3",
+      "source_id": "plate_SNS_M2_5_MS_3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_plate_SNS_M2_5_MS_4",
+      "current_label": "RR_plate_SNS_M2_5_MS_4",
+      "source_id": "plate_SNS_M2_5_MS_4",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_plate_SNS_M2_5_MS_5",
+      "current_label": "RR_plate_SNS_M2_5_MS_5",
+      "source_id": "plate_SNS_M2_5_MS_5",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_188",
+      "current_label": "RR_source_188",
+      "source_id": "source_188",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_189",
+      "current_label": "RR_source_189",
+      "source_id": "source_189",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_191",
+      "current_label": "RR_source_191",
+      "source_id": "source_191",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_194",
+      "current_label": "RR_source_194",
+      "source_id": "source_194",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_198",
+      "current_label": "RR_source_198",
+      "source_id": "source_198",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_199",
+      "current_label": "RR_source_199",
+      "source_id": "source_199",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_200",
+      "current_label": "RR_source_200",
+      "source_id": "source_200",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_202",
+      "current_label": "RR_source_202",
+      "source_id": "source_202",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_203",
+      "current_label": "RR_source_203",
+      "source_id": "source_203",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_204",
+      "current_label": "RR_source_204",
+      "source_id": "source_204",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_205",
+      "current_label": "RR_source_205",
+      "source_id": "source_205",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_206",
+      "current_label": "RR_source_206",
+      "source_id": "source_206",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_212",
+      "current_label": "RR_source_212",
+      "source_id": "source_212",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_213",
+      "current_label": "RR_source_213",
+      "source_id": "source_213",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_214",
+      "current_label": "RR_source_214",
+      "source_id": "source_214",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_215",
+      "current_label": "RR_source_215",
+      "source_id": "source_215",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_216",
+      "current_label": "RR_source_216",
+      "source_id": "source_216",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_217",
+      "current_label": "RR_source_217",
+      "source_id": "source_217",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_219",
+      "current_label": "RR_source_219",
+      "source_id": "source_219",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_220",
+      "current_label": "RR_source_220",
+      "source_id": "source_220",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_221",
+      "current_label": "RR_source_221",
+      "source_id": "source_221",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_222",
+      "current_label": "RR_source_222",
+      "source_id": "source_222",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_source_224",
+      "current_label": "RR_source_224",
+      "source_id": "source_224",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_foot_M2x22_nominal",
+      "current_label": "RR_foot_M2x22_nominal",
+      "source_id": "foot_M2x22_nominal",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_foot_M2_nut_AF4_T1p6_nominal",
+      "current_label": "RR_foot_M2_nut_AF4_T1p6_nominal",
+      "source_id": "foot_M2_nut_AF4_T1p6_nominal",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "current_label": "RR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "current_label": "RR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M1_ACTUAL_PA35",
+      "current_label": "RR_M1_ACTUAL_PA35",
+      "source_id": "M1",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M2_ACTUAL_PA35",
+      "current_label": "RR_M2_ACTUAL_PA35",
+      "source_id": "M2",
+      "group": "RR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RR_M3_ACTUAL_PA35",
+      "current_label": "RR_M3_ACTUAL_PA35",
+      "source_id": "M3",
+      "group": "RR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_extension_shaft_V1_local_clearance",
+      "current_label": "FR_extension_shaft_V1_local_clearance",
+      "source_id": "extension_shaft_V1_local_clearance",
+      "group": "FR_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "FR_body_stop_V1_clearance_candidate",
+      "current_label": "FR_body_stop_V1_clearance_candidate",
+      "source_id": "body_stop_V1_clearance_candidate",
+      "group": "FR_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "FR_7017_V3_positive_q2_stop_column",
+      "current_label": "FR_7017_V3_positive_q2_stop_column",
+      "source_id": "7017_V3_positive_q2_stop_column",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_7009_V3G2_short_pocket",
+      "current_label": "FR_7009_ORIGINAL_PIN_SEAT",
+      "source_id": "7009_V3G2_short_pocket",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_7007_V4_M2_supported_clearance",
+      "current_label": "FR_7007_V4_M2_supported_clearance",
+      "source_id": "7007_V4_M2_supported_clearance",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_7005_V4_M2_pilot_1p6",
+      "current_label": "FR_7005_V4_M2_pilot_1p6",
+      "source_id": "7005_V4_M2_pilot_1p6",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_1",
+      "current_label": "FR_M2_output_M4x8_1",
+      "source_id": "M2_output_M4x8_1",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_2",
+      "current_label": "FR_M2_output_M4x8_2",
+      "source_id": "M2_output_M4x8_2",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_3",
+      "current_label": "FR_M2_output_M4x8_3",
+      "source_id": "M2_output_M4x8_3",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_4",
+      "current_label": "FR_M2_output_M4x8_4",
+      "source_id": "M2_output_M4x8_4",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_5",
+      "current_label": "FR_M2_output_M4x8_5",
+      "source_id": "M2_output_M4x8_5",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_output_M4x8_6",
+      "current_label": "FR_M2_output_M4x8_6",
+      "source_id": "M2_output_M4x8_6",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_rear_M3x6_1",
+      "current_label": "FR_M3_rear_M3x6_1",
+      "source_id": "M3_rear_M3x6_1",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_rear_M3x6_2",
+      "current_label": "FR_M3_rear_M3x6_2",
+      "source_id": "M3_rear_M3x6_2",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_rear_M3x6_3",
+      "current_label": "FR_M3_rear_M3x6_3",
+      "source_id": "M3_rear_M3x6_3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_rear_M3x6_4",
+      "current_label": "FR_M3_rear_M3x6_4",
+      "source_id": "M3_rear_M3x6_4",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_shell_M3x6_low_head_1",
+      "current_label": "FR_M2_shell_M3x6_low_head_1",
+      "source_id": "M2_shell_M3x6_low_head_1",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_shell_M3x6_low_head_2",
+      "current_label": "FR_M2_shell_M3x6_low_head_2",
+      "source_id": "M2_shell_M3x6_low_head_2",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_shell_M3x6_low_head_3",
+      "current_label": "FR_M2_shell_M3x6_low_head_3",
+      "source_id": "M2_shell_M3x6_low_head_3",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_shell_M3x6_low_head_4",
+      "current_label": "FR_M2_shell_M3x6_low_head_4",
+      "source_id": "M2_shell_M3x6_low_head_4",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_1",
+      "current_label": "FR_M1_output_M4x8_1",
+      "source_id": "M1_output_M4x8_1",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_2",
+      "current_label": "FR_M1_output_M4x8_2",
+      "source_id": "M1_output_M4x8_2",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_3",
+      "current_label": "FR_M1_output_M4x8_3",
+      "source_id": "M1_output_M4x8_3",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_4",
+      "current_label": "FR_M1_output_M4x8_4",
+      "source_id": "M1_output_M4x8_4",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_5",
+      "current_label": "FR_M1_output_M4x8_5",
+      "source_id": "M1_output_M4x8_5",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_output_M4x8_6",
+      "current_label": "FR_M1_output_M4x8_6",
+      "source_id": "M1_output_M4x8_6",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3E_M4x6_1",
+      "current_label": "FR_M3_output_V3E_M4x6_1",
+      "source_id": "M3_output_V3E_M4x6_1",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3E_M4x6_2",
+      "current_label": "FR_M3_output_V3E_M4x6_2",
+      "source_id": "M3_output_V3E_M4x6_2",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3G_NBK_SET_M4x6_3",
+      "current_label": "FR_M3_output_V3G_NBK_SET_M4x6_3",
+      "source_id": "M3_output_V3G_NBK_SET_M4x6_3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3E_M4x6_4",
+      "current_label": "FR_M3_output_V3E_M4x6_4",
+      "source_id": "M3_output_V3E_M4x6_4",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3E_M4x6_5",
+      "current_label": "FR_M3_output_V3E_M4x6_5",
+      "source_id": "M3_output_V3E_M4x6_5",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_output_V3E_M4x6_6",
+      "current_label": "FR_M3_output_V3E_M4x6_6",
+      "source_id": "M3_output_V3E_M4x6_6",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_shell_V3F_M3x6_1",
+      "current_label": "FR_M3_shell_V3F_M3x6_1",
+      "source_id": "M3_shell_V3F_M3x6_1",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_shell_V3F_M3x6_2",
+      "current_label": "FR_M3_shell_V3F_M3x6_2",
+      "source_id": "M3_shell_V3F_M3x6_2",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_shell_V3F_M3x6_3",
+      "current_label": "FR_M3_shell_V3F_M3x6_3",
+      "source_id": "M3_shell_V3F_M3x6_3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_q2_stop_M3x8_1",
+      "current_label": "FR_q2_stop_M3x8_1",
+      "source_id": "q2_stop_M3x8_1",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_q2_stop_M3x8_2",
+      "current_label": "FR_q2_stop_M3x8_2",
+      "source_id": "q2_stop_M3x8_2",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_plate_SNS_M2_5_MS_1",
+      "current_label": "FR_plate_SNS_M2_5_MS_1",
+      "source_id": "plate_SNS_M2_5_MS_1",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_plate_SNS_M2_5_MS_2",
+      "current_label": "FR_plate_SNS_M2_5_MS_2",
+      "source_id": "plate_SNS_M2_5_MS_2",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_plate_SNS_M2_5_MS_3",
+      "current_label": "FR_plate_SNS_M2_5_MS_3",
+      "source_id": "plate_SNS_M2_5_MS_3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_plate_SNS_M2_5_MS_4",
+      "current_label": "FR_plate_SNS_M2_5_MS_4",
+      "source_id": "plate_SNS_M2_5_MS_4",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_plate_SNS_M2_5_MS_5",
+      "current_label": "FR_plate_SNS_M2_5_MS_5",
+      "source_id": "plate_SNS_M2_5_MS_5",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_188",
+      "current_label": "FR_source_188",
+      "source_id": "source_188",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_189",
+      "current_label": "FR_source_189",
+      "source_id": "source_189",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_191",
+      "current_label": "FR_source_191",
+      "source_id": "source_191",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_194",
+      "current_label": "FR_source_194",
+      "source_id": "source_194",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_198",
+      "current_label": "FR_source_198",
+      "source_id": "source_198",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_199",
+      "current_label": "FR_source_199",
+      "source_id": "source_199",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_200",
+      "current_label": "FR_source_200",
+      "source_id": "source_200",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_202",
+      "current_label": "FR_source_202",
+      "source_id": "source_202",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_203",
+      "current_label": "FR_source_203",
+      "source_id": "source_203",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_204",
+      "current_label": "FR_source_204",
+      "source_id": "source_204",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_205",
+      "current_label": "FR_source_205",
+      "source_id": "source_205",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_206",
+      "current_label": "FR_source_206",
+      "source_id": "source_206",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_212",
+      "current_label": "FR_source_212",
+      "source_id": "source_212",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_213",
+      "current_label": "FR_source_213",
+      "source_id": "source_213",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_214",
+      "current_label": "FR_source_214",
+      "source_id": "source_214",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_215",
+      "current_label": "FR_source_215",
+      "source_id": "source_215",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_216",
+      "current_label": "FR_source_216",
+      "source_id": "source_216",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_217",
+      "current_label": "FR_source_217",
+      "source_id": "source_217",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_219",
+      "current_label": "FR_source_219",
+      "source_id": "source_219",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_220",
+      "current_label": "FR_source_220",
+      "source_id": "source_220",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_221",
+      "current_label": "FR_source_221",
+      "source_id": "source_221",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_222",
+      "current_label": "FR_source_222",
+      "source_id": "source_222",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_source_224",
+      "current_label": "FR_source_224",
+      "source_id": "source_224",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_foot_M2x22_nominal",
+      "current_label": "FR_foot_M2x22_nominal",
+      "source_id": "foot_M2x22_nominal",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_foot_M2_nut_AF4_T1p6_nominal",
+      "current_label": "FR_foot_M2_nut_AF4_T1p6_nominal",
+      "source_id": "foot_M2_nut_AF4_T1p6_nominal",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "current_label": "FR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "current_label": "FR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M1_ACTUAL_PA35",
+      "current_label": "FR_M1_ACTUAL_PA35",
+      "source_id": "M1",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M2_ACTUAL_PA35",
+      "current_label": "FR_M2_ACTUAL_PA35",
+      "source_id": "M2",
+      "group": "FR_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FR_M3_ACTUAL_PA35",
+      "current_label": "FR_M3_ACTUAL_PA35",
+      "source_id": "M3",
+      "group": "FR_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_extension_shaft_V1_local_clearance",
+      "current_label": "RL_extension_shaft_V1_local_clearance",
+      "source_id": "extension_shaft_V1_local_clearance",
+      "group": "RL_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "RL_body_stop_V1_clearance_candidate",
+      "current_label": "RL_body_stop_V1_clearance_candidate",
+      "source_id": "body_stop_V1_clearance_candidate",
+      "group": "RL_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "RL_7017_V3_positive_q2_stop_column",
+      "current_label": "RL_7017_V3_positive_q2_stop_column",
+      "source_id": "7017_V3_positive_q2_stop_column",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_7009_V3G2_short_pocket",
+      "current_label": "RL_7009_ORIGINAL_PIN_SEAT",
+      "source_id": "7009_V3G2_short_pocket",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_7007_V4_M2_supported_clearance",
+      "current_label": "RL_7007_V4_M2_supported_clearance",
+      "source_id": "7007_V4_M2_supported_clearance",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_7005_V4_M2_pilot_1p6",
+      "current_label": "RL_7005_V4_M2_pilot_1p6",
+      "source_id": "7005_V4_M2_pilot_1p6",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_1",
+      "current_label": "RL_M2_output_M4x8_1",
+      "source_id": "M2_output_M4x8_1",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_2",
+      "current_label": "RL_M2_output_M4x8_2",
+      "source_id": "M2_output_M4x8_2",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_3",
+      "current_label": "RL_M2_output_M4x8_3",
+      "source_id": "M2_output_M4x8_3",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_4",
+      "current_label": "RL_M2_output_M4x8_4",
+      "source_id": "M2_output_M4x8_4",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_5",
+      "current_label": "RL_M2_output_M4x8_5",
+      "source_id": "M2_output_M4x8_5",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_output_M4x8_6",
+      "current_label": "RL_M2_output_M4x8_6",
+      "source_id": "M2_output_M4x8_6",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_rear_M3x6_1",
+      "current_label": "RL_M3_rear_M3x6_1",
+      "source_id": "M3_rear_M3x6_1",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_rear_M3x6_2",
+      "current_label": "RL_M3_rear_M3x6_2",
+      "source_id": "M3_rear_M3x6_2",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_rear_M3x6_3",
+      "current_label": "RL_M3_rear_M3x6_3",
+      "source_id": "M3_rear_M3x6_3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_rear_M3x6_4",
+      "current_label": "RL_M3_rear_M3x6_4",
+      "source_id": "M3_rear_M3x6_4",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_shell_M3x6_low_head_1",
+      "current_label": "RL_M2_shell_M3x6_low_head_1",
+      "source_id": "M2_shell_M3x6_low_head_1",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_shell_M3x6_low_head_2",
+      "current_label": "RL_M2_shell_M3x6_low_head_2",
+      "source_id": "M2_shell_M3x6_low_head_2",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_shell_M3x6_low_head_3",
+      "current_label": "RL_M2_shell_M3x6_low_head_3",
+      "source_id": "M2_shell_M3x6_low_head_3",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_shell_M3x6_low_head_4",
+      "current_label": "RL_M2_shell_M3x6_low_head_4",
+      "source_id": "M2_shell_M3x6_low_head_4",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_1",
+      "current_label": "RL_M1_output_M4x8_1",
+      "source_id": "M1_output_M4x8_1",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_2",
+      "current_label": "RL_M1_output_M4x8_2",
+      "source_id": "M1_output_M4x8_2",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_3",
+      "current_label": "RL_M1_output_M4x8_3",
+      "source_id": "M1_output_M4x8_3",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_4",
+      "current_label": "RL_M1_output_M4x8_4",
+      "source_id": "M1_output_M4x8_4",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_5",
+      "current_label": "RL_M1_output_M4x8_5",
+      "source_id": "M1_output_M4x8_5",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_output_M4x8_6",
+      "current_label": "RL_M1_output_M4x8_6",
+      "source_id": "M1_output_M4x8_6",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3E_M4x6_1",
+      "current_label": "RL_M3_output_V3E_M4x6_1",
+      "source_id": "M3_output_V3E_M4x6_1",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3E_M4x6_2",
+      "current_label": "RL_M3_output_V3E_M4x6_2",
+      "source_id": "M3_output_V3E_M4x6_2",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3G_NBK_SET_M4x6_3",
+      "current_label": "RL_M3_output_V3G_NBK_SET_M4x6_3",
+      "source_id": "M3_output_V3G_NBK_SET_M4x6_3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3E_M4x6_4",
+      "current_label": "RL_M3_output_V3E_M4x6_4",
+      "source_id": "M3_output_V3E_M4x6_4",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3E_M4x6_5",
+      "current_label": "RL_M3_output_V3E_M4x6_5",
+      "source_id": "M3_output_V3E_M4x6_5",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_output_V3E_M4x6_6",
+      "current_label": "RL_M3_output_V3E_M4x6_6",
+      "source_id": "M3_output_V3E_M4x6_6",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_shell_V3F_M3x6_1",
+      "current_label": "RL_M3_shell_V3F_M3x6_1",
+      "source_id": "M3_shell_V3F_M3x6_1",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_shell_V3F_M3x6_2",
+      "current_label": "RL_M3_shell_V3F_M3x6_2",
+      "source_id": "M3_shell_V3F_M3x6_2",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_shell_V3F_M3x6_3",
+      "current_label": "RL_M3_shell_V3F_M3x6_3",
+      "source_id": "M3_shell_V3F_M3x6_3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_q2_stop_M3x8_1",
+      "current_label": "RL_q2_stop_M3x8_1",
+      "source_id": "q2_stop_M3x8_1",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_q2_stop_M3x8_2",
+      "current_label": "RL_q2_stop_M3x8_2",
+      "source_id": "q2_stop_M3x8_2",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_plate_SNS_M2_5_MS_1",
+      "current_label": "RL_plate_SNS_M2_5_MS_1",
+      "source_id": "plate_SNS_M2_5_MS_1",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_plate_SNS_M2_5_MS_2",
+      "current_label": "RL_plate_SNS_M2_5_MS_2",
+      "source_id": "plate_SNS_M2_5_MS_2",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_plate_SNS_M2_5_MS_3",
+      "current_label": "RL_plate_SNS_M2_5_MS_3",
+      "source_id": "plate_SNS_M2_5_MS_3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_plate_SNS_M2_5_MS_4",
+      "current_label": "RL_plate_SNS_M2_5_MS_4",
+      "source_id": "plate_SNS_M2_5_MS_4",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_plate_SNS_M2_5_MS_5",
+      "current_label": "RL_plate_SNS_M2_5_MS_5",
+      "source_id": "plate_SNS_M2_5_MS_5",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_188",
+      "current_label": "RL_source_188",
+      "source_id": "source_188",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_189",
+      "current_label": "RL_source_189",
+      "source_id": "source_189",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_191",
+      "current_label": "RL_source_191",
+      "source_id": "source_191",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_194",
+      "current_label": "RL_source_194",
+      "source_id": "source_194",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_198",
+      "current_label": "RL_source_198",
+      "source_id": "source_198",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_199",
+      "current_label": "RL_source_199",
+      "source_id": "source_199",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_200",
+      "current_label": "RL_source_200",
+      "source_id": "source_200",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_202",
+      "current_label": "RL_source_202",
+      "source_id": "source_202",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_203",
+      "current_label": "RL_source_203",
+      "source_id": "source_203",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_204",
+      "current_label": "RL_source_204",
+      "source_id": "source_204",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_205",
+      "current_label": "RL_source_205",
+      "source_id": "source_205",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_206",
+      "current_label": "RL_source_206",
+      "source_id": "source_206",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_212",
+      "current_label": "RL_source_212",
+      "source_id": "source_212",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_213",
+      "current_label": "RL_source_213",
+      "source_id": "source_213",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_214",
+      "current_label": "RL_source_214",
+      "source_id": "source_214",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_215",
+      "current_label": "RL_source_215",
+      "source_id": "source_215",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_216",
+      "current_label": "RL_source_216",
+      "source_id": "source_216",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_217",
+      "current_label": "RL_source_217",
+      "source_id": "source_217",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_219",
+      "current_label": "RL_source_219",
+      "source_id": "source_219",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_220",
+      "current_label": "RL_source_220",
+      "source_id": "source_220",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_221",
+      "current_label": "RL_source_221",
+      "source_id": "source_221",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_222",
+      "current_label": "RL_source_222",
+      "source_id": "source_222",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_source_224",
+      "current_label": "RL_source_224",
+      "source_id": "source_224",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_foot_M2x22_nominal",
+      "current_label": "RL_foot_M2x22_nominal",
+      "source_id": "foot_M2x22_nominal",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_foot_M2_nut_AF4_T1p6_nominal",
+      "current_label": "RL_foot_M2_nut_AF4_T1p6_nominal",
+      "source_id": "foot_M2_nut_AF4_T1p6_nominal",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "current_label": "RL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "current_label": "RL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M1_ACTUAL_PA35",
+      "current_label": "RL_M1_ACTUAL_PA35",
+      "source_id": "M1",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M2_ACTUAL_PA35",
+      "current_label": "RL_M2_ACTUAL_PA35",
+      "source_id": "M2",
+      "group": "RL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "RL_M3_ACTUAL_PA35",
+      "current_label": "RL_M3_ACTUAL_PA35",
+      "source_id": "M3",
+      "group": "RL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_extension_shaft_V1_local_clearance",
+      "current_label": "FL_extension_shaft_V1_local_clearance",
+      "source_id": "extension_shaft_V1_local_clearance",
+      "group": "FL_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "FL_body_stop_V1_clearance_candidate",
+      "current_label": "FL_body_stop_V1_clearance_candidate",
+      "source_id": "body_stop_V1_clearance_candidate",
+      "group": "FL_HIP",
+      "mechanical_model_count": 2
+    },
+    {
+      "historical_label": "FL_7017_V3_positive_q2_stop_column",
+      "current_label": "FL_7017_V3_positive_q2_stop_column",
+      "source_id": "7017_V3_positive_q2_stop_column",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_7009_V3G2_short_pocket",
+      "current_label": "FL_7009_ORIGINAL_PIN_SEAT",
+      "source_id": "7009_V3G2_short_pocket",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_7007_V4_M2_supported_clearance",
+      "current_label": "FL_7007_V4_M2_supported_clearance",
+      "source_id": "7007_V4_M2_supported_clearance",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_7005_V4_M2_pilot_1p6",
+      "current_label": "FL_7005_V4_M2_pilot_1p6",
+      "source_id": "7005_V4_M2_pilot_1p6",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_1",
+      "current_label": "FL_M2_output_M4x8_1",
+      "source_id": "M2_output_M4x8_1",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_2",
+      "current_label": "FL_M2_output_M4x8_2",
+      "source_id": "M2_output_M4x8_2",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_3",
+      "current_label": "FL_M2_output_M4x8_3",
+      "source_id": "M2_output_M4x8_3",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_4",
+      "current_label": "FL_M2_output_M4x8_4",
+      "source_id": "M2_output_M4x8_4",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_5",
+      "current_label": "FL_M2_output_M4x8_5",
+      "source_id": "M2_output_M4x8_5",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_output_M4x8_6",
+      "current_label": "FL_M2_output_M4x8_6",
+      "source_id": "M2_output_M4x8_6",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_rear_M3x6_1",
+      "current_label": "FL_M3_rear_M3x6_1",
+      "source_id": "M3_rear_M3x6_1",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_rear_M3x6_2",
+      "current_label": "FL_M3_rear_M3x6_2",
+      "source_id": "M3_rear_M3x6_2",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_rear_M3x6_3",
+      "current_label": "FL_M3_rear_M3x6_3",
+      "source_id": "M3_rear_M3x6_3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_rear_M3x6_4",
+      "current_label": "FL_M3_rear_M3x6_4",
+      "source_id": "M3_rear_M3x6_4",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_shell_M3x6_low_head_1",
+      "current_label": "FL_M2_shell_M3x6_low_head_1",
+      "source_id": "M2_shell_M3x6_low_head_1",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_shell_M3x6_low_head_2",
+      "current_label": "FL_M2_shell_M3x6_low_head_2",
+      "source_id": "M2_shell_M3x6_low_head_2",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_shell_M3x6_low_head_3",
+      "current_label": "FL_M2_shell_M3x6_low_head_3",
+      "source_id": "M2_shell_M3x6_low_head_3",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_shell_M3x6_low_head_4",
+      "current_label": "FL_M2_shell_M3x6_low_head_4",
+      "source_id": "M2_shell_M3x6_low_head_4",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_1",
+      "current_label": "FL_M1_output_M4x8_1",
+      "source_id": "M1_output_M4x8_1",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_2",
+      "current_label": "FL_M1_output_M4x8_2",
+      "source_id": "M1_output_M4x8_2",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_3",
+      "current_label": "FL_M1_output_M4x8_3",
+      "source_id": "M1_output_M4x8_3",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_4",
+      "current_label": "FL_M1_output_M4x8_4",
+      "source_id": "M1_output_M4x8_4",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_5",
+      "current_label": "FL_M1_output_M4x8_5",
+      "source_id": "M1_output_M4x8_5",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_output_M4x8_6",
+      "current_label": "FL_M1_output_M4x8_6",
+      "source_id": "M1_output_M4x8_6",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3E_M4x6_1",
+      "current_label": "FL_M3_output_V3E_M4x6_1",
+      "source_id": "M3_output_V3E_M4x6_1",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3E_M4x6_2",
+      "current_label": "FL_M3_output_V3E_M4x6_2",
+      "source_id": "M3_output_V3E_M4x6_2",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3G_NBK_SET_M4x6_3",
+      "current_label": "FL_M3_output_V3G_NBK_SET_M4x6_3",
+      "source_id": "M3_output_V3G_NBK_SET_M4x6_3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3E_M4x6_4",
+      "current_label": "FL_M3_output_V3E_M4x6_4",
+      "source_id": "M3_output_V3E_M4x6_4",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3E_M4x6_5",
+      "current_label": "FL_M3_output_V3E_M4x6_5",
+      "source_id": "M3_output_V3E_M4x6_5",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_output_V3E_M4x6_6",
+      "current_label": "FL_M3_output_V3E_M4x6_6",
+      "source_id": "M3_output_V3E_M4x6_6",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_shell_V3F_M3x6_1",
+      "current_label": "FL_M3_shell_V3F_M3x6_1",
+      "source_id": "M3_shell_V3F_M3x6_1",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_shell_V3F_M3x6_2",
+      "current_label": "FL_M3_shell_V3F_M3x6_2",
+      "source_id": "M3_shell_V3F_M3x6_2",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_shell_V3F_M3x6_3",
+      "current_label": "FL_M3_shell_V3F_M3x6_3",
+      "source_id": "M3_shell_V3F_M3x6_3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_q2_stop_M3x8_1",
+      "current_label": "FL_q2_stop_M3x8_1",
+      "source_id": "q2_stop_M3x8_1",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_q2_stop_M3x8_2",
+      "current_label": "FL_q2_stop_M3x8_2",
+      "source_id": "q2_stop_M3x8_2",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_plate_SNS_M2_5_MS_1",
+      "current_label": "FL_plate_SNS_M2_5_MS_1",
+      "source_id": "plate_SNS_M2_5_MS_1",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_plate_SNS_M2_5_MS_2",
+      "current_label": "FL_plate_SNS_M2_5_MS_2",
+      "source_id": "plate_SNS_M2_5_MS_2",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_plate_SNS_M2_5_MS_3",
+      "current_label": "FL_plate_SNS_M2_5_MS_3",
+      "source_id": "plate_SNS_M2_5_MS_3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_plate_SNS_M2_5_MS_4",
+      "current_label": "FL_plate_SNS_M2_5_MS_4",
+      "source_id": "plate_SNS_M2_5_MS_4",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_plate_SNS_M2_5_MS_5",
+      "current_label": "FL_plate_SNS_M2_5_MS_5",
+      "source_id": "plate_SNS_M2_5_MS_5",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_188",
+      "current_label": "FL_source_188",
+      "source_id": "source_188",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_189",
+      "current_label": "FL_source_189",
+      "source_id": "source_189",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_191",
+      "current_label": "FL_source_191",
+      "source_id": "source_191",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_194",
+      "current_label": "FL_source_194",
+      "source_id": "source_194",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_198",
+      "current_label": "FL_source_198",
+      "source_id": "source_198",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_199",
+      "current_label": "FL_source_199",
+      "source_id": "source_199",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_200",
+      "current_label": "FL_source_200",
+      "source_id": "source_200",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_202",
+      "current_label": "FL_source_202",
+      "source_id": "source_202",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_203",
+      "current_label": "FL_source_203",
+      "source_id": "source_203",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_204",
+      "current_label": "FL_source_204",
+      "source_id": "source_204",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_205",
+      "current_label": "FL_source_205",
+      "source_id": "source_205",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_206",
+      "current_label": "FL_source_206",
+      "source_id": "source_206",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_212",
+      "current_label": "FL_source_212",
+      "source_id": "source_212",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_213",
+      "current_label": "FL_source_213",
+      "source_id": "source_213",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_214",
+      "current_label": "FL_source_214",
+      "source_id": "source_214",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_215",
+      "current_label": "FL_source_215",
+      "source_id": "source_215",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_216",
+      "current_label": "FL_source_216",
+      "source_id": "source_216",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_217",
+      "current_label": "FL_source_217",
+      "source_id": "source_217",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_219",
+      "current_label": "FL_source_219",
+      "source_id": "source_219",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_220",
+      "current_label": "FL_source_220",
+      "source_id": "source_220",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_221",
+      "current_label": "FL_source_221",
+      "source_id": "source_221",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_222",
+      "current_label": "FL_source_222",
+      "source_id": "source_222",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_source_224",
+      "current_label": "FL_source_224",
+      "source_id": "source_224",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_foot_M2x22_nominal",
+      "current_label": "FL_foot_M2x22_nominal",
+      "source_id": "foot_M2x22_nominal",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_foot_M2_nut_AF4_T1p6_nominal",
+      "current_label": "FL_foot_M2_nut_AF4_T1p6_nominal",
+      "source_id": "foot_M2_nut_AF4_T1p6_nominal",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "current_label": "FL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "current_label": "FL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "source_id": "foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M1_ACTUAL_PA35",
+      "current_label": "FL_M1_ACTUAL_PA35",
+      "source_id": "M1",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M2_ACTUAL_PA35",
+      "current_label": "FL_M2_ACTUAL_PA35",
+      "source_id": "M2",
+      "group": "FL_HIP",
+      "mechanical_model_count": 1
+    },
+    {
+      "historical_label": "FL_M3_ACTUAL_PA35",
+      "current_label": "FL_M3_ACTUAL_PA35",
+      "source_id": "M3",
+      "group": "FL_LEG",
+      "mechanical_model_count": 1
+    }
+  ],
+  "whole_current_same_scope_partition": {
+    "battery_excluded_both_sides": true,
+    "original_total": 219,
+    "current_MAIN_total": 356,
+    "model_delta": 137,
+    "physical_delta": null,
+    "regions": [
+      {
+        "id": "ab",
+        "original": 8,
+        "current": 8,
+        "delta": 0
+      },
+      {
+        "id": "pin",
+        "original": 12,
+        "current": 12,
+        "delta": 0
+      },
+      {
+        "id": "legother",
+        "original": 159,
+        "current": 296,
+        "delta": 137
+      },
+      {
+        "id": "bodyother",
+        "original": 39,
+        "current": 39,
+        "delta": 0
+      },
+      {
+        "id": "head",
+        "original": 1,
+        "current": 1,
+        "delta": 0
+      },
+      {
+        "id": "m1",
+        "original": 0,
+        "current": 0,
+        "delta": 0
+      },
+      {
+        "id": "m3",
+        "original": 0,
+        "current": 0,
+        "delta": 0
+      },
+      {
+        "id": "bodyadapter",
+        "original": 0,
+        "current": 0,
+        "delta": 0
+      }
+    ],
+    "current_named_labels_by_region": {
+      "legother": [
+        "RR_extension_shaft_V1_local_clearance",
+        "RR_body_stop_V1_clearance_candidate",
+        "RR_7017_V3_positive_q2_stop_column",
+        "RR_7009_ORIGINAL_PIN_SEAT",
+        "RR_7007_V4_M2_supported_clearance",
+        "RR_7005_V4_M2_pilot_1p6",
+        "RR_M2_output_M4x8_1",
+        "RR_M2_output_M4x8_2",
+        "RR_M2_output_M4x8_3",
+        "RR_M2_output_M4x8_4",
+        "RR_M2_output_M4x8_5",
+        "RR_M2_output_M4x8_6",
+        "RR_M3_rear_M3x6_1",
+        "RR_M3_rear_M3x6_2",
+        "RR_M3_rear_M3x6_3",
+        "RR_M3_rear_M3x6_4",
+        "RR_M2_shell_M3x6_low_head_1",
+        "RR_M2_shell_M3x6_low_head_2",
+        "RR_M2_shell_M3x6_low_head_3",
+        "RR_M2_shell_M3x6_low_head_4",
+        "RR_M1_output_M4x8_1",
+        "RR_M1_output_M4x8_2",
+        "RR_M1_output_M4x8_3",
+        "RR_M1_output_M4x8_4",
+        "RR_M1_output_M4x8_5",
+        "RR_M1_output_M4x8_6",
+        "RR_M3_output_V3E_M4x6_1",
+        "RR_M3_output_V3E_M4x6_2",
+        "RR_M3_output_V3G_NBK_SET_M4x6_3",
+        "RR_M3_output_V3E_M4x6_4",
+        "RR_M3_output_V3E_M4x6_5",
+        "RR_M3_output_V3E_M4x6_6",
+        "RR_M3_shell_V3F_M3x6_1",
+        "RR_M3_shell_V3F_M3x6_2",
+        "RR_M3_shell_V3F_M3x6_3",
+        "RR_q2_stop_M3x8_1",
+        "RR_q2_stop_M3x8_2",
+        "RR_plate_SNS_M2_5_MS_1",
+        "RR_plate_SNS_M2_5_MS_2",
+        "RR_plate_SNS_M2_5_MS_3",
+        "RR_plate_SNS_M2_5_MS_4",
+        "RR_plate_SNS_M2_5_MS_5",
+        "RR_source_188",
+        "RR_source_189",
+        "RR_source_191",
+        "RR_source_194",
+        "RR_source_198",
+        "RR_source_199",
+        "RR_source_200",
+        "RR_source_202",
+        "RR_source_203",
+        "RR_source_204",
+        "RR_source_205",
+        "RR_source_206",
+        "RR_source_212",
+        "RR_source_213",
+        "RR_source_214",
+        "RR_source_215",
+        "RR_source_216",
+        "RR_source_217",
+        "RR_source_219",
+        "RR_source_220",
+        "RR_source_221",
+        "RR_source_222",
+        "RR_source_224",
+        "RR_foot_M2x22_nominal",
+        "RR_foot_M2_nut_AF4_T1p6_nominal",
+        "RR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+        "RR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+        "RR_M1_ACTUAL_PA35",
+        "RR_M2_ACTUAL_PA35",
+        "RR_M3_ACTUAL_PA35",
+        "FR_extension_shaft_V1_local_clearance",
+        "FR_body_stop_V1_clearance_candidate",
+        "FR_7017_V3_positive_q2_stop_column",
+        "FR_7009_ORIGINAL_PIN_SEAT",
+        "FR_7007_V4_M2_supported_clearance",
+        "FR_7005_V4_M2_pilot_1p6",
+        "FR_M2_output_M4x8_1",
+        "FR_M2_output_M4x8_2",
+        "FR_M2_output_M4x8_3",
+        "FR_M2_output_M4x8_4",
+        "FR_M2_output_M4x8_5",
+        "FR_M2_output_M4x8_6",
+        "FR_M3_rear_M3x6_1",
+        "FR_M3_rear_M3x6_2",
+        "FR_M3_rear_M3x6_3",
+        "FR_M3_rear_M3x6_4",
+        "FR_M2_shell_M3x6_low_head_1",
+        "FR_M2_shell_M3x6_low_head_2",
+        "FR_M2_shell_M3x6_low_head_3",
+        "FR_M2_shell_M3x6_low_head_4",
+        "FR_M1_output_M4x8_1",
+        "FR_M1_output_M4x8_2",
+        "FR_M1_output_M4x8_3",
+        "FR_M1_output_M4x8_4",
+        "FR_M1_output_M4x8_5",
+        "FR_M1_output_M4x8_6",
+        "FR_M3_output_V3E_M4x6_1",
+        "FR_M3_output_V3E_M4x6_2",
+        "FR_M3_output_V3G_NBK_SET_M4x6_3",
+        "FR_M3_output_V3E_M4x6_4",
+        "FR_M3_output_V3E_M4x6_5",
+        "FR_M3_output_V3E_M4x6_6",
+        "FR_M3_shell_V3F_M3x6_1",
+        "FR_M3_shell_V3F_M3x6_2",
+        "FR_M3_shell_V3F_M3x6_3",
+        "FR_q2_stop_M3x8_1",
+        "FR_q2_stop_M3x8_2",
+        "FR_plate_SNS_M2_5_MS_1",
+        "FR_plate_SNS_M2_5_MS_2",
+        "FR_plate_SNS_M2_5_MS_3",
+        "FR_plate_SNS_M2_5_MS_4",
+        "FR_plate_SNS_M2_5_MS_5",
+        "FR_source_188",
+        "FR_source_189",
+        "FR_source_191",
+        "FR_source_194",
+        "FR_source_198",
+        "FR_source_199",
+        "FR_source_200",
+        "FR_source_202",
+        "FR_source_203",
+        "FR_source_204",
+        "FR_source_205",
+        "FR_source_206",
+        "FR_source_212",
+        "FR_source_213",
+        "FR_source_214",
+        "FR_source_215",
+        "FR_source_216",
+        "FR_source_217",
+        "FR_source_219",
+        "FR_source_220",
+        "FR_source_221",
+        "FR_source_222",
+        "FR_source_224",
+        "FR_foot_M2x22_nominal",
+        "FR_foot_M2_nut_AF4_T1p6_nominal",
+        "FR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+        "FR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+        "FR_M1_ACTUAL_PA35",
+        "FR_M2_ACTUAL_PA35",
+        "FR_M3_ACTUAL_PA35",
+        "RL_extension_shaft_V1_local_clearance",
+        "RL_body_stop_V1_clearance_candidate",
+        "RL_7017_V3_positive_q2_stop_column",
+        "RL_7009_ORIGINAL_PIN_SEAT",
+        "RL_7007_V4_M2_supported_clearance",
+        "RL_7005_V4_M2_pilot_1p6",
+        "RL_M2_output_M4x8_1",
+        "RL_M2_output_M4x8_2",
+        "RL_M2_output_M4x8_3",
+        "RL_M2_output_M4x8_4",
+        "RL_M2_output_M4x8_5",
+        "RL_M2_output_M4x8_6",
+        "RL_M3_rear_M3x6_1",
+        "RL_M3_rear_M3x6_2",
+        "RL_M3_rear_M3x6_3",
+        "RL_M3_rear_M3x6_4",
+        "RL_M2_shell_M3x6_low_head_1",
+        "RL_M2_shell_M3x6_low_head_2",
+        "RL_M2_shell_M3x6_low_head_3",
+        "RL_M2_shell_M3x6_low_head_4",
+        "RL_M1_output_M4x8_1",
+        "RL_M1_output_M4x8_2",
+        "RL_M1_output_M4x8_3",
+        "RL_M1_output_M4x8_4",
+        "RL_M1_output_M4x8_5",
+        "RL_M1_output_M4x8_6",
+        "RL_M3_output_V3E_M4x6_1",
+        "RL_M3_output_V3E_M4x6_2",
+        "RL_M3_output_V3G_NBK_SET_M4x6_3",
+        "RL_M3_output_V3E_M4x6_4",
+        "RL_M3_output_V3E_M4x6_5",
+        "RL_M3_output_V3E_M4x6_6",
+        "RL_M3_shell_V3F_M3x6_1",
+        "RL_M3_shell_V3F_M3x6_2",
+        "RL_M3_shell_V3F_M3x6_3",
+        "RL_q2_stop_M3x8_1",
+        "RL_q2_stop_M3x8_2",
+        "RL_plate_SNS_M2_5_MS_1",
+        "RL_plate_SNS_M2_5_MS_2",
+        "RL_plate_SNS_M2_5_MS_3",
+        "RL_plate_SNS_M2_5_MS_4",
+        "RL_plate_SNS_M2_5_MS_5",
+        "RL_source_188",
+        "RL_source_189",
+        "RL_source_191",
+        "RL_source_194",
+        "RL_source_198",
+        "RL_source_199",
+        "RL_source_200",
+        "RL_source_202",
+        "RL_source_203",
+        "RL_source_204",
+        "RL_source_205",
+        "RL_source_206",
+        "RL_source_212",
+        "RL_source_213",
+        "RL_source_214",
+        "RL_source_215",
+        "RL_source_216",
+        "RL_source_217",
+        "RL_source_219",
+        "RL_source_220",
+        "RL_source_221",
+        "RL_source_222",
+        "RL_source_224",
+        "RL_foot_M2x22_nominal",
+        "RL_foot_M2_nut_AF4_T1p6_nominal",
+        "RL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+        "RL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+        "RL_M1_ACTUAL_PA35",
+        "RL_M2_ACTUAL_PA35",
+        "RL_M3_ACTUAL_PA35",
+        "FL_extension_shaft_V1_local_clearance",
+        "FL_body_stop_V1_clearance_candidate",
+        "FL_7017_V3_positive_q2_stop_column",
+        "FL_7009_ORIGINAL_PIN_SEAT",
+        "FL_7007_V4_M2_supported_clearance",
+        "FL_7005_V4_M2_pilot_1p6",
+        "FL_M2_output_M4x8_1",
+        "FL_M2_output_M4x8_2",
+        "FL_M2_output_M4x8_3",
+        "FL_M2_output_M4x8_4",
+        "FL_M2_output_M4x8_5",
+        "FL_M2_output_M4x8_6",
+        "FL_M3_rear_M3x6_1",
+        "FL_M3_rear_M3x6_2",
+        "FL_M3_rear_M3x6_3",
+        "FL_M3_rear_M3x6_4",
+        "FL_M2_shell_M3x6_low_head_1",
+        "FL_M2_shell_M3x6_low_head_2",
+        "FL_M2_shell_M3x6_low_head_3",
+        "FL_M2_shell_M3x6_low_head_4",
+        "FL_M1_output_M4x8_1",
+        "FL_M1_output_M4x8_2",
+        "FL_M1_output_M4x8_3",
+        "FL_M1_output_M4x8_4",
+        "FL_M1_output_M4x8_5",
+        "FL_M1_output_M4x8_6",
+        "FL_M3_output_V3E_M4x6_1",
+        "FL_M3_output_V3E_M4x6_2",
+        "FL_M3_output_V3G_NBK_SET_M4x6_3",
+        "FL_M3_output_V3E_M4x6_4",
+        "FL_M3_output_V3E_M4x6_5",
+        "FL_M3_output_V3E_M4x6_6",
+        "FL_M3_shell_V3F_M3x6_1",
+        "FL_M3_shell_V3F_M3x6_2",
+        "FL_M3_shell_V3F_M3x6_3",
+        "FL_q2_stop_M3x8_1",
+        "FL_q2_stop_M3x8_2",
+        "FL_plate_SNS_M2_5_MS_1",
+        "FL_plate_SNS_M2_5_MS_2",
+        "FL_plate_SNS_M2_5_MS_3",
+        "FL_plate_SNS_M2_5_MS_4",
+        "FL_plate_SNS_M2_5_MS_5",
+        "FL_source_188",
+        "FL_source_189",
+        "FL_source_191",
+        "FL_source_194",
+        "FL_source_198",
+        "FL_source_199",
+        "FL_source_200",
+        "FL_source_202",
+        "FL_source_203",
+        "FL_source_204",
+        "FL_source_205",
+        "FL_source_206",
+        "FL_source_212",
+        "FL_source_213",
+        "FL_source_214",
+        "FL_source_215",
+        "FL_source_216",
+        "FL_source_217",
+        "FL_source_219",
+        "FL_source_220",
+        "FL_source_221",
+        "FL_source_222",
+        "FL_source_224",
+        "FL_foot_M2x22_nominal",
+        "FL_foot_M2_nut_AF4_T1p6_nominal",
+        "FL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+        "FL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+        "FL_M1_ACTUAL_PA35",
+        "FL_M2_ACTUAL_PA35",
+        "FL_M3_ACTUAL_PA35"
+      ],
+      "pin": [
+        "RR_ORIGINAL_LINK_PIN",
+        "FR_ORIGINAL_LINK_PIN",
+        "RL_ORIGINAL_LINK_PIN",
+        "FL_ORIGINAL_LINK_PIN",
+        "RR_ORIGINAL_PIN_WASHER",
+        "RR_ORIGINAL_PIN_AXIAL_SCREW",
+        "FR_ORIGINAL_PIN_WASHER",
+        "FR_ORIGINAL_PIN_AXIAL_SCREW",
+        "RL_ORIGINAL_PIN_WASHER",
+        "RL_ORIGINAL_PIN_AXIAL_SCREW",
+        "FL_ORIGINAL_PIN_WASHER",
+        "FL_ORIGINAL_PIN_AXIAL_SCREW"
+      ],
+      "ab": [
+        "RR_MAIN_D1_CUP",
+        "RR_7004_V3_replaceable_PA_stop",
+        "FR_MAIN_D1_CUP",
+        "FR_7004_V3_replaceable_PA_stop",
+        "RL_MAIN_D1_CUP",
+        "RL_7004_V3_replaceable_PA_stop",
+        "FL_MAIN_D1_CUP",
+        "FL_7004_V3_replaceable_PA_stop"
+      ],
+      "head": [
+        "HEAD_original_0deg_UNCHANGED"
+      ],
+      "bodyother": [
+        "REAR_shared_support_V1_clearance_candidate",
+        "FRONT_shared_support_V1_clearance_candidate",
+        "REAR_7001_V1_local_motor_clearance",
+        "FRONT_7001_V1_local_motor_clearance",
+        "BODY_SOURCE_142",
+        "BODY_SOURCE_143",
+        "BODY_SOURCE_144",
+        "BODY_SOURCE_145",
+        "BODY_SOURCE_146",
+        "BODY_SOURCE_147",
+        "BODY_SOURCE_148",
+        "BODY_SOURCE_149",
+        "BODY_SOURCE_150",
+        "BODY_SOURCE_151",
+        "BODY_SOURCE_152",
+        "BODY_SOURCE_153",
+        "ORIGINAL_FRAME_155_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_156",
+        "BODY_SOURCE_159",
+        "ORIGINAL_FRAME_161_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_162",
+        "ORIGINAL_FRAME_164_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_165",
+        "BODY_SOURCE_166",
+        "ORIGINAL_FRAME_167_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_168",
+        "BODY_SOURCE_169",
+        "ORIGINAL_FRAME_170_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_171",
+        "BODY_SOURCE_172",
+        "ORIGINAL_FRAME_173_CLOSED_MEASURED_PROFILE",
+        "BODY_SOURCE_174",
+        "BODY_SOURCE_175",
+        "BODY_SOURCE_177",
+        "BODY_SOURCE_178"
+      ]
+    },
+    "all344_current_named_instances_uniquely_assigned": true,
+    "physical_count_rules": [
+      "Each PA35 motor remains one purchased module regardless of shell topology.",
+      "Two shared7001 definition instances each represent3mechanical pieces.",
+      "Legacy extensionshaft andbody-stop compound instances each count2 per historicalledger; legotherweights inheritedexactly.",
+      "Headkept1; unselectedbattery excluded."
+    ]
+  }
+}

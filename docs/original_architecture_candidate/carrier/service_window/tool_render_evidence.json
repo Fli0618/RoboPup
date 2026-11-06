@@ -1,0 +1,12 @@
+{
+  "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/tool_local_route.png",
+  "sha256": "912ff92243d256bb0b377f0402251f75ee405cb90bbfaa8b96c0a4a74d23f811",
+  "actual_tool_CAD": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/TOOL_M3_rear_M3x6_1_CUSTOM_SHORT_L.step",
+  "actual_tool_sha256": "8f5b317321e9c89f9ecc6ca5995a276d783f4d5ce4058b9c798d844025e1cda1",
+  "part_CAD": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+  "part_sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+  "target_actual_screw": "RR_M3_rear_M3x6_1",
+  "target_rotation_about_own_axis_deg": 30,
+  "whole_part_render_opacity": 0.21,
+  "not_a_measured_physical_tool": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "SLEEVE_DIRECT_REVIEW_DELIVERY_PASS",
+  "currentMainCount": 364,
+  "conditionalTargetCount": 356,
+  "MAINModified": false,
+  "adopted": false,
+  "browserChecks": 20,
+  "same_camera_per_pair": true,
+  "M1_unchanged_source_interface": true,
+  "M3_current_pose_adapted": true,
+  "manufacturing_release": false
+}

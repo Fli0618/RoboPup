@@ -1,0 +1,57 @@
+{
+  "M2_motor_absent": true,
+  "records": [
+    {
+      "sid": "M3_rear_M3x6_1",
+      "carrier_intersection_mm3": 1.5365724466796058,
+      "bounds": [
+        -127.82841681371387,
+        9.006246359482086,
+        45.57,
+        -126.04169474201892,
+        11.377306632412395,
+        47.1
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_2",
+      "carrier_intersection_mm3": 1.5365724472237017,
+      "bounds": [
+        -151.8373066325275,
+        12.631583186182466,
+        45.57,
+        -149.46624635933406,
+        14.418305258073483,
+        47.1
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_3",
+      "carrier_intersection_mm3": 1.5365724469905047,
+      "bounds": [
+        -131.45375364054115,
+        -14.418305257995517,
+        45.57,
+        -129.08269336746838,
+        -12.631583186178727,
+        47.1
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_4",
+      "carrier_intersection_mm3": 1.5365724470720186,
+      "bounds": [
+        -154.878305258019,
+        -11.377306632533426,
+        45.57,
+        -153.09158318617708,
+        -9.00624635942088,
+        47.1
+      ]
+    }
+  ],
+  "unmodified_current_candidate": false,
+  "status": "PRE_RELIEF_FAILURE_FIXED_BY_FINAL_4_LOCAL_LOAD_PORTS",
+  "checked_old_geometry_backup": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_BEFORE_INITIAL_LOADING_RELIEF.step",
+  "checked_old_geometry_sha256": "55dc9251ea2e9cb133c1ace7bb0abbdecbb21f17845172609f6ac7284121731f"
+}

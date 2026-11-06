@@ -1,0 +1,5007 @@
+{
+  "status": "COMPLETE_MECHANICAL_CAD_MODEL_COUNT_RECONCILED",
+  "date": "2026-11-04",
+  "scope": "Modeled mechanical parts and complete purchased modules; each fastener/connection piece counted; wiring layout excluded from both; not a complete physical procurement BOM.",
+  "CAD_modified": false,
+  "original_mechanical_model_count": 220,
+  "R2_mechanical_model_count": 505,
+  "complete_mechanical_CAD_model_delta": 285,
+  "complete_physical_BOM_delta": null,
+  "before_by_section": {
+    "leg_structure": 76,
+    "body": 39,
+    "leg_connections": 91,
+    "motors": 12,
+    "head": 1,
+    "battery": 1
+  },
+  "after_by_section": {
+    "body": 126,
+    "leg_structure": 88,
+    "leg_connections": 256,
+    "motors": 12,
+    "head": 1,
+    "battery": 22
+  },
+  "delta_by_section": {
+    "leg_structure": 12,
+    "body": 87,
+    "leg_connections": 165,
+    "motors": 0,
+    "head": 0,
+    "battery": 21
+  },
+  "original_leaf_count_reconciliation": "208 leaves - 4 wiring layouts + 16 identified physical subparts = 220",
+  "R2_leaf_count_reconciliation": "493 instances + 12 identified physical subparts = 505; 7007 ancillary surfaces do not count as parts",
+  "detail": [
+    {
+      "location": "四腿M1独立衬套",
+      "model_delta": 4,
+      "interpretation": "确认新增结构"
+    },
+    {
+      "location": "四腿M3独立衬套",
+      "model_delta": 4,
+      "interpretation": "确认新增结构"
+    },
+    {
+      "location": "原7003拆成A/B，多出的支架",
+      "model_delta": 4,
+      "interpretation": "确认新增结构"
+    },
+    {
+      "location": "四腿A/B新接缝：16螺钉＋16垫圈",
+      "model_delta": 32,
+      "interpretation": "确认新增连接"
+    },
+    {
+      "location": "四腿上连杆销固定：原8件改4件",
+      "model_delta": -4,
+      "interpretation": "确认替换减项"
+    },
+    {
+      "location": "四腿其他紧固与连接小件",
+      "model_delta": 137,
+      "interpretation": "模型差额，包含原CAD未完整展开的连接件"
+    },
+    {
+      "location": "机身8个梁端偏置转接件",
+      "model_delta": 8,
+      "interpretation": "确认新增结构"
+    },
+    {
+      "location": "转接件与纵梁：16螺钉＋16垫圈＋16槽螺母",
+      "model_delta": 48,
+      "interpretation": "确认新增连接"
+    },
+    {
+      "location": "横梁、支撑块连接：当前36项－原CAD明确5项",
+      "model_delta": 31,
+      "interpretation": "模型差额，原固定BOM未完整展开"
+    },
+    {
+      "location": "电池包外盒、盖、垫件、压条与锁紧件",
+      "model_delta": 21,
+      "interpretation": "模型外加21；实物净增需扣清原固定件"
+    }
+  ],
+  "excluded_original_wiring_layouts": [
+    {
+      "source_index": 93,
+      "name": "线束布局^教育版狗",
+      "excluded_geometry_items": 2,
+      "reason": "Wiring layout geometry; outside mechanical-part comparison in both models. No physical wire deletion claimed."
+    },
+    {
+      "source_index": 96,
+      "name": "镜向线束布局^教育版狗",
+      "excluded_geometry_items": 1,
+      "reason": "Wiring layout geometry; outside mechanical-part comparison in both models. No physical wire deletion claimed."
+    },
+    {
+      "source_index": 137,
+      "name": "镜向镜向线束布局^教育版狗",
+      "excluded_geometry_items": 2,
+      "reason": "Wiring layout geometry; outside mechanical-part comparison in both models. No physical wire deletion claimed."
+    },
+    {
+      "source_index": 139,
+      "name": "镜向线束布局^教育版狗",
+      "excluded_geometry_items": 1,
+      "reason": "Wiring layout geometry; outside mechanical-part comparison in both models. No physical wire deletion claimed."
+    }
+  ],
+  "original_components": [
+    {
+      "source_index": 1,
+      "name": "1584-7017：髋关节法兰",
+      "source_rep": "52218",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 2,
+      "name": "复件 复件 复件 大腿固定支架",
+      "source_rep": "360040",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 3,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X10-N",
+      "source_rep": "342155",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 4,
+      "name": "机身挡块",
+      "source_rep": "65992",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 5,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 6,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 7,
+      "name": "支架",
+      "source_rep": "618794",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 8,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 9,
+      "name": "支架",
+      "source_rep": "618794",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 11,
+      "name": "M3-DIANPIAN",
+      "source_rep": "611878",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 12,
+      "name": "5-2-M3-8",
+      "source_rep": "338044",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 14,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 15,
+      "name": "6-1",
+      "source_rep": "59123",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 16,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 17,
+      "name": "6",
+      "source_rep": "614663",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 18,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X8-N",
+      "source_rep": "339426",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 19,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M3X8-N",
+      "source_rep": "616020",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 20,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 21,
+      "name": "1584-7007：内侧右大腿",
+      "source_rep": "328462",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 22,
+      "name": "1584-7005：外侧右大腿",
+      "source_rep": "604953",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 24,
+      "name": "1584-7015：小腿销垫片",
+      "source_rep": "332599",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 25,
+      "name": "hex nuts, style 1-grades ab gb_GB_FASTENER_NUT_SNAB1 M3-N",
+      "source_rep": "609107",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 26,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 27,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 28,
+      "name": "1584-7012：脚蹄",
+      "source_rep": "53593",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 29,
+      "name": "1584-7014：脚蹄支撑2",
+      "source_rep": "329840",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 30,
+      "name": "1584-7013：脚蹄支撑1",
+      "source_rep": "606337",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 31,
+      "name": "内六角螺钉M3X35",
+      "source_rep": "54967",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 32,
+      "name": "1584-7011：小腿",
+      "source_rep": "331233",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 33,
+      "name": "1584-9234：连杆下销",
+      "source_rep": "607723",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 34,
+      "name": "石墨铜套14X18X20",
+      "source_rep": "56356",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 35,
+      "name": "1584-7015：小腿销垫片",
+      "source_rep": "332599",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 36,
+      "name": "1584-9233：小腿销",
+      "source_rep": "610492",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 37,
+      "name": "M6-DIANPIAN",
+      "source_rep": "353147",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 38,
+      "name": "M6-20",
+      "source_rep": "629814",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 40,
+      "name": "M3-DIANPIAN",
+      "source_rep": "611878",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 41,
+      "name": "1584-9234：连杆下销",
+      "source_rep": "607723",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 42,
+      "name": "hexagon socket button head screws gb_GB_SOCKET_TYPE7 M3X8-N",
+      "source_rep": "60491",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 43,
+      "name": "1584-7009：回转盘本体",
+      "source_rep": "336717",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 44,
+      "name": "1584-7019：回转盘挡块",
+      "source_rep": "613268",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 45,
+      "name": "6-1",
+      "source_rep": "59123",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 46,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 47,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 48,
+      "name": "狗头",
+      "source_rep": "636656",
+      "section": "head",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 49,
+      "name": "1584-7017：髋关节法兰",
+      "source_rep": "52218",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 51,
+      "name": "镜向M6-20",
+      "source_rep": "79750",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 53,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 54,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 55,
+      "name": "镜向M3-DIANPIAN",
+      "source_rep": "74236",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 56,
+      "name": "镜向9-4",
+      "source_rep": "622916",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 57,
+      "name": "hexagon socket button head screws gb_GB_SOCKET_TYPE7 M3X8-N",
+      "source_rep": "60491",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 58,
+      "name": "镜向回转盘本体",
+      "source_rep": "355893",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 59,
+      "name": "镜向回转盘挡块",
+      "source_rep": "632561",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 60,
+      "name": "镜向6-1",
+      "source_rep": "349010",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 61,
+      "name": "镜向M3-DIANPIAN",
+      "source_rep": "74236",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 62,
+      "name": "镜向5-2-M3-8",
+      "source_rep": "627033",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 64,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 65,
+      "name": "镜向6-1",
+      "source_rep": "349010",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 66,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 67,
+      "name": "镜向6",
+      "source_rep": "75600",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 68,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X8-N",
+      "source_rep": "339426",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 69,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M3X8-N",
+      "source_rep": "616020",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 70,
+      "name": "镜向模组",
+      "source_rep": "67342",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 71,
+      "name": "镜向8",
+      "source_rep": "343505",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 72,
+      "name": "镜向7",
+      "source_rep": "620149",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 74,
+      "name": "镜向9-1",
+      "source_rep": "71477",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 75,
+      "name": "镜向9-3",
+      "source_rep": "347628",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 76,
+      "name": "镜向9-3",
+      "source_rep": "347628",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 77,
+      "name": "hex nuts, style 1-grades ab gb_GB_FASTENER_NUT_SNAB1 M3-N",
+      "source_rep": "609107",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 78,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 79,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 80,
+      "name": "镜向12",
+      "source_rep": "68715",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 81,
+      "name": "镜向11",
+      "source_rep": "344894",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 82,
+      "name": "镜向10",
+      "source_rep": "621552",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 83,
+      "name": "镜向9-5-M3-18",
+      "source_rep": "70101",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 84,
+      "name": "镜向9-",
+      "source_rep": "346263",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 85,
+      "name": "镜向9-4",
+      "source_rep": "622916",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 86,
+      "name": "镜向9-2",
+      "source_rep": "72875",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 87,
+      "name": "镜向M6-DIANPIAN",
+      "source_rep": "631186",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 88,
+      "name": "延伸轴",
+      "source_rep": "83885",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 89,
+      "name": "机身挡块",
+      "source_rep": "65992",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 90,
+      "name": "支架",
+      "source_rep": "618794",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 91,
+      "name": "复件 复件 复件 大腿固定支架",
+      "source_rep": "360040",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 92,
+      "name": "镜向模组",
+      "source_rep": "67342",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 94,
+      "name": "延伸轴",
+      "source_rep": "83885",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 95,
+      "name": "支架",
+      "source_rep": "618794",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 97,
+      "name": "延伸轴",
+      "source_rep": "83885",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 100,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 101,
+      "name": "镜向6-1",
+      "source_rep": "349010",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 102,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 103,
+      "name": "镜向6",
+      "source_rep": "75600",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 104,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X8-N",
+      "source_rep": "339426",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 105,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M3X8-N",
+      "source_rep": "616020",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 106,
+      "name": "镜向模组",
+      "source_rep": "67342",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 107,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M2.5X6-N",
+      "source_rep": "64593",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 108,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 6",
+      "source_rep": "340773",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 109,
+      "name": "镜向8",
+      "source_rep": "343505",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 110,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 111,
+      "name": "镜向7",
+      "source_rep": "620149",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 113,
+      "name": "镜向9-3",
+      "source_rep": "347628",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 114,
+      "name": "镜向9-3",
+      "source_rep": "347628",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 115,
+      "name": "hex nuts, style 1-grades ab gb_GB_FASTENER_NUT_SNAB1 M3-N",
+      "source_rep": "609107",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 116,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 117,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 118,
+      "name": "镜向12",
+      "source_rep": "68715",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 119,
+      "name": "镜向11",
+      "source_rep": "344894",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 120,
+      "name": "镜向10",
+      "source_rep": "621552",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 121,
+      "name": "镜向9-5-M3-18",
+      "source_rep": "70101",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 122,
+      "name": "镜向9-",
+      "source_rep": "346263",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 123,
+      "name": "镜向9-4",
+      "source_rep": "622916",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 124,
+      "name": "镜向9-1",
+      "source_rep": "71477",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 125,
+      "name": "镜向9-2",
+      "source_rep": "72875",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 127,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 128,
+      "name": "镜向M3-DIANPIAN",
+      "source_rep": "74236",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 129,
+      "name": "1584-9234：连杆下销",
+      "source_rep": "607723",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 130,
+      "name": "hexagon socket button head screws gb_GB_SOCKET_TYPE7 M3X8-N",
+      "source_rep": "60491",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 131,
+      "name": "1584-7009：回转盘本体",
+      "source_rep": "336717",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 132,
+      "name": "1584-7019：回转盘挡块",
+      "source_rep": "613268",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 133,
+      "name": "镜向6-1",
+      "source_rep": "349010",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 134,
+      "name": "镜向5-3",
+      "source_rep": "625652",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 135,
+      "name": "镜向M3-DIANPIAN",
+      "source_rep": "74236",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 136,
+      "name": "镜向5-2-M3-8",
+      "source_rep": "627033",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 138,
+      "name": "机身挡块",
+      "source_rep": "65992",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 141,
+      "name": "1584-7001：机身固定板",
+      "source_rep": "48079",
+      "section": "body",
+      "mechanical_model_count": 3
+    },
+    {
+      "source_index": 142,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 143,
+      "name": "下支撑块",
+      "source_rep": "327086",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 144,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 145,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 146,
+      "name": "下支撑块",
+      "source_rep": "327086",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 147,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 148,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 149,
+      "name": "下支撑块",
+      "source_rep": "327086",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 150,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 151,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 152,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 153,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 154,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 155,
+      "name": "2",
+      "source_rep": "591304",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 156,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 157,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 158,
+      "name": "1584-7001：机身固定板",
+      "source_rep": "48079",
+      "section": "body",
+      "mechanical_model_count": 3
+    },
+    {
+      "source_index": 159,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 160,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 161,
+      "name": "2",
+      "source_rep": "591304",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 162,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 163,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 164,
+      "name": "2",
+      "source_rep": "591304",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 165,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X10-N",
+      "source_rep": "49459",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 166,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 167,
+      "name": "2",
+      "source_rep": "591304",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 168,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 169,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 170,
+      "name": "1",
+      "source_rep": "324312",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 171,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 172,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 173,
+      "name": "1",
+      "source_rep": "324312",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 174,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 175,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 176,
+      "name": "电池",
+      "source_rep": "600829",
+      "section": "battery",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 177,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M5X12-N",
+      "source_rep": "325684",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 178,
+      "name": "下支撑块",
+      "source_rep": "327086",
+      "section": "body",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 179,
+      "name": "1584-7017：髋关节法兰",
+      "source_rep": "52218",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 180,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M2.5X6-N",
+      "source_rep": "64593",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 181,
+      "name": "1584-7017：髋关节法兰",
+      "source_rep": "52218",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 182,
+      "name": "镜向模组",
+      "source_rep": "67342",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 183,
+      "name": "延伸轴",
+      "source_rep": "83885",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    },
+    {
+      "source_index": 185,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X8-N",
+      "source_rep": "339426",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 186,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M3X8-N",
+      "source_rep": "616020",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 187,
+      "name": "模组",
+      "source_rep": "602223",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 188,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M2.5X6-N",
+      "source_rep": "64593",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 189,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 6",
+      "source_rep": "340773",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 190,
+      "name": "1584-7007：内侧右大腿",
+      "source_rep": "328462",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 191,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 192,
+      "name": "1584-7005：外侧右大腿",
+      "source_rep": "604953",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 194,
+      "name": "1584-7015：小腿销垫片",
+      "source_rep": "332599",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 195,
+      "name": "hex nuts, style 1-grades ab gb_GB_FASTENER_NUT_SNAB1 M3-N",
+      "source_rep": "609107",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 196,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 197,
+      "name": "single coil lock washers light type gb_GB_FASTENER_WASHER_SSWL 3",
+      "source_rep": "57734",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 198,
+      "name": "1584-7012：脚蹄",
+      "source_rep": "53593",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 199,
+      "name": "1584-7014：脚蹄支撑2",
+      "source_rep": "329840",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 200,
+      "name": "1584-7013：脚蹄支撑1",
+      "source_rep": "606337",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 201,
+      "name": "内六角螺钉M3X35",
+      "source_rep": "54967",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 202,
+      "name": "1584-7011：小腿",
+      "source_rep": "331233",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 203,
+      "name": "1584-9234：连杆下销",
+      "source_rep": "607723",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 204,
+      "name": "石墨铜套14X18X20",
+      "source_rep": "56356",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 205,
+      "name": "1584-7015：小腿销垫片",
+      "source_rep": "332599",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 206,
+      "name": "1584-9233：小腿销",
+      "source_rep": "610492",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 208,
+      "name": "M3-DIANPIAN",
+      "source_rep": "611878",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 209,
+      "name": "1584-9234：连杆下销",
+      "source_rep": "607723",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 210,
+      "name": "hexagon socket button head screws gb_GB_SOCKET_TYPE7 M3X8-N",
+      "source_rep": "60491",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 211,
+      "name": "1584-7009：回转盘本体",
+      "source_rep": "336717",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 212,
+      "name": "1584-7019：回转盘挡块",
+      "source_rep": "613268",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 213,
+      "name": "6-1",
+      "source_rep": "59123",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 214,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 215,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 216,
+      "name": "M3-DIANPIAN",
+      "source_rep": "611878",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 217,
+      "name": "5-2-M3-8",
+      "source_rep": "338044",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 219,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 220,
+      "name": "6-1",
+      "source_rep": "59123",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 221,
+      "name": "5-3",
+      "source_rep": "335352",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 222,
+      "name": "6",
+      "source_rep": "614663",
+      "section": "leg_structure",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 223,
+      "name": "镜向镜向模组",
+      "source_rep": "76973",
+      "section": "motors",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 224,
+      "name": "6-1",
+      "source_rep": "59123",
+      "section": "leg_connections",
+      "mechanical_model_count": 1
+    },
+    {
+      "source_index": 225,
+      "name": "机身挡块",
+      "source_rep": "65992",
+      "section": "leg_structure",
+      "mechanical_model_count": 2
+    }
+  ],
+  "R2_components": [
+    {
+      "label": "BODY_SOURCE_142",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_144",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_145",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_147",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_148",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_150",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_151",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_153",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_156",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_159",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_162",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_165",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_168",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_171",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_174",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "BODY_SOURCE_177",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "scaled_source_body_fastener_reference",
+      "correction": null
+    },
+    {
+      "label": "REAR_shared_support_V1_clearance_candidate",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "structural_review",
+      "correction": null
+    },
+    {
+      "label": "FRONT_shared_support_V1_clearance_candidate",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "structural_review",
+      "correction": null
+    },
+    {
+      "label": "REAR_7001_V1_local_motor_clearance",
+      "section": "body",
+      "mechanical_model_count": 3,
+      "kind": "structural_review",
+      "correction": null
+    },
+    {
+      "label": "FRONT_7001_V1_local_motor_clearance",
+      "section": "body",
+      "mechanical_model_count": 3,
+      "kind": "structural_review",
+      "correction": null
+    },
+    {
+      "label": "RR_extension_shaft_V1_local_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_body_stop_V1_clearance_candidate",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_slotted_clamp_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_slotted_thigh_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_Z12_A_V3_local_head_reliefs",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "RR_Z12_B_V3_stop_ears_and_head_relief",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "RR_7017_V3_positive_q2_stop_column",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_7009_V3G2_short_pocket",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_7007_V4_M2_supported_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": "One machined 7007 part; extra surface is not another part."
+    },
+    {
+      "label": "RR_7004_V3_replaceable_PA_stop",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_7005_V4_M2_pilot_1p6",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_rear_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_rear_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_rear_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_rear_M3x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_M3x10_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_thin_washer_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_M3x10_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_thin_washer_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_M3x10_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_thin_washer_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_M3x10_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_AB_join_thin_washer_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_shell_M3x6_low_head_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_shell_M3x6_low_head_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_shell_M3x6_low_head_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_shell_M3x6_low_head_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3E_M4x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3E_M4x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3G_NBK_SET_M4x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3E_M4x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3E_M4x6_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_output_V3E_M4x6_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_shell_V3F_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_shell_V3F_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_shell_V3F_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_q2_stop_M3x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_q2_stop_M3x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_plate_SNS_M2_5_MS_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_plate_SNS_M2_5_MS_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_plate_SNS_M2_5_MS_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_plate_SNS_M2_5_MS_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_plate_SNS_M2_5_MS_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_188",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_189",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_191",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_194",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_198",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_199",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_200",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_202",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_203",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_204",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_205",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_206",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_209",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_212",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_213",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_214",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_215",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_216",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_217",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_219",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_220",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_221",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_source_222",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_source_224",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_nominal_side_keeper",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "RR_foot_M2x22_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_foot_M2_nut_AF4_T1p6_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RR_M1_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "RR_M2_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "RR_M3_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FR_extension_shaft_V1_local_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FR_body_stop_V1_clearance_candidate",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_slotted_clamp_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_slotted_thigh_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_Z12_A_V3_local_head_reliefs",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "FR_Z12_B_V3_stop_ears_and_head_relief",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "FR_7017_V3_positive_q2_stop_column",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FR_7009_V3G2_short_pocket",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_7007_V4_M2_supported_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": "One machined 7007 part; extra surface is not another part."
+    },
+    {
+      "label": "FR_7004_V3_replaceable_PA_stop",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_7005_V4_M2_pilot_1p6",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_rear_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_rear_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_rear_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_rear_M3x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_M3x10_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_thin_washer_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_M3x10_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_thin_washer_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_M3x10_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_thin_washer_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_M3x10_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_AB_join_thin_washer_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_shell_M3x6_low_head_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_shell_M3x6_low_head_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_shell_M3x6_low_head_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_shell_M3x6_low_head_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3E_M4x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3E_M4x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3G_NBK_SET_M4x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3E_M4x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3E_M4x6_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_output_V3E_M4x6_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_shell_V3F_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_shell_V3F_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_shell_V3F_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_q2_stop_M3x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_q2_stop_M3x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_plate_SNS_M2_5_MS_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_plate_SNS_M2_5_MS_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_plate_SNS_M2_5_MS_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_plate_SNS_M2_5_MS_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_plate_SNS_M2_5_MS_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_188",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_189",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_191",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_194",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_198",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_199",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_200",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_202",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_203",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_204",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_205",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_206",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_209",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_212",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_213",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_214",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_215",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_216",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_217",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_219",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_220",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_221",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_source_222",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_source_224",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_nominal_side_keeper",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "retained_R8_template_component",
+      "correction": null
+    },
+    {
+      "label": "FR_foot_M2x22_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_foot_M2_nut_AF4_T1p6_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FR_M1_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FR_M2_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FR_M3_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "RL_extension_shaft_V1_local_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_body_stop_V1_clearance_candidate",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_slotted_clamp_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_slotted_thigh_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_Z12_A_V3_local_head_reliefs",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "RL_Z12_B_V3_stop_ears_and_head_relief",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "RL_7017_V3_positive_q2_stop_column",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_7009_V3G2_short_pocket",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_7007_V4_M2_supported_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": "One machined 7007 part; extra surface is not another part."
+    },
+    {
+      "label": "RL_7004_V3_replaceable_PA_stop",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_7005_V4_M2_pilot_1p6",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_rear_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_rear_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_rear_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_rear_M3x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_M3x10_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_thin_washer_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_M3x10_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_thin_washer_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_M3x10_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_thin_washer_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_M3x10_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_AB_join_thin_washer_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_shell_M3x6_low_head_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_shell_M3x6_low_head_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_shell_M3x6_low_head_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_shell_M3x6_low_head_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3E_M4x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3E_M4x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3G_NBK_SET_M4x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3E_M4x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3E_M4x6_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_output_V3E_M4x6_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_shell_V3F_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_shell_V3F_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_shell_V3F_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_q2_stop_M3x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_q2_stop_M3x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_plate_SNS_M2_5_MS_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_plate_SNS_M2_5_MS_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_plate_SNS_M2_5_MS_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_plate_SNS_M2_5_MS_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_plate_SNS_M2_5_MS_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_188",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_189",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_191",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_194",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_198",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_199",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_200",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_202",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_203",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_204",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_205",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_206",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_209",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_212",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_213",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_214",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_215",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_216",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_217",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_219",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_220",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_221",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_source_222",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_source_224",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_nominal_side_keeper",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "RL_foot_M2x22_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_foot_M2_nut_AF4_T1p6_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "RL_M1_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "RL_M2_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "RL_M3_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FL_extension_shaft_V1_local_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_body_stop_V1_clearance_candidate",
+      "section": "leg_structure",
+      "mechanical_model_count": 2,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_slotted_clamp_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_slotted_thigh_reducer",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_Z12_A_V3_local_head_reliefs",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "FL_Z12_B_V3_stop_ears_and_head_relief",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "actual_motor_phase_corrected_carrier",
+      "correction": null
+    },
+    {
+      "label": "FL_7017_V3_positive_q2_stop_column",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_front_root_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_7009_V3G2_short_pocket",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_7007_V4_M2_supported_clearance",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": "One machined 7007 part; extra surface is not another part."
+    },
+    {
+      "label": "FL_7004_V3_replaceable_PA_stop",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_7005_V4_M2_pilot_1p6",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_rear_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_rear_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_rear_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_rear_M3x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_M3x10_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_thin_washer_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_M3x10_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_thin_washer_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_M3x10_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_thin_washer_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_M3x10_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_AB_join_thin_washer_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_shell_M3x6_low_head_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_shell_M3x6_low_head_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_shell_M3x6_low_head_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_shell_M3x6_low_head_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_output_M4x8_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3E_M4x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3E_M4x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3G_NBK_SET_M4x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3E_M4x6_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3E_M4x6_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_output_V3E_M4x6_6",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_shell_V3F_M3x6_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_shell_V3F_M3x6_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_shell_V3F_M3x6_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_q2_stop_M3x8_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_q2_stop_M3x8_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_plate_SNS_M2_5_MS_1",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_plate_SNS_M2_5_MS_2",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_plate_SNS_M2_5_MS_3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_plate_SNS_M2_5_MS_4",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_plate_SNS_M2_5_MS_5",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_188",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_189",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_191",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_194",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_198",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_199",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_200",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_202",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_203",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_204",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_205",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_206",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_209",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_212",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_213",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_214",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_215",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_216",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_217",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_219",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_220",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_221",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_source_222",
+      "section": "leg_structure",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_source_224",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_nominal_side_keeper",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "new_manufacture_left_hand_structural_part",
+      "correction": null
+    },
+    {
+      "label": "FL_foot_M2x22_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_foot_M2_nut_AF4_T1p6_nominal",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "section": "leg_connections",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware_proper_rigid_placement",
+      "correction": null
+    },
+    {
+      "label": "FL_M1_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FL_M2_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "FL_M3_ACTUAL_PA35",
+      "section": "motors",
+      "mechanical_model_count": 1,
+      "kind": "actual_PA35_10_8_unscaled_proper_rigid_motor",
+      "correction": null
+    },
+    {
+      "label": "HEAD_original_0deg_UNCHANGED",
+      "section": "head",
+      "mechanical_model_count": 1,
+      "kind": "retained_original_head",
+      "correction": null
+    },
+    {
+      "label": "R2_RAIL_155_SHORT165_Z85",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_solid_measured_profile_shortened_and_widened",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_155_REAR",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_155_FRONT",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_RAIL_161_SHORT165_Z85",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_solid_measured_profile_shortened_and_widened",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_161_REAR",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_161_FRONT",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_RAIL_164_SHORT165_Z85",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_solid_measured_profile_shortened_and_widened",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_164_REAR",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_164_FRONT",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_RAIL_167_SHORT165_Z85",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_solid_measured_profile_shortened_and_widened",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_167_REAR",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_OFFSET_ADAPTER_167_FRONT",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_155_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_155_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_155_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_161_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_161_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_161_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_164_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_164_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_164_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_REAR_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_REAR_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_FRONT_1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_R2_OFFSET_ADAPTER_167_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_R2_OFFSET_ADAPTER_167_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_R2_OFFSET_ADAPTER_167_FRONT_2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_BELLY_CROSSMEMBER_R",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_R_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_R_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_R_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_R_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_R_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_R_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_R_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_R_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_R_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_R_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_R_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_R_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_BELLY_CROSSMEMBER_F",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "new_body_structure",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_F_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_F_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_F_N1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_F_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_F_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_F_N2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_F_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_F_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_F_P1",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_CROSS_F_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_CROSS_F_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_CROSS_F_P2",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_RETAINED_SUPPORT_PAD_143",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "retained_support_block_repositioned",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_SUPPORT_PAD_143",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_SUPPORT_PAD_143",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_SUPPORT_PAD_143",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_RETAINED_SUPPORT_PAD_146",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "retained_support_block_repositioned",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_SUPPORT_PAD_146",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_SUPPORT_PAD_146",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_SUPPORT_PAD_146",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_RETAINED_SUPPORT_PAD_149",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "retained_support_block_repositioned",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_SUPPORT_PAD_149",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_SUPPORT_PAD_149",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_SUPPORT_PAD_149",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_RETAINED_SUPPORT_PAD_178",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "retained_support_block_repositioned",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_SUPPORT_PAD_178",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_SCREW_M2x6_SUPPORT_PAD_178",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_SUPPORT_PAD_178",
+      "section": "body",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_BATTERY_REFERENCE_INTERNAL_ROTATED90Y",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_battery_only",
+      "correction": null
+    },
+    {
+      "label": "R2_INTERNAL_CASSETTE_BOX",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "new_internal_battery_cassette",
+      "correction": null
+    },
+    {
+      "label": "R2_INTERNAL_CASSETTE_LID",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "removable_cassette_lid",
+      "correction": null
+    },
+    {
+      "label": "R2_INTERNAL_BATTERY_PAD",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_cushion_pad",
+      "correction": null
+    },
+    {
+      "label": "R2_REMOVABLE_TOP_CLAMP_R",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "removable_top_cassette_clamp",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_TOP_R_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_HAND_KNOB_M2_TOP_R_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hand_fastener",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_TOP_R_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_TOP_R_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_HAND_KNOB_M2_TOP_R_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hand_fastener",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_TOP_R_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_TOP_CLAMP_PAD_R_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_compression_pad",
+      "correction": null
+    },
+    {
+      "label": "R2_TOP_CLAMP_PAD_R_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_compression_pad",
+      "correction": null
+    },
+    {
+      "label": "R2_REMOVABLE_TOP_CLAMP_F",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "removable_top_cassette_clamp",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_TOP_F_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_HAND_KNOB_M2_TOP_F_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hand_fastener",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_TOP_F_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_SLOT_NUT_M2_TOP_F_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "custom_T_slot_nut",
+      "correction": null
+    },
+    {
+      "label": "R2_HAND_KNOB_M2_TOP_F_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hand_fastener",
+      "correction": null
+    },
+    {
+      "label": "R2_WASHER_M2_TOP_F_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "nominal_hardware",
+      "correction": null
+    },
+    {
+      "label": "R2_TOP_CLAMP_PAD_F_N",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_compression_pad",
+      "correction": null
+    },
+    {
+      "label": "R2_TOP_CLAMP_PAD_F_P",
+      "section": "battery",
+      "mechanical_model_count": 1,
+      "kind": "reference_compression_pad",
+      "correction": null
+    }
+  ],
+  "input_sha256": {
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/pa35_whole_robot_R2_internal_battery/whole_robot_manifest.json": "1d5ca20c3993a963983236fcc816bb9bc932b9b733b392e2109fa35f039d5626",
+    "source:/pa35_part_count_comparison/same_granularity_comparison.json": "f114d0a43b751a75c60fb682d4da40626312d3cb9be0624cd0e3d747b1c21ec7"
+  },
+  "limits": [
+    "Original CAD omits some fasteners; model difference is not proof that all285 are newly required physical parts.",
+    "No wiring or electronic component omission is counted as physical part reduction.",
+    "Formal R2 remains frozen; per-part before/after review required before redesign."
+  ]
+}

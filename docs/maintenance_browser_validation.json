@@ -1,0 +1,1192 @@
+{
+  "status": "CANONICAL_CURRENT_R4_COMPARISON_BROWSER_PASS",
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "testedURL": "http://127.0.0.1:8770/whole_robot_click_compare/index.html",
+  "canonicalURL": "file:///source:/whole_robot_click_compare/index.html",
+  "direct_file_protocol_tested": false,
+  "checks": [
+    {
+      "label": "Default entry displays current R4",
+      "pass": true
+    },
+    {
+      "label": "R4 count scope and CAD hash agree with current model",
+      "pass": true
+    },
+    {
+      "label": "Both overview images expose all eight region markers",
+      "pass": true
+    },
+    {
+      "label": "R4 numeric regions and subpart sums reconcile",
+      "pass": true
+    },
+    {
+      "label": "Pending battery is never treated as minus one or zero",
+      "pass": true
+    },
+    {
+      "label": "Download link points to the stable current whole robot STEP",
+      "pass": true
+    },
+    {
+      "label": "Count note preserves original body hardware scope",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot m1 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot m1 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 m1 displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot ab synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot ab synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 ab displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot m3 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot m3 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 m3 displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot pin synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot pin synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 pin displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot legother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot legother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 legother displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot bodyadapter synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot bodyadapter synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 bodyadapter displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "Current frame region reports the R2 connection layer removed",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot bodyother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot bodyother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 bodyother displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r4 after hotspot battery synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 before hotspot battery synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r4 battery displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "Battery region clearly labels pending, excluded status",
+      "pass": true
+    },
+    {
+      "label": "Local CAD image opens in zoom dialog",
+      "pass": true
+    },
+    {
+      "label": "Escape closes zoom",
+      "pass": true
+    },
+    {
+      "label": "Next region wraps from battery to M1",
+      "pass": true
+    },
+    {
+      "label": "Previous region wraps from M1 to battery",
+      "pass": true
+    },
+    {
+      "label": "Current side view switches both CAD images and projected anchors",
+      "pass": true
+    },
+    {
+      "label": "Whole CAD image zoom opens",
+      "pass": true
+    },
+    {
+      "label": "Show all exposes all region positions",
+      "pass": true
+    },
+    {
+      "label": "History selector restores R2 counts while identifying R4 as current",
+      "pass": true
+    },
+    {
+      "label": "Historical view has explicit history status",
+      "pass": true
+    },
+    {
+      "label": "Historical R2 numeric totals and subpart sums reconcile",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot m1 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot m1 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 m1 displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot ab synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot ab synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 ab displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot m3 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot m3 synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 m3 displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot pin synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot pin synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 pin displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot legother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot legother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 legother displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot bodyadapter synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot bodyadapter synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 bodyadapter displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot bodyother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot bodyother synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 bodyother displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "r2 after hotspot battery synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 before hotspot battery synchronizes the pair",
+      "pass": true
+    },
+    {
+      "label": "r2 battery displays its audited actual CAD explanation",
+      "pass": true
+    },
+    {
+      "label": "Switching back to R4 leaves no historical numbers behind",
+      "pass": true
+    },
+    {
+      "label": "Current mobile layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "label": "History mobile layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "label": "Historical deep link resolves version, region and view",
+      "pass": true
+    },
+    {
+      "label": "Current deep link resolves version, region and view",
+      "pass": true
+    },
+    {
+      "label": "Bare fixed URL always defaults to current R4",
+      "pass": true
+    },
+    {
+      "label": "All 30 current and historical CAD images load locally without outside access",
+      "pass": true
+    },
+    {
+      "label": "Guard missing never substitutes historical R2 as current",
+      "pass": true
+    },
+    {
+      "label": "Guard missing pauses stale comparison content",
+      "pass": true
+    },
+    {
+      "label": "Guard missing suppresses unchecked count",
+      "pass": true
+    },
+    {
+      "label": "Guard wrong-model-hash never substitutes historical R2 as current",
+      "pass": true
+    },
+    {
+      "label": "Guard wrong-model-hash pauses stale comparison content",
+      "pass": true
+    },
+    {
+      "label": "Guard wrong-model-hash suppresses unchecked count",
+      "pass": true
+    },
+    {
+      "label": "Page requires no external requests",
+      "pass": true
+    },
+    {
+      "label": "No page or console errors during normal and guarded flows",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "details": [
+    {
+      "mode": "r4",
+      "id": "m1",
+      "title": "1 M1：原夹座之外，多了一只适配衬套",
+      "images": [
+        {
+          "src": "assets/m1_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/m1_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 4,
+      "delta": 4
+    },
+    {
+      "mode": "r4",
+      "id": "ab",
+      "title": "2 M2—M3：一个主支架，拆成了两个盘和一道接缝",
+      "images": [
+        {
+          "src": "assets/ab_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/ab_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 8,
+      "after": 44,
+      "delta": 36
+    },
+    {
+      "mode": "r4",
+      "id": "m3",
+      "title": "3 M3：原大腿夹持端之外，多了一只短衬套",
+      "images": [
+        {
+          "src": "assets/m3_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/m3_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 4,
+      "delta": 4
+    },
+    {
+      "mode": "r4",
+      "id": "pin",
+      "title": "4 上连杆销：这里减少了固定小件",
+      "images": [
+        {
+          "src": "assets/pin_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/pin_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 12,
+      "after": 8,
+      "delta": -4
+    },
+    {
+      "mode": "r4",
+      "id": "legother",
+      "title": "5 腿部小件：144颗接口螺钉，加上其余连接净差−7",
+      "images": [
+        {
+          "src": "legother_audit/assets/overview_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/overview_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/m1_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/m1_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "legother_audit/assets/current_36_screw_tray.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 159,
+      "after": 296,
+      "delta": 137
+    },
+    {
+      "mode": "r4",
+      "id": "bodyadapter",
+      "title": "6 机架：已恢复原梁端直连，取消R2新增转接层",
+      "images": [
+        {
+          "src": "assets/r4/bodyadapter_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/r4/bodyadapter_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "mode": "r4",
+      "id": "bodyother",
+      "title": "7 横梁和支撑：原架子已恢复，对原模型数量相同",
+      "images": [
+        {
+          "src": "assets/r4/bodyother_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/r4/bodyother_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 39,
+      "after": 39,
+      "delta": 0
+    },
+    {
+      "mode": "r4",
+      "id": "battery",
+      "title": "8 电池：先定原架子，再按腹部空间选择电池",
+      "images": [
+        {
+          "src": "assets/r4/battery_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/r4/battery_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": null,
+      "after": null,
+      "delta": null
+    },
+    {
+      "mode": "r2",
+      "id": "m1",
+      "title": "1 M1：原夹座之外，多了一只适配衬套",
+      "images": [
+        {
+          "src": "assets/m1_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/m1_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 4,
+      "delta": 4
+    },
+    {
+      "mode": "r2",
+      "id": "ab",
+      "title": "2 M2—M3：一个主支架，拆成了两个盘和一道接缝",
+      "images": [
+        {
+          "src": "assets/ab_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/ab_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 8,
+      "after": 44,
+      "delta": 36
+    },
+    {
+      "mode": "r2",
+      "id": "m3",
+      "title": "3 M3：原大腿夹持端之外，多了一只短衬套",
+      "images": [
+        {
+          "src": "assets/m3_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/m3_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 4,
+      "delta": 4
+    },
+    {
+      "mode": "r2",
+      "id": "pin",
+      "title": "4 上连杆销：这里减少了固定小件",
+      "images": [
+        {
+          "src": "assets/pin_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/pin_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 12,
+      "after": 8,
+      "delta": -4
+    },
+    {
+      "mode": "r2",
+      "id": "legother",
+      "title": "5 其余腿部连接：+137是模型差额，不能全当新接缝",
+      "images": [
+        {
+          "src": "assets/legother_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/legother_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 159,
+      "after": 296,
+      "delta": 137
+    },
+    {
+      "mode": "r2",
+      "id": "bodyadapter",
+      "title": "6 机架：为保留旧接口，增加了8个转接件和48件硬件",
+      "images": [
+        {
+          "src": "assets/bodyadapter_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/bodyadapter_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 0,
+      "after": 56,
+      "delta": 56
+    },
+    {
+      "mode": "r2",
+      "id": "bodyother",
+      "title": "7 横梁和支撑块：36项当前连接，对原模型明确5项",
+      "images": [
+        {
+          "src": "assets/bodyother_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/bodyother_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 39,
+      "after": 70,
+      "delta": 31
+    },
+    {
+      "mode": "r2",
+      "id": "battery",
+      "title": "8 电池：采购包仍是一个，外面另加了21件",
+      "images": [
+        {
+          "src": "assets/battery_before.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "assets/battery_after.png",
+          "loaded": true,
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "before": 1,
+      "after": 22,
+      "delta": 21
+    }
+  ],
+  "localAssets": [
+    {
+      "src": "assets/whole_original_iso.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/whole_current_iso.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/whole_original_side.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/whole_current_side.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/m1_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/m1_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/ab_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/ab_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/m3_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/m3_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/pin_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/pin_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/legother_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/legother_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/bodyadapter_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/bodyadapter_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/bodyother_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/bodyother_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/battery_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/battery_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/whole_original_iso.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/whole_current_iso.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/whole_original_side.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/whole_current_side.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/bodyadapter_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/bodyadapter_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/bodyother_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/bodyother_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/battery_before.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "assets/r4/battery_after.png",
+      "loaded": true,
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "audit": {
+    "status": "SYNCED_CURRENT_MODEL",
+    "mode": "r4",
+    "currentRevision": "R4",
+    "displayedRevision": "R4",
+    "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "original": 219,
+    "current": 396,
+    "delta": 177,
+    "comparisonScope": "两版均不计电池包；R4电池固定件待设计，未纳入当前数量。原CAD已有机身支撑和紧固件照常计入。",
+    "excludedBattery": true,
+    "regionSum": 177,
+    "regions": [
+      {
+        "id": "m1",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "ab",
+        "before": 8,
+        "after": 44,
+        "delta": 36,
+        "partsSum": 36,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "m3",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "pin",
+        "before": 12,
+        "after": 8,
+        "delta": -4,
+        "partsSum": -4,
+        "type": "reduction",
+        "includedInCount": true
+      },
+      {
+        "id": "legother",
+        "before": 159,
+        "after": 296,
+        "delta": 137,
+        "partsSum": 137,
+        "type": "model",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyadapter",
+        "before": 0,
+        "after": 0,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyother",
+        "before": 39,
+        "after": 39,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "battery",
+        "before": null,
+        "after": null,
+        "delta": null,
+        "partsSum": null,
+        "type": "pending",
+        "includedInCount": false
+      }
+    ],
+    "view": "iso",
+    "selected": "bodyadapter",
+    "all": false,
+    "hotspotCount": 16,
+    "availableViews": [
+      "iso",
+      "side"
+    ],
+    "hasAssetManifest": true,
+    "assetErrors": [],
+    "images": [
+      {
+        "src": "assets/r4/whole_original_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/whole_current_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/bodyadapter_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/bodyadapter_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "anchors": {
+      "before": {
+        "m1": [
+          0.408836,
+          0.326045
+        ],
+        "ab": [
+          0.369656,
+          0.354581
+        ],
+        "m3": [
+          0.388757,
+          0.364074
+        ],
+        "pin": [
+          0.404342,
+          0.340408
+        ],
+        "legother": [
+          0.362014,
+          0.520593
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      },
+      "after": {
+        "m1": [
+          0.403054,
+          0.327906
+        ],
+        "ab": [
+          0.365104,
+          0.352319
+        ],
+        "m3": [
+          0.410825,
+          0.375044
+        ],
+        "pin": [
+          0.424612,
+          0.342349
+        ],
+        "legother": [
+          0.377103,
+          0.528092
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      }
+    },
+    "legBreakdown": {
+      "visible": false,
+      "validated": true,
+      "selectedGroup": "m1",
+      "groupCount": 5,
+      "reconciliation": {
+        "original": 159,
+        "current": 296,
+        "delta": 137,
+        "unchangedStructure": 64,
+        "unchangedMotors": 12,
+        "originalOtherConnections": 83,
+        "currentOtherConnections": 76,
+        "currentInterfaceScrews": 144,
+        "otherConnectionDelta": -7,
+        "commonConnectionGroupCountEachSide": 52,
+        "changedConnectionGroupBefore": 31,
+        "changedConnectionGroupAfter": 24,
+        "formula": "144 + (76 − 83) = 137",
+        "fullFormula": "(64 + 12 + 76 + 144) − (64 + 12 + 83) = 137"
+      },
+      "groups": [
+        {
+          "id": "m1",
+          "name": "M1输出端",
+          "perLeg": 6,
+          "currentTotal": 24
+        },
+        {
+          "id": "m2",
+          "name": "M2输出端与壳体",
+          "perLeg": 10,
+          "currentTotal": 40
+        },
+        {
+          "id": "m3",
+          "name": "M3输出、壳体与后端",
+          "perLeg": 13,
+          "currentTotal": 52
+        },
+        {
+          "id": "plate",
+          "name": "内外大腿板连接",
+          "perLeg": 5,
+          "currentTotal": 20
+        },
+        {
+          "id": "stop",
+          "name": "q2止挡固定",
+          "perLeg": 2,
+          "currentTotal": 8
+        }
+      ],
+      "credits": [
+        {
+          "id": "old-m4x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "old-m3x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "root-m4x10",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "m2p5x6",
+          "before": 3,
+          "after": 4,
+          "delta": 1
+        },
+        {
+          "id": "m6-springwasher",
+          "before": 2,
+          "after": 4,
+          "delta": 2
+        },
+        {
+          "id": "m6-screws",
+          "before": 6,
+          "after": 4,
+          "delta": -2
+        },
+        {
+          "id": "m6-flatwasher",
+          "before": 2,
+          "after": 0,
+          "delta": -2
+        },
+        {
+          "id": "6-1-spacers",
+          "before": 9,
+          "after": 12,
+          "delta": 3
+        }
+      ]
+    },
+    "CADModified": false
+  }
+}

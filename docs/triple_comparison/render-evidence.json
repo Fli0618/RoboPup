@@ -1,0 +1,933 @@
+{
+  "status": "ORIGINAL_STRICT60_REAL_CAD_SAME_CAMERA_RENDERED",
+  "source_assembly": "source:/cad_60pct_baseline/00_full_assembly_60pct.step",
+  "source_sha256_before": {
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/cad_60pct_baseline/00_full_assembly_60pct.step": "51b4cf441aa1804f3fcd6cd5ea11a6f3c14f64e74b6bf8f33915baf6d22d1bc3",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_324312_60pct.step": "86e0e82bc0bcd5981c3799dc60f92824e1e7c05ed3ade28e9a8a06da84b812aa",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_325684_60pct.step": "9f640b553376b1ba2e95181bd524d7c55edbc1fd581cd9c89bbcfa9a3bb9681c",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_327086_60pct.step": "ed7b779f14495ca55166a6334c306c38e54b45f9ec4f9051d234742c7401780c",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_328462_60pct.step": "774f628fc1e1496f93a3bfef91c448c81ee050e8dc6afde81e6da2b24d6aa480",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_329840_60pct.step": "26e5d0129a6990ebc6ccc492d47d10b24dee7666299a4859b44ef52a4f424753",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_331233_60pct.step": "5e064e0bb7ede9b9269a6f411632cc6753b453d38d96c698e4a7322ee827ad17",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_332599_60pct.step": "8c732f9873789ef8141a02918c9346341f9dfead3a454d2d131681cde42344d5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_335352_60pct.step": "7d181feb735783466ae62ca0a08bb509d76e2e31d0bb0814a2046b821f16618d",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_336717_60pct.step": "da819430247be2fdf9bcc5aca4b321481cfa0c282d78d25ed9f88df1dd6a0ecc",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_338044_60pct.step": "d4b03d4b25174b9486da3365daf069a5b740bc169b423224ffdb705ccb5b1103",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_339426_60pct.step": "372191304a7c5bc8edce253e226c3ca469909debb9edad2327a4a26908c178a5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_340773_60pct.step": "0f3da86d4dc21b66b3d3103c73b857c087b5a79e04ce893153f6622f16649192",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_342155_60pct.step": "923e19dd0e2d15a4c0f9cf2e60ff5501078ffe4cceb779dda8ec4a2c6b19d15e",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_343505_60pct.step": "427caf578f4f86d06831d59861e7e9bf14a1efd84fb191d2042fd44a3ecaaaf0",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_344894_60pct.step": "0e497fca9093dbda78e48f62ad871042623bc93ff090d7ed1150b1b1f4d86ebc",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_346263_60pct.step": "d8c93f0179e238fc83487d904041f45851d49d259ebe0e49a506a84c679380da",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_347628_60pct.step": "aa6bbc668c594e329ff03afbe62dff49aea8040a7b04f686942f0a119dd08fa1",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_349010_60pct.step": "1f61acb20c8d439beb70d9fc943e54a0d876fa1dc6e9e38b6848732efa55505a",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_353147_60pct.step": "abec3762b445fdbd003d1ab273f0782eedc100a28f22db2a1a77446b3f54ff78",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_355893_60pct.step": "d15fc57dd0a213b8361d779d87268c4f154277aed17ab9f79551fc0b94fccec7",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_360040_60pct.step": "9d4ffc2bbe0de885cc1b1d0380b7f278a6307d1444f8b5940a36685ecca332db",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_48079_60pct.step": "13dd5162b7e3a6b4faed3b169353af19f113459f2f9b0f87cef46e1d52fb0292",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_49459_60pct.step": "9d5e315fbcc053aa59dd0978f6a55d747f444f04bfd1ef291b2baf41c0e1bbd6",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_50826_60pct.step": "eb6140809af5ca8857776b8cc6dbe0c7d4ca4ded108fde0c42a86f63ba216dae",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_52218_60pct.step": "b333b87c54a601a1cc13f534b8cea3145e02de21d5f0f4e7206e0aa529715dd0",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_53593_60pct.step": "5cb86ff44a456cf783e55e02b06826a8bae5c720f6d5fa425574a6d24422eeb4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_54967_60pct.step": "bcc4ec22451c76b0be1120c4dca5509fd24e86ee9dafaef66698b96fea2f3e5e",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_56356_60pct.step": "f9fdf7ee18e8db2a31cb314e58796d5123760d9628608731806681ad9ac2cdc5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_57734_60pct.step": "8ae7004f1ee195f396990964360a5fbdbd3d498ff997b280ce84e5be55d140ca",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_59123_60pct.step": "aec54a6b9db2c7c5094cd29545368aeaa3746d5eff41d5ac29b43923643e0186",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_591304_60pct.step": "cb3d39e4f0e0c760a84ba541fb600e6a37c75b8026fe821eca47951d8baa76db",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_600829_60pct.step": "07ffba71d635eebb9e7a8708239a3be1a7abafbdbd9a31c6c9f2cec1142ff473",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_602223_60pct.step": "8d5c6651e1fa894e7ade18077a09e63dd3bb3fa65470c655aa9b699cb30023f4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_60491_60pct.step": "e86b8c5e6bcd007e1a1a1e523a2c0e7b9cad6c70f1bdd0782859dcc0bfb04264",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_604953_60pct.step": "ed2ac03c4e4a4f75d0a5a0b90dd35efed5415fa73feef244f1f9b02c7dc9ccd2",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_606337_60pct.step": "495e97e9e1ce8cbae0b3d8669ed503d03e701bef77183b45bd3e8e844c50ef07",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_607723_60pct.step": "60b8a1f75368e461abe30fd7855666e426c663b19b13d41b6dbe9e691e4e8bec",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_609107_60pct.step": "2ec03f2676ad3ce2ce12659c661866ed5f1c690367395f13b47acf7416fd898b",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_610492_60pct.step": "3617b013a3a9753484fb7e6177407359fbd229b292ec2e597d2848336050506c",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_611878_60pct.step": "9a734e613536566f99a147e6dfcd86ea672942e9940f1139376f6de2065977e0",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_613268_60pct.step": "427afc980e155c416351121542be675e72491a9c655120ba16662d20cad362e4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_614663_60pct.step": "b23393aeea387f94414b0571a4134910e03c4cc2b83fd7cc9dc55f64f9b6ab1f",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_616020_60pct.step": "4083cf0b3569eb49d9519dd9fe9dd6f75e5bdddfaa916370b5a454f4223b00bc",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_618794_60pct.step": "0088c3e15addaebf099931f76fdeaba02d13b8b736e3aef5ad4608768884c78b",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_620149_60pct.step": "1198855eff54e8c309724f08b03d2beb24dc787ca75050fb90d7bd616948df8d",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_621552_60pct.step": "6f65ec0b937442763b3f43cd36cdc44d1b54ad0fb7676abb712124fa23767a2e",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_622916_60pct.step": "b21bbdd80051fe314bd9743cb5dee7fc3503641f604a9156a65dd61ce7f49437",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_625652_60pct.step": "37a808ed52e2ae55d301e27ef6575052e6446357e7c0a5f4422ba2d55b13f5c6",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_627033_60pct.step": "94294f60796bde585409fe94cb13e0113e791823ec36c48d7429dce538655db1",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_629814_60pct.step": "f2a1e464bfe9e4eed93b7fe9d29d8590b3c4f5578bdc8874486c3263383f97f3",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_631186_60pct.step": "a92531e9474e434d6c5e5829fb0be27d1bb795138c6c870e86cd8bc797a22524",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_632561_60pct.step": "bace629b60781912f17abea99a756d66612fcacd4cfa4de325de648e8c6b6951",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_636656_60pct.step": "41f37fda44d29d83017566cac55421a62192b4c298b26fb3549c8a6589fd387a",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_64593_60pct.step": "738735dcede009de0004628a0739a14fbf7d869d207e0bf8292e64c3920edaff",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_65992_60pct.step": "561b2a40f13f6fb466830034098af5b6d7d8d0d2e74cedbafce65a895bc4d7b2",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_67342_60pct.step": "28b256a8df7cce8f00780b0ad777e8730a63888fed3ca885e81488cf2b4489cc",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_68715_60pct.step": "022a8d59f5497ece05e89face944af2e38fdac223886fd9f02ad1f646f517e75",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_70101_60pct.step": "1e1235b426e08aaf4194987863d46f8ec5d67e98890058ae3f1c444f27623624",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_71477_60pct.step": "2137c448c94f7f1de9aaba17a8d216793263e3eb5513b3a56f1a248d86424775",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_72875_60pct.step": "00fbcf8f0652ca0da2d3a6f2716ca40d7eeb13c5c7bf82b6978c669dd621c1a2",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_74236_60pct.step": "3ab11505e002f5979f36cb93e530bdf35f1e95ab940bb1afa3e7ec33f28a3adf",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_75600_60pct.step": "40aec727b7aaa8fef890a47ad108fbba1f0149b2dabe779878b75eeb392bf1ea",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_76973_60pct.step": "6c46a8e1ff7cb1c705edd7c0b725753a4dbd1e2f3d0db7257a66f539b0646c90",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_79750_60pct.step": "e42ce22cbf5c89da6af47af4ac42a889d2de9256bd7a7f798134371c9241fc27",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_83885_60pct.step": "f38346cad0e04bc4ded7fd606a8608e3d3951950fdea7a993ca54dc740dd6781"
+  },
+  "source_sha256_after": {
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/cad_60pct_baseline/00_full_assembly_60pct.step": "51b4cf441aa1804f3fcd6cd5ea11a6f3c14f64e74b6bf8f33915baf6d22d1bc3",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_324312_60pct.step": "86e0e82bc0bcd5981c3799dc60f92824e1e7c05ed3ade28e9a8a06da84b812aa",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_325684_60pct.step": "9f640b553376b1ba2e95181bd524d7c55edbc1fd581cd9c89bbcfa9a3bb9681c",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_327086_60pct.step": "ed7b779f14495ca55166a6334c306c38e54b45f9ec4f9051d234742c7401780c",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_328462_60pct.step": "774f628fc1e1496f93a3bfef91c448c81ee050e8dc6afde81e6da2b24d6aa480",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_329840_60pct.step": "26e5d0129a6990ebc6ccc492d47d10b24dee7666299a4859b44ef52a4f424753",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_331233_60pct.step": "5e064e0bb7ede9b9269a6f411632cc6753b453d38d96c698e4a7322ee827ad17",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_332599_60pct.step": "8c732f9873789ef8141a02918c9346341f9dfead3a454d2d131681cde42344d5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_335352_60pct.step": "7d181feb735783466ae62ca0a08bb509d76e2e31d0bb0814a2046b821f16618d",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_336717_60pct.step": "da819430247be2fdf9bcc5aca4b321481cfa0c282d78d25ed9f88df1dd6a0ecc",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_338044_60pct.step": "d4b03d4b25174b9486da3365daf069a5b740bc169b423224ffdb705ccb5b1103",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_339426_60pct.step": "372191304a7c5bc8edce253e226c3ca469909debb9edad2327a4a26908c178a5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_340773_60pct.step": "0f3da86d4dc21b66b3d3103c73b857c087b5a79e04ce893153f6622f16649192",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_342155_60pct.step": "923e19dd0e2d15a4c0f9cf2e60ff5501078ffe4cceb779dda8ec4a2c6b19d15e",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_343505_60pct.step": "427caf578f4f86d06831d59861e7e9bf14a1efd84fb191d2042fd44a3ecaaaf0",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_344894_60pct.step": "0e497fca9093dbda78e48f62ad871042623bc93ff090d7ed1150b1b1f4d86ebc",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_346263_60pct.step": "d8c93f0179e238fc83487d904041f45851d49d259ebe0e49a506a84c679380da",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_347628_60pct.step": "aa6bbc668c594e329ff03afbe62dff49aea8040a7b04f686942f0a119dd08fa1",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_349010_60pct.step": "1f61acb20c8d439beb70d9fc943e54a0d876fa1dc6e9e38b6848732efa55505a",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_353147_60pct.step": "abec3762b445fdbd003d1ab273f0782eedc100a28f22db2a1a77446b3f54ff78",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_355893_60pct.step": "d15fc57dd0a213b8361d779d87268c4f154277aed17ab9f79551fc0b94fccec7",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_360040_60pct.step": "9d4ffc2bbe0de885cc1b1d0380b7f278a6307d1444f8b5940a36685ecca332db",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_48079_60pct.step": "13dd5162b7e3a6b4faed3b169353af19f113459f2f9b0f87cef46e1d52fb0292",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_49459_60pct.step": "9d5e315fbcc053aa59dd0978f6a55d747f444f04bfd1ef291b2baf41c0e1bbd6",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_50826_60pct.step": "eb6140809af5ca8857776b8cc6dbe0c7d4ca4ded108fde0c42a86f63ba216dae",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_52218_60pct.step": "b333b87c54a601a1cc13f534b8cea3145e02de21d5f0f4e7206e0aa529715dd0",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_53593_60pct.step": "5cb86ff44a456cf783e55e02b06826a8bae5c720f6d5fa425574a6d24422eeb4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_54967_60pct.step": "bcc4ec22451c76b0be1120c4dca5509fd24e86ee9dafaef66698b96fea2f3e5e",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_56356_60pct.step": "f9fdf7ee18e8db2a31cb314e58796d5123760d9628608731806681ad9ac2cdc5",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_57734_60pct.step": "8ae7004f1ee195f396990964360a5fbdbd3d498ff997b280ce84e5be55d140ca",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_59123_60pct.step": "aec54a6b9db2c7c5094cd29545368aeaa3746d5eff41d5ac29b43923643e0186",
+    "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_591304_60pct.step": "cb3d39e4f0e0c760a84ba541fb600e6a37c75b8026fe821eca47951d8baa76db",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_600829_60pct.step": "07ffba71d635eebb9e7a8708239a3be1a7abafbdbd9a31c6c9f2cec1142ff473",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_602223_60pct.step": "8d5c6651e1fa894e7ade18077a09e63dd3bb3fa65470c655aa9b699cb30023f4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_60491_60pct.step": "e86b8c5e6bcd007e1a1a1e523a2c0e7b9cad6c70f1bdd0782859dcc0bfb04264",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_604953_60pct.step": "ed2ac03c4e4a4f75d0a5a0b90dd35efed5415fa73feef244f1f9b02c7dc9ccd2",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_606337_60pct.step": "495e97e9e1ce8cbae0b3d8669ed503d03e701bef77183b45bd3e8e844c50ef07",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_607723_60pct.step": "60b8a1f75368e461abe30fd7855666e426c663b19b13d41b6dbe9e691e4e8bec",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_609107_60pct.step": "2ec03f2676ad3ce2ce12659c661866ed5f1c690367395f13b47acf7416fd898b",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_610492_60pct.step": "3617b013a3a9753484fb7e6177407359fbd229b292ec2e597d2848336050506c",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_611878_60pct.step": "9a734e613536566f99a147e6dfcd86ea672942e9940f1139376f6de2065977e0",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_613268_60pct.step": "427afc980e155c416351121542be675e72491a9c655120ba16662d20cad362e4",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_614663_60pct.step": "b23393aeea387f94414b0571a4134910e03c4cc2b83fd7cc9dc55f64f9b6ab1f",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_616020_60pct.step": "4083cf0b3569eb49d9519dd9fe9dd6f75e5bdddfaa916370b5a454f4223b00bc",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_618794_60pct.step": "0088c3e15addaebf099931f76fdeaba02d13b8b736e3aef5ad4608768884c78b",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_620149_60pct.step": "1198855eff54e8c309724f08b03d2beb24dc787ca75050fb90d7bd616948df8d",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_621552_60pct.step": "6f65ec0b937442763b3f43cd36cdc44d1b54ad0fb7676abb712124fa23767a2e",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_622916_60pct.step": "b21bbdd80051fe314bd9743cb5dee7fc3503641f604a9156a65dd61ce7f49437",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_625652_60pct.step": "37a808ed52e2ae55d301e27ef6575052e6446357e7c0a5f4422ba2d55b13f5c6",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_627033_60pct.step": "94294f60796bde585409fe94cb13e0113e791823ec36c48d7429dce538655db1",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_629814_60pct.step": "f2a1e464bfe9e4eed93b7fe9d29d8590b3c4f5578bdc8874486c3263383f97f3",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_631186_60pct.step": "a92531e9474e434d6c5e5829fb0be27d1bb795138c6c870e86cd8bc797a22524",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_632561_60pct.step": "bace629b60781912f17abea99a756d66612fcacd4cfa4de325de648e8c6b6951",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_636656_60pct.step": "41f37fda44d29d83017566cac55421a62192b4c298b26fb3549c8a6589fd387a",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_64593_60pct.step": "738735dcede009de0004628a0739a14fbf7d869d207e0bf8292e64c3920edaff",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_65992_60pct.step": "561b2a40f13f6fb466830034098af5b6d7d8d0d2e74cedbafce65a895bc4d7b2",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_67342_60pct.step": "28b256a8df7cce8f00780b0ad777e8730a63888fed3ca885e81488cf2b4489cc",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_68715_60pct.step": "022a8d59f5497ece05e89face944af2e38fdac223886fd9f02ad1f646f517e75",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_70101_60pct.step": "1e1235b426e08aaf4194987863d46f8ec5d67e98890058ae3f1c444f27623624",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_71477_60pct.step": "2137c448c94f7f1de9aaba17a8d216793263e3eb5513b3a56f1a248d86424775",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_72875_60pct.step": "00fbcf8f0652ca0da2d3a6f2716ca40d7eeb13c5c7bf82b6978c669dd621c1a2",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_74236_60pct.step": "3ab11505e002f5979f36cb93e530bdf35f1e95ab940bb1afa3e7ec33f28a3adf",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_75600_60pct.step": "40aec727b7aaa8fef890a47ad108fbba1f0149b2dabe779878b75eeb392bf1ea",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_76973_60pct.step": "6c46a8e1ff7cb1c705edd7c0b725753a4dbd1e2f3d0db7257a66f539b0646c90",
+    "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_79750_60pct.step": "e42ce22cbf5c89da6af47af4ac42a889d2de9256bd7a7f798134371c9241fc27",
+    "source:/pa35_single_leg_v1/analysis/source_leaves/rep_83885_60pct.step": "f38346cad0e04bc4ded7fd606a8608e3d3951950fdea7a993ca54dc740dd6781"
+  },
+  "source_unchanged": true,
+  "source_geometry_proof": [
+    {
+      "original_rep": "324312",
+      "definition": "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_324312_60pct.step",
+      "definition_sha256": "86e0e82bc0bcd5981c3799dc60f92824e1e7c05ed3ade28e9a8a06da84b812aa",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_324312.stl",
+      "mesh_sha256": "b5f3614390cb936c5e371c448d8be86f8dcdbf82b8db22cab352a0ace868dd5a"
+    },
+    {
+      "original_rep": "325684",
+      "definition": "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_325684_60pct.step",
+      "definition_sha256": "9f640b553376b1ba2e95181bd524d7c55edbc1fd581cd9c89bbcfa9a3bb9681c",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_325684.stl",
+      "mesh_sha256": "64815d10a7bd70f753f711bae08a747ace49ce3c0bc55b7269cf37fea6d530ac"
+    },
+    {
+      "original_rep": "327086",
+      "definition": "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_327086_60pct.step",
+      "definition_sha256": "ed7b779f14495ca55166a6334c306c38e54b45f9ec4f9051d234742c7401780c",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_327086.stl",
+      "mesh_sha256": "0f7b94912c51269d805b03803168f5f486da051aa727858edb932102f10e7a96"
+    },
+    {
+      "original_rep": "328462",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_328462_60pct.step",
+      "definition_sha256": "774f628fc1e1496f93a3bfef91c448c81ee050e8dc6afde81e6da2b24d6aa480",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_328462.stl",
+      "mesh_sha256": "740f49e843b9a1fcff5791da2df7bdeaded1372845713aa1f668f1780b9a7fd5"
+    },
+    {
+      "original_rep": "329840",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_329840_60pct.step",
+      "definition_sha256": "26e5d0129a6990ebc6ccc492d47d10b24dee7666299a4859b44ef52a4f424753",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_329840.stl",
+      "mesh_sha256": "c99906c2bbf021ece100516d1504a6b3cd45c32d5367c489520c80034f283ae0"
+    },
+    {
+      "original_rep": "331233",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_331233_60pct.step",
+      "definition_sha256": "5e064e0bb7ede9b9269a6f411632cc6753b453d38d96c698e4a7322ee827ad17",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_331233.stl",
+      "mesh_sha256": "6594780dbba259eed268d9d1c0795abaf99e88a507602120c3bebcbb0d6940ea"
+    },
+    {
+      "original_rep": "332599",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_332599_60pct.step",
+      "definition_sha256": "8c732f9873789ef8141a02918c9346341f9dfead3a454d2d131681cde42344d5",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_332599.stl",
+      "mesh_sha256": "a53db2bae7c82092b705f15af21838ee8812bf3133890a4d991d44141ede1628"
+    },
+    {
+      "original_rep": "335352",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_335352_60pct.step",
+      "definition_sha256": "7d181feb735783466ae62ca0a08bb509d76e2e31d0bb0814a2046b821f16618d",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_335352.stl",
+      "mesh_sha256": "243dde95e22cd37bc7155c00ce5344753cdb1b79a3e68be8b8db106abad5ef3a"
+    },
+    {
+      "original_rep": "336717",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_336717_60pct.step",
+      "definition_sha256": "da819430247be2fdf9bcc5aca4b321481cfa0c282d78d25ed9f88df1dd6a0ecc",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_336717.stl",
+      "mesh_sha256": "3d967adfb0df8be5213fc4da0982c71d732b72baca5a543d6c66eceee6c79ff0"
+    },
+    {
+      "original_rep": "338044",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_338044_60pct.step",
+      "definition_sha256": "d4b03d4b25174b9486da3365daf069a5b740bc169b423224ffdb705ccb5b1103",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_338044.stl",
+      "mesh_sha256": "ffe3c35bbe35e40940ba27c980117cb7eb7e97167453a15c92cddfede7737c6c"
+    },
+    {
+      "original_rep": "339426",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_339426_60pct.step",
+      "definition_sha256": "372191304a7c5bc8edce253e226c3ca469909debb9edad2327a4a26908c178a5",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_339426.stl",
+      "mesh_sha256": "1ab3387a8ed79ff8596c27f33113cf2f35e661cdac287ba94430077b2deb49cf"
+    },
+    {
+      "original_rep": "340773",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_340773_60pct.step",
+      "definition_sha256": "0f3da86d4dc21b66b3d3103c73b857c087b5a79e04ce893153f6622f16649192",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_340773.stl",
+      "mesh_sha256": "3a2089703c89da32cfcb0e550b425761f9bb5b759ff3711bac59769a913594dd"
+    },
+    {
+      "original_rep": "342155",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_342155_60pct.step",
+      "definition_sha256": "923e19dd0e2d15a4c0f9cf2e60ff5501078ffe4cceb779dda8ec4a2c6b19d15e",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_342155.stl",
+      "mesh_sha256": "d9ebea293315fd9b5c9769da02ff0bcb627f3280a0bca5253e6b8fb1c4121cf8"
+    },
+    {
+      "original_rep": "343505",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_343505_60pct.step",
+      "definition_sha256": "427caf578f4f86d06831d59861e7e9bf14a1efd84fb191d2042fd44a3ecaaaf0",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_343505.stl",
+      "mesh_sha256": "735cb84715cae203012d65b772bf221b643147e6095670b11aa1ca0ae3023c6c"
+    },
+    {
+      "original_rep": "344894",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_344894_60pct.step",
+      "definition_sha256": "0e497fca9093dbda78e48f62ad871042623bc93ff090d7ed1150b1b1f4d86ebc",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_344894.stl",
+      "mesh_sha256": "e10d85a2cc243ea9dc181174c34fff42b092dd66387b211bd95d4d4eb881e144"
+    },
+    {
+      "original_rep": "346263",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_346263_60pct.step",
+      "definition_sha256": "d8c93f0179e238fc83487d904041f45851d49d259ebe0e49a506a84c679380da",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_346263.stl",
+      "mesh_sha256": "fd90ddb06befe46c3701697021c37c7a1614107b6d00d28f3f8a4d48b0a6c0bf"
+    },
+    {
+      "original_rep": "347628",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_347628_60pct.step",
+      "definition_sha256": "aa6bbc668c594e329ff03afbe62dff49aea8040a7b04f686942f0a119dd08fa1",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_347628.stl",
+      "mesh_sha256": "9115198e64777310ae8de0fe5e1c6432757291b6e302aba98504f68218d796d3"
+    },
+    {
+      "original_rep": "349010",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_349010_60pct.step",
+      "definition_sha256": "1f61acb20c8d439beb70d9fc943e54a0d876fa1dc6e9e38b6848732efa55505a",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_349010.stl",
+      "mesh_sha256": "9c1ac90bfde5a89a9ff5104b8edf8e3de6ca06ac51b3cbff6a2c2028d3e533f9"
+    },
+    {
+      "original_rep": "353147",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_353147_60pct.step",
+      "definition_sha256": "abec3762b445fdbd003d1ab273f0782eedc100a28f22db2a1a77446b3f54ff78",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_353147.stl",
+      "mesh_sha256": "07bd1ee6bb1e5f2860ce94642d7212afa347025b7ca24ae86316eb5ba80a1ecb"
+    },
+    {
+      "original_rep": "355893",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_355893_60pct.step",
+      "definition_sha256": "d15fc57dd0a213b8361d779d87268c4f154277aed17ab9f79551fc0b94fccec7",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_355893.stl",
+      "mesh_sha256": "7e1e8f40bac86e5477f949b15d2352233017944ae5d185c91aa7982a8586147d"
+    },
+    {
+      "original_rep": "360040",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_360040_60pct.step",
+      "definition_sha256": "9d4ffc2bbe0de885cc1b1d0380b7f278a6307d1444f8b5940a36685ecca332db",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_360040.stl",
+      "mesh_sha256": "979fd7ff5134bd02d0ddf40a3bc211743d2049ee430994cb6722cc9e65f4469e"
+    },
+    {
+      "original_rep": "48079",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_48079_60pct.step",
+      "definition_sha256": "13dd5162b7e3a6b4faed3b169353af19f113459f2f9b0f87cef46e1d52fb0292",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_48079.stl",
+      "mesh_sha256": "8e5e3366720598a04e2ab473c1a0697d9fb8b8adba9518aaeeb428de5e3d9162"
+    },
+    {
+      "original_rep": "49459",
+      "definition": "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_49459_60pct.step",
+      "definition_sha256": "9d5e315fbcc053aa59dd0978f6a55d747f444f04bfd1ef291b2baf41c0e1bbd6",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_49459.stl",
+      "mesh_sha256": "a9b2698c2504b76c5c0d784c2ee5d0d506a5260fcdb3c22eee9ab51f00f173c7"
+    },
+    {
+      "original_rep": "50826",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_50826_60pct.step",
+      "definition_sha256": "eb6140809af5ca8857776b8cc6dbe0c7d4ca4ded108fde0c42a86f63ba216dae",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_50826.stl",
+      "mesh_sha256": "f71d90725026ca82440697d6a34e882bc820affb7778a2a178922a3917722b7f"
+    },
+    {
+      "original_rep": "52218",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_52218_60pct.step",
+      "definition_sha256": "b333b87c54a601a1cc13f534b8cea3145e02de21d5f0f4e7206e0aa529715dd0",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_52218.stl",
+      "mesh_sha256": "83a73f6ab4f12b5d657145e6ad8bacb7a1b6e1e7342df53df05a57ace57bb815"
+    },
+    {
+      "original_rep": "53593",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_53593_60pct.step",
+      "definition_sha256": "5cb86ff44a456cf783e55e02b06826a8bae5c720f6d5fa425574a6d24422eeb4",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_53593.stl",
+      "mesh_sha256": "ea36aaa8f85fc315fe3b6096028a8f164cb738253a4023905c2a79f10048459b"
+    },
+    {
+      "original_rep": "54967",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_54967_60pct.step",
+      "definition_sha256": "bcc4ec22451c76b0be1120c4dca5509fd24e86ee9dafaef66698b96fea2f3e5e",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_54967.stl",
+      "mesh_sha256": "c5d3913b399d7f582c182c8737db5998084635ca2b6523351fafa7e75ef1ab48"
+    },
+    {
+      "original_rep": "56356",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_56356_60pct.step",
+      "definition_sha256": "f9fdf7ee18e8db2a31cb314e58796d5123760d9628608731806681ad9ac2cdc5",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_56356.stl",
+      "mesh_sha256": "28b5663ba040ca39d06ad27cfd9b3443b3b35e63d076a88a2454bbd46547003f"
+    },
+    {
+      "original_rep": "57734",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_57734_60pct.step",
+      "definition_sha256": "8ae7004f1ee195f396990964360a5fbdbd3d498ff997b280ce84e5be55d140ca",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_57734.stl",
+      "mesh_sha256": "8b067735f477a065ade0cf547f85631cc5ca5b0672d2fa94f8faa6f00d16b7a6"
+    },
+    {
+      "original_rep": "59123",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_59123_60pct.step",
+      "definition_sha256": "aec54a6b9db2c7c5094cd29545368aeaa3746d5eff41d5ac29b43923643e0186",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_59123.stl",
+      "mesh_sha256": "9e009c8f0335a0d394ebd46a4341596c5a77c9dc7385690f906b7beb473b26ab"
+    },
+    {
+      "original_rep": "591304",
+      "definition": "source:/pa35_whole_robot_R1/05_retained_body/source_definitions/source_rep_591304_60pct.step",
+      "definition_sha256": "cb3d39e4f0e0c760a84ba541fb600e6a37c75b8026fe821eca47951d8baa76db",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_591304.stl",
+      "mesh_sha256": "d6ef9348e41ada244b593ff72bac0d0ac499bee74e50563bf6c0c938eb52e90a"
+    },
+    {
+      "original_rep": "600829",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_600829_60pct.step",
+      "definition_sha256": "07ffba71d635eebb9e7a8708239a3be1a7abafbdbd9a31c6c9f2cec1142ff473",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_600829.stl",
+      "mesh_sha256": "9f40e5710099380066eebb81f7150c8b2bde12efd916031cc8c5969f0961a9f1"
+    },
+    {
+      "original_rep": "602223",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_602223_60pct.step",
+      "definition_sha256": "8d5c6651e1fa894e7ade18077a09e63dd3bb3fa65470c655aa9b699cb30023f4",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_602223.stl",
+      "mesh_sha256": "40b57e3ce7a0c1e18a25534b04c3ed3522873fc905c0f3f2b2b9b18ef392c754"
+    },
+    {
+      "original_rep": "60491",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_60491_60pct.step",
+      "definition_sha256": "e86b8c5e6bcd007e1a1a1e523a2c0e7b9cad6c70f1bdd0782859dcc0bfb04264",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_60491.stl",
+      "mesh_sha256": "41d360ccc8a77b7b2afb3c9f14b3ea8537185d4ba048bc3c6936fbc248eb699c"
+    },
+    {
+      "original_rep": "604953",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_604953_60pct.step",
+      "definition_sha256": "ed2ac03c4e4a4f75d0a5a0b90dd35efed5415fa73feef244f1f9b02c7dc9ccd2",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_604953.stl",
+      "mesh_sha256": "9cc19c761cbf1ce0c5d4691702237f8e0e07ea579d7e28f896bec275ea2d7227"
+    },
+    {
+      "original_rep": "606337",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_606337_60pct.step",
+      "definition_sha256": "495e97e9e1ce8cbae0b3d8669ed503d03e701bef77183b45bd3e8e844c50ef07",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_606337.stl",
+      "mesh_sha256": "d2766bf3d59d99b2ff1f89c952ead2448d5eb844d3012aa536c02de8a3e985fc"
+    },
+    {
+      "original_rep": "607723",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_607723_60pct.step",
+      "definition_sha256": "60b8a1f75368e461abe30fd7855666e426c663b19b13d41b6dbe9e691e4e8bec",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_607723.stl",
+      "mesh_sha256": "56d8f07b4766a14072dd13abbca66efeb4d319e15a4c3e598647191e6d08d405"
+    },
+    {
+      "original_rep": "609107",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_609107_60pct.step",
+      "definition_sha256": "2ec03f2676ad3ce2ce12659c661866ed5f1c690367395f13b47acf7416fd898b",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_609107.stl",
+      "mesh_sha256": "e01c925495e81012f9c5345c8d9f9dc7b40ff7f3cab5f59810832b982c858ca0"
+    },
+    {
+      "original_rep": "610492",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_610492_60pct.step",
+      "definition_sha256": "3617b013a3a9753484fb7e6177407359fbd229b292ec2e597d2848336050506c",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_610492.stl",
+      "mesh_sha256": "e055639b3e3f3053bb03241fe1c2374e9a1c32404dbe466dc79a5aa171309324"
+    },
+    {
+      "original_rep": "611878",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_611878_60pct.step",
+      "definition_sha256": "9a734e613536566f99a147e6dfcd86ea672942e9940f1139376f6de2065977e0",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_611878.stl",
+      "mesh_sha256": "59fbb50da5355c239f42a8754c4824a1017b306c3c5226044b5f7e83fe82d3a5"
+    },
+    {
+      "original_rep": "613268",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_613268_60pct.step",
+      "definition_sha256": "427afc980e155c416351121542be675e72491a9c655120ba16662d20cad362e4",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_613268.stl",
+      "mesh_sha256": "e131733e6bb54c6d384321765ea6eb867672d731f75fa00651c350f2f6fcba34"
+    },
+    {
+      "original_rep": "614663",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_614663_60pct.step",
+      "definition_sha256": "b23393aeea387f94414b0571a4134910e03c4cc2b83fd7cc9dc55f64f9b6ab1f",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_614663.stl",
+      "mesh_sha256": "4eb59c43cb8ad12d689a35f37c547df98fcc6ac90945c6d4fa3fb3811573a6e8"
+    },
+    {
+      "original_rep": "616020",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_616020_60pct.step",
+      "definition_sha256": "4083cf0b3569eb49d9519dd9fe9dd6f75e5bdddfaa916370b5a454f4223b00bc",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_616020.stl",
+      "mesh_sha256": "604d6b0ebfea05e93f5789ededd7173f304d8a2bb1dfd7cd5d7c663bd060fc97"
+    },
+    {
+      "original_rep": "618794",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_618794_60pct.step",
+      "definition_sha256": "0088c3e15addaebf099931f76fdeaba02d13b8b736e3aef5ad4608768884c78b",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_618794.stl",
+      "mesh_sha256": "62513bc19811b3b78c721ab5d2a885cca09499de3e0140dbef57ea818ec80682"
+    },
+    {
+      "original_rep": "620149",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_620149_60pct.step",
+      "definition_sha256": "1198855eff54e8c309724f08b03d2beb24dc787ca75050fb90d7bd616948df8d",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_620149.stl",
+      "mesh_sha256": "2c3dfea955af8e489ccab692efddea31d7e418facf80bbeb9440c6c479bb82bc"
+    },
+    {
+      "original_rep": "621552",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_621552_60pct.step",
+      "definition_sha256": "6f65ec0b937442763b3f43cd36cdc44d1b54ad0fb7676abb712124fa23767a2e",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_621552.stl",
+      "mesh_sha256": "9ef5478062af21a736a433fb9d62b91a7a0ca18c9d692c1c5b7518dff10e5ed8"
+    },
+    {
+      "original_rep": "622916",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_622916_60pct.step",
+      "definition_sha256": "b21bbdd80051fe314bd9743cb5dee7fc3503641f604a9156a65dd61ce7f49437",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_622916.stl",
+      "mesh_sha256": "ab2f7a64ab9559c651ab22c2ef5d2937b9a7cd544497ba953734bed7841b1958"
+    },
+    {
+      "original_rep": "625652",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_625652_60pct.step",
+      "definition_sha256": "37a808ed52e2ae55d301e27ef6575052e6446357e7c0a5f4422ba2d55b13f5c6",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_625652.stl",
+      "mesh_sha256": "194055fd7da6f3a814d78963f6e0555c2b6ea62c5da6cebcbaac2d7a006ec4a6"
+    },
+    {
+      "original_rep": "627033",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_627033_60pct.step",
+      "definition_sha256": "94294f60796bde585409fe94cb13e0113e791823ec36c48d7429dce538655db1",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_627033.stl",
+      "mesh_sha256": "0f49ef56997088e2d13fa3ccc1fbca37d6c77753c04949788b4819eaf15a1e63"
+    },
+    {
+      "original_rep": "629814",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_629814_60pct.step",
+      "definition_sha256": "f2a1e464bfe9e4eed93b7fe9d29d8590b3c4f5578bdc8874486c3263383f97f3",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_629814.stl",
+      "mesh_sha256": "71fe912d438a911b93cd18c9829ef2f7f61cf5a4289524d08b4329ffbfbe6e61"
+    },
+    {
+      "original_rep": "631186",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_631186_60pct.step",
+      "definition_sha256": "a92531e9474e434d6c5e5829fb0be27d1bb795138c6c870e86cd8bc797a22524",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_631186.stl",
+      "mesh_sha256": "b7c3c5c7de21e5aafc24d4fc5427bb4593f0e4f0d54c7c3e8cfad2b18665f093"
+    },
+    {
+      "original_rep": "632561",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_632561_60pct.step",
+      "definition_sha256": "bace629b60781912f17abea99a756d66612fcacd4cfa4de325de648e8c6b6951",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_632561.stl",
+      "mesh_sha256": "5d73daf63926e075c38d00b28619b5a9e2defdf2f30fd40ae7225dd1fd6007d6"
+    },
+    {
+      "original_rep": "636656",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_636656_60pct.step",
+      "definition_sha256": "41f37fda44d29d83017566cac55421a62192b4c298b26fb3549c8a6589fd387a",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_636656.stl",
+      "mesh_sha256": "fcfbfa249a1a285d3de7862c757c42a06eb65fc401cfcacd68e6eb59add94dc2"
+    },
+    {
+      "original_rep": "64593",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_64593_60pct.step",
+      "definition_sha256": "738735dcede009de0004628a0739a14fbf7d869d207e0bf8292e64c3920edaff",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_64593.stl",
+      "mesh_sha256": "1e9a4654f8aaaba93bcb94ca69ea06ab53300191208020f08cbcbcea5f97aa59"
+    },
+    {
+      "original_rep": "65992",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_65992_60pct.step",
+      "definition_sha256": "561b2a40f13f6fb466830034098af5b6d7d8d0d2e74cedbafce65a895bc4d7b2",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_65992.stl",
+      "mesh_sha256": "6f24b2e2abf3b5ebaeeda17b805ea0eec0ead8abb597f860e25bd2116be44952"
+    },
+    {
+      "original_rep": "67342",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_67342_60pct.step",
+      "definition_sha256": "28b256a8df7cce8f00780b0ad777e8730a63888fed3ca885e81488cf2b4489cc",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_67342.stl",
+      "mesh_sha256": "26c3a2bc34687c44dd38696515c0bfaac8be94fee80212b7ff54ca5c5a55cd8d"
+    },
+    {
+      "original_rep": "68715",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_68715_60pct.step",
+      "definition_sha256": "022a8d59f5497ece05e89face944af2e38fdac223886fd9f02ad1f646f517e75",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_68715.stl",
+      "mesh_sha256": "3c5cef2554c32e63cee682f6fc1739f288b992d5d98d324d690dbf93dfd4b79a"
+    },
+    {
+      "original_rep": "70101",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_70101_60pct.step",
+      "definition_sha256": "1e1235b426e08aaf4194987863d46f8ec5d67e98890058ae3f1c444f27623624",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_70101.stl",
+      "mesh_sha256": "196a24731d475f22ac4d263d29a816479e8ab871fb88a192a002ab420c324fa7"
+    },
+    {
+      "original_rep": "71477",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_71477_60pct.step",
+      "definition_sha256": "2137c448c94f7f1de9aaba17a8d216793263e3eb5513b3a56f1a248d86424775",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_71477.stl",
+      "mesh_sha256": "2725c9335f7f6e2b25f2d179901629769dfa5475a8aaab7118328178868b481d"
+    },
+    {
+      "original_rep": "72875",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_72875_60pct.step",
+      "definition_sha256": "00fbcf8f0652ca0da2d3a6f2716ca40d7eeb13c5c7bf82b6978c669dd621c1a2",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_72875.stl",
+      "mesh_sha256": "1032ef3f474efa536b2b2db8d83b447f2ead6884b94abe02a81a92c7ddfd937e"
+    },
+    {
+      "original_rep": "74236",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_74236_60pct.step",
+      "definition_sha256": "3ab11505e002f5979f36cb93e530bdf35f1e95ab940bb1afa3e7ec33f28a3adf",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_74236.stl",
+      "mesh_sha256": "36d391cb0e97dcba4d79f86767ae842b6aec212cbf75575db38ba2331fc2459b"
+    },
+    {
+      "original_rep": "75600",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_75600_60pct.step",
+      "definition_sha256": "40aec727b7aaa8fef890a47ad108fbba1f0149b2dabe779878b75eeb392bf1ea",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_75600.stl",
+      "mesh_sha256": "2f308fb6e42333359ec0047f63e7c80572ef6450c3d6fc3e43851a74aaf411dc"
+    },
+    {
+      "original_rep": "76973",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_76973_60pct.step",
+      "definition_sha256": "6c46a8e1ff7cb1c705edd7c0b725753a4dbd1e2f3d0db7257a66f539b0646c90",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_76973.stl",
+      "mesh_sha256": "219f2e4bbfe74de45c3bbaba5db76fc3f23d93691d7a980310f1b88403f3fcb8"
+    },
+    {
+      "original_rep": "79750",
+      "definition": "source:/whole_robot_click_compare/assets/source_geometry_cache/rep_79750_60pct.step",
+      "definition_sha256": "e42ce22cbf5c89da6af47af4ac42a889d2de9256bd7a7f798134371c9241fc27",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_79750.stl",
+      "mesh_sha256": "83a6c4deee200a55bcc58f00b29df955a83daeb0e3982933ded99722a8742381"
+    },
+    {
+      "original_rep": "83885",
+      "definition": "source:/pa35_single_leg_v1/analysis/source_leaves/rep_83885_60pct.step",
+      "definition_sha256": "f38346cad0e04bc4ded7fd606a8608e3d3951950fdea7a993ca54dc740dd6781",
+      "mesh": "source:/whole_robot_click_compare/assets/meshwork/cache/original_83885.stl",
+      "mesh_sha256": "a5f157790dcf561bc059c1f5146f6140c86381d60680718c96e5bc9b6e60cbae"
+    }
+  ],
+  "selected_original_instance_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    51,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    94,
+    95,
+    97,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    138,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225
+  ],
+  "excluded_original_instance_ids": [
+    93,
+    96,
+    137,
+    139,
+    176
+  ],
+  "exclusion_reasons": {
+    "93": "wiring layout placeholder",
+    "96": "wiring layout placeholder",
+    "137": "wiring layout placeholder",
+    "139": "wiring layout placeholder",
+    "176": "battery reference"
+  },
+  "display_count": 219,
+  "display_count_basis": "Requested comparison heading count is 219; this image renders 203 selected CAD leaf instances. The two counts use different counting levels and are not equated.",
+  "rendered_cad_leaf_instance_count": 203,
+  "strict_geometry_scale": 0.6,
+  "old_motor_geometry_scale": 0.6,
+  "actual_CAD": true,
+  "formal_CAD_modified": false,
+  "formalCADModified": false,
+  "same_camera_same_scale": true,
+  "camera_reference": "source:/whole_robot_click_compare/original_architecture_candidate/whole-render-evidence.json",
+  "camera_reference_sha256": "9ed0f4fda716c7329ef8b24b0d3894d3a42787e5af577e5ae4238433237a0ce1",
+  "camera": {
+    "focal": [
+      11.535278788104367,
+      -117.65507896221116,
+      1.5264716803361598
+    ],
+    "position": [
+      -773.1828877078243,
+      274.7040042857531,
+      982.424179800247
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "parallel_scale": 300.7452631348059
+  },
+  "image_evidence": {
+    "file": "source:/whole_robot_click_compare/triple_comparison/original_same_camera.png",
+    "sha256": "f7c30535e89c2296ad725940939b0bb873e798eacfd974d1bf00e34582dcbc62",
+    "width": 1600,
+    "height": 1200,
+    "actual_CAD": true,
+    "formal_CAD_modified": false,
+    "instance_count": 203,
+    "camera": {
+      "focal": [
+        11.535278788104367,
+        -117.65507896221116,
+        1.5264716803361598
+      ],
+      "position": [
+        -773.1828877078243,
+        274.7040042857531,
+        982.424179800247
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "parallel_scale": 300.7452631348059
+    },
+    "raw_geometry_pixel_bbox": [
+      351,
+      177,
+      1268,
+      1016
+    ],
+    "conservative_projected_bounds": [
+      219.82532611403104,
+      149.86095555146971,
+      1373.9592231465642,
+      1070.4131521440308
+    ]
+  },
+  "compared_images": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/whole_before.png",
+      "sha256": "23446eb241d11b92865dccc3e7644ea804e0ef18ccb5424ef4d84534f715ffe8",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 300.7452631348059
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/whole_after.png",
+      "sha256": "98ad84b93493018bfb2fc5d0974e3e0d4193a4193ca58068695e0edc7ab52493",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 300.7452631348059
+      }
+    }
+  ]
+}

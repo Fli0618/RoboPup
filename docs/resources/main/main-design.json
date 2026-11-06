@@ -1,0 +1,157 @@
+{
+  "status": "OFFICIAL_DESIGN_MAIN",
+  "id": "D1",
+  "revision": "D1_MAIN_DIRECT_GRIPS_004",
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "adopted_by_user": true,
+  "user_decision": "正式升级为正式方案，类似于github里面的main branch",
+  "canonical_review_page": "source:/whole_robot_click_compare/index.html",
+  "applies_to": "Four-leg M2-M3 cup-style connection architecture; all subsequent work follows D1",
+  "implemented_geometry_scope": "FOUR_LEG_COMPLETE_ROBOT_GEOMETRY",
+  "implemented_local_instances": [
+    "RR",
+    "FR",
+    "RL",
+    "FL"
+  ],
+  "whole_robot_integrated": true,
+  "four_leg_geometry_integrated": true,
+  "manufacturing_release": false,
+  "selection_is_final_for_current_design_route": true,
+  "remaining_work_is_implementation_not_option_selection": true,
+  "geometry_files": {
+    "connection_part": {
+      "file": "source:/main/PA35_MAIN_D1_CONNECTION.step",
+      "sha256": "184cc3e993ee6a17b2ac01446451a496668f70c74397534dd00f1394b95cb2f0",
+      "physical_part_count": 1
+    },
+    "local_assembly": {
+      "file": "source:/main/PA35_MAIN_D1_LOCAL_ASSEMBLY.step",
+      "sha256": "5719c171b600d74e842b48b1ccd02ac53e75c1bc2fa60d0dcf46a61326e04c0d",
+      "scope": "RR cup + M2/M3 actual motors + six M2 output and four M3 rear fasteners",
+      "modeled_component_count": 13
+    },
+    "whole_robot": {
+      "file": "source:/main/whole_robot_D1_direct_grips/PA35_MAIN_D1_WHOLE_ROBOT.step",
+      "sha256": "5d18ed864f2478689b7ad4cd1c0b43c3c7c099f0a9c41125cf140a89ecc06412",
+      "mechanical_model_count": 356,
+      "named_instance_count": 344,
+      "motor_count": 12
+    }
+  },
+  "selected_interface": {
+    "M2_output": {
+      "quantity": 6,
+      "PCD_mm": 24,
+      "fastener": "M4x8",
+      "direction_Z": -1
+    },
+    "M3_rear_stator": {
+      "quantity": 4,
+      "PCD_mm": 38.5,
+      "fastener": "M3x6",
+      "direction_Z": 1
+    },
+    "cup_opening_is_not_second_mounting_interface": true,
+    "cup_ID_mm": 47.2,
+    "cup_OD_mm": 52,
+    "cup_depth_mm": 20,
+    "M3_inward_shift_mm": 4,
+    "interface_separation_mm": 10
+  },
+  "count_scope": {
+    "local_reduction_vs_R4": 9,
+    "additional_reduction_vs_C1": 0,
+    "D1_whole_robot_count": 356,
+    "do_not_subtract_36_again_from_C1": true,
+    "direct_grip_sleeve_reduction": 8,
+    "previous_main_count": 364,
+    "net_reduction_from_R4": 40
+  },
+  "complete_assembly_export_baseline": {
+    "revision": "R4_ORIGINAL_FRAME_ADAPTIVE_BATTERY",
+    "file": "source:/PA35_CURRENT_REVIEW.step",
+    "sha256": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "mechanical_count": 396,
+    "meaning": "Existing complete R4 export retained as integration baseline, not a D1-integrated whole robot"
+  },
+  "comparison_reference": {
+    "original_CAD_model_count": 219,
+    "R4_model_count": 396,
+    "C1_model_count": 352,
+    "C1_adopted": false
+  },
+  "open_work": [
+    {
+      "id": "M3_SEAT_GAP_0P10",
+      "status": "OPEN",
+      "description": "M3 rear screw underside Z52.67 versus counterbore shoulder Z52.77: nominal gap0.10mm. Close seating and verify thread depth/bottom-out/preload."
+    },
+    {
+      "id": "WHOLE_LEG_INTEGRATION",
+      "status": "GEOMETRY_MERGED_VALIDATION_OPEN",
+      "description": "M3-side leg groups translated4mm inward; linkage/pin engagement and all-motion clearance remain open."
+    },
+    {
+      "id": "FOUR_LEG_INTEGRATION",
+      "status": "GEOMETRY_MERGED_VALIDATION_OPEN",
+      "description": "Four actual-handed cup parts and M3-side groups integrated into complete STEP; full mechanical validation remains open."
+    },
+    {
+      "id": "ASSEMBLY_AND_TOOL_PATH",
+      "status": "OPEN",
+      "description": "Actual tool, screw installation/withdrawal and complete quick-disassembly sequence."
+    },
+    {
+      "id": "LOAD_AND_MANUFACTURING",
+      "status": "OPEN",
+      "description": "Thread engagement, preload, loads, stiffness/fatigue, material/process and tolerances."
+    },
+    {
+      "id": "M1_DIRECT_GRIP_PRELOAD",
+      "status": "OPEN",
+      "description": "Direct split grip preload, friction torque, axial retention, motor shell pressure and tolerance qualification."
+    },
+    {
+      "id": "M3_DIRECT_LOCATOR_QUALIFICATION",
+      "status": "GEOMETRY_REBUILT_LOADS_OPEN",
+      "description": "Analytic cylindrical locator rebuilt and checked; full assembly, tolerance, loads and fatigue qualification remain open."
+    }
+  ],
+  "source_evidence": {
+    "geometry": "source:/whole_robot_click_compare/recessed_cup_candidate/evidence.json",
+    "cross_component": "source:/whole_robot_click_compare/recessed_cup_candidate/cross_component_screen.json",
+    "seating": "source:/whole_robot_click_compare/recessed_cup_candidate/seating-audit.json",
+    "before_after_render": "source:/whole_robot_click_compare/recessed_cup_candidate/render_evidence.json",
+    "connection_diagrams": "source:/whole_robot_click_compare/recessed_cup_candidate/connection-evidence.json",
+    "direct_grips": "source:/main/whole_robot_D1_direct_grips/whole_robot_manifest.json",
+    "M1_direct_geometry": "source:/main/whole_robot_D1_direct_grips/m1_validation/validation.json",
+    "M3_geometry_repair": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/evidence.json"
+  },
+  "protected_preexisting_SHA256": {
+    "source:/CURRENT_MODEL.json": "ebb4be7fed08bccd8776eb924cf4cf19965bebe13f87569643dda8c40fd8b5ef",
+    "source:/PA35_CURRENT_REVIEW.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/whole_robot_click_compare/original_architecture_candidate/PA35_C1_ORIGINAL_CONNECTION_QUADRUPED_CANDIDATE.step": "f06a40e396d1112ee7f9d73c7d5a22469197058247b7f45cf9993c53b91593c0",
+    "source:/whole_robot_click_compare/recessed_cup_candidate/RR_RECESSED_CUP_D1.step": "184cc3e993ee6a17b2ac01446451a496668f70c74397534dd00f1394b95cb2f0",
+    "source:/whole_robot_click_compare/recessed_cup_candidate/RR_D1_LOCAL_AFTER.step": "5719c171b600d74e842b48b1ccd02ac53e75c1bc2fa60d0dcf46a61326e04c0d"
+  },
+  "whole_geometry_only": true,
+  "full_motion_validated": false,
+  "whole_integration_manifest": "source:/main/whole_robot_D1_direct_grips/whole_robot_manifest.json",
+  "upper_pin_route": "ORIGINAL_PIN_WASHER_AXIAL_SCREW",
+  "keeper_adopted": false,
+  "original_pin_user_decision": "保留原来，不用侧向keeper",
+  "original_pin_scope": "Original CAD60% pin, washer and axial screw geometry; restore mating7009 pin seat. FL source mirrored from original FR; final standard fastener specification and engagement remain unqualified.",
+  "direct_grip_adoption": {
+    "adopted_by_user": true,
+    "baseline_count": 364,
+    "current_count": 356,
+    "M1_removed_sleeves": 4,
+    "M3_removed_sleeves": 4,
+    "added_fasteners": 0,
+    "unchanged_rows_verified": 338,
+    "M3_geometry_repair_evidence": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/evidence.json"
+  },
+  "direct_grip_user_decision": "M1夹座及M3原端部直接适配PA35，取消两类独立衬套；原连接螺钉保留"
+}

@@ -1,0 +1,393 @@
+{
+  "status": "PASS_M1_INDEPENDENT_CANDIDATE_DELIVERY",
+  "static_geometry_pass": true,
+  "manufacturing_release": false,
+  "formal_R4_modified": false,
+  "candidate_sleeve_reduction": 4,
+  "formal_sleeve_reduction": 0,
+  "source_SHA_preserved": true,
+  "geometry_exports_count": 36,
+  "PNG_count": 44,
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "172435a2964dbb45e8e9dfb153cd741c1792990ee92745dddba4447ebc9b3795"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "8021358a4672622fcd5f667697070f0fa4cf7424acd15bb62701778c3f1ab3c9"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "6a84d5f696b6fd87ccda0dc4cc0fc7413ffb815bf08210789fcf2d54a2a0e763"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "522e80f710988fcf2dcd953589b73e99da0c2811e627a9031abf01e217a4fa70"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "579ba714fb4435d7956895c8ccc667252952212d859c09de908e79e15d19705a"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "1d7e66f48cede34e9820dd46cfa5acb4e696f4cf5d7ade175b4392252bb8a96d"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "3090cce8489a4d0019be7e0527b9f1a1121d66be0e6da57fed3b9c2ddc7c771c"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "c7c34abd8e12d837e5262d3d4d6a985159ffd62277e8e906c4ce9ae4afc265b1"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "8d49f26dc9ff46be1da2cea848000900ae723a01b871d46f45176562510c341a"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "4ff4f9b8af12e1d51870c627033e6f405d24cab9a5977f125ce5a6453f2261fa"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "9023c093d110ec6dd2d1bcfe43b8c8f154e06a3ed2e0345df7864cca8cc8b6fc"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "c3e95f40f2061fa6834c59442718a10f9df5e7931fc15e80f5204632ec93e836"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "5d5d7eb8328e27684d5727469d7874e122d5f8b52403243b2803cd7ff7e9cd4a"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "97cd8094255d0b5c8e26f04668811217c95bcfc86dbceb974107b541c86024fe"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "4e89ddaf19f0990ef00ca4fae6afeeca57d23324b19da263eb3cdb93c8ca0467"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "c6668b05412bd9097ee53466e6665e22be9ab1b7e9f7e2bcd2a52b9d83a89492"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "b351abfee34a5acd78ea6a801bfd68ebf0504df4dde8c5913255438c8971b50d"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "04802bc106c75142b0b3ab260781f0d6832cc5aa31311440db27b7c1fa1328fa"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "d11fadff240ecd4bf2a21f4e34854fdf7aa57c86c29863095be5ecd087571c72"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "102fc93a3c6de81f24740b1cf8ca8d531e9042edf38ed13e1692c1158dfbf86d"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "8b364564bda3df30e4db86286580236ec788faa224189f1a906b92051c7a5ac2"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "3ad05a9560dddfc566a49589562d83f442aaca9931bd65a4ea0644594c122c50"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "cbffbc4ba74075d714aedf0b8c907958082657e385ba52efa6c9e6721a80d341"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "0e671e1c51578de082adc67c8e9cde94ff07027209321e046a93057668a2f7ab"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "47f2eae1a1ae65b1fa96a84dca65a442af60c9992a5d0421c065faf4547f1964"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "0357aceb58cec61f230ad13bddbca2793790871c8061d53d4fa7ac9a289ed126"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "3dcb6deb18ed9c2d69c41ee8d1f5e6d82629633548646eea4beb9ce81a4393de"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "1764520f91f557da7833254d5c9e8af9e1175b8aa79220dc4ce0b0a5c5834986"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "216139b3a46d23a5578b009e9e1a12975f6ac8d30d45e77c1eaac55eee45b3b8"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "c51090012c90619b82c6b2d4dbac358ef082b7e867645ff68e30e3ee2a53440e"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "3b14d65522406420586f485db9f468c65902f84adedbbdda4acaf972b4b3438b"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "fc29a4eedacf6d92f166b177d8ae735dd288bd9a9aab888c08013be25c17f678"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "15463934ef3cdf37e1b6ec8dc9d319e69f4137f6795436c30d6f7ea4a0cf29b6"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "bb95b3ed2933d19b87fa2c611149b29b6a824f6dc62fa0b5b9050075d0fd7b16"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "9584f0fe8f4b2669febc7f44b75d940e9b26e01744386607b99ef755591f5762"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "a9e7ebac603f63e6e6afacd7c75c301366667510f7b67acdbbd4089fa8901497"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "36b152e0011a20d841fe527733d11ed079f59de30c68792dac9dc62a66aa680a"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "4b9c126141ddd86039856a8a9476f21110b8d81181c2bbc4eb337b73eb82f1bc"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "3f932fa965ef570af38927cde45891a711c8cbd42f58af098695218dc9f1abab"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "398dd04011fe41b2ac4e6901ab824532d16861172532dbbfbd1cdc82329d3481"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "0c4294342be6c76d1ff4419fd3ebf172953bf8bc5e1364ccdb2ec57d1a188aeb"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_before_after.png",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "sha256": "ba116aa0db4d3c1396be1482e70e720c1773852e7d0185e4c1123b79b2a59941"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "3090cce8489a4d0019be7e0527b9f1a1121d66be0e6da57fed3b9c2ddc7c771c"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after.png",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "sha256": "c7c34abd8e12d837e5262d3d4d6a985159ffd62277e8e906c4ce9ae4afc265b1"
+    }
+  ],
+  "mapping_sha256": "acd9103d41e2dbbe55cf0e1e5c8546c1c130445182797a23425067a1df975527",
+  "evidence_sha256": "542dcaceead4e84f0e903ae06a1440c678f6c4b5ceaee65597b66a1832ccc92e",
+  "render_evidence_sha256": "425a7bc93fd87e1c49fc3ea8272f466e289e7b18a2ca710767ec7e0c7ae26054",
+  "minimum_exact_PA35_clearance_mm": 0.07217231356733048,
+  "exact_motor_common_areas_mm2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "split_gap_mm": [
+    0.29999999999999716,
+    0.29999999999999716,
+    0.29999999999999716,
+    0.29999999999999716
+  ],
+  "remaining_validation": [
+    "Actual production motor OD/profile/tolerances, surface finish, material and temperature variation are unknown; candidate diameter46.30 and .30mm unloaded split gap require tolerance/preload testing.",
+    "No friction coefficient, bolt torque, minimum thread engagement, housing crushing, slip torque, axial retention, fatigue, load or FEA signoff.",
+    "No closed-loop preload simulation or loaded contact assertion; the before/after CAD shows unloaded candidate geometry only.",
+    "Actual PA35 is an imported surface model; exact face intersection and distance are screened, not certified solid-to-solid motor interference.",
+    "Cap outward removal direction is provided; continuous motor extraction, wiring and original tool/screw access require later sweep verification.",
+    "Formal R4 assembly and BOM remain unchanged; manufacturing reduction is conditional on validation and approval of all mating interfaces."
+  ]
+}

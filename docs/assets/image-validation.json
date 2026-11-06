@@ -1,0 +1,306 @@
+{
+  "status": "20_ACTUAL_CAD_IMAGES_10_SHARED_CAMERA_PAIRS_AND_32_HOTSPOT_ANCHORS_PASS",
+  "checks": [
+    {
+      "file": "whole_original_iso.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        253,
+        84,
+        1371,
+        1107
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "whole_current_iso.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        229,
+        84,
+        1313,
+        1116
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "whole_original_side.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        205,
+        84,
+        1395,
+        1110
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "whole_current_side.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        205,
+        84,
+        1395,
+        1115
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "m1_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        113,
+        106,
+        1364,
+        1095
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "m1_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        113,
+        106,
+        1487,
+        1095
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "ab_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        173,
+        227,
+        1428,
+        973
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "ab_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        113,
+        228,
+        1488,
+        969
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "m3_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        445,
+        84,
+        1108,
+        1098
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "m3_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        452,
+        104,
+        1156,
+        1116
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "pin_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        433,
+        290,
+        1094,
+        1020
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "pin_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        588,
+        85,
+        1167,
+        1115
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "legother_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        445,
+        84,
+        1108,
+        1098
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "legother_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        452,
+        104,
+        1156,
+        1116
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "bodyadapter_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        112,
+        353,
+        1488,
+        1020
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "bodyadapter_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        112,
+        137,
+        1488,
+        1063
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "bodyother_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        113,
+        266,
+        1487,
+        932
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "bodyother_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        113,
+        227,
+        1487,
+        975
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "battery_before.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        393,
+        482,
+        1207,
+        1091
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    },
+    {
+      "file": "battery_after.png",
+      "pixels": [
+        1600,
+        1200
+      ],
+      "occupied_bbox": [
+        393,
+        84,
+        1207,
+        1116
+      ],
+      "not_clipped": true,
+      "hash_valid": true
+    }
+  ],
+  "source_CAD_unchanged": true
+}

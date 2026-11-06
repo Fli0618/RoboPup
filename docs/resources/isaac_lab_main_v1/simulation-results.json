@@ -1,0 +1,119 @@
+{
+  "status": "ISAAC_LAB_STANDING_AND_TINY_CONTACT_SCREEN_VERIFIED",
+  "date": "2026-11-06",
+  "source_MAIN_revision": "D1_MAIN_DIRECT_GRIPS_004",
+  "source_MAIN_STEP_SHA": "5d18ed864f2478689b7ad4cd1c0b43c3c7c099f0a9c41125cf140a89ecc06412",
+  "mechanical_MAIN_modified": false,
+  "asset": "source:/isaac_lab_main_v1/PA35_ROBOT.usda",
+  "tests": [
+    {
+      "label": "固定机身 · 12驱动零重力点动",
+      "status": "PASS",
+      "metric": "3000步，±3°；闭环误差≤0.0262 mm，跟踪误差≤0.581°。有效重力已核对。"
+    },
+    {
+      "label": "固定机身 · 12驱动带重力点动",
+      "status": "PASS",
+      "metric": "有效重力9.81 m/s²；闭环误差≤0.0565 mm，跟踪误差≤0.613°。独立落体核对通过。"
+    },
+    {
+      "label": "Isaac Lab 2.3 · 资产加载与单关节点动",
+      "status": "PASS",
+      "metric": "实际单实例运行600步，加载21刚体、12驱动；其中一个q3关节点动，跟踪误差≤0.294°。12驱动逐一测试见独立Isaac Sim记录。"
+    },
+    {
+      "label": "自由机身 · 四足站立",
+      "status": "PASS",
+      "metric": "10秒，假设7.30kg/3Nm；步长1/480秒、位置迭代128。闭环误差≤0.0940 mm，最终倾角0.073°，四足支撑力合计71.54 N。"
+    },
+    {
+      "label": "前序 · 微步接触探索",
+      "status": "FAIL",
+      "archived": true,
+      "metric": "13秒微步探索：稳定性通过；前移-1.25mm，最大倾角0.65°，闭环误差0.087mm。实际抬足/卸载或前进要求未全部达到，不能称行走或小跑通过。"
+    },
+    {
+      "label": "前序 · 对角步接触探索",
+      "status": "FAIL",
+      "archived": true,
+      "metric": "9秒微步探索：稳定性通过；前移16.03mm，最大倾角0.80°，闭环误差0.082mm。实际抬足/卸载或前进要求未全部达到，不能称行走或小跑通过。"
+    },
+    {
+      "label": "前序 · 重心迁移接触探索",
+      "status": "FAIL",
+      "archived": true,
+      "metric": "14.2秒重心转移微步：稳定性通过；前移3.87mm，最大倾角0.94°，闭环误差0.090mm。后脚仍未可靠离地，完整四脚交替抬足未通过。"
+    },
+    {
+      "label": "当前 · 后腿重心裕度与四足接触",
+      "status": "PASS",
+      "archived": false,
+      "metric": "14秒微步探索：稳定性通过；前移3.84mm，最大倾角0.14°，闭环误差0.090mm。四足均有实际抬离/卸载，仍非小跑能力认证。"
+    },
+    {
+      "label": "Isaac Lab 2.3 · 自由站立＋四足微步复测",
+      "status": "PASS",
+      "metric": "Isaac Lab实际10秒站立＋14.2秒微步：接触筛查通过；前移3.75mm，倾角0.133°，闭环误差0.1548mm。仍未验证连续行走或小跑。"
+    },
+    {
+      "label": "连续行走与小跑",
+      "status": "NOT_RUN",
+      "metric": "当前只完成一轮微步接触筛查；尚未运行连续步态、速度跟踪或小跑验证。"
+    }
+  ],
+  "manufacturing_release": false,
+  "walking_validated": false,
+  "trot_validated": false,
+  "current_contact_trial": {
+    "file": "runtime/rear_margin_creep_trial.json",
+    "status": "GAIT_CONTACT_TRIAL_PASS",
+    "contact_trial_pass": true,
+    "continuous_walking_validated": false
+  },
+  "first_standing_trial": {
+    "file": "runtime/stand_3Nm.json",
+    "status": "FAILED_STRICT_SCREEN",
+    "reason": "Solver32iterations1/240s produced2.71mm closure drift and sleeping bodies suppressed final contact reports; retained for comparison, not a passed trial."
+  },
+  "accepted_standing_trial": {
+    "file": "runtime/stand_3Nm_solver128.json",
+    "status": "FLOATING_STAND_SCREEN_PASS",
+    "solver_position_iterations": 128,
+    "physics_dt": 0.0020833333333333333
+  },
+  "test_files": {
+    "runtime\\runtime_probe.json": "b7ee7621477914563386933b1ba618e17020758883bac4e22b158339b90bd1f8",
+    "runtime\\rr_q3_smoke.json": "b228db1828b35b20794595ec0c61b9c9f4e6240797a0487a77f63dffaba98f94",
+    "runtime\\all12_fixed_smoke.json": "3b6e3b0074a3b1092bb9299932ddec9d400e9c5c37c6794d0b0381b50c68c241",
+    "runtime\\rr_q3_analytic_comparison.json": "09f7608ee812d11295039f43c80b6b3736eaed61393f55b03043fef3afe328f4",
+    "runtime\\all12_analytic_comparison.json": "e72cd23c349043fef9361ed721f5fa4d68c141d52ef993a499fa7165b90d17d2",
+    "runtime\\all12_fixed_gravity.json": "1b37f731e311ced6a491569d6f1336e91a8c57de5ecaac8d06f3b795d64570bf",
+    "runtime\\all12_gravity_analytic_comparison.json": "c4cdb60adef109c63534c60be36eebe58f201e14d0965d06cdc973c9ac97fe4d",
+    "runtime\\isaac_lab_smoke.json": "b456d725f0f62580a4c2593d82000c3ff6a5674155ec5cc322fd13c80f11be55",
+    "runtime\\stand_3Nm.json": "7068533dff41036df6b85f93410ac210a6fbc6512c3e4feed2724082febacd1d",
+    "runtime\\stand_3Nm_solver128.json": "a21982db699fa56445715324f0bf08dc910a0da5e9f1c0d500d86867c78b6432",
+    "runtime\\creep_trial.json": "14bbc4611759b5e7066a828dfb67bd4740d0119c283704e0561b7edca2b16ab1",
+    "runtime\\diagonal_trial.json": "fa0e693481f4517ebd1ce80cd875c77a0f744556190a1e086a1f9755ad3f4c04",
+    "runtime\\weight_shift_creep_trial.json": "2cb708fbc82b1194a840b138d37528c210705a2012635fd99cfd9891e2b95b52",
+    "runtime\\weight_shift_creep_trial-initial-analysis.json": "72d4a7cf28b6e953cf11e2813abb41e3e45feb7c3b0949e37496b987ec3c580c",
+    "runtime\\rear_margin_creep_trial-target-snapshot.json": "534780a1e0b37ccb07172f817039c86da0e1b81ea046c79fdc7ce9660ea2b497",
+    "runtime\\rear_margin_creep_trial.json": "0e224db5981b74c9ac176bb934de5df99985b1ad6845750544dc034ceb8f54d6",
+    "runtime\\isaac_lab_contact-target-snapshot.json": "534780a1e0b37ccb07172f817039c86da0e1b81ea046c79fdc7ce9660ea2b497",
+    "runtime\\isaac_lab_contact.json": "6449e830e426914e87c769be195fa586aa249e0ed179a5d96a9a7c7401f25515"
+  },
+  "limits": [
+    "当前约7.30kg、每台电机0.35kg、电池电子设备0.75kg以及结构密度、惯量均为探索假设，尚无实测校准。",
+    "独立Isaac Sim场景采用USD角驱动增益30 N·m/°、阻尼1 N·m·s/°、3Nm限幅；Isaac Lab配置另用SI增益30 N·m/rad、阻尼1 N·m·s/rad及10rad/s限速。两者不是同一数值调参，均非PA35厂家确认参数。",
+    "新增Isaac Lab接触复测复制基础配置并覆盖为1718.87 N·m/rad、57.30 N·m·s/rad，对齐独立Sim的实际SI增益，另加10rad/s限速；基础pa35_lab_cfg.py仍保留30/1配置。",
+    "12主动关节＋12被动转动副；其中4个D关节作为闭环约束保留在树状articulation之外。",
+    "脚端暂固定于小腿，自碰撞关闭；盒/胶囊与足端凸包用于接触探索，不能替代完整CAD运动干涉。",
+    "零角为保存CAD姿态，不是实测编码器零位；小角度测试范围不等于批准的机械工作域。",
+    "当前机械MAIN与完整STEP未改，仍有夹紧预紧、M3螺钉0.10mm座面、销轴接合、承载及制造待收口事项。",
+    "对角微步不等于小跑能力通过；小跑仍需可实现的电机参数、步态控制、持续运行及完整验证。"
+  ],
+  "isaac_lab_contact_trial": {
+    "file": "runtime/isaac_lab_contact.json",
+    "status": "ISAAC_LAB_CONTACT_TRIAL_PASS",
+    "contact_trial_pass": true
+  }
+}

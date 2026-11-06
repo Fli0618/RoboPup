@@ -1,0 +1,58 @@
+{
+  "status": "C1_WHOLE_REAL_CAD_PAIR_RENDERED",
+  "currentModelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "candidateSTEP_SHA": "f06a40e396d1112ee7f9d73c7d5a22469197058247b7f45cf9993c53b91593c0",
+  "same_camera_same_scale": true,
+  "image_evidence": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/whole_before.png",
+      "sha256": "23446eb241d11b92865dccc3e7644ea804e0ef18ccb5424ef4d84534f715ffe8",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 300.7452631348059
+      },
+      "actual_CAD": true,
+      "formal_CAD_modified": false,
+      "instance_count": 384
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/whole_after.png",
+      "sha256": "98ad84b93493018bfb2fc5d0974e3e0d4193a4193ca58068695e0edc7ab52493",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 300.7452631348059
+      },
+      "actual_CAD": true,
+      "formal_CAD_modified": false,
+      "instance_count": 340
+    }
+  ]
+}

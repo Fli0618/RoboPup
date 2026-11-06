@@ -1,0 +1,2955 @@
+{
+  "status": "DIRECT_AXIAL_ASSEMBLY_PATHS_BLOCKED_NOT_ASSEMBLY_RELEASED",
+  "candidate": "RR_ONE_PIECE_7003_ROUTE_CANDIDATE",
+  "scope": "Read-only actual RR geometry; direct coaxial straight-tool and exact-screw axial insertion/withdrawal screen. No CAD edited.",
+  "formal_R4_modified": false,
+  "candidate_CAD_modified": false,
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/after.step": "18ffbeb4d4f261b62ceca1bdc237ef9370e445451e636700c1a95436f0510c04",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd"
+  },
+  "summary": {
+    "retained_motor_screws_checked": 10,
+    "straight_axial_tool_paths_blocked": 10,
+    "exact_screw_axial_withdrawal_paths_blocked": 10,
+    "current_installed_screw_intersections": 0,
+    "valid_single_solid_is_not_assembly_feasibility": true,
+    "assembly_route_verified": false,
+    "manufacturing_release": false
+  },
+  "findings_CN": [
+    "M2输出6颗头位于A/B中间层，从+Z直线进入工具需穿过B，Ø1.0mm细工具已发生实体交叠，常规更大直工具也被挡。",
+    "M3后端4颗头位于A/B中间层，从−Z直线进入工具需穿过A，Ø1.0mm细工具已发生实体交叠。",
+    "10颗螺钉在已就位位置对一体支架无实体碰撞，但退钉方向的实际螺钉平移很快撞到相对侧板，不能把预装后静态几何当成可装配。",
+    "直接一体fusion封住原分体时可用的轴向操作空间；四腿候选356项仅为几何/计数概念，不能作为可制造可装配方案发布。"
+  ],
+  "screws": [
+    {
+      "source_id": "M2_output_M4x8_1",
+      "label": "RR_M2_output_M4x8_1",
+      "definition_sha256": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -148.9452813742,
+        -8.485281374239
+      ],
+      "screw_bounds_mm": [
+        -152.4452813742,
+        -11.985281374239,
+        41.77,
+        -145.4452813742,
+        -4.985281374238999,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -149.4452813742,
+            -8.985281374239,
+            54.37,
+            -148.4452813742,
+            -7.985281374238999,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -149.4452813742,
+            -8.985281374239,
+            54.37,
+            -148.4452813742,
+            -7.985281374238999,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -152.4452813742,
+          -11.985281374239,
+          54.37,
+          -145.4452813742,
+          -4.985281374238999,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.30690281372304645,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205843516,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.276112548915751,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.9663939212047,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774783993,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.56197475237451,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.80444534314043,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.99777810047608,
+          "intersection_bounds_mm": [
+            -152.4452813742,
+            -11.985281374239,
+            54.37,
+            -145.4452813742,
+            -4.985281374238999,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466778,
+          "intersection_bounds_mm": [
+            -150.9452813742,
+            -10.485281374239,
+            54.37,
+            -146.9452813742,
+            -6.485281374238999,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M2_output_M4x8_2",
+      "label": "RR_M2_output_M4x8_2",
+      "definition_sha256": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -152.0511099154,
+        3.105828541229
+      ],
+      "screw_bounds_mm": [
+        -155.5511099154,
+        -0.394171458771,
+        41.77,
+        -148.5511099154,
+        6.605828541229,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -152.5511099154,
+            2.605828541229,
+            54.37,
+            -151.5511099154,
+            3.605828541229,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -152.5511099154,
+            2.605828541229,
+            54.37,
+            -151.5511099154,
+            3.605828541229,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -155.5511099154,
+          -0.3941714587709999,
+          54.37,
+          -148.5511099154,
+          6.605828541229,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.3069028137230458,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205843506,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.276112548915727,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.96639392120459,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774783985,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.56197475237441,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.80444534314026,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.9977781004761,
+          "intersection_bounds_mm": [
+            -155.5511099154,
+            -0.394171458771,
+            54.37,
+            -148.5511099154,
+            6.605828541229,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466778,
+          "intersection_bounds_mm": [
+            -154.0511099154,
+            1.105828541229,
+            54.37,
+            -150.0511099154,
+            5.105828541229,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M2_output_M4x8_3",
+      "label": "RR_M2_output_M4x8_3",
+      "definition_sha256": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -143.5658285412,
+        11.591109915465
+      ],
+      "screw_bounds_mm": [
+        -147.0658285412,
+        8.091109915465,
+        41.77,
+        -140.0658285412,
+        15.091109915465,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -144.0658285412,
+            11.091109915465,
+            54.37,
+            -143.0658285412,
+            12.091109915465,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -144.0658285412,
+            11.091109915465,
+            54.37,
+            -143.0658285412,
+            12.091109915465,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -147.0658285412,
+          8.091109915465,
+          54.37,
+          -140.0658285412,
+          15.091109915465,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.30690281372391576,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205856556,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.276112548950527,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.9663939213264,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774803903,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.56197475257234,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.8044453433044,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.99777810047608,
+          "intersection_bounds_mm": [
+            -147.0658285412,
+            8.091109915465,
+            54.37,
+            -140.0658285412,
+            15.091109915465,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466778,
+          "intersection_bounds_mm": [
+            -145.5658285412,
+            9.591109915465,
+            54.37,
+            -141.5658285412,
+            13.591109915465,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M2_output_M4x8_4",
+      "label": "RR_M2_output_M4x8_4",
+      "definition_sha256": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -131.9747186257,
+        8.485281374239
+      ],
+      "screw_bounds_mm": [
+        -135.4747186257,
+        4.985281374238999,
+        41.77,
+        -128.4747186257,
+        11.985281374239,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -132.4747186257,
+            7.985281374238999,
+            54.37,
+            -131.4747186257,
+            8.985281374239,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -132.4747186257,
+            7.985281374238999,
+            54.37,
+            -131.4747186257,
+            8.985281374239,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -135.4747186257,
+          4.985281374238999,
+          54.37,
+          -128.4747186257,
+          11.985281374239,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.30690281372304623,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205843513,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.276112548915746,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.96639392120467,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774783996,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.56197475237454,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.80444534314032,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.9977781004761,
+          "intersection_bounds_mm": [
+            -135.4747186257,
+            4.985281374238999,
+            54.37,
+            -128.4747186257,
+            11.985281374239,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466775,
+          "intersection_bounds_mm": [
+            -133.9747186257,
+            6.485281374238999,
+            54.37,
+            -129.9747186257,
+            10.485281374239,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M2_output_M4x8_5",
+      "label": "RR_M2_output_M4x8_5",
+      "definition_sha256": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -128.8688900845,
+        -3.105828541229
+      ],
+      "screw_bounds_mm": [
+        -132.3688900845,
+        -6.605828541229,
+        41.77,
+        -125.36889008450001,
+        0.3941714587709999,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -129.3688900845,
+            -3.605828541229,
+            54.37,
+            -128.3688900845,
+            -2.605828541229,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666724,
+          "intersection_bounds_mm": [
+            -129.3688900845,
+            -3.605828541229,
+            54.37,
+            -128.3688900845,
+            -2.605828541229,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -132.3688900845,
+          -6.605828541229,
+          54.37,
+          -125.36889008450001,
+          0.3941714587709999,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.306902813723046,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205843511,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.27611254891574,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.96639392120465,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774783983,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.5619747523744,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.80444534314034,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.99777810047608,
+          "intersection_bounds_mm": [
+            -132.3688900845,
+            -6.605828541229,
+            54.37,
+            -125.36889008450001,
+            0.3941714587709999,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466775,
+          "intersection_bounds_mm": [
+            -130.8688900845,
+            -5.105828541229,
+            54.37,
+            -126.86889008450001,
+            -1.105828541229,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M2_output_M4x8_6",
+      "label": "RR_M2_output_M4x8_6",
+      "definition_sha256": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -137.3541714587,
+        -11.59110991546
+      ],
+      "screw_bounds_mm": [
+        -140.8541714587,
+        -15.09110991546,
+        41.77,
+        -133.8541714587,
+        -8.09110991546,
+        53.77
+      ],
+      "head_cylindrical_radius_mm": 3.5,
+      "head_Z_mm": [
+        49.77,
+        53.77
+      ],
+      "head_outer_mouth_Z_mm": 53.77,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        1
+      ],
+      "nominal_underhead_length_mm": 8,
+      "carrier_to_motor_nominal_interface_Z_mm": 45.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.799999999999997,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          53.771,
+          82
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -137.8541714587,
+            -12.09110991546,
+            54.37,
+            -136.8541714587,
+            -11.09110991546,
+            59.57
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        "B_only": {
+          "intersection_volume_mm3": 4.084070449666723,
+          "intersection_bounds_mm": [
+            -137.8541714587,
+            -12.09110991546,
+            54.37,
+            -136.8541714587,
+            -11.09110991546,
+            59.57
+          ],
+          "blocked": true
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 200.11945203367003,
+        "intersection_bounds_mm": [
+          -140.8541714587,
+          -15.09110991546,
+          54.37,
+          -133.8541714587,
+          -8.09110991546,
+          59.57
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 0.3069028137249261,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            54.38
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.603542205871712,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            54.52
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 12.276112548990943,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            54.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 42.966393921467855,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            55.77
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 80.62281774803901,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            56.870000000000005
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 107.56197475257234,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            57.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 149.80444534360248,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 111.9977781004761,
+          "intersection_bounds_mm": [
+            -140.8541714587,
+            -15.09110991546,
+            54.37,
+            -133.8541714587,
+            -8.09110991546,
+            59.57
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 65.34512719466778,
+          "intersection_bounds_mm": [
+            -139.3541714587,
+            -13.59110991546,
+            54.37,
+            -135.3541714587,
+            -9.59110991546,
+            59.57
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5999987030029296,
+        0.6000033569335936
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M3_rear_M3x6_1",
+      "label": "RR_M3_rear_M3x6_1",
+      "definition_sha256": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -125.0862664315,
+        11.584939195681
+      ],
+      "screw_bounds_mm": [
+        -127.8362664315,
+        8.834939195681,
+        53.67,
+        -122.3362664315,
+        14.334939195681,
+        62.67
+      ],
+      "head_cylindrical_radius_mm": 2.75,
+      "head_Z_mm": [
+        53.67,
+        56.67
+      ],
+      "head_outer_mouth_Z_mm": 53.67,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_underhead_length_mm": 6,
+      "carrier_to_motor_nominal_interface_Z_mm": 59.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.1000000000000014,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          25,
+          53.669000000000004
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 2.4347343065320945,
+          "intersection_bounds_mm": [
+            -125.5862664315,
+            11.084939195681,
+            50.07,
+            -124.5862664315,
+            12.084939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 2.4347343065320945,
+          "intersection_bounds_mm": [
+            -125.5862664315,
+            11.084939195681,
+            50.07,
+            -124.5862664315,
+            12.084939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        "B_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 78.6716343166443,
+        "intersection_bounds_mm": [
+          -127.8362664315,
+          8.834939195681,
+          45.57,
+          -122.3362664315,
+          14.334939195681,
+          53.17
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.18345635669259638,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            53.160000000000004,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 1.6511072102337585,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            53.08,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 1.834563566926355,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            53.07,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 2.018019923618951,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            53.06,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.586408917315822,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            52.92,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 9.172817834631646,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            52.67,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 28.600985258606983,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            51.67,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 54.73510914565646,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            50.57,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 63.09137030085087,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            49.870000000000005,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 34.83833588090854,
+          "intersection_bounds_mm": [
+            -127.8362664315,
+            8.834939195681,
+            47.67,
+            -122.3362664315,
+            14.334939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 24.92549590914147,
+          "intersection_bounds_mm": [
+            -127.82841681371296,
+            9.00624635948325,
+            45.67,
+            -123.5862664315,
+            13.084939195681,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 19.483042311964535,
+          "intersection_bounds_mm": [
+            -127.82841681371387,
+            9.006246359482086,
+            45.57,
+            -123.5862664315,
+            13.084939195681,
+            52.67
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5000001525878905,
+        0.5000040435791016
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M3_rear_M3x6_2",
+      "label": "RR_M3_rear_M3x6_2",
+      "definition_sha256": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -152.0449391956,
+        15.373733568411001
+      ],
+      "screw_bounds_mm": [
+        -154.7949391956,
+        12.623733568411,
+        53.67,
+        -149.2949391956,
+        18.123733568411,
+        62.67
+      ],
+      "head_cylindrical_radius_mm": 2.75,
+      "head_Z_mm": [
+        53.67,
+        56.67
+      ],
+      "head_outer_mouth_Z_mm": 53.67,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_underhead_length_mm": 6,
+      "carrier_to_motor_nominal_interface_Z_mm": 59.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.1000000000000014,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          25,
+          53.669000000000004
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 2.4347343065320852,
+          "intersection_bounds_mm": [
+            -152.5449391956,
+            14.873733568411001,
+            50.07,
+            -151.5449391956,
+            15.873733568411001,
+            53.17
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 2.4347343065320857,
+          "intersection_bounds_mm": [
+            -152.5449391956,
+            14.873733568411001,
+            50.07,
+            -151.5449391956,
+            15.873733568411001,
+            53.17
+          ],
+          "blocked": true
+        },
+        "B_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 78.67163431828556,
+        "intersection_bounds_mm": [
+          -154.7949391956,
+          12.623733568411001,
+          45.57,
+          -149.2949391956,
+          18.123733568411,
+          53.17
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.18345635669184726,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            53.160000000000004,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 1.6511072102270163,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            53.08,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 1.8345635669188634,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            53.07,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 2.0180199236107104,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            53.06,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.586408917297094,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            52.92,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 9.17281783459419,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            52.67,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 28.600985258417666,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            51.67,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 54.73510914546878,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            50.57,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 63.09137030086556,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            49.870000000000005,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 34.83833588180436,
+          "intersection_bounds_mm": [
+            -154.7949391956,
+            12.623733568411,
+            47.67,
+            -149.2949391956,
+            18.123733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 24.925495910208955,
+          "intersection_bounds_mm": [
+            -153.5449391956,
+            12.631583186183201,
+            45.67,
+            -149.46624635933497,
+            16.873733568411,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 19.483042312355366,
+          "intersection_bounds_mm": [
+            -153.5449391956,
+            12.63158318618249,
+            45.57,
+            -149.4662463593341,
+            16.873733568411,
+            52.67
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5000001525878905,
+        0.5000040435791016
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M3_rear_M3x6_3",
+      "label": "RR_M3_rear_M3x6_3",
+      "definition_sha256": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -128.8750608043,
+        -15.373733568399999
+      ],
+      "screw_bounds_mm": [
+        -131.6250608043,
+        -18.1237335684,
+        53.67,
+        -126.1250608043,
+        -12.6237335684,
+        62.67
+      ],
+      "head_cylindrical_radius_mm": 2.75,
+      "head_Z_mm": [
+        53.67,
+        56.67
+      ],
+      "head_outer_mouth_Z_mm": 53.67,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_underhead_length_mm": 6,
+      "carrier_to_motor_nominal_interface_Z_mm": 59.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.1000000000000014,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          25,
+          53.669000000000004
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 2.434734306532085,
+          "intersection_bounds_mm": [
+            -129.3750608043,
+            -15.873733568399999,
+            50.07,
+            -128.3750608043,
+            -14.873733568399999,
+            53.17
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 2.434734306532085,
+          "intersection_bounds_mm": [
+            -129.3750608043,
+            -15.873733568399999,
+            50.07,
+            -128.3750608043,
+            -14.873733568399999,
+            53.17
+          ],
+          "blocked": true
+        },
+        "B_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 78.671634317583,
+        "intersection_bounds_mm": [
+          -131.6250608043,
+          -18.1237335684,
+          45.57,
+          -126.1250608043,
+          -12.623733568399999,
+          53.17
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.18345635669105362,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            53.160000000000004,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 1.651107210219874,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            53.08,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 1.834563566910928,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            53.07,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 2.0180199236019813,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            53.06,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.586408917277254,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            52.92,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 9.172817834554511,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            52.67,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 28.6009852584177,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            51.67,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 54.735109145468805,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            50.57,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 63.09137030070858,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            49.870000000000005,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 34.83833588141866,
+          "intersection_bounds_mm": [
+            -131.6250608043,
+            -18.1237335684,
+            47.67,
+            -126.1250608043,
+            -12.6237335684,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 24.925495909749287,
+          "intersection_bounds_mm": [
+            -131.4537536405401,
+            -16.8737335684,
+            45.67,
+            -127.3750608043,
+            -12.63158318617955,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 19.483042312187198,
+          "intersection_bounds_mm": [
+            -131.45375364054115,
+            -16.8737335684,
+            45.57,
+            -127.3750608043,
+            -12.631583186178727,
+            52.67
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5000001525878905,
+        0.5000040435791016
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    },
+    {
+      "source_id": "M3_rear_M3x6_4",
+      "label": "RR_M3_rear_M3x6_4",
+      "definition_sha256": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "axis_world_XY_mm": [
+        -155.8337335684,
+        -11.58493919567
+      ],
+      "screw_bounds_mm": [
+        -158.5837335684,
+        -14.33493919567,
+        53.67,
+        -153.0837335684,
+        -8.83493919567,
+        62.67
+      ],
+      "head_cylindrical_radius_mm": 2.75,
+      "head_Z_mm": [
+        53.67,
+        56.67
+      ],
+      "head_outer_mouth_Z_mm": 53.67,
+      "outward_withdrawal_direction_world": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_underhead_length_mm": 6,
+      "carrier_to_motor_nominal_interface_Z_mm": 59.57,
+      "nominal_tip_projection_beyond_carrier_mating_face_mm": 3.1000000000000014,
+      "installed_screw_intersection": {
+        "intersection_volume_mm3": 0.0,
+        "intersection_bounds_mm": null,
+        "blocked": false
+      },
+      "straight_tool_path": {
+        "definition": "deliberately slender coaxial straight cylinder; diameter1.0mm, not a claim about actual hex size",
+        "diameter_mm": 1.0,
+        "Z_mm": [
+          25,
+          53.669000000000004
+        ],
+        "candidate": {
+          "intersection_volume_mm3": 2.4347343065320852,
+          "intersection_bounds_mm": [
+            -156.3337335684,
+            -12.08493919567,
+            50.07,
+            -155.3337335684,
+            -11.08493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        "A_only": {
+          "intersection_volume_mm3": 2.4347343065320857,
+          "intersection_bounds_mm": [
+            -156.3337335684,
+            -12.08493919567,
+            50.07,
+            -155.3337335684,
+            -11.08493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        "B_only": {
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        }
+      },
+      "head_sized_coaxial_sweep_intersection": {
+        "intersection_volume_mm3": 78.67163431782791,
+        "intersection_bounds_mm": [
+          -158.5837335684,
+          -14.33493919567,
+          45.57,
+          -153.0837335684,
+          -8.83493919567,
+          53.17
+        ],
+        "blocked": true
+      },
+      "exact_source_screw_translation_samples": [
+        {
+          "outward_translation_mm": 0.1,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.25,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.49,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.5,
+          "intersection_volume_mm3": 0.0,
+          "intersection_bounds_mm": null,
+          "blocked": false
+        },
+        {
+          "outward_translation_mm": 0.51,
+          "intersection_volume_mm3": 0.18345635669264837,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            53.160000000000004,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.59,
+          "intersection_volume_mm3": 1.6511072102342261,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            53.08,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.6,
+          "intersection_volume_mm3": 1.834563566926875,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            53.07,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.61,
+          "intersection_volume_mm3": 2.018019923619523,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            53.06,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 0.75,
+          "intersection_volume_mm3": 4.586408917317122,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            52.92,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 1.0,
+          "intersection_volume_mm3": 9.172817834634246,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            52.67,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 2.0,
+          "intersection_volume_mm3": 28.60098525861388,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            51.67,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.1,
+          "intersection_volume_mm3": 54.735109145664175,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            50.57,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 3.8,
+          "intersection_volume_mm3": 63.09137030091443,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            49.870000000000005,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 6.0,
+          "intersection_volume_mm3": 34.83833588155387,
+          "intersection_bounds_mm": [
+            -158.5837335684,
+            -14.33493919567,
+            47.67,
+            -153.0837335684,
+            -8.83493919567,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 8.0,
+          "intersection_volume_mm3": 24.92549590991085,
+          "intersection_bounds_mm": [
+            -157.3337335684,
+            -13.08493919567,
+            45.67,
+            -153.09158318617688,
+            -9.006246359420661,
+            53.17
+          ],
+          "blocked": true
+        },
+        {
+          "outward_translation_mm": 10.0,
+          "intersection_volume_mm3": 19.48304231224475,
+          "intersection_bounds_mm": [
+            -157.3337335684,
+            -13.08493919567,
+            45.57,
+            -153.09158318617688,
+            -9.006246359420661,
+            52.67
+          ],
+          "blocked": true
+        }
+      ],
+      "first_collision_outward_free_translation_mm_interval": [
+        0.5000001525878905,
+        0.5000040435791016
+      ],
+      "same_fixed_axis_insertion_reverse_path_blocked": true,
+      "note": "Exact source screw is translated outward without rotation. Because carrier is fixed, positive solid interference on a required straight translation forbids that straight insertion/removal path; it does not exclude an untested angled or special captive-fastener process."
+    }
+  ],
+  "sequence_assessment": [
+    {
+      "id": "original_split_sequence",
+      "status": "GEOMETRIC_LOGIC_ONLY_NOT_FULL_SEQUENCE_VERIFIED",
+      "steps": [
+        "A单独可用时，从其内侧+Z方向装入并锁紧M2输出6颗。",
+        "B单独可用时，从其内侧−Z方向装入并锁紧M3后端4颗。",
+        "再将A/B合拢，用原4颗AB螺钉及4垫圈连接。"
+      ],
+      "why_fusion_breaks_it": "最后的可分离AB合拢步骤被单件实体取消；不能先把两个不存在的独立半件分别装好。"
+    },
+    {
+      "id": "onepiece_preload_loose_screws_then_offer_motors",
+      "status": "NOT_A_VERIFIED_OR_COMPLETED_ASSEMBLY_ROUTE",
+      "reason": "即使未检查的侧向/斜向路径能把螺钉松放在内部，电机贴合后仍须转动紧固；本次确认全部10个同轴直工具入口被相对侧实体阻挡。现有后向自由退钉距离还小于螺纹名义伸入电机的长度。"
+    },
+    {
+      "id": "special_offset_or_ball_end_driver",
+      "status": "UNTESTED",
+      "reason": "未建实际工具实体，未查侧向进入、最大倾角、转角、受扭空间与装钉路径，不能宣称可解决。"
+    }
+  ],
+  "minimum_changes_to_investigate_not_modeled": [
+    {
+      "option": "轴向服务孔并从孔装钉",
+      "requirements": "B在M2输出6轴增贯通服务孔；A在M3后4轴增贯通服务孔。只供工具时孔径需匹配真实工具；若须装入/退回整颗螺钉，孔须至少容纳实际头径并给间隙（当前M4头Ø7，M3头Ø5.5）。",
+      "conflict": "两组孔接近或重叠对侧电机承载/定位区域；孔洞对强度、接口和电机实物通道均未核查。"
+    },
+    {
+      "option": "侧向工具及螺钉服务窗",
+      "requirements": "从外缘开到两组中间头腔，窗口Z高度至少覆盖头高并留工具空间，使用可进入的偏置工具/球头工具实体检查转角和扭矩姿态，另做装钉、退钉路径。",
+      "conflict": "当前头腔仅离散局部盲腔，不能用“有避让”推断已存在连通侧窗；窗位与承载筋未设计。"
+    },
+    {
+      "option": "外侧反向锁紧或贯穿连接",
+      "requirements": "需要改变电机侧紧固方式、螺纹/螺母或通孔路径，先核对PA35供应商允许界面。",
+      "conflict": "当前实际电机只提供指定侧的接口；不能仅把现有螺钉翻转而声称兼容。"
+    },
+    {
+      "option": "保留可拆承载盖或原A/B分体",
+      "requirements": "恢复可操作的中间层并明确先装电机、后闭合支架的工序。",
+      "conflict": "会重新引入结构件与紧固件；必须重新计算减件数，不再维持未经验证的一体减36结论。"
+    }
+  ],
+  "limits": [
+    "本次仅检验与螺钉轴同向的直工具及纯轴向螺钉插拔；不证明所有可能的非轴向特殊工艺均不可能。",
+    "实际PA35电机为开放shell参考，本次工具阻挡证据只用闭合支架实体；未把开放shell误当有效实心电机碰撞体。",
+    "未审核完整侧向工具、球头工具、线束、电机安装顺序、相邻结构、动态运动或拆卸前置件。",
+    "仅审RR，其他三腿的同类结构需要各自路径验证；全四腿几何候选不得据此自动放行。"
+  ]
+}

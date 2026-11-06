@@ -1,0 +1,206 @@
+{
+  "status": "RR_LOCAL_WINDOW_INSERTION_WITHDRAWAL_AND_TOOL_GEOMETRY_SCREEN_PASS_CUSTOM_TOOL_NOT_QUALIFIED",
+  "title": "RR局部送钉、退钉与工具几何初查通过；特制工具及完整整机装拆未放行",
+  "candidate_id": "SERVICE_WINDOW_V2",
+  "formal_R4_modified": false,
+  "candidate_only": true,
+  "manufacturing_release": false,
+  "load_capacity_release": false,
+  "complete_assembly_disassembly_release": false,
+  "daily_quick_release_achieved": false,
+  "actual_tool_procured": false,
+  "checked_scope": {
+    "corner": "RR",
+    "M3_screw_stage": "M2与M3原位，4颗M3后端螺钉经侧窗用明确短直角工具退3.2mm。螺钉处于留置位置，未设计/验证正向防脱，需要临时工装或人工支承。",
+    "M2_screw_stage": "M3电机已移走后的阶段，6颗M2输出螺钉从6个头径服务口向+Z完整退出22mm。不能在M3仍挡住顶面时声称轴向可操作。",
+    "continuous_objects": "闭合支架与目标真实螺钉；实际socket不豁免；两电机用源面高部径向/轴向分离界限辅助。其他9颗就位螺钉做角度/退钉采样静态筛查。",
+    "not_covered": "完整腿/整机周边连接件、M3移走前的7007与输出连接前置顺序、线束、操作者手部、制造及负载。"
+  },
+  "RR_geometry": {
+    "valid": true,
+    "geometry": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 148,
+      "edges": 840,
+      "bounds_xyz_mm": [
+        -171.46,
+        -32.674590336900856,
+        45.57,
+        -104.1729985128,
+        31.0,
+        61.97
+      ],
+      "extents_xyz_mm": [
+        67.2870014872,
+        63.674590336900856,
+        16.4
+      ]
+    },
+    "volume_mm3": 16075.305295631084,
+    "area_mm2": 12183.80537891259
+  },
+  "four_leg_geometry_status": {
+    "all_four_valid_single_solids": true,
+    "all_actual_corner_sources": true,
+    "per_leg_10_bearing_envelopes_material_removed_mm3": 0,
+    "per_leg_four_unbroken_external_rib_witnesses": true,
+    "installed_motor_hardware_static_intersection_mm3": 0,
+    "other_three_leg_assembly_paths_checked": false,
+    "mapping_file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/four_leg_mapping.json"
+  },
+  "tool": {
+    "type": "explicit custom sharp-corner short-right-angle CAD envelope",
+    "nominal_socket_AF_mm": 2.5,
+    "modeled_hex_tip_AF_mm": 2.48,
+    "nominal_flat_clearance_each_side_mm": 0.01,
+    "actual_tip_engagement_mm": 1.18,
+    "short_leg_handle_axis_to_tip_mm": 2.95,
+    "straight_tip_Z_mm_at_installed": [
+      51.9,
+      54.85
+    ],
+    "round_handle_radius_mm": 1.43,
+    "round_handle_diameter_mm": 2.86,
+    "handle_center_Z_mm_at_installed": 51.9,
+    "handle_length_mm": 42,
+    "joint_elbow_fillet_or_bend_radius_mm": 0,
+    "bend_manufacturing_verified": false,
+    "purchased": false,
+    "torque_stiffness_hardness_verified": false,
+    "socket_insertion_removal": {
+      "withdraw_to_disengage_socket_mm": 1.3,
+      "radial_exit_mm": 50,
+      "engaged_swing_deg": 60,
+      "socket_and_tool_co_rotate_with_screw": true,
+      "target_screw_not_excluded_from_exit_checks": true
+    },
+    "clocking": "Each screw has an explicit tool envelope, handle clocked from radial−30deg to radial+30deg while exact hex rotates0..60deg. This is not a sourced universal tool specification.",
+    "positive_fastener_capture_or_holding_fixture_proven": false
+  },
+  "RR_results": {
+    "M2_screws_checked": 6,
+    "M2_full_withdrawal_mm": [
+      0,
+      22
+    ],
+    "M2_continuous_conservative_screw_sweep_carrier_intersection_mm3": 0,
+    "M2_hex_tool_AF_mm": 2.98,
+    "M2_hex_tool_carrier_and_own_socket_intersection_mm3": 0,
+    "M3_screws_checked": 4,
+    "M3_disengage_travel_mm": 3.2,
+    "M3_nominal_thread_entry_mm": 3.1,
+    "M3_screws_remain_captive_until_later_stage": false,
+    "M3_continuous_conservative_screw_sweep_carrier_intersection_mm3": 0,
+    "M3_continuous_60deg_tool_rotation_covers_all_0_to_3p2mm_withdrawals": true,
+    "M3_rotation_clearance_lower_bound_min_mm": 0.15795911397653994,
+    "M3_tool_exit_cycles_checked": 16,
+    "M3_tool_exit_cycles_all_clear": true,
+    "M3_tool_exit_insertion_is_reverse_of_checked_path": true,
+    "distance_calls": 4896,
+    "certified_clear_cells": 2482,
+    "actual_screw_socket_solid_intersection_mm3": 0,
+    "quick_static_screw_tool_motor_flags": 0,
+    "M3_screws_held_preplaced_at_3p2mm_release_position": true,
+    "positive_M3_fastener_captivity_verified": false,
+    "M3_full_initial_insertion_continuous_sweeps_pass": true,
+    "M2_full_insertion_with_4_preloaded_M3_screws_pass": true
+  },
+  "proposed_local_sequence_CN": [
+    "M2未装时，由4个M3头径局部装钉口从−localZ把4颗M3×6预放到退3.2mm位置；临时支承/工装保位，尚未验证螺钉正向防脱。",
+    "M3电机未装，4颗M3螺钉已预放；沿轴向放M2，把一体支架经6个上方服务口锁到M2输出。6颗M4×8整颗扫掠及AF2.98工具包络对4颗预放M3均0交叠。",
+    "从+localZ把M3电机放到原Z59.57后端装配面；RR实际M3与预放4钉距离0.1mm，大于轴向微小重叠带；其余整腿连接前置未覆盖。",
+    "经4侧窗送入明确短直角工具，沿+localZ进入M3实际socket，作60°局部转动；沿−localZ1.3mm脱socket，径向50mm退出换位再入。0..3.2mm释放范围内的支架/螺钉/工具几何已检验。",
+    "维修先释放M3其余整腿连接前置件（未闭合），再经侧窗将4颗M3后钉退3.2mm并支承留置。M3移走后，经6个顶口把M2输出6钉完整取出。"
+  ],
+  "evidence_files": {
+    "quick": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/quick_route_screen.json",
+    "continuous": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/continuous_route_screen.json",
+    "four_leg_mapping": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/four_leg_mapping.json",
+    "before": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/before.png",
+    "after": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/after.png",
+    "tool_visual": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/tool_local_route.png",
+    "render": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/render_evidence.json",
+    "initial_loading": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/initial_loading_relief_summary.json",
+    "preload_motor": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/preload_motor_stage_screen.json",
+    "preloaded_stage_STEP": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_M3_PRELOADED_BEFORE_M2_INSTALL.step"
+  },
+  "evidence_sha256": {
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/quick_route_screen.json": "08db3cfa2c3c6e751f951510482eb7dc2a7accbb65beeb7320b5449581841866",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/continuous_route_screen.json": "b9f0977395988f15cd44528fb6af2109ed42ee2ceaae587805a61a1aab94a49a",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/four_leg_mapping.json": "bd98eb0475250f509b6ac621e2185ef2797e46b92e6eb5e4ef6cbf354f5c6e9e",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FR_SERVICE_WINDOW_V2.step": "0667e057b409d543d6c39f970628ebab4708ae2ba7f3be092095c40d103bd56b",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RL_SERVICE_WINDOW_V2.step": "285fb3200592d7ddc3e9f0194600dc69d343b02b7ed10aa40cda67ed4d855bae",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/FL_SERVICE_WINDOW_V2.step": "12da323dd2415499b02919b050a1a105a0aa226c63bf6ed63418dcdbd82c70c8",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/before.png": "d41cb411dd067e3eb4231b28a6e6d1025e8c7f80926988eb7396f49e0e0faa14",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/after.png": "307f8e14097729c670bc834967613b2a435fc616866c809ee7013e527318091b",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/tool_local_route.png": "912ff92243d256bb0b377f0402251f75ee405cb90bbfaa8b96c0a4a74d23f811",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/initial_loading_relief_summary.json": "5432ecbb9ebc5eacdcf3aeb748acc9307263c681bb8c8afcce8d32ecc3d2326f",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/preload_motor_stage_screen.json": "0bf0db3187b36e9df71a7a5111aab4913c91a2b64a78def3f918e7f0198bdf1c"
+  },
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_BEFORE_INITIAL_LOADING_RELIEF.step": "55dc9251ea2e9cb133c1ace7bb0abbdecbb21f17845172609f6ac7284121731f"
+  },
+  "design_cost_CN": [
+    "每腿可取消4颗AB螺钉和4垫圈、2结构合1；减件代价是更复杂的开窗加工、降低的截面和受限维修顺序。",
+    "RR从原一体候选移除约47.4%材料；4根实体筋与孔座保留只证明连通和接口，不能代替最小壁厚、静强度、刚度或疲劳校核。",
+    "6.7mm中间腔仅给出2.95mm短腿和1.18mm啮合的特制工具包络；弯头圆角0、未采购、未传扭，因此未建立日常快拆可用性。"
+  ],
+  "limits": [
+    "该几何方案已消除RR无窗fusion的已测轴向堵塞，但不是完整整机装配发布。",
+    "AF2.48理想工具与AF2.5名义socket仅0.01mm每侧间隙；真实公差、表面/圆角、磨损及手感未验证。",
+    "连续路径只对RR本支架/目标螺钉和明确工具几何；其他三腿没有全装拆路径结果。",
+    "M3后螺钉只验证退牙并留在支架；不声称M2仍安装时能把这4颗完全取出。",
+    "未验证完整M3电机移走与周边7007/输出连接的拆卸前置顺序，不借局部结果宣称整腿可装。",
+    "无制造、强度、刚度、疲劳、公差、工具供应商或实物拆装放行。",
+    "M3初次送钉与预放M3状态下M2锁紧所需通道已补检，但4颗M3的临时保位工装及防脱未设计，不等于已完成生产装配工艺。"
+  ],
+  "final_CAD_frozen": true,
+  "initial_loading_closure": {
+    "four_actual_corners": true,
+    "M2_absent_full_M3_initial_insertion_sweep_mm3": 0,
+    "four_preloaded_M3_screws_at_withdraw_mm": 3.2,
+    "M2_screw_full_sweep_and_driver_vs_preloaded4_mm3": 0,
+    "RR_motor_vs_preloaded4_check": {
+      "preloaded_screw_maxZ_mm": 59.47,
+      "actual_M3_motor_minZ_mm": 59.468046198939994,
+      "axial_interval_requiring_distance_bound_mm": 0.001955801060004423,
+      "actual_source_M3_to_preloaded_screws_distance_mm": 0.0999999999965695,
+      "initial_clearance_greater_than_interval": true,
+      "remaining_positiveZ_motor_positions_Z_halfspace_clear": true,
+      "M2_motor_approach_clear_of_preloaded_M3_screws_by_Z": true,
+      "preload_screw_minZ_mm": 50.47,
+      "actual_M2_maxZ_mm": 48.320000100000115,
+      "note": "Only motor vs4preloaded screws, not whole surrounding leg motor removal/installation route."
+    },
+    "four_local_load_ports_radius_mm": 3,
+    "local_load_port_Z_mm": [
+      45.47,
+      56.57
+    ],
+    "new_removed_material_per_leg_mm3": 11.630231527847066,
+    "M2_PCD12_bearing_material_removed_mm3": 0,
+    "retention_fixture_designed": false,
+    "source": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/initial_loading_relief_summary.json"
+  },
+  "proof_transfer_to_final_candidate": {
+    "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+    "sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+    "final_part_added_material_outside_checked_part_mm3": 0,
+    "logic": "Final part equals checked part minus4local head-loading reliefs. Clear fixed-object tool/screw paths remain clear against a subset of the obstacle. No path repeated merely due to extra removed material.",
+    "provenance": "Exact original CAD bytes preserved in BEFORE_INITIAL_LOADING_RELIEF backup."
+  }
+}

@@ -1,0 +1,1319 @@
+{
+  "status": "READ_ONLY_ORIGINAL_MOUNT_ROUTE_REVIEW_COMPLETE",
+  "formal_CAD_modified": false,
+  "date": "2026-11-05",
+  "units": "mm",
+  "source_geometry_scale": 0.6,
+  "coordinate_system": "Original strict60% world: X length,Y vertical,Z lateral; drawing annotations remain unscaled100%.",
+  "main_conclusion_zh": "原M2/M3不是纯短环摩擦夹持。7017前后各4孔、7003后8孔、7007前8孔分别与原电机定子固定孔精确同轴。M1抱箍不能泛化成M2/M3原固定方式。",
+  "hole_position_count_is_not_required_screw_population": true,
+  "required_screw_population_and_stator_screw_nominal_sizes_confirmed": false,
+  "method": "Reuse analytic OCP face measurements in source_interface_measurements.json; group duplicate cylinder faces by actual hole axis; compare original structural bores to original motor peripheral threaded cylinders. Inspect source PDF drawing previews. Check original independent screw-instance axes. No CAD operations or source edits.",
+  "mount_interfaces": [
+    {
+      "id": "M2_rear_stator",
+      "structural_part": "7017_hip_flange",
+      "source_part_instance": 181,
+      "source_motor": "M2_source_scaled_motor",
+      "available_matching_hole_positions": 4,
+      "confirmed_required_screw_population": null,
+      "count_meaning_zh": "孔位数是原CAD与原电机孔轴对应的几何数量，不等于已确认原实物必须全部装满的螺钉数量。",
+      "structural_bore_interval_strict60_mm": [
+        22.92,
+        24.36
+      ],
+      "motor_mating_plane_z_strict60_mm": 24.45,
+      "nominal_mating_face_gap_strict60_mm": 0.08999999999999986,
+      "max_axis_offset_mm": 5.830640458194916e-10,
+      "coaxial_pairs": [
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -122.42877707977826,
+              18.031222920254475
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999973344,
+            "face_ids": [
+              31,
+              130
+            ],
+            "axial_interval_mm": [
+              22.92000000000298,
+              24.360000000002984
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -122.4287770801582,
+              18.03122291993722
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.49999999948035,
+            "face_ids": [
+              1388,
+              1389,
+              1390,
+              1391,
+              1392,
+              1393,
+              1394,
+              1395,
+              1396,
+              1397,
+              1398,
+              1399,
+              1400,
+              1492
+            ],
+            "axial_interval_mm": [
+              24.449999899813484,
+              27.15548556219505
+            ]
+          },
+          "axis_offset_mm": 4.949802384574493e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -140.46000000003525,
+              25.499999999997545
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999997545,
+            "face_ids": [
+              32,
+              129
+            ],
+            "axial_interval_mm": [
+              22.92000000000298,
+              24.360000000002984
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -140.4600000003916,
+              25.499999999733255
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999733255,
+            "face_ids": [
+              1335,
+              1483
+            ],
+            "axial_interval_mm": [
+              24.449999899462988,
+              27.155485560605076
+            ]
+          },
+          "axis_offset_mm": 4.436614460656164e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -140.46000000003525,
+              -25.500000000002462
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.500000000002462,
+            "face_ids": [
+              33,
+              128
+            ],
+            "axial_interval_mm": [
+              22.920000000002943,
+              24.360000000002948
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -140.46000000054948,
+              -25.50000000026676
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.50000000026676,
+            "face_ids": [
+              1414,
+              1505
+            ],
+            "axial_interval_mm": [
+              24.449999901866796,
+              27.15548556300441
+            ]
+          },
+          "axis_offset_mm": 5.781777534138225e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -122.42877707977837,
+              -18.031222920259513
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999976826,
+            "face_ids": [
+              34,
+              127
+            ],
+            "axial_interval_mm": [
+              22.920000000002954,
+              24.360000000002955
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -122.42877708026626,
+              -18.031222920578777
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999857593,
+            "face_ids": [
+              1362,
+              1363,
+              1364,
+              1365,
+              1366,
+              1367,
+              1368,
+              1369,
+              1370,
+              1371,
+              1372,
+              1373,
+              1374,
+              1488
+            ],
+            "axial_interval_mm": [
+              24.449999901514172,
+              27.155485563837995
+            ]
+          },
+          "axis_offset_mm": 5.830640458194916e-10,
+          "modeled_external_screws_on_axis": []
+        }
+      ],
+      "modeled_external_screw_count_on_these_axes": 0,
+      "stator_screw_nominal_designation": "NOT_ESTABLISHED_FROM_SOURCE_EXTERNAL_FASTENER_INSTANCES",
+      "screw_size_qualification_zh": "原图提供通孔/沉孔，装配没有补齐这些定子螺钉；不从缩放STEP的线程圆柱半径推定真实标称规格、长度或装满数量。"
+    },
+    {
+      "id": "M2_front_stator",
+      "structural_part": "7017_hip_flange",
+      "source_part_instance": 181,
+      "source_motor": "M2_source_scaled_motor",
+      "available_matching_hole_positions": 4,
+      "confirmed_required_screw_population": null,
+      "count_meaning_zh": "孔位数是原CAD与原电机孔轴对应的几何数量，不等于已确认原实物必须全部装满的螺钉数量。",
+      "structural_bore_interval_strict60_mm": [
+        41.16,
+        42.6
+      ],
+      "motor_mating_plane_z_strict60_mm": 41.07,
+      "nominal_mating_face_gap_strict60_mm": 0.0899999999999963,
+      "max_axis_offset_mm": 5.49308375938833e-10,
+      "coaxial_pairs": [
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -121.58024894235453,
+              -18.879751057683382
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.69999999997682,
+            "face_ids": [
+              27,
+              134
+            ],
+            "axial_interval_mm": [
+              41.16000000000295,
+              42.60000000000296
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -121.58024894182151,
+              -18.879751057633634
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.700000000318546,
+            "face_ids": [
+              483,
+              484,
+              485,
+              486,
+              487,
+              488,
+              489,
+              490,
+              491,
+              492,
+              493,
+              494,
+              495,
+              913
+            ],
+            "axial_interval_mm": [
+              37.58999989951055,
+              41.0700000995457
+            ]
+          },
+          "axis_offset_mm": 5.353373104695103e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -121.58024894235454,
+              18.879751057678448
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.699999999973322,
+            "face_ids": [
+              28,
+              133
+            ],
+            "axial_interval_mm": [
+              41.16000000000298,
+              42.60000000000298
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -121.58024894192059,
+              18.87975105772777
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.700000000315054,
+            "face_ids": [
+              455,
+              456,
+              457,
+              458,
+              459,
+              460,
+              461,
+              462,
+              463,
+              464,
+              465,
+              466,
+              467,
+              902
+            ],
+            "axial_interval_mm": [
+              37.58999989951056,
+              41.07000009954571
+            ]
+          },
+          "axis_offset_mm": 4.367507951286252e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -140.46000000003525,
+              -25.500000000002462
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.500000000002462,
+            "face_ids": [
+              29,
+              132
+            ],
+            "axial_interval_mm": [
+              41.160000000002945,
+              42.60000000000295
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -140.45999999948594,
+              -25.500000000003944
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.500000000003944,
+            "face_ids": [
+              496,
+              924
+            ],
+            "axial_interval_mm": [
+              37.58999989987914,
+              41.070000099914296
+            ]
+          },
+          "axis_offset_mm": 5.49308375938833e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -140.46000000003525,
+              25.499999999997545
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999997545,
+            "face_ids": [
+              30,
+              131
+            ],
+            "axial_interval_mm": [
+              41.16000000000298,
+              42.60000000000298
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -140.459999999618,
+              25.499999999998998
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999998998,
+            "face_ids": [
+              454,
+              896
+            ],
+            "axial_interval_mm": [
+              37.589999899879146,
+              41.070000099914296
+            ]
+          },
+          "axis_offset_mm": 4.172616462023179e-10,
+          "modeled_external_screws_on_axis": []
+        }
+      ],
+      "modeled_external_screw_count_on_these_axes": 0,
+      "stator_screw_nominal_designation": "NOT_ESTABLISHED_FROM_SOURCE_EXTERNAL_FASTENER_INSTANCES",
+      "screw_size_qualification_zh": "原图提供通孔/沉孔，装配没有补齐这些定子螺钉；不从缩放STEP的线程圆柱半径推定真实标称规格、长度或装满数量。"
+    },
+    {
+      "id": "M3_rear_stator",
+      "structural_part": "7003_support",
+      "source_part_instance": 9,
+      "source_motor": "M3_source_scaled_motor",
+      "available_matching_hole_positions": 8,
+      "confirmed_required_screw_population": null,
+      "count_meaning_zh": "孔位数是原CAD与原电机孔轴对应的几何数量，不等于已确认原实物必须全部装满的螺钉数量。",
+      "structural_bore_interval_strict60_mm": [
+        65.25,
+        66.57
+      ],
+      "motor_mating_plane_z_strict60_mm": 66.57,
+      "nominal_mating_face_gap_strict60_mm": 0.0,
+      "max_axis_offset_mm": 6.002648213901639e-10,
+      "coaxial_pairs": [
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -160.6523753623799,
+              15.572988705005818
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999636966,
+            "face_ids": [
+              27,
+              73
+            ],
+            "axial_interval_mm": [
+              65.25000000030279,
+              66.57000000034967
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -160.6523753629346,
+              15.572988704997613
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.500000000071203,
+            "face_ids": [
+              1414,
+              1505
+            ],
+            "axial_interval_mm": [
+              66.56999990146508,
+              69.27548556265023
+            ]
+          },
+          "axis_offset_mm": 5.547671820829355e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -165.74993146352222,
+              -3.2663996306754544
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999547594,
+            "face_ids": [
+              28,
+              72
+            ],
+            "axial_interval_mm": [
+              65.2500000004023,
+              66.57000000044917
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -165.74993146400112,
+              -3.2663996307074257
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.50000000002665,
+            "face_ids": [
+              1362,
+              1363,
+              1364,
+              1365,
+              1366,
+              1367,
+              1368,
+              1369,
+              1370,
+              1371,
+              1372,
+              1373,
+              1374,
+              1488
+            ],
+            "axial_interval_mm": [
+              66.569999901564,
+              69.2754855638833
+            ]
+          },
+          "axis_offset_mm": 4.799718053815217e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -156.0329887045518,
+              -20.192375362838987
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999723226,
+            "face_ids": [
+              29,
+              71
+            ],
+            "axial_interval_mm": [
+              65.25000000021258,
+              66.57000000025945
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -156.0329887049604,
+              -20.192375362828493
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999964444,
+            "face_ids": [
+              1401,
+              1402,
+              1403,
+              1404,
+              1405,
+              1406,
+              1407,
+              1408,
+              1409,
+              1410,
+              1411,
+              1412,
+              1413,
+              1493
+            ],
+            "axial_interval_mm": [
+              66.56999990067025,
+              69.27548556253294
+            ]
+          },
+          "axis_offset_mm": 4.0872525183291346e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -137.19360036887048,
+              -25.289931463981222
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.500000000060993,
+            "face_ids": [
+              30,
+              70
+            ],
+            "axial_interval_mm": [
+              65.24999999984477,
+              66.56999999989165
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -137.1936003692556,
+              -25.289931463894824
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999925972,
+            "face_ids": [
+              1388,
+              1389,
+              1390,
+              1391,
+              1392,
+              1393,
+              1394,
+              1395,
+              1396,
+              1397,
+              1398,
+              1399,
+              1400,
+              1492
+            ],
+            "axial_interval_mm": [
+              66.56999989930677,
+              69.27548556168892
+            ]
+          },
+          "axis_offset_mm": 3.9468672322876906e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -120.26762463670698,
+              -15.572988705010737
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.50000000036304,
+            "face_ids": [
+              31,
+              69
+            ],
+            "axial_interval_mm": [
+              65.24999999951434,
+              66.5699999995612
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -120.26762463713433,
+              -15.572988704853806
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999928804,
+            "face_ids": [
+              1335,
+              1483
+            ],
+            "axial_interval_mm": [
+              66.56999989827287,
+              69.27548555945835
+            ]
+          },
+          "axis_offset_mm": 4.5525178582513116e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -115.17006853556482,
+              3.2663996306705685
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.500000000452424,
+            "face_ids": [
+              32,
+              68
+            ],
+            "axial_interval_mm": [
+              65.24999999941484,
+              66.5699999994617
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -115.17006853606819,
+              3.266399630850728
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.499999999976286,
+            "face_ids": [
+              1375,
+              1376,
+              1377,
+              1378,
+              1379,
+              1380,
+              1381,
+              1382,
+              1383,
+              1384,
+              1385,
+              1386,
+              1387,
+              1490
+            ],
+            "axial_interval_mm": [
+              66.56999989817275,
+              69.27548556061815
+            ]
+          },
+          "axis_offset_mm": 5.346320392473573e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -124.88701129453537,
+              20.19237536283404
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.50000000027679,
+            "face_ids": [
+              33,
+              67
+            ],
+            "axial_interval_mm": [
+              65.24999999960455,
+              66.56999999965142
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -124.88701129510919,
+              20.192375362971973
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.500000000035577,
+            "face_ids": [
+              1336,
+              1337,
+              1338,
+              1339,
+              1340,
+              1341,
+              1342,
+              1343,
+              1344,
+              1345,
+              1346,
+              1347,
+              1348,
+              1485
+            ],
+            "axial_interval_mm": [
+              66.56999989906652,
+              69.27548556100612
+            ]
+          },
+          "axis_offset_mm": 5.901655093230362e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -143.7263996302167,
+              25.28993146397614
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999939018,
+            "face_ids": [
+              34,
+              66
+            ],
+            "axial_interval_mm": [
+              65.24999999997236,
+              66.57000000001922
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -143.72639963081375,
+              25.289931464038133
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.500000000076984,
+            "face_ids": [
+              1349,
+              1350,
+              1351,
+              1352,
+              1353,
+              1354,
+              1355,
+              1356,
+              1357,
+              1358,
+              1359,
+              1360,
+              1361,
+              1487
+            ],
+            "axial_interval_mm": [
+              66.56999990042999,
+              69.27548556281118
+            ]
+          },
+          "axis_offset_mm": 6.002648213901639e-10,
+          "modeled_external_screws_on_axis": []
+        }
+      ],
+      "modeled_external_screw_count_on_these_axes": 0,
+      "stator_screw_nominal_designation": "NOT_ESTABLISHED_FROM_SOURCE_EXTERNAL_FASTENER_INSTANCES",
+      "screw_size_qualification_zh": "原图提供通孔/沉孔，装配没有补齐这些定子螺钉；不从缩放STEP的线程圆柱半径推定真实标称规格、长度或装满数量。"
+    },
+    {
+      "id": "M3_front_stator",
+      "structural_part": "7007_inner_thigh",
+      "source_part_instance": 190,
+      "source_motor": "M3_source_scaled_motor",
+      "available_matching_hole_positions": 8,
+      "confirmed_required_screw_population": null,
+      "count_meaning_zh": "孔位数是原CAD与原电机孔轴对应的几何数量，不等于已确认原实物必须全部装满的螺钉数量。",
+      "structural_bore_interval_strict60_mm": [
+        83.19,
+        84.99
+      ],
+      "motor_mating_plane_z_strict60_mm": 83.19,
+      "nominal_mating_face_gap_strict60_mm": 0.0,
+      "max_axis_offset_mm": 7.830984699025844e-10,
+      "coaxial_pairs": [
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -120.267624636495,
+              -15.572988704865693
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.500000000442324,
+            "face_ids": [
+              27,
+              468
+            ],
+            "axial_interval_mm": [
+              83.1899999987038,
+              84.98999999875066
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -120.2676246357398,
+              -15.572988704814279
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.500000001008928,
+            "face_ids": [
+              454,
+              896
+            ],
+            "axial_interval_mm": [
+              79.70999989870965,
+              83.19000009874478
+            ]
+          },
+          "axis_offset_mm": 7.569414249250694e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -160.6523753623917,
+              15.572988704860638
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 25.499999999557645,
+            "face_ids": [
+              28,
+              467
+            ],
+            "axial_interval_mm": [
+              83.1899999994922,
+              84.98999999953907
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -160.6523753617195,
+              15.572988704809347
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 25.49999999899403,
+            "face_ids": [
+              496,
+              924
+            ],
+            "axial_interval_mm": [
+              79.70999989949806,
+              83.19000009953318
+            ]
+          },
+          "axis_offset_mm": 6.741558017185983e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -113.97995411365494,
+              3.4201125546571505
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.700000000551757,
+            "face_ids": [
+              29,
+              466
+            ],
+            "axial_interval_mm": [
+              83.18999999858104,
+              84.98999999862791
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -113.97995411295022,
+              3.4201125547267566
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.700000001259582,
+            "face_ids": [
+              524,
+              525,
+              526,
+              527,
+              528,
+              529,
+              530,
+              531,
+              532,
+              533,
+              534,
+              535,
+              536,
+              940
+            ],
+            "axial_interval_mm": [
+              79.7099998985869,
+              83.19000009862204
+            ]
+          },
+          "axis_offset_mm": 7.081455018397975e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -124.15416476729257,
+              21.14260479179053
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.70000000033796,
+            "face_ids": [
+              30,
+              465
+            ],
+            "axial_interval_mm": [
+              83.18999999877967,
+              84.98999999882653
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -124.15416476663708,
+              21.142604791834003
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.700000000772697,
+            "face_ids": [
+              511,
+              512,
+              513,
+              514,
+              515,
+              516,
+              517,
+              518,
+              519,
+              520,
+              521,
+              522,
+              523,
+              935
+            ],
+            "axial_interval_mm": [
+              79.70999989878553,
+              83.19000009882066
+            ]
+          },
+          "axis_offset_mm": 6.569300007882281e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -137.03988744478377,
+              -26.480045885790954
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.700000000073825,
+            "face_ids": [
+              31,
+              464
+            ],
+            "axial_interval_mm": [
+              83.18999999903123,
+              84.9899999990781
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -137.03988744400073,
+              -26.480045885781934
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.70000000016518,
+            "face_ids": [
+              455,
+              456,
+              457,
+              458,
+              459,
+              460,
+              461,
+              462,
+              463,
+              464,
+              465,
+              466,
+              467,
+              902
+            ],
+            "axial_interval_mm": [
+              79.70999989903707,
+              83.19000009907222
+            ]
+          },
+          "axis_offset_mm": 7.830984699025844e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -156.76583523159428,
+              -21.142604791795467
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.699999999662055,
+            "face_ids": [
+              32,
+              463
+            ],
+            "axial_interval_mm": [
+              83.18999999941632,
+              84.9899999994632
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -156.76583523082223,
+              -21.142604791838956
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.699999999224996,
+            "face_ids": [
+              468,
+              469,
+              470,
+              471,
+              472,
+              473,
+              474,
+              475,
+              476,
+              477,
+              478,
+              479,
+              480,
+              907
+            ],
+            "axial_interval_mm": [
+              79.70999989942219,
+              83.19000009945732
+            ]
+          },
+          "axis_offset_mm": 7.732711875552091e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -166.94004588523177,
+              -3.4201125546620017
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.69999999944824,
+            "face_ids": [
+              33,
+              462
+            ],
+            "axial_interval_mm": [
+              83.18999999961495,
+              84.98999999966182
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -166.94004588450906,
+              -3.4201125547316877
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.699999998740417,
+            "face_ids": [
+              483,
+              484,
+              485,
+              486,
+              487,
+              488,
+              489,
+              490,
+              491,
+              492,
+              493,
+              494,
+              495,
+              913
+            ],
+            "axial_interval_mm": [
+              79.70999989962081,
+              83.19000009965595
+            ]
+          },
+          "axis_offset_mm": 7.260591435729789e-10,
+          "modeled_external_screws_on_axis": []
+        },
+        {
+          "structural_hole": {
+            "axis_xy_mm": [
+              -143.8801125541031,
+              26.48004588578586
+            ],
+            "radius_mm": 1.2,
+            "radial_distance_mm": 26.699999999926185,
+            "face_ids": [
+              34,
+              461
+            ],
+            "axial_interval_mm": [
+              83.18999999916475,
+              84.98999999921163
+            ]
+          },
+          "source_motor_threaded_hole_cylinder": {
+            "axis_xy_mm": [
+              -143.88011255345916,
+              26.48004588577693
+            ],
+            "radius_mm": 0.9,
+            "radial_distance_mm": 26.699999999834844,
+            "face_ids": [
+              497,
+              498,
+              499,
+              500,
+              501,
+              502,
+              503,
+              504,
+              505,
+              506,
+              507,
+              508,
+              509,
+              929
+            ],
+            "axial_interval_mm": [
+              79.70999989917063,
+              83.19000009920576
+            ]
+          },
+          "axis_offset_mm": 6.440125579207469e-10,
+          "modeled_external_screws_on_axis": []
+        }
+      ],
+      "modeled_external_screw_count_on_these_axes": 0,
+      "stator_screw_nominal_designation": "NOT_ESTABLISHED_FROM_SOURCE_EXTERNAL_FASTENER_INSTANCES",
+      "screw_size_qualification_zh": "原图提供通孔/沉孔，装配没有补齐这些定子螺钉；不从缩放STEP的线程圆柱半径推定真实标称规格、长度或装满数量。"
+    }
+  ],
+  "drawing_evidence": [
+    {
+      "part": "7003",
+      "pdf": "source:/miniaturization_plan/source_extracted/教育狗261028/整体出图加工/1584-7003：支架V1.pdf",
+      "pdf_sha256": "51b0c6469d5a7a806ed871350b72042b27584cea42e82004bdfd8913f015eaad",
+      "visually_inspected_preview": "source:/pa35_single_leg_v2/analysis/1584-7003_source_drawing.png",
+      "preview_sha256": "86977ab6d0ce3166ca2bbbd89cbb5b453afdd89d4362b21435c69299079ecf57",
+      "unscaled_drawing_annotation_zh": "大端8-φ4通；中央输出连接6-φ4.5。"
+    },
+    {
+      "part": "7007",
+      "pdf": "source:/miniaturization_plan/source_extracted/教育狗261028/整体出图加工/1584-7007：内侧右大腿V1.pdf",
+      "pdf_sha256": "68223f23ce97d98b13dda8330dce6eb556deba4508918c3be79e53bc7e8e3cfc",
+      "visually_inspected_preview": "source:/pa35_single_leg_v2/analysis/1584-7007_source_drawing.png",
+      "preview_sha256": "a0490dd61e3f23156d060aa3fd8494c6eb461e780b602a9753d76d7cea0aa690",
+      "unscaled_drawing_annotation_zh": "大圆端8-φ4通，凹腔φ98；没有可据此称为短环摩擦抱箍的夹紧缝/夹紧螺钉。"
+    },
+    {
+      "part": "7017",
+      "pdf": "source:/miniaturization_plan/source_extracted/教育狗261028/整体出图加工/1584-7017：髋关节法兰V1.pdf",
+      "pdf_sha256": "84598ef5b4b7a27788e5f5da25c447e4cde0e9507616764a742139de0a7f0adc",
+      "visually_inspected_preview": "source:/pa35_single_leg_v2/analysis/1584-7017_source_drawing.png",
+      "preview_sha256": "e6c5acef5b682a4f965d73eee8597898b22b8f0f4667bac2f47bd92232f615d1",
+      "unscaled_drawing_annotation_zh": "M2两侧各4-φ4通、4-φ7深1.4；两端内间距28（严格60%为16.8）。"
+    }
+  ],
+  "modeled_screw_evidence": [
+    {
+      "source_instance": 3,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X10-N",
+      "source_rep": "342155",
+      "axis_point_strict60_mm": [
+        -107.7,
+        24.631108570371207,
+        40.199885650114425
+      ],
+      "axis_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "role_zh": "根级M4×10，M1/机身/7017交界；未仅凭空间相邻断言具体接口。"
+    },
+    {
+      "source_instance": 185,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M4X8-N",
+      "source_rep": "339426",
+      "axis_point_strict60_mm": [
+        -147.10926781156465,
+        7.931565895682991,
+        91.28999999925098
+      ],
+      "axis_direction": [
+        -1.952234245044983e-11,
+        2.6887460794331957e-18,
+        -1.0
+      ],
+      "role_zh": "RR M3输出到7009，原CAD只独立画一颗M4×8。",
+      "matching_part": "7009_turntable",
+      "matching_face_index": 18,
+      "axis_offset_mm": 1.8582113900691637e-10
+    },
+    {
+      "source_instance": 186,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M3X8-N",
+      "source_rep": "616020",
+      "axis_point_strict60_mm": [
+        -178.33403186345396,
+        -68.77258874666354,
+        90.3599999998608
+      ],
+      "axis_direction": [
+        1.952234245093404e-11,
+        -2.6906691780466955e-18,
+        1.0
+      ],
+      "role_zh": "RR 7005/7007五处板间连接之一，原CAD只独立画一颗M3×8。",
+      "matching_part": "7007_inner_thigh",
+      "matching_face_index": 23,
+      "axis_offset_mm": 9.052314899764347e-11
+    },
+    {
+      "source_instance": 188,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M2.5X6-N",
+      "source_rep": "64593",
+      "axis_point_strict60_mm": [
+        -129.74759764419545,
+        -10.07990256843624,
+        95.30999999891199
+      ],
+      "axis_direction": [
+        -1.9523760625461738e-11,
+        2.2041425829234865e-15,
+        -1.0
+      ],
+      "role_zh": "RR回转盘局部小件连接，不在上述定子外围孔轴。"
+    },
+    {
+      "source_instance": 191,
+      "name": "hexagon socket head cap screws gb_GB_FASTENER_SCREWS_HSHCS M6X20-N",
+      "source_rep": "50826",
+      "axis_point_strict60_mm": [
+        -168.30436708057283,
+        -135.16172247290243,
+        80.99999999966501
+      ],
+      "axis_direction": [
+        1.9522342450934043e-11,
+        -2.6906691780668184e-18,
+        1.0
+      ],
+      "role_zh": "RR小腿销轴区，不在上述定子外围孔轴。"
+    }
+  ],
+  "source_housing_qualification_zh": "另已只读OCP检查原motor源：外围R25.5/R26.7上的R0.9圆柱位于前后壳shell，方向为TopAbs_REVERSED（孔内壁）；不是把原motor内部的螺钉外圆误当安装孔。该检查只读，不产生新几何。",
+  "load_paths_zh": [
+    "M1输出→7017；原M2定子通过7017前/后端孔固定到髋法兰。",
+    "M2输出→7003中央输出接口；7003大端→M3后壳，M3前壳→7007→7005/大腿。",
+    "M3输出→7009→连杆。这条输出运动路径与外围定子固定路径不同。"
+  ],
+  "output_interface_qualification_zh": "原7003/7009的中央输出六孔为PCD20.7、严格60%孔半径1.35；原motor输出线程圆柱为同PCD、半径0.96。源装配输出盘角相位与连接件孔存在偏差，不宣称六孔在源姿态精确同轴。上述定子前后孔轴则确实精确匹配。",
+  "short_ring_qualification": {
+    "historical_PA35_M3_reducer_axial_length_mm": 2.69,
+    "original_7007_R29p4_cavity_faces_z_strict60_mm": [
+      80.4,
+      90.66
+    ],
+    "original_motor_front_stator_plane_z_strict60_mm": 83.19,
+    "nominal_original_stator_axial_overlap_at_rear_of_7007_mm": 2.79,
+    "interpretation_zh": "这些是几何区间，不是确认有效夹持长度。2.69mm短衬套是历史PA35适配新增件，不能替代原前后螺钉路线，也不能把φ98凹腔直接叫作已验证的抱紧环。"
+  },
+  "redesign_implications_zh": [
+    "不能删除R4的M2壳4、M3前3/后4后原样保留零件；其分别承担定子和不同结构件之间的固定。",
+    "若按原连接思路适配PA35，应重做7017定子安装面/孔系、7003式M2输出至M3定子的主载体，以及7007前端接口；PA35输出孔、壳体孔和端面应按实测PA35匹配，不能缩放原motor孔系。必要固定螺钉需保留并计数。",
+    "若强制去掉上述11颗，必须另建完整M2定子→7017、M2输出主支架→大腿、M3定子→大腿的正向承载路径，或提出可装拆且经载荷确认的全新夹持结构；原方案未提供可直接继承的短环摩擦方案。",
+    "当前结论支持保留PA35固定连接，优先做7003式A/B一体化和M1配对座直接适配；不把显式补画的固定螺钉全部称为实物净新增。"
+  ],
+  "source_hashes_sha256": {
+    "source:/pa35_single_leg_v1/analysis/source_interface_measurements.json": "e56de6a7a3c0b9b3dc4b7ebcc72bc8a0ea30253be5ac9023d7f43cbc32f2d436",
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/cad_60pct_baseline/03_connectors/7017_hip_flange_60pct.step": "b333b87c54a601a1cc13f534b8cea3145e02de21d5f0f4e7206e0aa529715dd0",
+    "source:/cad_60pct_baseline/03_connectors/7003_main_support_60pct.step": "5a8510030cfeee4339500352f8d7cbcb2e441462c0e4c8d11baaa38ce475e9a8",
+    "source:/cad_60pct_baseline/03_connectors/7007_inner_thigh_60pct.step": "774f628fc1e1496f93a3bfef91c448c81ee050e8dc6afde81e6da2b24d6aa480",
+    "source:/cad_60pct_baseline/03_connectors/7009_turntable_body_60pct.step": "da819430247be2fdf9bcc5aca4b321481cfa0c282d78d25ed9f88df1dd6a0ecc",
+    "source:/miniaturization_plan/original_motor_only.step": "b9251e8592d559e4829721e14070de64a880495d1a6e4d3798b761e80dff1307"
+  },
+  "protected_source_hashes_before_sha256": {
+    "source:/pa35_single_leg_v1/analysis/source_interface_measurements.json": "e56de6a7a3c0b9b3dc4b7ebcc72bc8a0ea30253be5ac9023d7f43cbc32f2d436",
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49"
+  },
+  "protected_source_hashes_after_sha256": {
+    "source:/pa35_single_leg_v1/analysis/source_interface_measurements.json": "e56de6a7a3c0b9b3dc4b7ebcc72bc8a0ea30253be5ac9023d7f43cbc32f2d436",
+    "source:/cad_60pct_baseline/analysis/leg_connection_compare.json": "726e4710bd3f7a1dbe7573a69af4aa4b9e84496aef3c18e41906a1937b3fe1e7",
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49"
+  },
+  "limitations_zh": [
+    "孔轴对应证明原有固定连接思路，不证明所有可用孔位实物必须装满。",
+    "未确认原遗漏定子螺钉标称规格、长度、紧固扭矩或承载能力。",
+    "未改当前CAD、原CAD或同页UI；只输出可追溯审计。"
+  ]
+}

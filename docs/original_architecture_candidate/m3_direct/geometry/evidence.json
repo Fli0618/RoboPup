@@ -1,0 +1,264 @@
+{
+  "status": "FOUR_INTEGRAL_AUX_LOCATORS_STATIC_CAD_PASS_NOT_RELEASED",
+  "formal_R4_modified": false,
+  "source_hashes_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/009_011_7007_V4_M2_supported_clearance_b5fe47f976.step": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/004_006_M3_slotted_thigh_reducer_d2255c5dc7.step": "d2255c5dc770c472d9cec5891edc6fdfac3ecceb167284d0e72c0967892a760d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/046_051_M3_shell_V3F_M3x6_1_b1bbb8b167.step": "b1bbb8b16792a76f708350f64663d2ecce06d5e290c4820d0ee86902c827cfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/047_052_M3_shell_V3F_M3x6_2_b2f609a1f3.step": "b2f609a1f3cfd65cac645140f95518a06c6ad17967d6963e7fcfb66b5b71c06b",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/048_053_M3_shell_V3F_M3x6_3_58b128efcc.step": "58b128efcc5aaea0137ae40c01a7e7b2ec88812189f041b75642e0bb58a2d312",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/100_LH_011_7007_V4_M2_supported_clearance_7a862a06ed.step": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/095_LH_006_M3_slotted_thigh_reducer_455b35b995.step": "455b35b9955057581739b0be94743cd602a713418cefe8c624dd369529686ff1"
+  },
+  "corners": [
+    {
+      "corner": "RR",
+      "source_plate_label": "RR_7007_V4_M2_supported_clearance",
+      "removed_reducer_label": "RR_M3_slotted_thigh_reducer",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RR_7007_integral_M3_aux_locator.step",
+      "after_sha256": "5da1f9120b4295f8982c7078c44a165bba022a0c9d515c9ef59765d1e7942204",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "total_shell_count": 2,
+      "source_open_shell_count": 1,
+      "source_open_shell_preserved_area_and_bounds": true,
+      "original_ring_ID_mm": 46.5,
+      "original_ring_length_mm": 2.69,
+      "old_outer_radius_mm": 29.35,
+      "expanded_outer_radius_mm": 29.45,
+      "nominal_overlap_in_R29p4_seat_mm": 0.05,
+      "old_main_volume_mm3": 21816.434639475032,
+      "old_ring_volume_mm3": 2580.1941235355744,
+      "after_solid_volume_mm3": 24416.08575303641,
+      "new_material_vs_old_pair_mm3": 19.498977714190055,
+      "removed_material_vs_old_pair_mm3": 0.0,
+      "initial_plate_ring_distance_mm": 7.105427357601002e-15,
+      "added_material_checks": [
+        {
+          "label": "RR_M3_ACTUAL_PA35",
+          "actual_motor_conservative_surface_clearance_lower_bound_mm": 0.05,
+          "motor_complete_radial_outer_bound_mm": 24.899438655364282,
+          "added_material_volume_in_motor_enclosing_cylinder_mm3": 0.0,
+          "static_clear": true,
+          "method": "Exact actual motor support bounds in two rotated frames enclose every motor face in an octagon, then a conservative cylinder. BRep Common confirms added material is entirely outside that enclosing cylinder plus0.05mm. No assumption of motor solids is needed for its100 source shells."
+        },
+        {
+          "label": "RR_M3_shell_V3F_M3x6_1",
+          "actual_face_distance_mm": 7.099999999990843,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "RR_M3_shell_V3F_M3x6_2",
+          "actual_face_distance_mm": 7.10000000000835,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "RR_M3_shell_V3F_M3x6_3",
+          "actual_face_distance_mm": 7.1929977393991535,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        }
+      ],
+      "no_new_static_overlap": true,
+      "retained_front_shell_screws": 3,
+      "retained_rear_shell_screws": 4,
+      "retained_output_screws": 6,
+      "claimed_torque_retention": "Existing stator screws retained. Integral short locator is auxiliary only; no friction-load claim."
+    },
+    {
+      "corner": "FR",
+      "source_plate_label": "FR_7007_V4_M2_supported_clearance",
+      "removed_reducer_label": "FR_M3_slotted_thigh_reducer",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FR_7007_integral_M3_aux_locator.step",
+      "after_sha256": "39d8dce024f76415760b4ce6d659480df1b4ac46703543f956c2cd39a5396e3b",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "total_shell_count": 2,
+      "source_open_shell_count": 1,
+      "source_open_shell_preserved_area_and_bounds": true,
+      "original_ring_ID_mm": 46.5,
+      "original_ring_length_mm": 2.69,
+      "old_outer_radius_mm": 29.35,
+      "expanded_outer_radius_mm": 29.45,
+      "nominal_overlap_in_R29p4_seat_mm": 0.05,
+      "old_main_volume_mm3": 21816.434639475065,
+      "old_ring_volume_mm3": 2580.194123535574,
+      "after_solid_volume_mm3": 24416.08341204901,
+      "new_material_vs_old_pair_mm3": 19.49663672081455,
+      "removed_material_vs_old_pair_mm3": 0.0,
+      "initial_plate_ring_distance_mm": 0.0,
+      "added_material_checks": [
+        {
+          "label": "FR_M3_ACTUAL_PA35",
+          "actual_motor_conservative_surface_clearance_lower_bound_mm": 0.05,
+          "motor_complete_radial_outer_bound_mm": 24.899438655364282,
+          "added_material_volume_in_motor_enclosing_cylinder_mm3": 0.0,
+          "static_clear": true,
+          "method": "Exact actual motor support bounds in two rotated frames enclose every motor face in an octagon, then a conservative cylinder. BRep Common confirms added material is entirely outside that enclosing cylinder plus0.05mm. No assumption of motor solids is needed for its100 source shells."
+        },
+        {
+          "label": "FR_M3_shell_V3F_M3x6_1",
+          "actual_face_distance_mm": 7.099999999990837,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "FR_M3_shell_V3F_M3x6_2",
+          "actual_face_distance_mm": 7.100000000008359,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "FR_M3_shell_V3F_M3x6_3",
+          "actual_face_distance_mm": 7.192997739399111,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        }
+      ],
+      "no_new_static_overlap": true,
+      "retained_front_shell_screws": 3,
+      "retained_rear_shell_screws": 4,
+      "retained_output_screws": 6,
+      "claimed_torque_retention": "Existing stator screws retained. Integral short locator is auxiliary only; no friction-load claim."
+    },
+    {
+      "corner": "RL",
+      "source_plate_label": "RL_7007_V4_M2_supported_clearance",
+      "removed_reducer_label": "RL_M3_slotted_thigh_reducer",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/RL_7007_integral_M3_aux_locator.step",
+      "after_sha256": "5fa8ebc3c7c8f542457d6e0425af5b63f65445b5e9a481c11f846696c74e51e3",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "total_shell_count": 2,
+      "source_open_shell_count": 1,
+      "source_open_shell_preserved_area_and_bounds": true,
+      "original_ring_ID_mm": 46.5,
+      "original_ring_length_mm": 2.69,
+      "old_outer_radius_mm": 29.35,
+      "expanded_outer_radius_mm": 29.45,
+      "nominal_overlap_in_R29p4_seat_mm": 0.05,
+      "old_main_volume_mm3": 21818.74842674026,
+      "old_ring_volume_mm3": 2580.19412353492,
+      "after_solid_volume_mm3": 24418.447002024193,
+      "new_material_vs_old_pair_mm3": 19.497871207128128,
+      "removed_material_vs_old_pair_mm3": 0.0,
+      "initial_plate_ring_distance_mm": 7.105427357601002e-15,
+      "added_material_checks": [
+        {
+          "label": "RL_M3_ACTUAL_PA35",
+          "actual_motor_conservative_surface_clearance_lower_bound_mm": 0.05,
+          "motor_complete_radial_outer_bound_mm": 24.899438655364282,
+          "added_material_volume_in_motor_enclosing_cylinder_mm3": 0.0,
+          "static_clear": true,
+          "method": "Exact actual motor support bounds in two rotated frames enclose every motor face in an octagon, then a conservative cylinder. BRep Common confirms added material is entirely outside that enclosing cylinder plus0.05mm. No assumption of motor solids is needed for its100 source shells."
+        },
+        {
+          "label": "RL_M3_shell_V3F_M3x6_1",
+          "actual_face_distance_mm": 7.099999999990838,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "RL_M3_shell_V3F_M3x6_2",
+          "actual_face_distance_mm": 7.100000000008365,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "RL_M3_shell_V3F_M3x6_3",
+          "actual_face_distance_mm": 7.1929977393991535,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        }
+      ],
+      "no_new_static_overlap": true,
+      "retained_front_shell_screws": 3,
+      "retained_rear_shell_screws": 4,
+      "retained_output_screws": 6,
+      "claimed_torque_retention": "Existing stator screws retained. Integral short locator is auxiliary only; no friction-load claim."
+    },
+    {
+      "corner": "FL",
+      "source_plate_label": "FL_7007_V4_M2_supported_clearance",
+      "removed_reducer_label": "FL_M3_slotted_thigh_reducer",
+      "after_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/FL_7007_integral_M3_aux_locator.step",
+      "after_sha256": "3b0ddf4c04a4b239708c02d4115f5e5ef686e1f5dcddfdb73410fc4d89b1fcbc",
+      "valid_BRep": true,
+      "solid_count": 1,
+      "total_shell_count": 2,
+      "source_open_shell_count": 1,
+      "source_open_shell_preserved_area_and_bounds": true,
+      "original_ring_ID_mm": 46.5,
+      "original_ring_length_mm": 2.69,
+      "old_outer_radius_mm": 29.35,
+      "expanded_outer_radius_mm": 29.45,
+      "nominal_overlap_in_R29p4_seat_mm": 0.05,
+      "old_main_volume_mm3": 21818.74842674033,
+      "old_ring_volume_mm3": 2580.1941235349195,
+      "after_solid_volume_mm3": 24418.445582670956,
+      "new_material_vs_old_pair_mm3": 19.49764918979554,
+      "removed_material_vs_old_pair_mm3": 0.0,
+      "initial_plate_ring_distance_mm": 3.552713678800501e-15,
+      "added_material_checks": [
+        {
+          "label": "FL_M3_ACTUAL_PA35",
+          "actual_motor_conservative_surface_clearance_lower_bound_mm": 0.05,
+          "motor_complete_radial_outer_bound_mm": 24.899438655364282,
+          "added_material_volume_in_motor_enclosing_cylinder_mm3": 0.0,
+          "static_clear": true,
+          "method": "Exact actual motor support bounds in two rotated frames enclose every motor face in an octagon, then a conservative cylinder. BRep Common confirms added material is entirely outside that enclosing cylinder plus0.05mm. No assumption of motor solids is needed for its100 source shells."
+        },
+        {
+          "label": "FL_M3_shell_V3F_M3x6_1",
+          "actual_face_distance_mm": 7.099999999990838,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "FL_M3_shell_V3F_M3x6_2",
+          "actual_face_distance_mm": 7.100000000008365,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        },
+        {
+          "label": "FL_M3_shell_V3F_M3x6_3",
+          "actual_face_distance_mm": 7.192997739399112,
+          "added_material_common_volume_mm3": 0.0,
+          "method": "Exact BRep surface separation; separated local annulus.",
+          "static_clear": true
+        }
+      ],
+      "no_new_static_overlap": true,
+      "retained_front_shell_screws": 3,
+      "retained_rear_shell_screws": 4,
+      "retained_output_screws": 6,
+      "claimed_torque_retention": "Existing stator screws retained. Integral short locator is auxiliary only; no friction-load claim."
+    }
+  ],
+  "mechanical_count_before": 8,
+  "mechanical_count_after": 4,
+  "mechanical_count_delta": -4,
+  "legother137_delta_change": 0,
+  "limits": [
+    "Static geometry candidate only; no motion, strength, tolerance, machining, fatigue or assembly release.",
+    "M3 stator front3/rear4 screws and output6 screws remain; no friction clamp claim.",
+    "Source open shell retained as original geometry; exactly one actual closed solid per candidate."
+  ],
+  "images": []
+}

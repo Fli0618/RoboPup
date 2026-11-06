@@ -1,0 +1,758 @@
+{
+  "status": "CURRENT_R4_COMPARISON_DELIVERY_INTEGRITY_PASS",
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "canonical_page": "source:/whole_robot_click_compare/index.html",
+  "checks": [
+    {
+      "label": "Current page-state is synchronized",
+      "pass": true
+    },
+    {
+      "label": "Stable STEP, revision STEP and page state share the same CAD hash",
+      "pass": true
+    },
+    {
+      "label": "Page metadata matches current manifest and pointer",
+      "pass": true
+    },
+    {
+      "label": "All current definitions and component references were checked by sync_current_state.py",
+      "pass": true
+    },
+    {
+      "label": "Current count scope closes at 219 to 396, delta 177",
+      "pass": true
+    },
+    {
+      "label": "Seven numeric regions plus unchanged head close both model totals",
+      "pass": true
+    },
+    {
+      "label": "Pending battery is excluded and never presented as a physical reduction",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: index.html",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: app.js",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: style.css",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/compare-assets.js",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/compare-assets.js",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/compare-assets.json",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/compare-assets.json",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/render-comparison-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/render-comparison-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/whole_original_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/whole_original_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/whole_current_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/whole_current_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/whole_original_side.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/whole_original_side.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/whole_current_side.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/whole_current_side.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/m1_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/m1_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/m1_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/m1_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/ab_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/ab_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/ab_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/ab_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/m3_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/m3_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/m3_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/m3_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/pin_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/pin_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/pin_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/pin_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/legother_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/legother_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/legother_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/legother_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/bodyadapter_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/bodyadapter_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/bodyadapter_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/bodyadapter_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/bodyother_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/bodyother_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/bodyother_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/bodyother_after.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/battery_before.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/battery_before.png",
+      "pass": true
+    },
+    {
+      "label": "Frozen R2 snapshot: assets/battery_after.png",
+      "pass": true
+    },
+    {
+      "label": "Historical live asset unchanged: assets/battery_after.png",
+      "pass": true
+    },
+    {
+      "label": "R4 asset contract matches current model",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: whole_original_iso.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: whole_original_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: whole_current_iso.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: whole_current_iso.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: whole_original_side.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: whole_original_side.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: whole_current_side.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: whole_current_side.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: bodyadapter_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: bodyadapter_before.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: bodyadapter_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: bodyadapter_after.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: bodyother_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: bodyother_before.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: bodyother_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: bodyother_after.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: battery_before.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: battery_before.png",
+      "pass": true
+    },
+    {
+      "label": "Actual R4 image matches render evidence: battery_after.png",
+      "pass": true
+    },
+    {
+      "label": "CAD image is 1600 x 1200: battery_after.png",
+      "pass": true
+    },
+    {
+      "label": "Whole images and battery ghost match count scope",
+      "pass": true
+    },
+    {
+      "label": "Both revisions retain the same overview camera and scale",
+      "pass": true
+    },
+    {
+      "label": "Current CAD still matches the STEP used for rendering",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: style.css?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: style.css?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: assets/compare-assets.js",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: assets/compare-assets.js",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: assets/r4/compare-assets-r4.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: assets/r4/compare-assets-r4.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: page-state.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: page-state.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: region-data.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: region-data.js?v=R4-1d35a808",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_audit/legother-audit.js?v=leg137-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_audit/legother-audit.js?v=leg137-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_audit/assets/legother-assets.js?v=leg137-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_audit/assets/legother-assets.js?v=leg137-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_simplification_review/plan.js?v=R4-simplification-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_simplification_review/plan.js?v=R4-simplification-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_optimization_candidates/inline-review.js?v=137-optimization-3",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_optimization_candidates/inline-review.js?v=137-optimization-3",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_optimization_candidates/candidate-state.js?v=137-optimization-3",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_optimization_candidates/candidate-state.js?v=137-optimization-3",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: original_architecture_candidate/review-data.js?v=C1-2",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: original_architecture_candidate/review-data.js?v=C1-2",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: triple_comparison/three-version-data.js?v=triple-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: triple_comparison/three-version-data.js?v=triple-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: original_m2_connection/diagram-data.js?v=M2-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: original_m2_connection/diagram-data.js?v=M2-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: main-design-state.js?v=D1-main-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: main-design-state.js?v=D1-main-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: app.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: app.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: main-design-view.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: main-design-view.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: ab-main-detail.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: ab-main-detail.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: main-whole-data.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: main-whole-data.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: main-whole-view.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: main-whole-view.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: pin-main-detail.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: pin-main-detail.js?v=D1-whole-pin-4",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: sleeve_direct_review/review-data.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: sleeve_direct_review/review-data.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: sleeve-review-view.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: sleeve-review-view.js?v=sleeve-review-1",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: resources/main/views/connection-exploded.png",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: resources/main/views/connection-exploded.png",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: resources/main/PA35_MAIN_D1_CONNECTION.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: resources/main/PA35_MAIN_D1_CONNECTION.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: resources/main/PA35_MAIN_D1_LOCAL_ASSEMBLY.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: resources/main/PA35_MAIN_D1_LOCAL_ASSEMBLY.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: archive-downloads.html?file=PA35_CURRENT_REVIEW.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: archive-downloads.html?file=PA35_CURRENT_REVIEW.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: triple_comparison/count-audit.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: triple_comparison/count-audit.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: triple_comparison/render-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: triple_comparison/render-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: original_architecture_candidate/mount_route/mount_route_review.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: original_architecture_candidate/mount_route/mount_route_review.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_optimization_candidates/audit/all137_partition.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_optimization_candidates/audit/all137_partition.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_simplification_review/plan.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_simplification_review/plan.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/connection-hole-map.png?v=15a67c5345",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/connection-hole-map.png?v=15a67c5345",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/connection-exploded.png?v=15a67c5345",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/connection-exploded.png?v=15a67c5345",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_audit/assets/stop_before.png",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_audit/assets/stop_before.png",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/part_before.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/part_before.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/part_after.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/part_after.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/section_before.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/section_before.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/section_after.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/section_after.png?v=184cc3e993",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/RR_RECESSED_CUP_D1.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/RR_RECESSED_CUP_D1.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/RR_D1_LOCAL_AFTER.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/RR_D1_LOCAL_AFTER.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/RR_R4_LOCAL_BEFORE.step",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/RR_R4_LOCAL_BEFORE.step",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: recessed_cup_candidate/evidence.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: recessed_cup_candidate/evidence.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: original_architecture_candidate/mount_route/mount_route_review.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: original_architecture_candidate/mount_route/mount_route_review.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: legother_audit/legother-audit.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: legother_audit/legother-audit.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: archive-downloads.html?file=assembly_delta_review/review.html",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: archive-downloads.html?file=assembly_delta_review/review.html",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: resources/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: resources/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: archive-downloads.html?file=part_by_part_review/01_m1_clamp_proposal/review.html",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: archive-downloads.html?file=part_by_part_review/01_m1_clamp_proposal/review.html",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: assets/r4/render-comparison-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "Local HTML dependency exists: assets/r4/render-comparison-evidence.json",
+      "pass": true
+    },
+    {
+      "label": "No external dependency: ?version=r2",
+      "pass": true
+    },
+    {
+      "label": "Current-model guard is loaded by the fixed entry",
+      "pass": true
+    }
+  ],
+  "current_model_binding_validation": {
+    "current_revision": "R4_ORIGINAL_FRAME_ADAPTIVE_BATTERY",
+    "assembly_sha256": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "pointer_sha256": "ebb4be7fed08bccd8776eb924cf4cf19965bebe13f87569643dda8c40fd8b5ef",
+    "current_manifest_sha256": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "render_time_manifest_sha256": "e0f44462561f14070ef08c9c6c8d69f21d91593ba49cacb3ea9cd8e9404faa85",
+    "assembly_matches_render_source": true,
+    "definition_files_checked": 133,
+    "component_references_checked": 384,
+    "note": "保留渲染时清单哈希。当前装配STEP与渲染源完全一致；最新清单由本绑定记录核验。未声称两个清单只有元数据差异。"
+  },
+  "page_file_sha256": {
+    "index.html": "f017fd6189c4befe3df241bee1c97de9095e8ce95793d4122fa7cc466ee818d1",
+    "app.js": "a935983f12f3559c4d4040fa70c4f7e7fcc4357a0f42f9f4d486db5f019b912c",
+    "style.css": "f7bff8999f2279faa8af76b041adfc8bcb3a1d4a78fba36c9f018057e72a02e7",
+    "region-data.js": "c3edc8db7d6c21310aff7f3a7f7d47e0f0967b7dc9404ab7f31cc3c58520a8a4",
+    "page-state.js": "4ac9051740835e0ef5e0e762aefe5dd04faa0538f6a939b14c1924d5d214caea",
+    "page-state.json": "fe5918221aadd426b44acdf32f764cac2c2cb3cae6bfbd30bba1be3d7d20c585"
+  },
+  "CAD_modified_by_page_maintenance": false,
+  "physical_part_reduction_claim_from_missing_battery": false,
+  "browser_validation": "maintenance_browser_validation.json"
+}

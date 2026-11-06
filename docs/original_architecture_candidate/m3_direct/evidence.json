@@ -1,0 +1,298 @@
+{
+  "status": "FOUR_M3_DIRECT_LOCATION_GEOMETRY_PASS_NOT_RELEASED",
+  "all_static_checks_pass": true,
+  "formal_R4_modified": false,
+  "frozen_STEP_files_unchanged_by_render": true,
+  "geometry_evidence_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/evidence.json",
+  "geometry_evidence_sha256": "fe52f6e9c693f7e5f352a30beadbd813cb4d3892be501adf2e794ff1838327fe",
+  "fusion_verification_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/geometry/fusion_verification.json",
+  "fusion_verification_sha256": "e86939e44364cb0a8398906915344ebcd14aa5be6839618188092da9175474d1",
+  "mapping_file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/four_direct_mapping.json",
+  "mapping_sha256": "1495ee6b45a44b32d0eb341afa86cda69e65dcd7ea2b00c43a5fe4c453ad7146",
+  "positive_fusion_overlap_proof": [
+    {
+      "corner": "RR",
+      "positive_fusion_material_overlap_mm3": 28.991453029222612,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "5da1f9120b4295f8982c7078c44a165bba022a0c9d515c9ef59765d1e7942204"
+    },
+    {
+      "corner": "FR",
+      "positive_fusion_material_overlap_mm3": 28.993794035952305,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "39d8dce024f76415760b4ce6d659480df1b4ac46703543f956c2cd39a5396e3b"
+    },
+    {
+      "corner": "RL",
+      "positive_fusion_material_overlap_mm3": 28.943259702857176,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "5fa8ebc3c7c8f542457d6e0425af5b63f65445b5e9a481c11f846696c74e51e3"
+    },
+    {
+      "corner": "FL",
+      "positive_fusion_material_overlap_mm3": 28.944679091695434,
+      "valid_one_solid_not_disconnected_compound": true,
+      "candidate_sha256": "3b0ddf4c04a4b239708c02d4115f5e5ef686e1f5dcddfdb73410fc4d89b1fcbc"
+    }
+  ],
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_full_before.png",
+      "sha256": "22a887dbccaeb2b356bc6053ea9129cc8389c889004c3f3eaa55f2b13709a902",
+      "camera": {
+        "focal": [
+          -148.77830753774998,
+          -56.63090291127074,
+          103.36000003441407
+        ],
+        "position": [
+          -343.5451940494975,
+          62.39330551257498,
+          -199.61071231719322
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 112.9048580489257
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": false,
+      "same_camera_same_scale": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_full_after.png",
+      "sha256": "2d4dd66e0e010a56389eb3209e6f733dec7b3d2c0dfd31b4418b15ffc7719065",
+      "camera": {
+        "focal": [
+          -148.77830753774998,
+          -56.63090291127074,
+          103.36000003441407
+        ],
+        "position": [
+          -343.5451940494975,
+          62.39330551257498,
+          -199.61071231719322
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 112.9048580489257
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": false,
+      "same_camera_same_scale": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_locator_section_before.png",
+      "sha256": "a63872a4ac03eb2c5e20e798816e81e85021390d9d40faaca793724a17256242",
+      "camera": {
+        "focal": [
+          -140.459999999,
+          21.19999999999873,
+          103.35999999913797
+        ],
+        "position": [
+          -191.9712077950226,
+          -57.78385195390259,
+          14.073906486032115
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 38.65205275383519
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": true,
+      "same_camera_same_scale": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_locator_section_after.png",
+      "sha256": "19b086b748514a2b6c63a736c8d99ac46d8503054a396851426d0caf7eb5564b",
+      "camera": {
+        "focal": [
+          -140.459999999,
+          21.19999999999873,
+          103.35999999913797
+        ],
+        "position": [
+          -191.9712077950226,
+          -57.78385195390259,
+          14.073906486032115
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 38.65205275383519
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": true,
+      "same_camera_same_scale": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/before.png",
+      "sha256": "22a887dbccaeb2b356bc6053ea9129cc8389c889004c3f3eaa55f2b13709a902",
+      "camera": {
+        "focal": [
+          -148.77830753774998,
+          -56.63090291127074,
+          103.36000003441407
+        ],
+        "position": [
+          -343.5451940494975,
+          62.39330551257498,
+          -199.61071231719322
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 112.9048580489257
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": false,
+      "same_camera_same_scale": true,
+      "alias_of": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_full_before.png"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/after.png",
+      "sha256": "2d4dd66e0e010a56389eb3209e6f733dec7b3d2c0dfd31b4418b15ffc7719065",
+      "camera": {
+        "focal": [
+          -148.77830753774998,
+          -56.63090291127074,
+          103.36000003441407
+        ],
+        "position": [
+          -343.5451940494975,
+          62.39330551257498,
+          -199.61071231719322
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 112.9048580489257
+      },
+      "real_CAD_geometry": true,
+      "render_only_cut": false,
+      "same_camera_same_scale": true,
+      "alias_of": "source:/whole_robot_click_compare/original_architecture_candidate/m3_direct/RR_full_after.png"
+    }
+  ],
+  "boolean_robustness_probe": {
+    "signed_solid_volume_mm3": {
+      "original": 21816.434639475032,
+      "candidate": 24416.085753033396
+    },
+    "solid_orientation": {
+      "original": "TopAbs_FORWARD",
+      "candidate": "TopAbs_FORWARD"
+    },
+    "infinite_point_classification": {
+      "original": "TopAbs_OUT",
+      "candidate": "TopAbs_OUT"
+    },
+    "half_box_common_probes": [
+      {
+        "box_min_y_mm": 0,
+        "candidate_common_volume_mm3": 0,
+        "candidate_solid_count": 0,
+        "status": "UNSTABLE_NEAR_SLIT"
+      },
+      {
+        "box_min_y_mm": 0.123,
+        "candidate_common_volume_mm3": 0,
+        "candidate_solid_count": 0,
+        "status": "UNSTABLE_NEAR_SLIT"
+      },
+      {
+        "box_min_y_mm": 1,
+        "candidate_common_volume_mm3": 0,
+        "candidate_solid_count": 0,
+        "status": "UNSTABLE_NEAR_SLIT"
+      },
+      {
+        "box_min_y_mm": 10,
+        "candidate_common_volume_mm3": 6366.809091508342,
+        "candidate_solid_count": 1,
+        "status": "NORMAL_USED_FOR_RENDER"
+      },
+      {
+        "box_min_y_mm": -10,
+        "candidate_common_volume_mm3": 8731.753996750718,
+        "candidate_solid_count": 2,
+        "status": "NORMAL_SPLIT_RESULT"
+      }
+    ],
+    "classification_samples": [
+      {
+        "point_mm": [
+          -140.46,
+          27,
+          107
+        ],
+        "original": "IN",
+        "candidate": "IN",
+        "meaning": "retained original plate material"
+      },
+      {
+        "point_mm": [
+          -140.46,
+          27,
+          97.7
+        ],
+        "original": "OUT",
+        "candidate": "IN",
+        "meaning": "integrated original auxiliary locator material"
+      },
+      {
+        "point_mm": [
+          -165,
+          0,
+          97.7
+        ],
+        "original": "OUT",
+        "candidate": "IN",
+        "meaning": "integrated original auxiliary locator material"
+      },
+      {
+        "point_mm": [
+          -170,
+          -70,
+          105
+        ],
+        "original": "IN",
+        "candidate": "IN",
+        "meaning": "retained original thigh web"
+      },
+      {
+        "point_mm": [
+          -140.46,
+          0,
+          107
+        ],
+        "original": "OUT",
+        "candidate": "OUT",
+        "meaning": "central bore remains open"
+      }
+    ],
+    "limitation_zh": "近开口缝的新BSpline边处截切布尔不稳定：Y=0/0.123/1半截盒返回空；Y=10和Y=-10正常，正向体积/无限点/内部点分类正常。本候选不是全部布尔健壮或制造发布；加工前须修复或重建近缝曲面。"
+  },
+  "material_basis": "Original7007 drawing6061. Integral auxiliary locator uses the parent part material; no material change.",
+  "scope_zh": "四腿各自当前7007实际solid融合原M3辅助定位环，外侧扩到R29.45形成正体积搭接；保留各自旧source open shell。当前原两件→候选一件，四腿减4，137腿部差额分区不变。前3/后4定子螺钉及输出6颗全部保留；短定位不是主抗转路径。",
+  "static_scope_zh": "新增材料相对原7007+原环的差集，针对所有bbox相交邻件检查。真实motor全部面由两个旋转支持盒构成保守八边形和圆柱包络，新增材料与该包络+0.05mm无体积交叠；未用motor开放shell的Common体积冒充实体碰撞证明。",
+  "limits": [
+    "Static concept only; not released for manufacture, motion, strength or assembly.",
+    "Near-slit half-box Boolean instability is recorded above and must be repaired or rebuilt before manufacturing use."
+  ]
+}

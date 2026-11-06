@@ -1,0 +1,204 @@
+{
+  "formalCADModified": false,
+  "candidateCADModified": false,
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/connection-hole-map.png",
+      "sha256": "15a67c5345c3f7697070eb2c7829cdcc40b6ca1bfc0d8fa23f8a7b59c7477d96",
+      "actualCAD": true,
+      "anchors": [
+        {
+          "id": "M2_output_M4x8_1",
+          "group": "M2_output",
+          "xy": [
+            -148.9452813742,
+            -8.485281374239
+          ],
+          "radius_mm": 11.999999999973019,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_1",
+          "pixel": [
+            681.6007250111628,
+            718.3992749893814
+          ]
+        },
+        {
+          "id": "M2_output_M4x8_2",
+          "group": "M2_output",
+          "xy": [
+            -152.0511099154,
+            3.105828541229
+          ],
+          "radius_mm": 11.999999999933186,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_2",
+          "pixel": [
+            638.2635825758143,
+            556.6628575642466
+          ]
+        },
+        {
+          "id": "M2_output_M4x8_3",
+          "group": "M2_output",
+          "xy": [
+            -143.5658285412,
+            11.591109915465
+          ],
+          "radius_mm": 11.99999999998848,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_3",
+          "pixel": [
+            756.6628575646512,
+            438.263582574907
+          ]
+        },
+        {
+          "id": "M2_output_M4x8_4",
+          "group": "M2_output",
+          "xy": [
+            -131.9747186257,
+            8.485281374239
+          ],
+          "radius_mm": 12.000000000043741,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_4",
+          "pixel": [
+            918.3992749902327,
+            481.6007250106186
+          ]
+        },
+        {
+          "id": "M2_output_M4x8_5",
+          "group": "M2_output",
+          "xy": [
+            -128.8688900845,
+            -3.105828541229
+          ],
+          "radius_mm": 12.000000000029793,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_5",
+          "pixel": [
+            961.7364174255815,
+            643.3371424357534
+          ]
+        },
+        {
+          "id": "M2_output_M4x8_6",
+          "group": "M2_output",
+          "xy": [
+            -137.3541714587,
+            -11.59110991546
+          ],
+          "radius_mm": 12.000000000009537,
+          "direction_z": -1,
+          "screw": "RR_M2_output_M4x8_6",
+          "pixel": [
+            843.3371424367443,
+            761.7364174250232
+          ]
+        },
+        {
+          "id": "M3_rear_M3x6_1",
+          "group": "M3_rear",
+          "xy": [
+            -125.0862664315,
+            11.584939195681
+          ],
+          "radius_mm": 19.25000000007403,
+          "direction_z": 1,
+          "screw": "RR_M3_rear_M3x6_1",
+          "pixel": [
+            1014.517212583721,
+            438.34968564166047
+          ]
+        },
+        {
+          "id": "M3_rear_M3x6_2",
+          "group": "M3_rear",
+          "xy": [
+            -152.0449391956,
+            15.373733568411001
+          ],
+          "radius_mm": 19.249999999954184,
+          "direction_z": 1,
+          "screw": "RR_M3_rear_M3x6_2",
+          "pixel": [
+            638.3496856427907,
+            385.48278741752097
+          ]
+        },
+        {
+          "id": "M3_rear_M3x6_3",
+          "group": "M3_rear",
+          "xy": [
+            -128.8750608043,
+            -15.373733568399999
+          ],
+          "radius_mm": 19.25000000000559,
+          "direction_z": 1,
+          "screw": "RR_M3_rear_M3x6_3",
+          "pixel": [
+            961.6503143586048,
+            814.5172125823256
+          ]
+        },
+        {
+          "id": "M3_rear_M3x6_4",
+          "group": "M3_rear",
+          "xy": [
+            -155.8337335684,
+            -11.58493919567
+          ],
+          "radius_mm": 19.249999999987523,
+          "direction_z": 1,
+          "screw": "RR_M3_rear_M3x6_4",
+          "pixel": [
+            585.4827874176746,
+            761.650314358186
+          ]
+        }
+      ],
+      "camera": {
+        "scale": 43,
+        "focus": [
+          -140.46,
+          0,
+          60
+        ],
+        "direction": [
+          0,
+          0,
+          230
+        ]
+      }
+    },
+    {
+      "file": "source:/whole_robot_click_compare/recessed_cup_candidate/connection-exploded.png",
+      "sha256": "5a73bdcfc247adb7dc4a32da6e9cdc517f94b61d869d6382a5f268d7ac455692",
+      "actualCAD": true,
+      "displayExplosionOnly": true,
+      "offsetsFromR4WorldZmm": {
+        "M2": -40,
+        "M3": 41,
+        "M2_output_screws": -14,
+        "M3_rear_screws": -18
+      }
+    }
+  ],
+  "hole_groups": {
+    "M2_output": {
+      "quantity": 6,
+      "PCD_mm": 24,
+      "directionZ": -1
+    },
+    "M3_rear": {
+      "quantity": 4,
+      "PCD_mm": 38.5,
+      "directionZ": 1
+    }
+  },
+  "protectedSHA256": {
+    "source:/whole_robot_click_compare/recessed_cup_candidate/RR_RECESSED_CUP_D1.step": "184cc3e993ee6a17b2ac01446451a496668f70c74397534dd00f1394b95cb2f0",
+    "source:/whole_robot_click_compare/recessed_cup_candidate/RR_D1_LOCAL_AFTER.step": "5719c171b600d74e842b48b1ccd02ac53e75c1bc2fa60d0dcf46a61326e04c0d"
+  }
+}

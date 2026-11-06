@@ -1,0 +1,34 @@
+{
+  "pdf": "source:/inputs/甬擎智控_RT-X05_教育整体解决方案.pdf",
+  "page": 5,
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/pdf5_native_photo_0.jpeg",
+      "sha256": "b6f20e3b6d614b804184e9687adab97e4e9e62aeead240ed07d1024de9e94546",
+      "width": 1448,
+      "height": 1086,
+      "page_rects": [
+        [
+          55.79999923706055,
+          207.9600067138672,
+          375.239990234375,
+          447.6000061035156
+        ]
+      ]
+    },
+    {
+      "file": "source:/whole_robot_click_compare/physical_connection_review/pdf5_native_photo_1.jpeg",
+      "sha256": "d5d25f674f2beebb9991384b5635c5b6aa366918eb2dcfafeaee0110e898ed2a",
+      "width": 1672,
+      "height": 941,
+      "page_rects": [
+        [
+          489.1199951171875,
+          207.9810028076172,
+          914.6400146484375,
+          447.6990051269531
+        ]
+      ]
+    }
+  ]
+}

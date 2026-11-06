@@ -1,0 +1,519 @@
+{
+  "status": "FOUR_M3_ANALYTIC_LOCATOR_REPAIR_PASS",
+  "geometry_repair_pass": true,
+  "formal_MAIN_modified": false,
+  "source_manifest": "source:/main/whole_robot_D1_pin_original/whole_robot_manifest.json",
+  "protected_source_SHA256": {
+    "source:/MAIN_DESIGN.json": "43cb3e9eba0df8d999e8ba392d31047aae254cb24a09703a8526513da596f386",
+    "source:/main/whole_robot_D1_pin_original/whole_robot_manifest.json": "03b28d40297314e7fde3b710d05ac1a1e67d9f6792f929efd50ef6f142e40d11",
+    "source:/main/whole_robot_D1_pin_original/PA35_MAIN_D1_WHOLE_ROBOT.step": "8f9cb7e5946a0aaddc5753be50506bbaa558870204771f0ef52c24d759689c3d"
+  },
+  "source_definition_SHA256": {
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/009_011_7007_V4_M2_supported_clearance_b5fe47f976.step": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/004_006_M3_slotted_thigh_reducer_d2255c5dc7.step": "d2255c5dc770c472d9cec5891edc6fdfac3ecceb167284d0e72c0967892a760d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/100_LH_011_7007_V4_M2_supported_clearance_7a862a06ed.step": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/095_LH_006_M3_slotted_thigh_reducer_455b35b995.step": "455b35b9955057581739b0be94743cd602a713418cefe8c624dd369529686ff1"
+  },
+  "corners": [
+    {
+      "corner": "RR",
+      "source_label": "RR_7007_V4_M2_supported_clearance",
+      "removed_sleeve_label": "RR_M3_slotted_thigh_reducer",
+      "file": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/RR_7007_integral_analytic_locator.step",
+      "sha256": "bc32816dcaddbafee5888fe53c48783f23cceb613a9cabfbcd6ca295011ff0b9",
+      "valid": true,
+      "solid_count": 1,
+      "preserved_open_reference_shells": 1,
+      "source_definition_sha256": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_pose_preserved": true,
+      "analytic_locator": {
+        "ID_mm": 46.5,
+        "OD_mm": 58.9,
+        "axial_length_mm": 2.6899999999999977,
+        "slot_width_mm": 2.2,
+        "slot_x_sign": 1,
+        "slanted_clearance_planes": [
+          [
+            -0.7918578573708945,
+            0.6107054394059186,
+            27.899999998877128
+          ],
+          [
+            0.7918578573708945,
+            -0.6107054394059186,
+            27.900000001142438
+          ]
+        ],
+        "freeform_surfaces": 0
+      },
+      "fusion_overlap_mm3": 19.474237316466315,
+      "parent_solid_removed_volume_mm3": 0.0,
+      "old_locator_removed_volume_mm3": 0.0,
+      "all_added_material_axial_bounds_mm": [
+        -169.85999999918133,
+        -29.400000000002525,
+        92.32999999942645,
+        -111.08058543722835,
+        29.399999999997473,
+        95.02000000057396
+      ],
+      "motor_conservative_enclosing_radius_mm": 24.899438655364282,
+      "new_outer_band_interference_with_motor_envelope_mm3": 0.0,
+      "boolean_split_checks": [
+        {
+          "plane_y_mm": 0,
+          "cut_volume_mm3": 15881.613352386463,
+          "common_volume_mm3": 8535.078120109089,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.5859718702413375,
+          "sum_relative_error": 2.3999399504000768e-05,
+          "source_parent_same_split_error_mm3": 0.5807531961800123
+        },
+        {
+          "plane_y_mm": 0.123,
+          "cut_volume_mm3": 15903.96412896858,
+          "common_volume_mm3": 8512.717000210478,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.5756285537499934,
+          "sum_relative_error": 2.357577271015852e-05,
+          "source_parent_same_split_error_mm3": 0.5701396395743359
+        },
+        {
+          "plane_y_mm": 1,
+          "cut_volume_mm3": 16063.443671971936,
+          "common_volume_mm3": 8353.235506345267,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.5736776918929536,
+          "sum_relative_error": 2.349587209468199e-05,
+          "source_parent_same_split_error_mm3": 0.5683418364460522
+        },
+        {
+          "plane_y_mm": -10,
+          "cut_volume_mm3": 13928.503044593803,
+          "common_volume_mm3": 10488.28183570295,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.6793796714446216,
+          "sum_relative_error": 2.7825062904779078e-05,
+          "source_parent_same_split_error_mm3": 0.6713507535860117
+        },
+        {
+          "plane_y_mm": 10,
+          "cut_volume_mm3": 18049.629319094765,
+          "common_volume_mm3": 6366.793536058417,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.317354527873249,
+          "sum_relative_error": 1.2997753792680877e-05,
+          "source_parent_same_split_error_mm3": 0.3286878372564388
+        }
+      ],
+      "static_same_motor_mounting_holes_retained": true,
+      "stator_screws_retained_front3_rear4": true,
+      "output_screws_retained6": true,
+      "geometry_repair_pass": true,
+      "manufacturing_release": false
+    },
+    {
+      "corner": "FR",
+      "source_label": "FR_7007_V4_M2_supported_clearance",
+      "removed_sleeve_label": "FR_M3_slotted_thigh_reducer",
+      "file": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/FR_7007_integral_analytic_locator.step",
+      "sha256": "41490bf35c2a85fd4f1529006a3484d90be0e1bba430f19feb2ac8a203ff5382",
+      "valid": true,
+      "solid_count": 1,
+      "preserved_open_reference_shells": 1,
+      "source_definition_sha256": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+      "world_matrix": [
+        [
+          1.0,
+          0,
+          0,
+          280.92
+        ],
+        [
+          0,
+          1.0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1.0,
+          -4
+        ],
+        [
+          0,
+          0,
+          0,
+          1.0
+        ]
+      ],
+      "source_pose_preserved": true,
+      "analytic_locator": {
+        "ID_mm": 46.5,
+        "OD_mm": 58.9,
+        "axial_length_mm": 2.6899999999999977,
+        "slot_width_mm": 2.2,
+        "slot_x_sign": 1,
+        "slanted_clearance_planes": [
+          [
+            -0.7918578573708945,
+            0.6107054394059186,
+            27.899999998877128
+          ],
+          [
+            0.7918578573708945,
+            -0.6107054394059186,
+            27.90000000114243
+          ]
+        ],
+        "freeform_surfaces": 0
+      },
+      "fusion_overlap_mm3": 19.474237316520885,
+      "parent_solid_removed_volume_mm3": 0.0,
+      "old_locator_removed_volume_mm3": 0.0,
+      "all_added_material_axial_bounds_mm": [
+        111.06000000081869,
+        -29.400000000002525,
+        92.32999999942645,
+        169.83941456277165,
+        29.399999999997473,
+        95.02000000057396
+      ],
+      "motor_conservative_enclosing_radius_mm": 24.899438655364282,
+      "new_outer_band_interference_with_motor_envelope_mm3": 0.0,
+      "boolean_split_checks": [
+        {
+          "plane_y_mm": 0,
+          "cut_volume_mm3": 15881.613352316504,
+          "common_volume_mm3": 8535.078120096827,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.5859717857565556,
+          "sum_relative_error": 2.3999396043791432e-05,
+          "source_parent_same_split_error_mm3": 0.5807530203346687
+        },
+        {
+          "plane_y_mm": 0.123,
+          "cut_volume_mm3": 15903.964141780163,
+          "common_volume_mm3": 8512.716990586148,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.5756317387385934,
+          "sum_relative_error": 2.3575903156373477e-05,
+          "source_parent_same_split_error_mm3": 0.5701560113884625
+        },
+        {
+          "plane_y_mm": 1,
+          "cut_volume_mm3": 16063.443671979667,
+          "common_volume_mm3": 8353.235506345389,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.573677697480889,
+          "sum_relative_error": 2.3495872323542493e-05,
+          "source_parent_same_split_error_mm3": 0.568341836478794
+        },
+        {
+          "plane_y_mm": -10,
+          "cut_volume_mm3": 13928.50304459928,
+          "common_volume_mm3": 10488.281835702404,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.6793796741076221,
+          "sum_relative_error": 2.7825063013843867e-05,
+          "source_parent_same_split_error_mm3": 0.6713507536551333
+        },
+        {
+          "plane_y_mm": 10,
+          "cut_volume_mm3": 18049.62931910021,
+          "common_volume_mm3": 6366.793536057249,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.3173545298850513,
+          "sum_relative_error": 1.2997753875076197e-05,
+          "source_parent_same_split_error_mm3": 0.32868783726735273
+        }
+      ],
+      "static_same_motor_mounting_holes_retained": true,
+      "stator_screws_retained_front3_rear4": true,
+      "output_screws_retained6": true,
+      "geometry_repair_pass": true,
+      "manufacturing_release": false
+    },
+    {
+      "corner": "RL",
+      "source_label": "RL_7007_V4_M2_supported_clearance",
+      "removed_sleeve_label": "RL_M3_slotted_thigh_reducer",
+      "file": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/RL_7007_integral_analytic_locator.step",
+      "sha256": "3b0aabea512555eb468fd5a3b5f5c3ecadb661158c8e65d27bb42a342a18e422",
+      "valid": true,
+      "solid_count": 1,
+      "preserved_open_reference_shells": 1,
+      "source_definition_sha256": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_pose_preserved": true,
+      "analytic_locator": {
+        "ID_mm": 46.5,
+        "OD_mm": 58.9,
+        "axial_length_mm": 2.6899999999999977,
+        "slot_width_mm": 2.2,
+        "slot_x_sign": 1,
+        "slanted_clearance_planes": [
+          [
+            -0.7918578573708945,
+            0.6107054394059186,
+            27.899999998877128
+          ],
+          [
+            0.7918578573708945,
+            -0.6107054394059186,
+            27.900000001142438
+          ]
+        ],
+        "freeform_surfaces": 0
+      },
+      "fusion_overlap_mm3": 19.44942176420227,
+      "parent_solid_removed_volume_mm3": 0.0,
+      "old_locator_removed_volume_mm3": 0.0,
+      "all_added_material_axial_bounds_mm": [
+        -169.85999999918133,
+        -29.400000000002525,
+        -95.02000000057396,
+        -111.08058543722835,
+        29.399999999997473,
+        -92.32999999942645
+      ],
+      "motor_conservative_enclosing_radius_mm": 24.899438655364282,
+      "new_outer_band_interference_with_motor_envelope_mm3": 0.0,
+      "boolean_split_checks": [
+        {
+          "plane_y_mm": 0,
+          "cut_volume_mm3": 15883.349996220206,
+          "common_volume_mm3": 8535.082786415349,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.011320810415782034,
+          "sum_relative_error": 4.6361718903230296e-07,
+          "source_parent_same_split_error_mm3": 0.0120075946651923
+        },
+        {
+          "plane_y_mm": 0.123,
+          "cut_volume_mm3": 15905.715971077001,
+          "common_volume_mm3": 8512.72163789497,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.006494473997008754,
+          "sum_relative_error": 2.6596592188657273e-07,
+          "source_parent_same_split_error_mm3": 0.00710200517278281
+        },
+        {
+          "plane_y_mm": 1,
+          "cut_volume_mm3": 16065.198286986553,
+          "common_volume_mm3": 8353.240021865724,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.005794593693281058,
+          "sum_relative_error": 2.3730396862031498e-07,
+          "source_parent_same_split_error_mm3": 0.006428699962270912
+        },
+        {
+          "plane_y_mm": -10,
+          "cut_volume_mm3": 13930.111112510225,
+          "common_volume_mm3": 10488.283282359973,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.04970857577063725,
+          "sum_relative_error": 2.03569791588901e-06,
+          "source_parent_same_split_error_mm3": 0.04966280164808268
+        },
+        {
+          "plane_y_mm": 10,
+          "cut_volume_mm3": 18051.68098387956,
+          "common_volume_mm3": 6366.79320703926,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.030087472849118058,
+          "sum_relative_error": 1.232161751242458e-06,
+          "source_parent_same_split_error_mm3": 0.026121050810615998
+        }
+      ],
+      "static_same_motor_mounting_holes_retained": true,
+      "stator_screws_retained_front3_rear4": true,
+      "output_screws_retained6": true,
+      "geometry_repair_pass": true,
+      "manufacturing_release": false
+    },
+    {
+      "corner": "FL",
+      "source_label": "FL_7007_V4_M2_supported_clearance",
+      "removed_sleeve_label": "FL_M3_slotted_thigh_reducer",
+      "file": "source:/main/whole_robot_D1_direct_grips/m3_rebuild/FL_7007_integral_analytic_locator.step",
+      "sha256": "f040200b8154e8b343c9201c2e5ea981ed2f02361127c0cda01ad95949c9be68",
+      "valid": true,
+      "solid_count": 1,
+      "preserved_open_reference_shells": 1,
+      "source_definition_sha256": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+      "world_matrix": [
+        [
+          1.0,
+          0,
+          0,
+          280.92
+        ],
+        [
+          0,
+          1.0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1.0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          1.0
+        ]
+      ],
+      "source_pose_preserved": true,
+      "analytic_locator": {
+        "ID_mm": 46.5,
+        "OD_mm": 58.9,
+        "axial_length_mm": 2.6899999999999977,
+        "slot_width_mm": 2.2,
+        "slot_x_sign": 1,
+        "slanted_clearance_planes": [
+          [
+            -0.7918578573708945,
+            0.6107054394059186,
+            27.899999998877128
+          ],
+          [
+            0.7918578573708945,
+            -0.6107054394059186,
+            27.90000000114243
+          ]
+        ],
+        "freeform_surfaces": 0
+      },
+      "fusion_overlap_mm3": 19.44942176429322,
+      "parent_solid_removed_volume_mm3": 0.0,
+      "old_locator_removed_volume_mm3": 0.0,
+      "all_added_material_axial_bounds_mm": [
+        111.06000000081869,
+        -29.400000000002525,
+        -95.02000000057396,
+        169.83941456277165,
+        29.399999999997473,
+        -92.32999999942645
+      ],
+      "motor_conservative_enclosing_radius_mm": 24.899438655364282,
+      "new_outer_band_interference_with_motor_envelope_mm3": 0.0,
+      "boolean_split_checks": [
+        {
+          "plane_y_mm": 0,
+          "cut_volume_mm3": 15883.349996537092,
+          "common_volume_mm3": 8535.08278647872,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.011320437741233036,
+          "sum_relative_error": 4.6360192702171226e-07,
+          "source_parent_same_split_error_mm3": 0.012008102392428555
+        },
+        {
+          "plane_y_mm": 0.123,
+          "cut_volume_mm3": 15905.715972591568,
+          "common_volume_mm3": 8512.721639507294,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.006491354695754126,
+          "sum_relative_error": 2.6583817823331497e-07,
+          "source_parent_same_split_error_mm3": 0.007100661812728504
+        },
+        {
+          "plane_y_mm": 1,
+          "cut_volume_mm3": 16065.19828788529,
+          "common_volume_mm3": 8353.240021954027,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.005793614240246825,
+          "sum_relative_error": 2.3726385742273486e-07,
+          "source_parent_same_split_error_mm3": 0.006427727086702362
+        },
+        {
+          "plane_y_mm": -10,
+          "cut_volume_mm3": 13930.111112537481,
+          "common_volume_mm3": 10488.283282364247,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.049708551829098724,
+          "sum_relative_error": 2.035696935418925e-06,
+          "source_parent_same_split_error_mm3": 0.04966280227745301
+        },
+        {
+          "plane_y_mm": 10,
+          "cut_volume_mm3": 18051.6809838698,
+          "common_volume_mm3": 6366.793207035536,
+          "both_valid_nonempty": true,
+          "sum_absolute_error_mm3": 0.030087451777944807,
+          "sum_relative_error": 1.2321608883216875e-06,
+          "source_parent_same_split_error_mm3": 0.026121050428628223
+        }
+      ],
+      "static_same_motor_mounting_holes_retained": true,
+      "stator_screws_retained_front3_rear4": true,
+      "output_screws_retained6": true,
+      "geometry_repair_pass": true,
+      "manufacturing_release": false
+    }
+  ],
+  "mechanical_count_delta": -4,
+  "method": "Replace XY-scaled BSpline ring with analytic cylindrical annulus and original slit/planar clearances; fuse with untouched source parent. Preserve original open reference shell separately. Export/reimport and split each solid at y=0,0.123,1,-10,10.",
+  "limits": [
+    "Geometry repair and unloaded static compatibility only. No manufacturing, fatigue, preload, friction-clamp, tolerance or full-motion release.",
+    "Integral short locator remains auxiliary; front3/rear4 stator and6 output screws retained.",
+    "Inherited parent includes free-form source details; volume integration drift under half-space splits is recorded, relative tolerance5e-5."
+  ]
+}

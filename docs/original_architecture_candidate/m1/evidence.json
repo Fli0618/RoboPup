@@ -1,0 +1,3316 @@
+{
+  "status": "FOUR_M1_PAIRED_DIRECT_GRIP_STATIC_GEOMETRY_PASS_NOT_RELEASED",
+  "proposal_only": true,
+  "formal_assembly_modified": false,
+  "manufacturing_release": false,
+  "units": "mm",
+  "R4_R2_7001_source_equivalence": [
+    {
+      "label": "REAR_7001_V1_local_motor_clearance",
+      "R4_definition_file": "source:/pa35_whole_robot_R4_original_frame/02_parts/122_REAR_7001_V1_local_motor_clearance_BILATERAL_REVIEW_3eee3bcc73.step",
+      "R2_definition_file": "source:/pa35_whole_robot_R1/06_shared_bilateral/REAR_7001_V1_local_motor_clearance_BILATERAL_REVIEW.step",
+      "R4_sha256": "3eee3bcc7301cc8e32200d0b5f7618456d7329a4101af655e49861e6a1213dba",
+      "R2_sha256": "3eee3bcc7301cc8e32200d0b5f7618456d7329a4101af655e49861e6a1213dba",
+      "file_bytes_identical": true,
+      "world_matrix_identical": true
+    },
+    {
+      "label": "FRONT_7001_V1_local_motor_clearance",
+      "R4_definition_file": "source:/pa35_whole_robot_R4_original_frame/02_parts/123_FRONT_7001_V1_local_motor_clearance_BILATERAL_REVIEW_48294a280b.step",
+      "R2_definition_file": "source:/pa35_whole_robot_R1/06_shared_bilateral/FRONT_7001_V1_local_motor_clearance_BILATERAL_REVIEW.step",
+      "R4_sha256": "48294a280b33e508032badf1310388b7b44c356cf865cb4dadbe28b8fa0d324f",
+      "R2_sha256": "48294a280b33e508032badf1310388b7b44c356cf865cb4dadbe28b8fa0d324f",
+      "file_bytes_identical": true,
+      "world_matrix_identical": true
+    }
+  ],
+  "source_file_sha256_frozen": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R2_internal_battery/whole_robot_manifest.json": "1d5ca20c3993a963983236fcc816bb9bc932b9b733b392e2109fa35f039d5626",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/122_REAR_7001_V1_local_motor_clearance_BILATERAL_REVIEW_3eee3bcc73.step": "3eee3bcc7301cc8e32200d0b5f7618456d7329a4101af655e49861e6a1213dba",
+    "source:/pa35_whole_robot_R1/06_shared_bilateral/REAR_7001_V1_local_motor_clearance_BILATERAL_REVIEW.step": "3eee3bcc7301cc8e32200d0b5f7618456d7329a4101af655e49861e6a1213dba",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/123_FRONT_7001_V1_local_motor_clearance_BILATERAL_REVIEW_48294a280b.step": "48294a280b33e508032badf1310388b7b44c356cf865cb4dadbe28b8fa0d324f",
+    "source:/pa35_whole_robot_R1/06_shared_bilateral/FRONT_7001_V1_local_motor_clearance_BILATERAL_REVIEW.step": "48294a280b33e508032badf1310388b7b44c356cf865cb4dadbe28b8fa0d324f",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/001_003_extension_shaft_V1_local_clearance_7f739d5fe1.step": "7f739d5fe15edfd3d663230b7727f2accbe7813fecfcf4d385872cc6daf9c717",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/002_004_body_stop_V1_clearance_candidate_9524ca8fc3.step": "9524ca8fc3c697216ca264e1ab00def8475c43b5b3a2807d9f5ad3fce7bcf199",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/003_005_M1_slotted_clamp_reducer_c81a977161.step": "c81a97716127a71acd1d5ab3560eee07ecbc6f3f8c6d0b153770e7359858e247",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/004_006_M3_slotted_thigh_reducer_d2255c5dc7.step": "d2255c5dc770c472d9cec5891edc6fdfac3ecceb167284d0e72c0967892a760d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/007_009_7017_V3_positive_q2_stop_column_41566a1c77.step": "41566a1c776c706500dc963bfc6b524b1f63ec3197d172f9b2bc44130f78e919",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/008_010_7009_R8_lower_rim_clearance_REVIEW_367336c854.step": "367336c8545e80cd531dd87180aba92502d66f53c050d240f07b7f06e8dcac34",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/009_011_7007_V4_M2_supported_clearance_b5fe47f976.step": "b5fe47f976fd98e6b034e2a644c8488e288a86269a5f60d11c2688433bdecfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/010_012_7004_V3_replaceable_PA_stop_3a4bc1630b.step": "3a4bc1630b4e369a02eded66ae43c8a05e0360c9a1e38875eeef5417bd2b75de",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/011_013_7005_V4_M2_pilot_1p6_74561c84d8.step": "74561c84d8510c12cfaee36327051daf6fbd8e48157f1108efeec8195c0255a9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/022_027_AB_join_M3x10_1_b894b94606.step": "b894b946069183ea1af6265f8f9a969dff35ab4dfb224ae8ce443025fdfe6c5c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/023_028_AB_join_thin_washer_1_cbd9d336e0.step": "cbd9d336e0a62ec814cdd1b1fcc7b322e334174d85df6f74ca8e0977cec86090",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/024_029_AB_join_M3x10_2_ba832cf05c.step": "ba832cf05c2f936e8b94af603e1f5a3d3782f93e55d52227c6217ca87ff2662c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/025_030_AB_join_thin_washer_2_cc4163402d.step": "cc4163402d5fb28dc94435770df0c6489fa2c6d871eee763a909c790309390bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/026_031_AB_join_M3x10_3_73c3af6879.step": "73c3af6879d4b2a00bfd96bc07fb30d845610318a48537f757bd9e72e2fdfd5a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/027_032_AB_join_thin_washer_3_05a6d4d4e3.step": "05a6d4d4e3bc968642b1907d62b4460e204f990c67939b4f2d5e6e55cefb4085",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/028_033_AB_join_M3x10_4_b7f52e2a6e.step": "b7f52e2a6efaa32a7873021aedc687d27a1955d85b63f4081bee1bc5bdc887dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/029_034_AB_join_thin_washer_4_f36033f425.step": "f36033f425aac0e318a1c9297d4a87d0cb482081b549cdcd87ef33e2390b3d36",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/030_035_M2_shell_M3x6_low_head_1_31428e3a9c.step": "31428e3a9cd75824fa558a882892a83fe05c69cd55fb042971b7dbb148f57cb7",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/031_036_M2_shell_M3x6_low_head_2_cdecd80408.step": "cdecd8040846b050a4795ecd3ac75831d5ae8c66c822c4e0cb41a0b912fa1e30",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/032_037_M2_shell_M3x6_low_head_3_cedce88bc0.step": "cedce88bc014fbac5291f09587be441f99efb0715b5892890fe9baf85d996bf7",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/033_038_M2_shell_M3x6_low_head_4_864475d420.step": "864475d4209192c372927d6768069e963857cd3991ea75a8b192620e0c487cee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/034_039_M1_output_M4x8_1_ca00f23c8b.step": "ca00f23c8b0a8ca28e21fb114ca239a1a85faef8fdc62e3013a35ba85f0be4bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/035_040_M1_output_M4x8_2_fb3c6d455a.step": "fb3c6d455afaa5171ec3dff421aca4e4256b89b4c7d8e4cd3af8049f07b65867",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/036_041_M1_output_M4x8_3_950f49aaf7.step": "950f49aaf7774b59f515f1b0da7e769890b43311c66e2edf77eb24386220d86d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/037_042_M1_output_M4x8_4_2f7120e2c9.step": "2f7120e2c96c4109dbbf22ded9e91022559b01f82c43b01870478a34d572722b",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/038_043_M1_output_M4x8_5_564eaf64aa.step": "564eaf64aa4ccebe4b5ab10ad80d16105dcb1a15cd42848af83141a78401a339",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/039_044_M1_output_M4x8_6_4253ae652e.step": "4253ae652ec1f50fd405fbe22b1e2622d77a163d0c7dce5272ea488bf2e5ca51",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/040_045_M3_output_V3E_M4x6_1_c2f6f6f4ee.step": "c2f6f6f4ee0c93b64b33894bbbca5bb6f90cac51f75944af7f1cb5a789431a58",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/041_046_M3_output_V3E_M4x6_2_130a7ac358.step": "130a7ac358810be9e33cf8f3da8699e2d959e81dde009e6694246d0ccfb8bd88",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/042_047_M3_output_M4x6_third_seat_raised_1mm_nominal_3c23baf002.step": "3c23baf0024b5ccc0c6c5d4cc2badc810f7ce1556e630498521ee96ebc0cd6d9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/043_048_M3_output_V3E_M4x6_4_8a04e9adb1.step": "8a04e9adb1f68860444698ccb7e86e48dd5c9ee90268f9c15d9cd5510c7cd0f8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/044_049_M3_output_V3E_M4x6_5_b999dc6753.step": "b999dc6753b3ea4d446c14d90769501126201aaff38138961f3fdae71037fb7e",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/045_050_M3_output_V3E_M4x6_6_cb143bbf58.step": "cb143bbf58e8906ce9835cde55d850068259059f0379201b1e1662cf5f51e761",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/046_051_M3_shell_V3F_M3x6_1_b1bbb8b167.step": "b1bbb8b16792a76f708350f64663d2ecce06d5e290c4820d0ee86902c827cfee",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/047_052_M3_shell_V3F_M3x6_2_b2f609a1f3.step": "b2f609a1f3cfd65cac645140f95518a06c6ad17967d6963e7fcfb66b5b71c06b",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/048_053_M3_shell_V3F_M3x6_3_58b128efcc.step": "58b128efcc5aaea0137ae40c01a7e7b2ec88812189f041b75642e0bb58a2d312",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/049_054_q2_stop_M3x8_1_bfdd043138.step": "bfdd04313872037d0a7df4e37cb8233d429dbb783d5dc6feb4d2e8b07d58487f",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/050_055_q2_stop_M3x8_2_2d4975b798.step": "2d4975b7988744fa1302f1b7eb602c2c18263f8c14afff96790496892b61b8c3",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/051_056_plate_SNS_M2_5_MS_1_ac3095d924.step": "ac3095d9247485a091d9f745cec1933ca2262f15147c4c9004e424a44bd0bd15",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/052_057_plate_SNS_M2_5_MS_2_8dcddeb117.step": "8dcddeb11728667427f79bb31e2623dd65ba76027680043ce88a539fc495fa8c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/053_058_plate_SNS_M2_5_MS_3_7f3bc14176.step": "7f3bc141768f5ddb5d811ef4c1e0300c2305d2919291b67be3ecc56d904ddc14",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/054_059_plate_SNS_M2_5_MS_4_56a03bdebd.step": "56a03bdebde50e65ed2770466188977bb700a1cc7ca6b7053d60dfb85858ae5d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/055_060_plate_SNS_M2_5_MS_5_278f88c97b.step": "278f88c97b9d3a48e66bb8fd4c0e95aafbf604c474c5ad1347971f3372c8078a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/056_061_M1p6x4_stop_nominal_d6d5a2cf72.step": "d6d5a2cf7268807f3f028765d2abdc473e378ddd6e870f065ad1c95f193c4478",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/057_062_M3_washer_D7_d3p2_t0p5_nominal_d80b12ae28.step": "d80b12ae28ee36ea3ebbce121be7b4fcb4042cd77c621d750dc145229ef8639f",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/058_063_M3x12_knee_nominal_e99b503107.step": "e99b50310724b6384830f84eefebbafe980aeeba185355ecfa07ed0ebb21c6e2",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/059_064_067_source_194_40cfb5f19f.step": "40cfb5f19f1ba523ddf34c2cf6cd2491f25e4073d86ad08343a8ab95a4b1831e",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/060_065_071_source_198_7dd6da935e.step": "7dd6da935e1bea5cf654c6afeb300c398eac7a4db93ffb19631b82276719fdcb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/061_066_072_source_199_bdc9480da9.step": "bdc9480da92218739ce8e846d7028eecde424a6f51ed8c7c0409256a38eb7fa1",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/062_067_200_V7_local_AF4_tool_relief_7b340eaa31.step": "7b340eaa31cebac10bf6493477d4364bb595cbbed8b9c82c451378b9e62fdb62",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/063_068_075_source_202_79c7089ffd.step": "79c7089ffd1f56b003b7c98a40deafbc6353847d5571668f588b91bb743e9487",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/064_069_203_V7_new_manufacture_M1p6_pilot1p30_a58e12f155.step": "a58e12f155423c344dc4f98691a17674822ce635efc20a316991ae5ee7911be7",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/065_070_077_source_204_6170437a1d.step": "6170437a1db85dc1abdff62237d38f3449a863459995ec17e28b5e49e4b57d9a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/066_071_078_source_205_6179601ef8.step": "6179601ef84184f543590c42229f457f96556d0809c3c4d14f1d27297b94bf1a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/067_072_206_V7_new_manufacture_M3_controlled_thread_7a0f1eabc7.step": "7a0f1eabc7c447083f494b22627ac5345f93171be36d90863c7a6be0fe340874",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/068_073_209_V6_keyed_top_extract_pin_4aaf6bac01.step": "4aaf6bac016b9030144282e82f3102ae7c99f5d65d70613b3341583327228fe6",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/069_074_212_V7_M1p6_counterbore_D3p2_420f62a9cc.step": "420f62a9ccccadffbb3d917b8154576727a2855260fdd67d21a5b2ffd7d97501",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/070_075_084_source_213_76c821b92f.step": "76c821b92f382eb95984c7b6d24499d8694d7172fd95254ee1ab7bf3a6002c69",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/071_076_085_source_214_f7c5cc0631.step": "f7c5cc063193e74ba09213a4794b0bd5c6a048144aeaf54bf09fcc5e6fd4ff10",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/072_077_086_source_215_5a7d5f136f.step": "5a7d5f136fbdf66e769691d60ea8e39142a1c06295002242263238d199fa8b88",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/073_078_M1p6_washer_D4_d1p7_t0p3_nominal_859706e5db.step": "859706e5dbabc2ac49f443539b0439c01f39de1233d4b6edcd487f0728f6d583",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/074_079_M1p6x5_D_end_nominal_a7f25d13eb.step": "a7f25d13ebc36ce8a2df1eae104d056bf997d39d1bdb9bbaec5e7fb58b4db81c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/075_080_089_source_219_405e881a8c.step": "405e881a8cc99d9553a8ced6b7ef6936752c3ea46978fadc67fb1cd678952412",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/076_081_090_source_220_53771943ee.step": "53771943ee6e4362cf92385453c657db6e051879782575d3bcaeafe667a7db0e",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/077_082_091_source_221_f089b9fca8.step": "f089b9fca871c3e5ea91130a26c35284055c0a2339c9174a827bdca3f3723bfc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/078_083_092_source_222_7c88e5dba6.step": "7c88e5dba6da2bbba4f76aa6446513058bde93deb91ff7b0f11afb7154c89db9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/079_084_093_source_224_99e75d3540.step": "99e75d3540a43546416ebaf3ba8cb304cdffa2500611fa4831a3757cb19d456a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/080_085_M2_nominal_side_keeper_e980897284.step": "e9808972845a6881b5fb270c8266e5d6a41d86dc4b09f8d2b1b383123997f157",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/081_086_foot_M2x22_nominal_10eb9bc502.step": "10eb9bc50277e5d700bd6365d58f407a6966da95c01bc017ae49da7bd9aecf4b",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/082_087_foot_M2_nut_AF4_T1p6_nominal_c191bdfdd1.step": "c191bdfdd10e67d4a4929c5171f62652579aee8621270afa1a1b389dd2579eea",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/083_088_foot_M2_lower_washer_D4p5_d2p2_t0p3_371e1cfe2f.step": "371e1cfe2f5a2113be13a0ae9a7bed4733472eca1f0e358362c08f19ab2e5f7d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/084_089_foot_M2_upper_washer_D4p5_d2p2_t0p3_e8bc63d1b5.step": "e8bc63d1b58ae79484056bcf9adaa707d16237de746c804b8e6b74dec07cb19d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/086_extension_shaft_V1_local_clearance_HAND_X_15680b8906.step": "15680b8906621e5ee44fb526becec7f7224e0126d01ae3441d78a3c21fdb4e09",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/087_body_stop_V1_clearance_candidate_HAND_X_85695282de.step": "85695282dec290713409dd8bebfda2e49a6c43b47f952c0e1c0ba5cbac95dcda",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/088_M1_slotted_clamp_reducer_HAND_X_d2c17fb7f7.step": "d2c17fb7f7f0d0a9294fd37ba772ab484b18e5ccee81957a6919d388e9d14181",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/089_FR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_03be1786f5.step": "03be1786f5d79b7c53fce2fb2753c2a63e7930ee45fa5e43b654a411c58bfffa",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/090_FR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_456cb9e3a2.step": "456cb9e3a2f0036b74b38160b5f9083ea4cbc9917eecf0996b4c666e88d68221",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/091_7017_V3_positive_q2_stop_column_HAND_X_fc9acd4813.step": "fc9acd4813dfef1195de5de38cab51442c2de9b470298faafdbaa3e174f323b9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/092_extension_shaft_V1_local_clearance_HAND_Z_dd18224b2a.step": "dd18224b2a24b30ce0209ca2e78ea36c3baffd4772f1f1e925eab01e3d522016",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/093_body_stop_V1_clearance_candidate_HAND_Z_b614081fc3.step": "b614081fc3486f3854e2d47ecf08d429d3d4945ef3854dc837427841c33599ba",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/094_LH_005_M1_slotted_clamp_reducer_e64ea9194b.step": "e64ea9194b92ca660c1a7061e0c6c75c79b07a38161d0d5bbdab39321935dd3d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/095_LH_006_M3_slotted_thigh_reducer_455b35b995.step": "455b35b9955057581739b0be94743cd602a713418cefe8c624dd369529686ff1",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/096_RL_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_a6d6217115.step": "a6d62171155cb43914e449a9e6eb0afbdc05b40fa7225ba2bf7b0912db010d02",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/097_RL_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_144ba94745.step": "144ba94745c55a536cd9e8061109a90cb1711e62f77df505b36de5a6cef1c522",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/098_LH_009_7017_V3_positive_q2_stop_column_1334a7a1d8.step": "1334a7a1d8d10ce32cce6c6939ef96f6f470b7457e38fa60ede2b762c7bc784d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/099_LH_010_7009_R8_lower_rim_clearance_REVIEW_049128bafc.step": "049128bafc9b7bded32287ac1e1d39b62f6da890dd1aae08ef23668cb9cbe12a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/100_LH_011_7007_V4_M2_supported_clearance_7a862a06ed.step": "7a862a06edc2fadb220f6b6c661c5acd144fe258b48b855be0442478161a8530",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/101_LH_012_7004_V3_replaceable_PA_stop_bb9d8a47fe.step": "bb9d8a47fe4cc7fa372246c0cd84e4ffa24f9e26d1dbd7b9feee8ce3d2968303",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/102_LH_013_7005_V4_M2_pilot_1p6_0871c0843a.step": "0871c0843a2910a4f142ea3a11e8e6110d9c9052f399e29e3eec7c678fdcb7a7",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/103_LH_065_071_source_198_858f07100d.step": "858f07100d80c73073ed0b1ff6dd2e7d346dbc642be0cd70992de8b8efc37838",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/104_LH_066_072_source_199_ec4f1c4ae7.step": "ec4f1c4ae7846011277130fcccd4488dd7f5133ccabec79093350d4fda5705b3",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/105_LH_067_200_V7_local_AF4_tool_relief_e765e0d3d0.step": "e765e0d3d07a604dda7f240f7c6073a3b6c60f6e4565ca10ea4937d1437c9d51",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/106_LH_068_075_source_202_d2f93c7b82.step": "d2f93c7b8262750de1746cea7f72f56394c62d72cd1580a214b40455e289ead3",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/107_LH_069_203_V7_new_manufacture_M1p6_pilot1p30_608d0aa019.step": "608d0aa019c864e241a463a225a05f4eab7fc51ae27a0e2d66bfc157b7bd8e97",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/108_LH_072_206_V7_new_manufacture_M3_controlled_thread_16973e4bc1.step": "16973e4bc1c7615855937f0b01b7428dc14f5f8d9d8988d31c155adea7863a70",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/109_LH_073_209_V6_keyed_top_extract_pin_157a647708.step": "157a64770890f80dd3196f285954fa14008a59a7083b252f0c70c5d5f9849613",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/110_LH_074_212_V7_M1p6_counterbore_D3p2_09567b2273.step": "09567b2273cf586b046ddfeb418ac1ca444d7edc71e70fe7c44738d38750188e",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/111_LH_083_092_source_222_997f6c533d.step": "997f6c533da59d41f4f29bab239fbf7a7e1b9dc36d88fc07210c04feca5092b6",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/112_M2_nominal_side_keeper_HAND_Z_7ac967214c.step": "7ac967214c78e301ea4655a265024403fe98d90e784c230b2bb49a929eae813b",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/113_extension_shaft_V1_local_clearance_FRONT_LEFT_STRUCTURAL_be99cc0442.step": "be99cc0442212f4c37d875e47efe9d59c1fcb08fc0e9d9d51acc5b2c019d84cb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/114_body_stop_V1_clearance_candidate_FRONT_LEFT_STRUCTURAL_15042e749b.step": "15042e749b1c280564d3aaf67540c169286f69c906635edfae242a5ba76049bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/115_M1_slotted_clamp_reducer_FRONT_LEFT_STRUCTURAL_b018d82e1d.step": "b018d82e1d82031e151e1233886ea873dc299a0782dc332fb1cc8f2209ced9e9",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/116_FL_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_01a1ef4ce7.step": "01a1ef4ce7fe21a6ab04fcce8a6df4d2fa50c9ba115400e92fd89f5407132b5f",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/117_FL_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_7649746285.step": "764974628594bd971f54077e5827e7c80c023aad5092e78a0702b4f27695fdc7",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/118_7017_V3_positive_q2_stop_column_FRONT_LEFT_STRUCTURAL_1938a5004d.step": "1938a5004de33de542b5a4ee92e49145d65c9058c063d193b917b486bdb3e5ea",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/119_HEAD_original_0deg_UNCHANGED_0b35c3131d.step": "0b35c3131df6b7b73d6f7e64362baa7d4f794b19f03d7e97b0cc0e29e7d5a9cf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/120_REAR_shared_support_V1_clearance_candidate_BILATERAL_REVIEW_30837bab4e.step": "30837bab4e9e0c3ebdff080730b36efa22b6331f0f588482e4c28b5b7ba8dee1",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/121_FRONT_shared_support_V1_clearance_candidate_BILATERAL_REVIEW_08b1544c1b.step": "08b1544c1bd7dbcc9cd916ecd4336a83de7dd6cfc75f3f3250f2b7ced3d90078",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/124_source_rep_325684_60pct_9f640b5533.step": "9f640b553376b1ba2e95181bd524d7c55edbc1fd581cd9c89bbcfa9a3bb9681c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/125_source_rep_327086_60pct_ed7b779f14.step": "ed7b779f14495ca55166a6334c306c38e54b45f9ec4f9051d234742c7401780c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/126_source_rep_49459_60pct_9d5e315fbc.step": "9d5e315fbcc053aa59dd0978f6a55d747f444f04bfd1ef291b2baf41c0e1bbd6",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/127_source_rep_50826_60pct_eb6140809a.step": "eb6140809af5ca8857776b8cc6dbe0c7d4ca4ded108fde0c42a86f63ba216dae",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/128_ORIGINAL_FRAME_155_CLOSED_MEASURED_PROFILE_38aa345e39.step": "38aa345e39d948161ae654318cee63a332803589a036dc30f48d1e6ad2848907",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/129_ORIGINAL_FRAME_161_CLOSED_MEASURED_PROFILE_1edba7f59e.step": "1edba7f59ed1e3bf5367c974ba08f0c01b9b9750fb478f64c0916c967327fcef",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/130_ORIGINAL_FRAME_164_CLOSED_MEASURED_PROFILE_90cbeef842.step": "90cbeef842cea564a1407cf2b1ae11ce7f29795db300d96fc630b1dc5eb0f457",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/131_ORIGINAL_FRAME_167_CLOSED_MEASURED_PROFILE_5543add2b8.step": "5543add2b8cfed8d0ec17c098c4938465ca6d8ca180957a68655a1725d22fb60",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/132_ORIGINAL_FRAME_170_CLOSED_MEASURED_PROFILE_9bab8db617.step": "9bab8db617fabb4a0f7eb93c6727ee7d9ae1663ed600e43c4f29c3cbe812fe6c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/133_ORIGINAL_FRAME_173_CLOSED_MEASURED_PROFILE_2079724ae8.step": "2079724ae8f703279845a67a922a0550508502b5e15e93ac9f3601f9abbdac03"
+  },
+  "source_files_unchanged": true,
+  "source_leaf_architecture": "Each front/rear 7001 source leaf contains one bilateral fixed7001 solid plus two separate removable7002 solids; the proposed four direct interfaces modify both halves at every corner.",
+  "parts": [
+    {
+      "corner": "RR",
+      "axis_center_YZ_mm": [
+        0,
+        33.6
+      ],
+      "axis_direction": [
+        1,
+        0,
+        0
+      ],
+      "grip_axial_span_X_mm": [
+        -99.6,
+        -91.92
+      ],
+      "original_clamp_axial_length_mm": 7.679999999999993,
+      "candidate_clamp_axial_length_mm": 7.679999999999993,
+      "removed_sleeve_axial_span_X_mm": [
+        -99.55,
+        -91.97
+      ],
+      "original_grip_diameter_mm": 58.8,
+      "candidate_grip_diameter_mm": 46.3,
+      "grip_split_plane_Z_before_mm": 43.5,
+      "cap_split_plane_Z_after_mm": 43.8,
+      "unloaded_split_gap_mm": 0.3,
+      "cap_original_outer_bounds_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        43.49999999999995,
+        -91.91999990000001,
+        33.779999999999,
+        65.4000001
+      ],
+      "cap_candidate_outer_bounds_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        43.79999999999998,
+        -91.91999990000001,
+        33.779999999999006,
+        65.4000001
+      ],
+      "axial_position_unchanged": true,
+      "original_axial_D2p4_holes_extended_through_added_region": {
+        "cap_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            52.479751057681
+          ],
+          [
+            0,
+            60.3
+          ],
+          [
+            18.879751057681,
+            52.479751057681
+          ]
+        ],
+        "fixed_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            14.720248942319
+          ],
+          [
+            0,
+            6.9
+          ],
+          [
+            18.879751057681,
+            14.720248942319
+          ],
+          [
+            -25.5,
+            33.6
+          ],
+          [
+            25.5,
+            33.6
+          ]
+        ]
+      },
+      "manufacturing_route": "New blank retaining source material/process to be confirmed; smaller bore cannot be achieved by boring an existing finished part.",
+      "actual_motor_coaxial_cylinders_in_grip_span": [
+        {
+          "face": 1012,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            -96.6,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.60000009999999,
+            -1.0000000281668764e-07,
+            10.599999900000002,
+            -68.8999999,
+            23.0000001,
+            56.6000001
+          ],
+          "area_mm2": 1946.035746929877
+        },
+        {
+          "face": 1016,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -87.3,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.10000009999999,
+            -21.5000001,
+            12.099999899999618,
+            -75.2999999,
+            1.0000001249796178e-07,
+            55.1000001
+          ],
+          "area_mm2": 1386.818526419334
+        },
+        {
+          "face": 1270,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -87.3,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.10000009999999,
+            -1e-07,
+            12.099999899999618,
+            -75.2999999,
+            21.500000100000012,
+            55.1000001
+          ],
+          "area_mm2": 1386.8185264256408
+        },
+        {
+          "face": 1274,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            -96.6,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.60000009999999,
+            -23.0000001,
+            10.599999900000002,
+            -68.8999999,
+            1.0000000281668764e-07,
+            56.6000001
+          ],
+          "area_mm2": 1946.0357464789993
+        },
+        {
+          "face": 1282,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -98.10000010000033,
+            -21.500000100000015,
+            12.09999989999996,
+            -96.59999989999936,
+            9.999999251445707e-08,
+            55.10000009999998
+          ],
+          "area_mm2": 91.6259185631103
+        },
+        {
+          "face": 1288,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            -89.925,
+            2.6812288937433674e-14,
+            33.59999999999988
+          ],
+          "axis_direction": [
+            -1.0,
+            -2.7870057685086923e-14,
+            -1.0870057685090684e-14
+          ],
+          "bounds_mm": [
+            -103.90000000000067,
+            -16.26345596729125,
+            17.33654403270943,
+            -96.59999999999972,
+            22.999999999999833,
+            56.59999999999981
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1314,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            -89.925,
+            2.6812288937433674e-14,
+            33.59999999999988
+          ],
+          "axis_direction": [
+            -1.0,
+            -2.7870057685086923e-14,
+            -1.0870057685090684e-14
+          ],
+          "bounds_mm": [
+            -103.90000000000026,
+            -23.000000000000362,
+            10.599999999999735,
+            -96.59999999999931,
+            16.263455967290728,
+            49.86345596729011
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1323,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -98.10000010000033,
+            -1.0000001820101007e-07,
+            12.09999989999996,
+            -96.59999989999977,
+            21.50000009999999,
+            55.10000009999998
+          ],
+          "area_mm2": 91.62591856311398
+        },
+        {
+          "face": 1928,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            14.479235689163504,
+            48.079334654094104,
+            -91.60037783532009,
+            15.893370494541799,
+            49.493460829347214
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 1945,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -15.893460829347227,
+            48.07923568916352,
+            -91.60037783532007,
+            -14.479334654094105,
+            49.4933704945418
+          ],
+          "area_mm2": 3.1419584482024274
+        },
+        {
+          "face": 1962,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            14.479334654094211,
+            17.706629505458086,
+            -91.60037783532009,
+            15.89346082934732,
+            19.120764310836385
+          ],
+          "area_mm2": 3.1419584482024203
+        },
+        {
+          "face": 1979,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -15.893370494541912,
+            17.70653917065267,
+            -91.60037783532009,
+            -14.479235689163628,
+            19.120665345905792
+          ],
+          "area_mm2": 3.141958448202407
+        },
+        {
+          "face": 1980,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.60000010000265,
+            -1.0000001722964617e-07,
+            55.07673745952198,
+            -91.59999990000254,
+            0.9999471368287006,
+            55.10000009999991
+          ],
+          "area_mm2": 1.5711231053438024
+        },
+        {
+          "face": 1997,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.60000010000265,
+            -0.99994818552375,
+            55.07673734379563,
+            -91.59999990000254,
+            9.999999356497116e-08,
+            55.10000009999991
+          ],
+          "area_mm2": 1.5709448921302502
+        },
+        {
+          "face": 2014,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            21.47673956809748,
+            32.600125709929486,
+            -91.60037783532009,
+            21.499988715753155,
+            34.600008145187104
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 2031,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -21.49998871575318,
+            32.5999918548129,
+            -91.60037783532009,
+            -21.47673956809751,
+            34.59987429007051
+          ],
+          "area_mm2": 3.141958448202436
+        },
+        {
+          "face": 2048,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            7.067615433949995e-14,
+            33.599999999998644
+          ],
+          "axis_direction": [
+            -1.0,
+            -1e-15,
+            1.6e-14
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -0.9998742900705093,
+            12.100011284246747,
+            -91.60037783532009,
+            1.000008145187104,
+            12.123260431902391
+          ],
+          "area_mm2": 3.1419584482024043
+        }
+      ],
+      "actual_motor_max_coaxial_cylinder_radius_mm": 23.0,
+      "motor_profile_basis": "Main coaxial cylindrical surfaces are R23.0, but local noncoaxial details reach approximately R23.078 in this span. Candidate bore R23.15 follows the actual complete profile; exact imported-face static screening follows.",
+      "actual_motor_surface_static_screen": [
+        {
+          "part": "fixed7001",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733075,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 70.10330438613892
+        },
+        {
+          "part": "removable7002",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733392,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 18.859758853912354
+        }
+      ],
+      "retained_part_new_interference_flags": [],
+      "original_clamp_screw_axes_XY_mm": [
+        [
+          -96.72,
+          -30.3
+        ],
+        [
+          -96.72,
+          30.3
+        ]
+      ],
+      "removal_direction_cap": [
+        0,
+        0,
+        1
+      ],
+      "removal_sequence": "Release the two original clamp screws; remove cap radially outward along signed Z; disconnect output fasteners/wiring separately before withdrawing the motor. Motor full extraction and tool path still require continuous sweep validation.",
+      "local_bom_before": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 1,
+        "original_clamp_screw_count": 2
+      },
+      "local_bom_candidate_after": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 0,
+        "original_clamp_screw_count": 2
+      },
+      "sleeve_omission_in_candidate_only": true,
+      "formal_BOM_reduction": 0,
+      "split_cap_to_fixed_distance_mm": 0.29999999999999716,
+      "cap_fixed_common_volume_mm3": 0.0,
+      "original_cap_clamp_screw_axes_radii_retained": true,
+      "original_fixed_outer_bounds_preserved": true,
+      "retained_part_static_screen": [
+        {
+          "label": "BODY_SOURCE_148",
+          "added_material_common_area_mm2": 0.33709752412205446,
+          "added_material_common_volume_mm3": 0.0032653785549452605,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032653785549452605,
+          "construction_blank_common_area_mm2": 0.33709752412205446,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112566,
+          "retained_part_after_common_volume_mm3": 8.486824058112566,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        },
+        {
+          "label": "BODY_SOURCE_151",
+          "added_material_common_area_mm2": 0.3371484710770303,
+          "added_material_common_volume_mm3": 0.0032660257931756264,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032660257931756264,
+          "construction_blank_common_area_mm2": 0.3371484710770303,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112443,
+          "retained_part_after_common_volume_mm3": 8.486824058112443,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        }
+      ],
+      "status": "PASS_STATIC_UNLOADED_GEOMETRY_ONLY",
+      "original_fixed_clamp_pilot_axes_and_radius_retained": true,
+      "original_fixed_clamp_pilot_diameter_mm": 2.52
+    },
+    {
+      "corner": "RL",
+      "axis_center_YZ_mm": [
+        0,
+        -33.6
+      ],
+      "axis_direction": [
+        1,
+        0,
+        0
+      ],
+      "grip_axial_span_X_mm": [
+        -99.6,
+        -91.92
+      ],
+      "original_clamp_axial_length_mm": 7.679999999999993,
+      "candidate_clamp_axial_length_mm": 7.679999999999993,
+      "removed_sleeve_axial_span_X_mm": [
+        -99.55,
+        -91.97
+      ],
+      "original_grip_diameter_mm": 58.8,
+      "candidate_grip_diameter_mm": 46.3,
+      "grip_split_plane_Z_before_mm": -43.5,
+      "cap_split_plane_Z_after_mm": -43.8,
+      "unloaded_split_gap_mm": 0.3,
+      "cap_original_outer_bounds_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        -65.4000001,
+        -91.91999990000001,
+        33.779999999999,
+        -43.49999999999995
+      ],
+      "cap_candidate_outer_bounds_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        -65.4000001,
+        -91.91999990000001,
+        33.779999999999006,
+        -43.799999999999976
+      ],
+      "axial_position_unchanged": true,
+      "original_axial_D2p4_holes_extended_through_added_region": {
+        "cap_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            -52.479751057681
+          ],
+          [
+            0,
+            -60.3
+          ],
+          [
+            18.879751057681,
+            -52.479751057681
+          ]
+        ],
+        "fixed_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            -14.720248942319
+          ],
+          [
+            0,
+            -6.9
+          ],
+          [
+            18.879751057681,
+            -14.720248942319
+          ],
+          [
+            -25.5,
+            -33.6
+          ],
+          [
+            25.5,
+            -33.6
+          ]
+        ]
+      },
+      "manufacturing_route": "New blank retaining source material/process to be confirmed; smaller bore cannot be achieved by boring an existing finished part.",
+      "actual_motor_coaxial_cylinders_in_grip_span": [
+        {
+          "face": 1012,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            -96.6,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.60000009999999,
+            -23.0000001,
+            -56.6000001,
+            -68.8999999,
+            23.0000001,
+            -33.5999999
+          ],
+          "area_mm2": 1946.035746929877
+        },
+        {
+          "face": 1016,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -87.3,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.10000009999999,
+            -21.50000010000039,
+            -33.60000010000001,
+            -75.2999999,
+            21.5000001,
+            -12.099999900000002
+          ],
+          "area_mm2": 1386.818526419334
+        },
+        {
+          "face": 1270,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -87.3,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.10000009999999,
+            -21.50000010000039,
+            -55.10000010000001,
+            -75.2999999,
+            21.5000001,
+            -33.5999999
+          ],
+          "area_mm2": 1386.8185264256408
+        },
+        {
+          "face": 1274,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            -96.6,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -96.60000009999999,
+            -23.0000001,
+            -33.6000001,
+            -68.8999999,
+            23.0000001,
+            -10.599999900000002
+          ],
+          "area_mm2": 1946.0357464789993
+        },
+        {
+          "face": 1282,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -98.10000010000033,
+            -21.500000100000047,
+            -33.600000099999995,
+            -96.59999989999936,
+            21.50000009999998,
+            -12.099999899999988
+          ],
+          "area_mm2": 91.6259185631103
+        },
+        {
+          "face": 1288,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            -89.925,
+            -1.206627110625638e-13,
+            -33.60000000000003
+          ],
+          "axis_direction": [
+            -1.0,
+            -1.0870057685090684e-14,
+            2.7870057685086923e-14
+          ],
+          "bounds_mm": [
+            -103.90000000000067,
+            -16.26345596729057,
+            -56.59999999999984,
+            -96.59999999999972,
+            22.999999999999808,
+            -17.33654403270875
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1314,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            -89.925,
+            -1.206627110625638e-13,
+            -33.60000000000003
+          ],
+          "axis_direction": [
+            -1.0,
+            -1.0870057685090684e-14,
+            2.7870057685086923e-14
+          ],
+          "bounds_mm": [
+            -103.90000000000026,
+            -23.00000000000027,
+            -49.86345596729073,
+            -96.59999999999931,
+            16.263455967290106,
+            -10.599999999999639
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1323,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -98.10000010000033,
+            -21.500000100000047,
+            -55.10000009999999,
+            -96.59999989999977,
+            21.50000009999998,
+            -33.59999989999998
+          ],
+          "area_mm2": 91.62591856311398
+        },
+        {
+          "face": 1928,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            14.479334654094105,
+            -49.4933704945418,
+            -91.60037783532009,
+            15.893460829347212,
+            -48.07923568916351
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 1945,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            14.479235689163517,
+            -19.1206653459059,
+            -91.60037783532007,
+            15.893370494541802,
+            -17.706539170652775
+          ],
+          "area_mm2": 3.1419584482024274
+        },
+        {
+          "face": 1962,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -15.893370494541912,
+            -49.49346082934732,
+            -91.60037783532009,
+            -14.479235689163614,
+            -48.07933465409421
+          ],
+          "area_mm2": 3.1419584482024203
+        },
+        {
+          "face": 1979,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -15.893460829347333,
+            -19.120764310836375,
+            -91.60037783532009,
+            -14.479334654094215,
+            -17.70662950545809
+          ],
+          "area_mm2": 3.141958448202407
+        },
+        {
+          "face": 1980,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.60000010000265,
+            21.476737459521974,
+            -34.599947136828696,
+            -91.59999990000254,
+            21.50000009999991,
+            -33.599999899999986
+          ],
+          "area_mm2": 1.5711231053438024
+        },
+        {
+          "face": 1997,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.60000010000265,
+            21.476737343795634,
+            -33.600000099999995,
+            -91.59999990000254,
+            21.50000009999991,
+            -32.60005181447625
+          ],
+          "area_mm2": 1.5709448921302502
+        },
+        {
+          "face": 2014,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -0.9998742900705094,
+            -55.099988715753156,
+            -91.60037783532009,
+            1.0000081451871037,
+            -55.07673956809748
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 2031,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -1.000008145187104,
+            -12.123260431902489,
+            -91.60037783532009,
+            0.9998742900705092,
+            -12.100011284246824
+          ],
+          "area_mm2": 3.141958448202436
+        },
+        {
+          "face": 2048,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            -14.488816817956582,
+            -1.3592139597552401e-12,
+            -33.60000000000007
+          ],
+          "axis_direction": [
+            -1.0,
+            1.6e-14,
+            1e-15
+          ],
+          "bounds_mm": [
+            -93.59993523881202,
+            -21.499988715753258,
+            -34.600008145187104,
+            -91.60037783532009,
+            -21.476739568097607,
+            -32.600125709929486
+          ],
+          "area_mm2": 3.1419584482024043
+        }
+      ],
+      "actual_motor_max_coaxial_cylinder_radius_mm": 23.0,
+      "motor_profile_basis": "Main coaxial cylindrical surfaces are R23.0, but local noncoaxial details reach approximately R23.078 in this span. Candidate bore R23.15 follows the actual complete profile; exact imported-face static screening follows.",
+      "actual_motor_surface_static_screen": [
+        {
+          "part": "fixed7001",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733134,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 75.27661681175232
+        },
+        {
+          "part": "removable7002",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733067,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 17.411194324493408
+        }
+      ],
+      "retained_part_new_interference_flags": [],
+      "original_clamp_screw_axes_XY_mm": [
+        [
+          -96.72,
+          -30.3
+        ],
+        [
+          -96.72,
+          30.3
+        ]
+      ],
+      "removal_direction_cap": [
+        0,
+        0,
+        -1
+      ],
+      "removal_sequence": "Release the two original clamp screws; remove cap radially outward along signed Z; disconnect output fasteners/wiring separately before withdrawing the motor. Motor full extraction and tool path still require continuous sweep validation.",
+      "local_bom_before": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 1,
+        "original_clamp_screw_count": 2
+      },
+      "local_bom_candidate_after": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 0,
+        "original_clamp_screw_count": 2
+      },
+      "sleeve_omission_in_candidate_only": true,
+      "formal_BOM_reduction": 0,
+      "split_cap_to_fixed_distance_mm": 0.29999999999999716,
+      "cap_fixed_common_volume_mm3": 0.0,
+      "original_cap_clamp_screw_axes_radii_retained": true,
+      "original_fixed_outer_bounds_preserved": true,
+      "retained_part_static_screen": [
+        {
+          "label": "BODY_SOURCE_142",
+          "added_material_common_area_mm2": 0.3370972820993491,
+          "added_material_common_volume_mm3": 0.0032653680214868347,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032653680214868347,
+          "construction_blank_common_area_mm2": 0.3370972820993491,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112587,
+          "retained_part_after_common_volume_mm3": 8.486824058112587,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        },
+        {
+          "label": "BODY_SOURCE_145",
+          "added_material_common_area_mm2": 0.3371484716312188,
+          "added_material_common_volume_mm3": 0.0032660257996145617,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032660257996145617,
+          "construction_blank_common_area_mm2": 0.3371484716312188,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112587,
+          "retained_part_after_common_volume_mm3": 8.486824058112587,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        }
+      ],
+      "status": "PASS_STATIC_UNLOADED_GEOMETRY_ONLY",
+      "original_fixed_clamp_pilot_axes_and_radius_retained": true,
+      "original_fixed_clamp_pilot_diameter_mm": 2.52
+    },
+    {
+      "corner": "FR",
+      "axis_center_YZ_mm": [
+        0,
+        33.6
+      ],
+      "axis_direction": [
+        1,
+        0,
+        0
+      ],
+      "grip_axial_span_X_mm": [
+        91.92,
+        99.6
+      ],
+      "original_clamp_axial_length_mm": 7.679999999999993,
+      "candidate_clamp_axial_length_mm": 7.679999999999993,
+      "removed_sleeve_axial_span_X_mm": [
+        91.97,
+        99.55
+      ],
+      "original_grip_diameter_mm": 58.8,
+      "candidate_grip_diameter_mm": 46.3,
+      "grip_split_plane_Z_before_mm": 43.5,
+      "cap_split_plane_Z_after_mm": 43.8,
+      "unloaded_split_gap_mm": 0.3,
+      "cap_original_outer_bounds_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        43.49999999999995,
+        102.30000009999999,
+        33.779999999999,
+        65.4000001
+      ],
+      "cap_candidate_outer_bounds_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        43.79999999999998,
+        102.30000009999999,
+        33.779999999999006,
+        65.4000001
+      ],
+      "axial_position_unchanged": true,
+      "original_axial_D2p4_holes_extended_through_added_region": {
+        "cap_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            52.479751057681
+          ],
+          [
+            0,
+            60.3
+          ],
+          [
+            18.879751057681,
+            52.479751057681
+          ]
+        ],
+        "fixed_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            14.720248942319
+          ],
+          [
+            0,
+            6.9
+          ],
+          [
+            18.879751057681,
+            14.720248942319
+          ],
+          [
+            -25.5,
+            33.6
+          ],
+          [
+            25.5,
+            33.6
+          ]
+        ]
+      },
+      "manufacturing_route": "New blank retaining source material/process to be confirmed; smaller bore cannot be achieved by boring an existing finished part.",
+      "actual_motor_coaxial_cylinders_in_grip_span": [
+        {
+          "face": 1012,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            96.6,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            68.8999999,
+            -23.0000001,
+            33.5999999,
+            96.60000009999999,
+            23.0000001,
+            56.6000001
+          ],
+          "area_mm2": 1946.035746929877
+        },
+        {
+          "face": 1016,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            87.3,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            75.2999999,
+            -21.50000010000039,
+            12.099999900000002,
+            96.10000009999999,
+            21.5000001,
+            33.60000010000001
+          ],
+          "area_mm2": 1386.818526419334
+        },
+        {
+          "face": 1270,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            87.3,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            75.2999999,
+            -21.50000010000039,
+            33.5999999,
+            96.10000009999999,
+            21.5000001,
+            55.10000010000001
+          ],
+          "area_mm2": 1386.8185264256408
+        },
+        {
+          "face": 1274,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            96.6,
+            0.0,
+            33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            68.8999999,
+            -23.0000001,
+            10.599999900000002,
+            96.60000009999999,
+            23.0000001,
+            33.6000001
+          ],
+          "area_mm2": 1946.0357464789993
+        },
+        {
+          "face": 1282,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            96.59999989999936,
+            -21.500000100000047,
+            12.099999899999988,
+            98.10000010000033,
+            21.50000009999998,
+            33.600000099999995
+          ],
+          "area_mm2": 91.6259185631103
+        },
+        {
+          "face": 1288,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            89.925,
+            -1.206627110625638e-13,
+            33.60000000000003
+          ],
+          "axis_direction": [
+            1.0,
+            -1.0870057685090684e-14,
+            -2.7870057685086923e-14
+          ],
+          "bounds_mm": [
+            96.59999999999972,
+            -16.26345596729057,
+            17.33654403270875,
+            103.90000000000067,
+            22.999999999999808,
+            56.59999999999984
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1314,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            89.925,
+            -1.206627110625638e-13,
+            33.60000000000003
+          ],
+          "axis_direction": [
+            1.0,
+            -1.0870057685090684e-14,
+            -2.7870057685086923e-14
+          ],
+          "bounds_mm": [
+            96.59999999999931,
+            -23.00000000000027,
+            10.599999999999639,
+            103.90000000000026,
+            16.263455967290106,
+            49.86345596729073
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1323,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            96.59999989999977,
+            -21.500000100000047,
+            33.59999989999998,
+            98.10000010000033,
+            21.50000009999998,
+            55.10000009999999
+          ],
+          "area_mm2": 91.62591856311398
+        },
+        {
+          "face": 1928,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            14.479334654094105,
+            48.07923568916351,
+            93.59993523881202,
+            15.893460829347212,
+            49.4933704945418
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 1945,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532007,
+            14.479235689163517,
+            17.706539170652775,
+            93.59993523881202,
+            15.893370494541802,
+            19.1206653459059
+          ],
+          "area_mm2": 3.1419584482024274
+        },
+        {
+          "face": 1962,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -15.893370494541912,
+            48.07933465409421,
+            93.59993523881202,
+            -14.479235689163614,
+            49.49346082934732
+          ],
+          "area_mm2": 3.1419584482024203
+        },
+        {
+          "face": 1979,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -15.893460829347333,
+            17.70662950545809,
+            93.59993523881202,
+            -14.479334654094215,
+            19.120764310836375
+          ],
+          "area_mm2": 3.141958448202407
+        },
+        {
+          "face": 1980,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.59999990000254,
+            21.476737459521974,
+            33.599999899999986,
+            93.60000010000265,
+            21.50000009999991,
+            34.599947136828696
+          ],
+          "area_mm2": 1.5711231053438024
+        },
+        {
+          "face": 1997,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.59999990000254,
+            21.476737343795634,
+            32.60005181447625,
+            93.60000010000265,
+            21.50000009999991,
+            33.600000099999995
+          ],
+          "area_mm2": 1.5709448921302502
+        },
+        {
+          "face": 2014,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -0.9998742900705094,
+            55.07673956809748,
+            93.59993523881202,
+            1.0000081451871037,
+            55.099988715753156
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 2031,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -1.000008145187104,
+            12.100011284246824,
+            93.59993523881202,
+            0.9998742900705092,
+            12.123260431902489
+          ],
+          "area_mm2": 3.141958448202436
+        },
+        {
+          "face": 2048,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            -1.3592139597552401e-12,
+            33.60000000000007
+          ],
+          "axis_direction": [
+            1.0,
+            1.6e-14,
+            -1e-15
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -21.499988715753258,
+            32.600125709929486,
+            93.59993523881202,
+            -21.476739568097607,
+            34.600008145187104
+          ],
+          "area_mm2": 3.1419584482024043
+        }
+      ],
+      "actual_motor_max_coaxial_cylinder_radius_mm": 23.0,
+      "motor_profile_basis": "Main coaxial cylindrical surfaces are R23.0, but local noncoaxial details reach approximately R23.078 in this span. Candidate bore R23.15 follows the actual complete profile; exact imported-face static screening follows.",
+      "actual_motor_surface_static_screen": [
+        {
+          "part": "fixed7001",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733274,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 72.81305599212646
+        },
+        {
+          "part": "removable7002",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733311,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 18.879088640213013
+        }
+      ],
+      "retained_part_new_interference_flags": [],
+      "original_clamp_screw_axes_XY_mm": [
+        [
+          96.72,
+          -30.3
+        ],
+        [
+          96.72,
+          30.3
+        ]
+      ],
+      "removal_direction_cap": [
+        0,
+        0,
+        1
+      ],
+      "removal_sequence": "Release the two original clamp screws; remove cap radially outward along signed Z; disconnect output fasteners/wiring separately before withdrawing the motor. Motor full extraction and tool path still require continuous sweep validation.",
+      "local_bom_before": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 1,
+        "original_clamp_screw_count": 2
+      },
+      "local_bom_candidate_after": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 0,
+        "original_clamp_screw_count": 2
+      },
+      "sleeve_omission_in_candidate_only": true,
+      "formal_BOM_reduction": 0,
+      "split_cap_to_fixed_distance_mm": 0.29999999999999716,
+      "cap_fixed_common_volume_mm3": 0.0,
+      "original_cap_clamp_screw_axes_radii_retained": true,
+      "original_fixed_outer_bounds_preserved": true,
+      "retained_part_static_screen": [
+        {
+          "label": "HEAD_original_0deg_UNCHANGED",
+          "added_material_common_area_mm2": 0.0,
+          "added_material_common_volume_mm3": 0.0,
+          "source_solids": 1,
+          "positive_common_requires_review": false
+        },
+        {
+          "label": "BODY_SOURCE_168",
+          "added_material_common_area_mm2": 0.3370975241219785,
+          "added_material_common_volume_mm3": 0.0032653785549440666,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032653785549440666,
+          "construction_blank_common_area_mm2": 0.3370975241219785,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112711,
+          "retained_part_after_common_volume_mm3": 8.486824058112711,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        },
+        {
+          "label": "BODY_SOURCE_177",
+          "added_material_common_area_mm2": 0.337148471078225,
+          "added_material_common_volume_mm3": 0.0032660257931886438,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.0032660257931886438,
+          "construction_blank_common_area_mm2": 0.337148471078225,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.4868240581126,
+          "retained_part_after_common_volume_mm3": 8.4868240581126,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        }
+      ],
+      "status": "PASS_STATIC_UNLOADED_GEOMETRY_ONLY",
+      "original_fixed_clamp_pilot_axes_and_radius_retained": true,
+      "original_fixed_clamp_pilot_diameter_mm": 2.52
+    },
+    {
+      "corner": "FL",
+      "axis_center_YZ_mm": [
+        0,
+        -33.6
+      ],
+      "axis_direction": [
+        1,
+        0,
+        0
+      ],
+      "grip_axial_span_X_mm": [
+        91.92,
+        99.6
+      ],
+      "original_clamp_axial_length_mm": 7.679999999999993,
+      "candidate_clamp_axial_length_mm": 7.679999999999993,
+      "removed_sleeve_axial_span_X_mm": [
+        91.97,
+        99.55
+      ],
+      "original_grip_diameter_mm": 58.8,
+      "candidate_grip_diameter_mm": 46.3,
+      "grip_split_plane_Z_before_mm": -43.5,
+      "cap_split_plane_Z_after_mm": -43.8,
+      "unloaded_split_gap_mm": 0.3,
+      "cap_original_outer_bounds_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        -65.4000001,
+        102.30000009999999,
+        33.779999999999,
+        -43.49999999999995
+      ],
+      "cap_candidate_outer_bounds_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        -65.4000001,
+        102.30000009999999,
+        33.779999999999006,
+        -43.799999999999976
+      ],
+      "axial_position_unchanged": true,
+      "original_axial_D2p4_holes_extended_through_added_region": {
+        "cap_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            -52.479751057681
+          ],
+          [
+            0,
+            -60.3
+          ],
+          [
+            18.879751057681,
+            -52.479751057681
+          ]
+        ],
+        "fixed_centers_YZ_mm": [
+          [
+            -18.87975105768,
+            -14.720248942319
+          ],
+          [
+            0,
+            -6.9
+          ],
+          [
+            18.879751057681,
+            -14.720248942319
+          ],
+          [
+            -25.5,
+            -33.6
+          ],
+          [
+            25.5,
+            -33.6
+          ]
+        ]
+      },
+      "manufacturing_route": "New blank retaining source material/process to be confirmed; smaller bore cannot be achieved by boring an existing finished part.",
+      "actual_motor_coaxial_cylinders_in_grip_span": [
+        {
+          "face": 1012,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            96.6,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            68.8999999,
+            -1.0000000281668764e-07,
+            -56.6000001,
+            96.60000009999999,
+            23.0000001,
+            -10.599999900000002
+          ],
+          "area_mm2": 1946.035746929877
+        },
+        {
+          "face": 1016,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            87.3,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            75.2999999,
+            -21.5000001,
+            -55.1000001,
+            96.10000009999999,
+            1.0000001249796178e-07,
+            -12.099999899999618
+          ],
+          "area_mm2": 1386.818526419334
+        },
+        {
+          "face": 1270,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            87.3,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            75.2999999,
+            -1e-07,
+            -55.1000001,
+            96.10000009999999,
+            21.500000100000012,
+            -12.099999899999618
+          ],
+          "area_mm2": 1386.8185264256408
+        },
+        {
+          "face": 1274,
+          "radius_mm": 23.0,
+          "axis_location_mm": [
+            96.6,
+            0.0,
+            -33.6
+          ],
+          "axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bounds_mm": [
+            68.8999999,
+            -23.0000001,
+            -56.6000001,
+            96.60000009999999,
+            1.0000000281668764e-07,
+            -10.599999900000002
+          ],
+          "area_mm2": 1946.0357464789993
+        },
+        {
+          "face": 1282,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            96.59999989999936,
+            -21.500000100000015,
+            -55.10000009999998,
+            98.10000010000033,
+            9.999999251445707e-08,
+            -12.09999989999996
+          ],
+          "area_mm2": 91.6259185631103
+        },
+        {
+          "face": 1288,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            89.925,
+            2.6812288937433674e-14,
+            -33.59999999999988
+          ],
+          "axis_direction": [
+            1.0,
+            -2.7870057685086923e-14,
+            1.0870057685090684e-14
+          ],
+          "bounds_mm": [
+            96.59999999999972,
+            -16.26345596729125,
+            -56.59999999999981,
+            103.90000000000067,
+            22.999999999999833,
+            -17.33654403270943
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1314,
+          "radius_mm": 22.999999999999996,
+          "axis_location_mm": [
+            89.925,
+            2.6812288937433674e-14,
+            -33.59999999999988
+          ],
+          "axis_direction": [
+            1.0,
+            -2.7870057685086923e-14,
+            1.0870057685090684e-14
+          ],
+          "bounds_mm": [
+            96.59999999999931,
+            -23.000000000000362,
+            -49.86345596729011,
+            103.90000000000026,
+            16.263455967290728,
+            -10.599999999999735
+          ],
+          "area_mm2": 527.4734065377263
+        },
+        {
+          "face": 1323,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            96.59999989999977,
+            -1.0000001820101007e-07,
+            -55.10000009999998,
+            98.10000010000033,
+            21.50000009999999,
+            -12.09999989999996
+          ],
+          "area_mm2": 91.62591856311398
+        },
+        {
+          "face": 1928,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            14.479235689163504,
+            -49.493460829347214,
+            93.59993523881202,
+            15.893370494541799,
+            -48.079334654094104
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 1945,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532007,
+            -15.893460829347227,
+            -49.4933704945418,
+            93.59993523881202,
+            -14.479334654094105,
+            -48.07923568916352
+          ],
+          "area_mm2": 3.1419584482024274
+        },
+        {
+          "face": 1962,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            14.479334654094211,
+            -19.120764310836385,
+            93.59993523881202,
+            15.89346082934732,
+            -17.706629505458086
+          ],
+          "area_mm2": 3.1419584482024203
+        },
+        {
+          "face": 1979,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -15.893370494541912,
+            -19.120665345905792,
+            93.59993523881202,
+            -14.479235689163628,
+            -17.70653917065267
+          ],
+          "area_mm2": 3.141958448202407
+        },
+        {
+          "face": 1980,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.59999990000254,
+            -1.0000001722964617e-07,
+            -55.10000009999991,
+            93.60000010000265,
+            0.9999471368287006,
+            -55.07673745952198
+          ],
+          "area_mm2": 1.5711231053438024
+        },
+        {
+          "face": 1997,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.59999990000254,
+            -0.99994818552375,
+            -55.10000009999991,
+            93.60000010000265,
+            9.999999356497116e-08,
+            -55.07673734379563
+          ],
+          "area_mm2": 1.5709448921302502
+        },
+        {
+          "face": 2014,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            21.47673956809748,
+            -34.600008145187104,
+            93.59993523881202,
+            21.499988715753155,
+            -32.600125709929486
+          ],
+          "area_mm2": 3.1419584482024105
+        },
+        {
+          "face": 2031,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -21.49998871575318,
+            -34.59987429007051,
+            93.59993523881202,
+            -21.47673956809751,
+            -32.5999918548129
+          ],
+          "area_mm2": 3.141958448202436
+        },
+        {
+          "face": 2048,
+          "radius_mm": 21.5,
+          "axis_location_mm": [
+            14.488816817956582,
+            7.067615433949995e-14,
+            -33.599999999998644
+          ],
+          "axis_direction": [
+            1.0,
+            -1e-15,
+            -1.6e-14
+          ],
+          "bounds_mm": [
+            91.60037783532009,
+            -0.9998742900705093,
+            -12.123260431902391,
+            93.59993523881202,
+            1.000008145187104,
+            -12.100011284246747
+          ],
+          "area_mm2": 3.1419584482024043
+        }
+      ],
+      "actual_motor_max_coaxial_cylinder_radius_mm": 23.0,
+      "motor_profile_basis": "Main coaxial cylindrical surfaces are R23.0, but local noncoaxial details reach approximately R23.078 in this span. Candidate bore R23.15 follows the actual complete profile; exact imported-face static screening follows.",
+      "actual_motor_surface_static_screen": [
+        {
+          "part": "fixed7001",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733048,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 73.94004106521606
+        },
+        {
+          "part": "removable7002",
+          "common_surface_area_mm2": 0.0,
+          "common_solid_volume_mm3": 0.0,
+          "minimum_distance_mm": 0.07217231356733185,
+          "motor_source_has_solids": 0,
+          "pass_no_surface_penetration": true,
+          "seconds": 16.630080699920654
+        }
+      ],
+      "retained_part_new_interference_flags": [],
+      "original_clamp_screw_axes_XY_mm": [
+        [
+          96.72,
+          -30.3
+        ],
+        [
+          96.72,
+          30.3
+        ]
+      ],
+      "removal_direction_cap": [
+        0,
+        0,
+        -1
+      ],
+      "removal_sequence": "Release the two original clamp screws; remove cap radially outward along signed Z; disconnect output fasteners/wiring separately before withdrawing the motor. Motor full extraction and tool path still require continuous sweep validation.",
+      "local_bom_before": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 1,
+        "original_clamp_screw_count": 2
+      },
+      "local_bom_candidate_after": {
+        "fixed_seat_shared": 1,
+        "removable_cap": 1,
+        "independent_sleeve": 0,
+        "original_clamp_screw_count": 2
+      },
+      "sleeve_omission_in_candidate_only": true,
+      "formal_BOM_reduction": 0,
+      "split_cap_to_fixed_distance_mm": 0.29999999999999716,
+      "cap_fixed_common_volume_mm3": 0.0,
+      "original_cap_clamp_screw_axes_radii_retained": true,
+      "original_fixed_outer_bounds_preserved": true,
+      "retained_part_static_screen": [
+        {
+          "label": "HEAD_original_0deg_UNCHANGED",
+          "added_material_common_area_mm2": 0.0,
+          "added_material_common_volume_mm3": 0.0,
+          "source_solids": 1,
+          "positive_common_requires_review": false
+        },
+        {
+          "label": "BODY_SOURCE_171",
+          "added_material_common_area_mm2": 0.33709728239246756,
+          "added_material_common_volume_mm3": 0.003265368028914241,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.003265368028914241,
+          "construction_blank_common_area_mm2": 0.33709728239246756,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112582,
+          "retained_part_after_common_volume_mm3": 8.486824058112582,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        },
+        {
+          "label": "BODY_SOURCE_174",
+          "added_material_common_area_mm2": 0.33714847163262013,
+          "added_material_common_volume_mm3": 0.00326602579962722,
+          "source_solids": 1,
+          "positive_common_requires_review": false,
+          "construction_blank_common_volume_mm3": 0.00326602579962722,
+          "construction_blank_common_area_mm2": 0.33714847163262013,
+          "actual_new_material_common_volume_mm3": 0.0,
+          "actual_new_material_common_area_mm2": 0.0,
+          "retained_part_before_common_volume_mm3": 8.486824058112582,
+          "retained_part_after_common_volume_mm3": 8.486824058112582,
+          "retained_part_common_volume_increase_mm3": 0,
+          "classification": "inherited_source_thread_pilot_overlap_not_increased",
+          "note": "Construction annulus deliberately overlaps source by .05mm radially for reliable fusion. Raw common includes existing source material. True new material excludes before solid; original source screw / pilot overlap is retained without increase."
+        }
+      ],
+      "status": "PASS_STATIC_UNLOADED_GEOMETRY_ONLY",
+      "original_fixed_clamp_pilot_axes_and_radius_retained": true,
+      "original_fixed_clamp_pilot_diameter_mm": 2.52
+    }
+  ],
+  "exports": {
+    "REAR_7001_fixed_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_fixed_before.step",
+      "sha256": "4445ba9fa9d3669fde84da402cde17c6c2e1d986074fb0206ed1e2df775128d3",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 667,
+      "edges": 3516,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -49.590000100000026,
+        -88.49999989999102,
+        47.49000010000001,
+        49.59000010000003
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        99.18000020000005
+      ],
+      "solid_volume_mm3": 22500.09240140262
+    },
+    "REAR_7001_fixed_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_fixed_after.step",
+      "sha256": "cd8778cdbd58b123e978fe219425630989055758eacbe1a6e71d61aa7eaf546c",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 722,
+      "edges": 3784,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -49.590000100000026,
+        -88.49999989999102,
+        47.49000010000001,
+        49.59000010000003
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        99.18000020000005
+      ],
+      "solid_volume_mm3": 31489.86034232038
+    },
+    "REAR_7001_three_solid_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_before.step",
+      "sha256": "f864089bd2c0a678e43b8a4d14f654728dec4d8453a291bf0bee2448915b3ed7",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 753,
+      "edges": 3972,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -65.4000001,
+        -88.49999989999102,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        130.8000002
+      ],
+      "solid_volume_mm3": 28840.69845658248
+    },
+    "REAR_7001_three_solid_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_after.step",
+      "sha256": "d9a2cb4f0187805f50db671a01a5f54ffb960a4d497e997195f360b85e727438",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 819,
+      "edges": 4308,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -65.4000001,
+        -88.49999989999102,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        130.8000002
+      ],
+      "solid_volume_mm3": 43447.050587598365
+    },
+    "FRONT_7001_fixed_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_fixed_before.step",
+      "sha256": "3d335aad63d7b8790dcc2110f5479d0c70a3e9a51492c70d2b15344b16fe33e9",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 667,
+      "edges": 3516,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -49.59000010000002,
+        102.30000010000005,
+        47.49000010000001,
+        49.590000100000026
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        99.18000020000005
+      ],
+      "solid_volume_mm3": 22500.092401401256
+    },
+    "FRONT_7001_fixed_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_fixed_after.step",
+      "sha256": "fd6ca35c562b2ab00acd09deea6eb415e51b761056ec805b35026e9ad21ca11d",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 722,
+      "edges": 3784,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -49.59000010000002,
+        102.30000010000005,
+        47.49000010000001,
+        49.590000100000026
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        99.18000020000005
+      ],
+      "solid_volume_mm3": 31489.860342340544
+    },
+    "FRONT_7001_three_solid_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_before.step",
+      "sha256": "ec026e99a0a6e37142cbd4d6833c6556f5dae5f3c3dfdf7603365e2a2e60c493",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 753,
+      "edges": 3972,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -65.4000001,
+        102.30000010000005,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        130.8000002
+      ],
+      "solid_volume_mm3": 28840.698456581224
+    },
+    "FRONT_7001_three_solid_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_after.step",
+      "sha256": "ca7e6446a463a87e4beac2b6db7aa634ac0d15ef58030e2ad9b550c1ff7bfd7b",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 819,
+      "edges": 4308,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -65.4000001,
+        102.30000010000005,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        130.8000002
+      ],
+      "solid_volume_mm3": 43447.05058761852
+    },
+    "RR_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_7002_before.step",
+      "sha256": "9436ed31026e0676cb8ffd2841d4d5292e2d9c88ec16cd22e102761992417dc2",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 43,
+      "edges": 228,
+      "bounds_xyz_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        43.49999999999995,
+        -91.91999990000001,
+        33.779999999999,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.90000010000005
+      ],
+      "solid_volume_mm3": 3170.3030303070477
+    },
+    "RR_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_7002_after.step",
+      "sha256": "d7172da60381e88bbf8d48e0994bb3f41bba2998f7b8090952ccf44cd2cd870b",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 49,
+      "edges": 266,
+      "bounds_xyz_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        43.7999999999998,
+        -91.91999990000001,
+        33.779999999999,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.6000001000002
+      ],
+      "solid_volume_mm3": 5978.595137277586
+    },
+    "RR_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_removed_sleeve.step",
+      "sha256": "789dd73c8599a572269fe4a447b5a4862801484f7324d32d0491260e0cf9ce96",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 48,
+      "bounds_xyz_mm": [
+        -99.55,
+        -27.9,
+        4.25,
+        -91.97,
+        27.9,
+        62.92937946837608
+      ],
+      "extents_xyz_mm": [
+        7.579999999999998,
+        55.8,
+        58.67937946837608
+      ],
+      "solid_volume_mm3": 7270.5841845335635
+    },
+    "RR_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before_with_sleeve.step",
+      "sha256": "d23bb5edbbf99f6c0cf94959133ff38dd9993d70ae9667dbc7c710754d00a415",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 720,
+      "edges": 3792,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -49.590000100000026,
+        -88.49999989999102,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 32940.97961624323
+    },
+    "RR_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after_direct.step",
+      "sha256": "5de37e5a46f24f1b4e8510a8fc4a58c17cecdf6ccf6f9c1fe3fa257f40d6a11f",
+      "valid": true,
+      "solids": 2,
+      "shells": 2,
+      "faces": 771,
+      "edges": 4050,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -49.590000100000026,
+        -88.49999989999102,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 37468.455479597964
+    },
+    "RR_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_added_cap.step",
+      "sha256": "ad9d936c3b93d56c26eca809fe38158d589ab270db6175b7e7edcca9f55722be",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 11,
+      "edges": 70,
+      "bounds_xyz_mm": [
+        -99.6,
+        -27.57390070338223,
+        43.7999999999998,
+        -91.92,
+        27.573900703383003,
+        63.0
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        55.14780140676523,
+        19.200000000000202
+      ],
+      "solid_volume_mm3": 2851.864123522596
+    },
+    "RR_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_added_fixed_blank.step",
+      "sha256": "7d6125c2ff0327efd6df1042eb71d36c8941a2bf1106c57d10167e4cbd08d459",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 11,
+      "edges": 54,
+      "bounds_xyz_mm": [
+        -99.6,
+        -29.45,
+        4.150000000000002,
+        -91.92,
+        29.45,
+        43.50000000000131
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        58.9,
+        39.3500000000013
+      ],
+      "solid_volume_mm3": 4806.577365086826
+    },
+    "RL_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_7002_before.step",
+      "sha256": "97ff5e8d19379cf52633b148339667092d3584a536f4d77bd1553c359e9ae3e2",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 43,
+      "edges": 228,
+      "bounds_xyz_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        -65.4000001,
+        -91.91999990000001,
+        33.779999999999,
+        -43.49999999999995
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.90000010000005
+      ],
+      "solid_volume_mm3": 3170.303024872809
+    },
+    "RL_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_7002_after.step",
+      "sha256": "12fc8dd41067d383a98ad684db59e1fec3cdf6631a0d616032e7aa99a0329066",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 48,
+      "edges": 258,
+      "bounds_xyz_mm": [
+        -102.30000009999999,
+        -33.77999999999,
+        -65.4000001,
+        -91.91999990000001,
+        33.779999999999,
+        -43.79999999999985
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.600000100000152
+      ],
+      "solid_volume_mm3": 5978.595108000404
+    },
+    "RL_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_removed_sleeve.step",
+      "sha256": "63e8825d2c23fff090b9fdefd9f37ce5db28f82ec2b68bf055d6ae811add0778",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 48,
+      "bounds_xyz_mm": [
+        -99.55,
+        -27.900000000000553,
+        -62.92937946837607,
+        -91.97,
+        27.900000000000553,
+        -4.25
+      ],
+      "extents_xyz_mm": [
+        7.579999999999998,
+        55.800000000001106,
+        58.67937946837607
+      ],
+      "solid_volume_mm3": 7270.58418453454
+    },
+    "RL_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_pair_before_with_sleeve.step",
+      "sha256": "00c34de122f04a7730835d58b7058b714b3011bc6d82f652322ee17bb10db825",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 720,
+      "edges": 3792,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -65.4000001,
+        -88.49999989999102,
+        47.49000010000001,
+        49.59000010000003
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 32940.97961080997
+    },
+    "RL_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_pair_after_direct.step",
+      "sha256": "c9a98f868044a8a4a908ca824a0666f0812465fdcb6265ffe86ebc6f63b8c054",
+      "valid": true,
+      "solids": 2,
+      "shells": 2,
+      "faces": 770,
+      "edges": 4042,
+      "bounds_xyz_mm": [
+        -102.30000010000005,
+        -47.49000010000002,
+        -65.4000001,
+        -88.49999989999102,
+        47.49000010000001,
+        49.59000010000003
+      ],
+      "extents_xyz_mm": [
+        13.800000200009023,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 37468.455450320784
+    },
+    "RL_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_added_cap.step",
+      "sha256": "18ec8d743d1892aaea83b070a0e3056f0eed7e1f17e783fb8e4cae23d1950a65",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 64,
+      "bounds_xyz_mm": [
+        -99.6,
+        -27.57390070338223,
+        -63.0,
+        -91.92,
+        27.573900703383003,
+        -43.79999999999985
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        55.14780140676523,
+        19.200000000000152
+      ],
+      "solid_volume_mm3": 2851.864123522305
+    },
+    "RL_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_added_fixed_blank.step",
+      "sha256": "801bf025d72e3763cb85059cd26d61c74e21c4df49eeee48bb18ac9d9691ec96",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 13,
+      "edges": 66,
+      "bounds_xyz_mm": [
+        -99.6,
+        -29.45,
+        -43.5000000000013,
+        -91.92,
+        29.45,
+        -4.15
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        58.9,
+        39.3500000000013
+      ],
+      "solid_volume_mm3": 4806.577365089299
+    },
+    "FR_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_7002_before.step",
+      "sha256": "e3a7fcaaf6538b5b6c8e481af6b39ceb065a5b610013a9800c34de85f54e012b",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 43,
+      "edges": 228,
+      "bounds_xyz_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        43.49999999999995,
+        102.30000009999999,
+        33.779999999999,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.90000010000005
+      ],
+      "solid_volume_mm3": 3170.303024872809
+    },
+    "FR_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_7002_after.step",
+      "sha256": "f393f879af9671378f0dac9c4f8d499d58a9331bfa82a3c6229cf1f2aeb57a59",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 49,
+      "edges": 266,
+      "bounds_xyz_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        43.7999999999998,
+        102.30000009999999,
+        33.779999999999,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.6000001000002
+      ],
+      "solid_volume_mm3": 5978.5951318432135
+    },
+    "FR_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_removed_sleeve.step",
+      "sha256": "f9b8dddad0a4aa2a6682c221e93c181e0b00c4f0089c732e5b62b392aa75dc85",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 48,
+      "bounds_xyz_mm": [
+        91.97,
+        -27.9,
+        4.25,
+        99.55,
+        27.9,
+        62.92937946837608
+      ],
+      "extents_xyz_mm": [
+        7.579999999999998,
+        55.8,
+        58.67937946837608
+      ],
+      "solid_volume_mm3": 7270.584184534186
+    },
+    "FR_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_pair_before_with_sleeve.step",
+      "sha256": "2eca8c55f02c3a2a7e09341db6aeddf811127c9a1db8386e5e0802dffe13d3b1",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 720,
+      "edges": 3792,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -49.59000010000002,
+        102.30000010000005,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 32940.97961080825
+    },
+    "FR_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_pair_after_direct.step",
+      "sha256": "b1b8149febf1ef5169dcbef6d546bc44fe9816859dba356a1262e349adf6fee9",
+      "valid": true,
+      "solids": 2,
+      "shells": 2,
+      "faces": 771,
+      "edges": 4050,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -49.59000010000002,
+        102.30000010000005,
+        47.49000010000001,
+        65.4000001
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 37468.45547418376
+    },
+    "FR_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_added_cap.step",
+      "sha256": "9a06a2a820991792daaaee8d16923ca4a01fda75f27c47e38e80738816d07c9a",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 11,
+      "edges": 70,
+      "bounds_xyz_mm": [
+        91.92,
+        -27.57390070338223,
+        43.7999999999998,
+        99.6,
+        27.573900703383003,
+        63.0
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        55.14780140676523,
+        19.200000000000202
+      ],
+      "solid_volume_mm3": 2851.864123522546
+    },
+    "FR_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_added_fixed_blank.step",
+      "sha256": "678cea3b376ae7f2e313dcfcc0427a24ba5342100e6565d34fe3d079a1a9bdb0",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 11,
+      "edges": 54,
+      "bounds_xyz_mm": [
+        91.92,
+        -29.45,
+        4.150000000000002,
+        99.6,
+        29.45,
+        43.50000000000131
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        58.9,
+        39.3500000000013
+      ],
+      "solid_volume_mm3": 4806.577365086828
+    },
+    "FL_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_7002_before.step",
+      "sha256": "63562310cf6c27f1775d14b10ee16ab76fe98337655fe79a3f3c0dba800d1d31",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 43,
+      "edges": 228,
+      "bounds_xyz_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        -65.4000001,
+        102.30000009999999,
+        33.779999999999,
+        -43.49999999999995
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.90000010000005
+      ],
+      "solid_volume_mm3": 3170.303030307159
+    },
+    "FL_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_7002_after.step",
+      "sha256": "0ab916bd41fd4da4dd80836bb1b074af725daf59a9d700f4e1d568459d196cde",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 48,
+      "edges": 258,
+      "bounds_xyz_mm": [
+        91.91999990000001,
+        -33.77999999999,
+        -65.4000001,
+        102.30000009999999,
+        33.779999999999,
+        -43.79999999999985
+      ],
+      "extents_xyz_mm": [
+        10.380000199999984,
+        67.559999999989,
+        21.600000100000152
+      ],
+      "solid_volume_mm3": 5978.595113434766
+    },
+    "FL_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_removed_sleeve.step",
+      "sha256": "05b693220949e570ddd8d900fe9c54367b85e5394435f48b7938a7a757fde923",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 48,
+      "bounds_xyz_mm": [
+        91.97,
+        -27.900000000000553,
+        -62.92937946837607,
+        99.55,
+        27.900000000000553,
+        -4.25
+      ],
+      "extents_xyz_mm": [
+        7.579999999999998,
+        55.800000000001106,
+        58.67937946837607
+      ],
+      "solid_volume_mm3": 7270.584184535348
+    },
+    "FL_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_pair_before_with_sleeve.step",
+      "sha256": "109ca86f50d0bd2d8ef15e2199592e8c182b68ff689f355154f4baa67028f9c8",
+      "valid": true,
+      "solids": 3,
+      "shells": 3,
+      "faces": 720,
+      "edges": 3792,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -65.4000001,
+        102.30000010000005,
+        47.49000010000001,
+        49.590000100000026
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 32940.97961624376
+    },
+    "FL_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_pair_after_direct.step",
+      "sha256": "faa3455159589d8fb85a47238716dc9536fc3c3f87c661f7a8712ba7ab63e6c1",
+      "valid": true,
+      "solids": 2,
+      "shells": 2,
+      "faces": 770,
+      "edges": 4042,
+      "bounds_xyz_mm": [
+        88.49999989999101,
+        -47.49000010000002,
+        -65.4000001,
+        102.30000010000005,
+        47.49000010000001,
+        49.590000100000026
+      ],
+      "extents_xyz_mm": [
+        13.800000200009038,
+        94.98000020000003,
+        114.99000020000003
+      ],
+      "solid_volume_mm3": 37468.45545577531
+    },
+    "FL_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_added_cap.step",
+      "sha256": "56acf71e662af3d1409c7a9a10985f772d89bf194e13ae138c453bac1c37a5eb",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 10,
+      "edges": 64,
+      "bounds_xyz_mm": [
+        91.92,
+        -27.57390070338223,
+        -63.0,
+        99.6,
+        27.573900703383003,
+        -43.79999999999985
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        55.14780140676523,
+        19.200000000000152
+      ],
+      "solid_volume_mm3": 2851.8641235223067
+    },
+    "FL_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_added_fixed_blank.step",
+      "sha256": "02c596b5053e7a1fce39f61a11aba54763f13709255467c3edacb09766d8fdab",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 13,
+      "edges": 66,
+      "bounds_xyz_mm": [
+        91.92,
+        -29.45,
+        -43.5000000000013,
+        99.6,
+        29.45,
+        -4.15
+      ],
+      "extents_xyz_mm": [
+        7.679999999999993,
+        58.9,
+        39.3500000000013
+      ],
+      "solid_volume_mm3": 4806.577365089301
+    }
+  },
+  "candidate_sleeve_count_before": 4,
+  "candidate_sleeve_count_after": 0,
+  "candidate_sleeve_reduction": 4,
+  "formal_assembly_sleeve_reduction": 0,
+  "added_clamp_fasteners": 0,
+  "original_clamp_fasteners_retained_per_position": 2,
+  "all_four_legs_geometry_completed": true,
+  "unresolved": [
+    "Actual production motor OD/profile/tolerances, surface finish, material and temperature variation are unknown; candidate diameter46.30 and .30mm unloaded split gap require tolerance/preload testing.",
+    "No friction coefficient, bolt torque, minimum thread engagement, housing crushing, slip torque, axial retention, fatigue, load or FEA signoff.",
+    "No closed-loop preload simulation or loaded contact assertion; the before/after CAD shows unloaded candidate geometry only.",
+    "Actual PA35 is an imported surface model; exact face intersection and distance are screened, not certified solid-to-solid motor interference.",
+    "Cap outward removal direction is provided; continuous motor extraction, wiring and original tool/screw access require later sweep verification.",
+    "Formal R4 assembly and BOM remain unchanged; manufacturing reduction is conditional on validation and approval of all mating interfaces."
+  ],
+  "all_R4_definition_sources_hash_verified_unchanged": true,
+  "all_four_static_screens_pass": true,
+  "actual_motor_max_local_radial_envelope_in_grip_mm_approx": 23.0778276864,
+  "actual_motor_envelope_measurement_note": "Fine imported STEP triangulation identified noncoaxial local detail near R23.078; all four final candidates are then checked against full exact imported motor faces. The .07217mm exact minimum distance is the acceptance evidence, not only the sampled envelope.",
+  "preserved_source_thread_reference_overlaps_are_not_new_interference": true,
+  "candidate_frozen_for_integrator": true
+}

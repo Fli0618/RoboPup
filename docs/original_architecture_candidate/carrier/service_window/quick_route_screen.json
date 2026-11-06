@@ -1,0 +1,1612 @@
+{
+  "status": "QUICK_GEOMETRY_PASS_CONTINUOUS_CYCLE_PENDING",
+  "candidate": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/085_PA35-10-8_498dc64cdb.step": "498dc64cdb092e386c80269a090c232e05c08cbb042630f3ff5bbe0491b404dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_BEFORE_INITIAL_LOADING_RELIEF.step": "55dc9251ea2e9cb133c1ace7bb0abbdecbb21f17845172609f6ac7284121731f"
+  },
+  "records": [
+    {
+      "sid": "M2_output_M4x8_1",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_2",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_3",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_4",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_5",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_6",
+      "method": "M3 motor absent; direct top service port",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.8,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 4.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 6.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 8.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 10.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 14.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 18.0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 22.0,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "hex_driver_AF_mm": 2.98,
+      "nominal_socket_AF_mm": 3,
+      "driver_Z_mm": [
+        52.05,
+        90
+      ],
+      "driver_carrier_intersection_mm3": 0.0,
+      "driver_own_screw_intersection_mm3": 0.0
+    },
+    {
+      "sid": "M3_rear_M3x6_1",
+      "method": "side custom-short-L; M3 screws held/preplaced after thread disengagement, positive captivity not established",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.2,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "tool_geometry": {
+        "nominal_socket_AF_mm": 2.5,
+        "modeled_tip_AF_mm": 2.48,
+        "tip_engagement_mm": 1.18,
+        "tip_Z_at_installed_mm": 54.85,
+        "handle_center_Z_at_installed_mm": 51.9,
+        "short_leg_from_arm_axis_to_tip_mm": 2.95,
+        "round_arm_radius_mm": 1.43,
+        "arm_length_mm": 42,
+        "handle_yaw_start_deg": 6.999999999849138,
+        "handle_yaw_end_deg": 66.99999999984914,
+        "tool_source": "bespoke explicit CAD envelope; procurement/torque strength not claimed"
+      },
+      "tool_states": [
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_2",
+      "method": "side custom-short-L; M3 screws held/preplaced after thread disengagement, positive captivity not established",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.2,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "tool_geometry": {
+        "nominal_socket_AF_mm": 2.5,
+        "modeled_tip_AF_mm": 2.48,
+        "tip_engagement_mm": 1.18,
+        "tip_Z_at_installed_mm": 54.85,
+        "handle_center_Z_at_installed_mm": 51.9,
+        "short_leg_from_arm_axis_to_tip_mm": 2.95,
+        "round_arm_radius_mm": 1.43,
+        "arm_length_mm": 42,
+        "handle_yaw_start_deg": 96.999999999816,
+        "handle_yaw_end_deg": 156.999999999816,
+        "tool_source": "bespoke explicit CAD envelope; procurement/torque strength not claimed"
+      },
+      "tool_states": [
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_3",
+      "method": "side custom-short-L; M3 screws held/preplaced after thread disengagement, positive captivity not established",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.2,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "tool_geometry": {
+        "nominal_socket_AF_mm": 2.5,
+        "modeled_tip_AF_mm": 2.48,
+        "tip_engagement_mm": 1.18,
+        "tip_Z_at_installed_mm": 54.85,
+        "handle_center_Z_at_installed_mm": 51.9,
+        "short_leg_from_arm_axis_to_tip_mm": 2.95,
+        "round_arm_radius_mm": 1.43,
+        "arm_length_mm": 42,
+        "handle_yaw_start_deg": -82.99999999992654,
+        "handle_yaw_end_deg": -22.999999999926544,
+        "tool_source": "bespoke explicit CAD envelope; procurement/torque strength not claimed"
+      },
+      "tool_states": [
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sid": "M3_rear_M3x6_4",
+      "method": "side custom-short-L; M3 screws held/preplaced after thread disengagement, positive captivity not established",
+      "screw_translations": [
+        {
+          "withdraw_mm": 0,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 0.5,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 2,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.1,
+          "carrier_intersection_mm3": 0.0
+        },
+        {
+          "withdraw_mm": 3.2,
+          "carrier_intersection_mm3": 0.0
+        }
+      ],
+      "tool_geometry": {
+        "nominal_socket_AF_mm": 2.5,
+        "modeled_tip_AF_mm": 2.48,
+        "tip_engagement_mm": 1.18,
+        "tip_Z_at_installed_mm": 54.85,
+        "handle_center_Z_at_installed_mm": 51.9,
+        "short_leg_from_arm_axis_to_tip_mm": 2.95,
+        "round_arm_radius_mm": 1.43,
+        "arm_length_mm": 42,
+        "handle_yaw_start_deg": -172.99999999999784,
+        "handle_yaw_end_deg": -112.99999999999784,
+        "tool_source": "bespoke explicit CAD envelope; procurement/torque strength not claimed"
+      },
+      "tool_states": [
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 0,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 1.6,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 0,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 15,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 30,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 45,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        },
+        {
+          "withdraw_mm": 3.2,
+          "screw_rotation_deg": 60,
+          "tool_carrier_volume_mm3": 0.0,
+          "tool_own_screw_solid_intersection_mm3": 0.0,
+          "other_screw_hits": [],
+          "motor_shell_checks": [
+            {
+              "motor": "M2",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            },
+            {
+              "motor": "M3",
+              "tool_inside_actual_shell_surface_area_mm2": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "full_assembly_sequence_verified": false,
+  "limits": [
+    "Static angle/withdraw samples only at this stage.",
+    "M2 axial service requires M3 motor removed first.",
+    "M3 screws are captive at3.2mm release; full removal from carrier with M2 still installed is not claimed.",
+    "Motor checks use actual source shell surface intersections, not closed-solid motor validation."
+  ],
+  "original_input_path_before_loading_relief_supersession": {
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step": "55dc9251ea2e9cb133c1ace7bb0abbdecbb21f17845172609f6ac7284121731f"
+  },
+  "proof_transfer_to_final_candidate": {
+    "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+    "sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+    "final_part_added_material_outside_checked_part_mm3": 0,
+    "logic": "Final part equals checked part minus4local head-loading reliefs. Clear fixed-object tool/screw paths remain clear against a subset of the obstacle. No path repeated merely due to extra removed material.",
+    "provenance": "Exact original CAD bytes preserved in BEFORE_INITIAL_LOADING_RELIEF backup."
+  },
+  "positive_M3_fastener_captivity_verified": false
+}

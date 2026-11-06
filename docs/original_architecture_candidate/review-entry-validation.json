@@ -1,0 +1,440 @@
+{
+  "status": "CANONICAL_PENDING_BEFORE_AFTER_REVIEW_PASS",
+  "date": "2026-11-05",
+  "testedURL": "http://127.0.0.1:8770/whole_robot_click_compare/index.html?version=r4&region=legother&view=iso&leggroup=stop#detail",
+  "direct_file_protocol_tested": false,
+  "checks": [
+    {
+      "label": "Candidate before/after review lives outside the old region detail",
+      "pass": true
+    },
+    {
+      "label": "This-round before/after appears above the historical CAD comparison",
+      "pass": true
+    },
+    {
+      "label": "Existing stop/detail deep link opens the pending whole-robot review",
+      "pass": true
+    },
+    {
+      "label": "Review labels identify before R4 and after candidate C1",
+      "pass": true
+    },
+    {
+      "label": "Review status explicitly awaits the user decision",
+      "pass": true
+    },
+    {
+      "label": "Default pair uses actual current and candidate full-robot CAD",
+      "pass": true
+    },
+    {
+      "label": "Displaying the candidate does not adopt it or change formal counts",
+      "pass": true
+    },
+    {
+      "label": "Changed carrier components have inline before/after images",
+      "pass": true
+    },
+    {
+      "label": "Changed m1 components have inline before/after images",
+      "pass": true
+    },
+    {
+      "label": "Changed m3 components have inline before/after images",
+      "pass": true
+    },
+    {
+      "label": "Part after-image enlarges in the same page",
+      "pass": true
+    },
+    {
+      "label": "Original CAD-to-R4 ledger remains separately labelled",
+      "pass": true
+    },
+    {
+      "label": "Candidate review remains available when another original region is selected",
+      "pass": true
+    },
+    {
+      "label": "Floating review shortcut returns to the whole before/after without a new page",
+      "pass": true
+    },
+    {
+      "label": "Prominent review remains usable on mobile",
+      "pass": true
+    },
+    {
+      "label": "Historical R2 does not display a current candidate or decision shortcut",
+      "pass": true
+    },
+    {
+      "label": "Returning to current R4 restores the pending review",
+      "pass": true
+    },
+    {
+      "label": "All before/after navigation opens zero additional tabs",
+      "pass": true
+    },
+    {
+      "label": "No JavaScript or resource errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "audit": {
+    "status": "SYNCED_CURRENT_MODEL",
+    "mode": "r4",
+    "currentRevision": "R4",
+    "displayedRevision": "R4",
+    "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "original": 219,
+    "current": 396,
+    "delta": 177,
+    "comparisonScope": "两版均不计电池包；R4电池固定件待设计，未纳入当前数量。原CAD已有机身支撑和紧固件照常计入。",
+    "excludedBattery": true,
+    "regionSum": 177,
+    "regions": [
+      {
+        "id": "m1",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "ab",
+        "before": 8,
+        "after": 44,
+        "delta": 36,
+        "partsSum": 36,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "m3",
+        "before": 0,
+        "after": 4,
+        "delta": 4,
+        "partsSum": 4,
+        "type": "new",
+        "includedInCount": true
+      },
+      {
+        "id": "pin",
+        "before": 12,
+        "after": 8,
+        "delta": -4,
+        "partsSum": -4,
+        "type": "reduction",
+        "includedInCount": true
+      },
+      {
+        "id": "legother",
+        "before": 159,
+        "after": 296,
+        "delta": 137,
+        "partsSum": 137,
+        "type": "model",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyadapter",
+        "before": 0,
+        "after": 0,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "bodyother",
+        "before": 39,
+        "after": 39,
+        "delta": 0,
+        "partsSum": 0,
+        "type": "resolved",
+        "includedInCount": true
+      },
+      {
+        "id": "battery",
+        "before": null,
+        "after": null,
+        "delta": null,
+        "partsSum": null,
+        "type": "pending",
+        "includedInCount": false
+      }
+    ],
+    "view": "iso",
+    "selected": "bodyother",
+    "all": false,
+    "hotspotCount": 16,
+    "availableViews": [
+      "iso",
+      "side"
+    ],
+    "hasAssetManifest": true,
+    "assetErrors": [],
+    "images": [
+      {
+        "src": "original_architecture_candidate/whole_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "original_architecture_candidate/whole_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/whole_original_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/whole_current_iso.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/bodyother_before.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "assets/r4/bodyother_after.png",
+        "loaded": true,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "original_architecture_candidate/m3_direct/after.png",
+        "loaded": true,
+        "width": 1500,
+        "height": 1200
+      }
+    ],
+    "anchors": {
+      "before": {
+        "m1": [
+          0.408836,
+          0.326045
+        ],
+        "ab": [
+          0.369656,
+          0.354581
+        ],
+        "m3": [
+          0.388757,
+          0.364074
+        ],
+        "pin": [
+          0.404342,
+          0.340408
+        ],
+        "legother": [
+          0.362014,
+          0.520593
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      },
+      "after": {
+        "m1": [
+          0.403054,
+          0.327906
+        ],
+        "ab": [
+          0.365104,
+          0.352319
+        ],
+        "m3": [
+          0.410825,
+          0.375044
+        ],
+        "pin": [
+          0.424612,
+          0.342349
+        ],
+        "legother": [
+          0.377103,
+          0.528092
+        ],
+        "bodyadapter": [
+          0.417851,
+          0.252434
+        ],
+        "bodyother": [
+          0.444578,
+          0.365905
+        ],
+        "battery": [
+          0.484847,
+          0.275851
+        ]
+      }
+    },
+    "legBreakdown": {
+      "visible": false,
+      "validated": true,
+      "selectedGroup": "stop",
+      "groupCount": 5,
+      "reconciliation": {
+        "original": 159,
+        "current": 296,
+        "delta": 137,
+        "unchangedStructure": 64,
+        "unchangedMotors": 12,
+        "originalOtherConnections": 83,
+        "currentOtherConnections": 76,
+        "currentInterfaceScrews": 144,
+        "otherConnectionDelta": -7,
+        "commonConnectionGroupCountEachSide": 52,
+        "changedConnectionGroupBefore": 31,
+        "changedConnectionGroupAfter": 24,
+        "formula": "144 + (76 − 83) = 137",
+        "fullFormula": "(64 + 12 + 76 + 144) − (64 + 12 + 83) = 137"
+      },
+      "groups": [
+        {
+          "id": "m1",
+          "name": "M1输出端",
+          "perLeg": 6,
+          "currentTotal": 24
+        },
+        {
+          "id": "m2",
+          "name": "M2输出端与壳体",
+          "perLeg": 10,
+          "currentTotal": 40
+        },
+        {
+          "id": "m3",
+          "name": "M3输出、壳体与后端",
+          "perLeg": 13,
+          "currentTotal": 52
+        },
+        {
+          "id": "plate",
+          "name": "内外大腿板连接",
+          "perLeg": 5,
+          "currentTotal": 20
+        },
+        {
+          "id": "stop",
+          "name": "q2止挡固定",
+          "perLeg": 2,
+          "currentTotal": 8
+        }
+      ],
+      "credits": [
+        {
+          "id": "old-m4x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "old-m3x8",
+          "before": 4,
+          "after": 0,
+          "delta": -4
+        },
+        {
+          "id": "root-m4x10",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "m2p5x6",
+          "before": 3,
+          "after": 4,
+          "delta": 1
+        },
+        {
+          "id": "m6-springwasher",
+          "before": 2,
+          "after": 4,
+          "delta": 2
+        },
+        {
+          "id": "m6-screws",
+          "before": 6,
+          "after": 4,
+          "delta": -2
+        },
+        {
+          "id": "m6-flatwasher",
+          "before": 2,
+          "after": 0,
+          "delta": -2
+        },
+        {
+          "id": "6-1-spacers",
+          "before": 9,
+          "after": 12,
+          "delta": 3
+        }
+      ]
+    },
+    "CADModified": false,
+    "simplification": {
+      "validated": true,
+      "visible": false,
+      "confirmedReduction": 0,
+      "phase1target": 44,
+      "phase1WholeTarget": 352,
+      "m3Alternatives": [
+        12,
+        16
+      ]
+    },
+    "optimization": {
+      "validated": true,
+      "visible": false,
+      "connectionTotal": 220,
+      "retainAndCheck": 192,
+      "m3ResearchPool": 28,
+      "canJustifyDeletingAll137": false,
+      "comparison": "original_current",
+      "candidateAvailable": true,
+      "formalCADModified": false,
+      "verifiedReduction": 0
+    },
+    "architecture": {
+      "validated": true,
+      "visible": true,
+      "placement": "canonical_overview",
+      "decision": "pending_user_review",
+      "part": "whole",
+      "variant": "pair",
+      "candidateCount": 352,
+      "reduction": 44,
+      "formalReduction": 0,
+      "motors": 12,
+      "assemblySHA": "f06a40e396d1112ee7f9d73c7d5a22469197058247b7f45cf9993c53b91593c0",
+      "manufacturingRelease": false,
+      "samePageOnly": true
+    }
+  },
+  "executionDateClient": "2026-11-05"
+}

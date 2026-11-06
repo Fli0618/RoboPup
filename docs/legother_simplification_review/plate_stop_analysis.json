@@ -1,0 +1,84 @@
+{
+  "status": "READ_ONLY_SIMPLIFICATION_SCREEN_NOT_A_CAD_CHANGE",
+  "date": "2026-11-04",
+  "currentRevision": "R4_ORIGINAL_FRAME_ADAPTIVE_BATTERY",
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "formal_CAD_modified": false,
+  "scope": "Current legother: five-screw thigh-plate joints, two-screw q2 PA stops, and the 76 other connection items across four legs.",
+  "current_scope_count": 104,
+  "current_scope_count_formula": "20 plate screws + 8 q2 stop screws + 76 other connection items",
+  "justified_immediate_reduction_count": 0,
+  "recommendation": "Keep these modeled connection populations in the first original-architecture simplification round. Do not turn source CAD omissions into physical fastener deletions. Seek primary reductions in added connection layers and duplicated motor mounting paths instead.",
+  "areas": [
+    {
+      "id": "plate",
+      "name": "7005 / 7007 five-hole connection",
+      "current_per_leg": 5,
+      "current_four_legs": 20,
+      "source_modeled_screws_four_legs": 4,
+      "source_existing_holes_per_leg": 5,
+      "justified_reduction_count": 0,
+      "reason": "Original plate pair already had the same five-hole layout. Current design preserves outer contours, relative placement and hole pattern, adapting through holes and tapped pilot sizes. Original only drew one screw per leg. Returning to one modeled screw per leg would remove sixteen modeled items, but would not prove the real connection needs only one screw.",
+      "evidence": [
+        "source:/pa35_single_leg_v4/plate_joint/README_PLATE_JOINT.md",
+        "source:/pa35_single_leg_v4/plate_joint_contact/CONTACT_AREA_INTERPRETATION.md",
+        "source:/whole_robot_click_compare/legother_audit/legother-audit.json"
+      ],
+      "limits": "Five positive support contacts and nominal nonpenetration do not establish preload, plate-joint strength or fatigue. A lower fastener count would require a redesigned load path and verification; no numerical smaller approved count is available."
+    },
+    {
+      "id": "stop",
+      "name": "7004 replaceable PA q2 stop",
+      "current_screws_per_leg": 2,
+      "current_screws_four_legs": 8,
+      "current_separate_PA_parts_four_legs": 4,
+      "justified_reduction_count": 0,
+      "reason": "Original source leaf combined the 6061 7003 carrier and separate PA 7004 stop in its representation. Current two-hole PA fixing preserves the separate replaceable-material concept. Merging PA stop into a metal carrier would change the material function and replacement method, rather than merely restore the source architecture.",
+      "evidence": [
+        "source:/pa35_single_leg_v3/stop_work/README_STOP_V3.md",
+        "source:/pa35_single_leg_v3/stop_work/stop_v3_manifest.json",
+        "source:/pa35_single_leg_v3/prepare_integration.py"
+      ],
+      "critical_distinction": "7004 q2 PA stop and its two M3 screws are different from the 212 / 7009 output-side stop studied in later R7/R8 local stress analyses. Those later coefficients do not validate a single-screw 7004 design.",
+      "conditional_exploration": {
+        "concept": "Retain the PA stop and add positive antirotation/location geometry, then explore two screws to one.",
+        "arithmetic_maximum_four_leg_reduction": 4,
+        "included_in_recommended_reduction": false,
+        "not_yet_proved": ["bidirectional stop load path", "PA creep and contact stress", "retention and loosening", "tool access and full extraction", "manufacturing tolerance"]
+      }
+    },
+    {
+      "id": "other76",
+      "name": "Other connection items",
+      "current_per_leg": 19,
+      "current_four_legs": 76,
+      "justified_reduction_count": 0,
+      "reason": "This pool includes working bushings, pin washers, locating spacers and foot bolt stacks, rather than only duplicate fasteners. Examples are source204 graphite-bronze bushing, source194/205 pin washers and source213/220/224 spacers. Their count cannot be removed without checking each joint's bearing, spacing and axial-retention function.",
+      "foot_stack": {
+        "current_per_leg": 4,
+        "current_four_legs": 16,
+        "source_per_leg": 4,
+        "source_ids_RR": [195, 196, 197, 201],
+        "current_components_RR": ["RR_foot_M2x22_nominal", "RR_foot_M2_nut_AF4_T1p6_nominal", "RR_foot_M2_lower_washer_D4p5_d2p2_t0p3", "RR_foot_M2_upper_washer_D4p5_d2p2_t0p3"],
+        "model_delta_due_to_standardization": 0,
+        "reason": "Both source and current use one screw, one nut and two washers. Standardizing scaled reference geometry has not added pieces here.",
+        "conditional_exploration": {
+          "concept": "Integrate the two bearing-washer functions into a compatible flange-headed screw and flange nut, if purchasable or manufacturable parts satisfy the existing space and load path.",
+          "arithmetic_maximum_four_leg_reduction": 8,
+          "included_in_recommended_reduction": false,
+          "not_yet_proved": ["actual available part envelopes", "bearing area and local pressure", "head and nut tool clearance", "preload and locking", "complete removal route"]
+        }
+      },
+      "evidence": [
+        "source:/pa35_single_leg_v6/reference_hardware_closure/REFERENCE_HARDWARE_CLOSURE.md",
+        "source:/pa35_single_leg_v6/reference_hardware_closure/foot_M2_local_candidate/BOM_AND_REVIEW.md",
+        "source:/whole_robot_click_compare/legother_audit/legother-audit.json"
+      ]
+    }
+  ],
+  "counting_cautions": [
+    "Original four-leg source populations are not identical: legother RR43, RL40, FR38, FL38 versus current74 each. Multiplying one original leg by four would erase source modeling asymmetry.",
+    "The 83-to-76 residual difference is a category-level net count, not seven physically redundant screws.",
+    "Conditional arithmetic examples are design-space limits only. They are not an achieved or validated reduction and are not part of the first minimal-change estimate."
+  ]
+}

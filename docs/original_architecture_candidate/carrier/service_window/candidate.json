@@ -1,0 +1,338 @@
+{
+  "id": "RR_SERVICE_WINDOW_V2",
+  "status": "RR_LOCAL_WINDOW_INSERTION_WITHDRAWAL_AND_TOOL_GEOMETRY_SCREEN_PASS_CUSTOM_TOOL_NOT_QUALIFIED",
+  "candidate_only": true,
+  "formal_R4_modified": false,
+  "manufacturing_release": false,
+  "load_capacity_release": false,
+  "complete_assembly_disassembly_release": false,
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/after.step": "18ffbeb4d4f261b62ceca1bdc237ef9370e445451e636700c1a95436f0510c04",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd"
+  },
+  "files": {
+    "part": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step",
+    "removed_material": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_service_material_removed.step"
+  },
+  "sha256": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+  "geometry": {
+    "valid": true,
+    "geometry": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 148,
+      "edges": 840,
+      "bounds_xyz_mm": [
+        -171.46,
+        -32.674590336900856,
+        45.57,
+        -104.1729985128,
+        31.0,
+        61.97
+      ],
+      "extents_xyz_mm": [
+        67.2870014872,
+        63.674590336900856,
+        16.4
+      ]
+    },
+    "volume_mm3": 16075.305295631084,
+    "area_mm2": 12183.80537891259
+  },
+  "source_geometry": {
+    "valid": true,
+    "geometry": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 100,
+      "edges": 370,
+      "bounds_xyz_mm": [
+        -171.46,
+        -32.674590336900856,
+        45.57,
+        -104.1729985128,
+        31.0,
+        61.97
+      ],
+      "extents_xyz_mm": [
+        67.2870014872,
+        63.674590336900856,
+        16.4
+      ]
+    },
+    "volume_mm3": 30597.118018322213,
+    "area_mm2": 11820.889540622971
+  },
+  "removed_material_mm3": 14510.182491167821,
+  "windows": {
+    "middle_cavity": {
+      "R_mm": 26,
+      "Z_mm": [
+        49.87,
+        56.57
+      ]
+    },
+    "M2_head_service_ports": {
+      "radius_mm": 3.8,
+      "Z_mm": [
+        49.87,
+        59.58
+      ],
+      "M3_motor_must_be_removed_for_axial_access": true
+    },
+    "M3_radial_windows": {
+      "radial_interval_mm": [
+        16.1,
+        52
+      ],
+      "tangential_width_mm": 18,
+      "Z_mm": [
+        47.1,
+        56.57
+      ]
+    }
+  },
+  "coordinates": {
+    "M2_output_M4x8_1": [
+      -148.9452813742,
+      -8.485281374239
+    ],
+    "M2_output_M4x8_2": [
+      -152.0511099154,
+      3.105828541229
+    ],
+    "M2_output_M4x8_3": [
+      -143.5658285412,
+      11.591109915465
+    ],
+    "M2_output_M4x8_4": [
+      -131.9747186257,
+      8.485281374239
+    ],
+    "M2_output_M4x8_5": [
+      -128.8688900845,
+      -3.105828541229
+    ],
+    "M2_output_M4x8_6": [
+      -137.3541714587,
+      -11.59110991546
+    ],
+    "M3_rear_M3x6_1": [
+      -125.0862664315,
+      11.584939195681
+    ],
+    "M3_rear_M3x6_2": [
+      -152.0449391956,
+      15.373733568411001
+    ],
+    "M3_rear_M3x6_3": [
+      -128.8750608043,
+      -15.373733568399999
+    ],
+    "M3_rear_M3x6_4": [
+      -155.8337335684,
+      -11.58493919567
+    ]
+  },
+  "protected_bearing_envelopes": [
+    {
+      "sid": "M2_output_M4x8_1",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_2",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_3",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_4",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_5",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M2_output_M4x8_6",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M3_rear_M3x6_1",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M3_rear_M3x6_2",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M3_rear_M3x6_3",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    },
+    {
+      "sid": "M3_rear_M3x6_4",
+      "protected_bearing_envelope_removed_mm3": 0.0
+    }
+  ],
+  "four_external_unbroken_bridge_witnesses": [
+    {
+      "center_angle_deg": 82,
+      "radial_interval_mm": [
+        27,
+        30
+      ],
+      "tangential_width_mm": 2,
+      "Z_mm": [
+        49.57,
+        59.57
+      ],
+      "witness_volume_mm3": 60.0,
+      "missing_witness_mm3": 0.0
+    },
+    {
+      "center_angle_deg": 172,
+      "radial_interval_mm": [
+        27,
+        30
+      ],
+      "tangential_width_mm": 2,
+      "Z_mm": [
+        49.57,
+        59.57
+      ],
+      "witness_volume_mm3": 60.0,
+      "missing_witness_mm3": 0.0
+    },
+    {
+      "center_angle_deg": 262,
+      "radial_interval_mm": [
+        27,
+        30
+      ],
+      "tangential_width_mm": 2,
+      "Z_mm": [
+        49.57,
+        59.57
+      ],
+      "witness_volume_mm3": 60.0,
+      "missing_witness_mm3": 0.0
+    },
+    {
+      "center_angle_deg": 352,
+      "radial_interval_mm": [
+        27,
+        30
+      ],
+      "tangential_width_mm": 2,
+      "Z_mm": [
+        49.57,
+        59.57
+      ],
+      "witness_volume_mm3": 60.0,
+      "missing_witness_mm3": 0.0
+    }
+  ],
+  "interface_planes_mm": {
+    "M2_mating": 45.57,
+    "M2_head_seat": 49.77,
+    "M3_head_seat": 56.67,
+    "M3_mating": 59.57
+  },
+  "limits": [
+    "两端原孔轴、座面Z保持；新增M2服务口会改变M3后装配面中部的有效接触面积，未做承载校核。",
+    "四个2x3x10mm外缘跨层实体见证块仅证明有实体连接，不是最小壁厚、刚度或疲劳验证。",
+    "必须后续证明实际螺钉和短L工具进入、转动、退出，单实体不等于可装配。"
+  ],
+  "RR_path_screen": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/path_screen.json",
+  "daily_quick_release_achieved": false,
+  "tool_qualification": {
+    "type": "explicit custom sharp-corner short-right-angle CAD envelope",
+    "nominal_socket_AF_mm": 2.5,
+    "modeled_hex_tip_AF_mm": 2.48,
+    "nominal_flat_clearance_each_side_mm": 0.01,
+    "actual_tip_engagement_mm": 1.18,
+    "short_leg_handle_axis_to_tip_mm": 2.95,
+    "straight_tip_Z_mm_at_installed": [
+      51.9,
+      54.85
+    ],
+    "round_handle_radius_mm": 1.43,
+    "round_handle_diameter_mm": 2.86,
+    "handle_center_Z_mm_at_installed": 51.9,
+    "handle_length_mm": 42,
+    "joint_elbow_fillet_or_bend_radius_mm": 0,
+    "bend_manufacturing_verified": false,
+    "purchased": false,
+    "torque_stiffness_hardness_verified": false,
+    "socket_insertion_removal": {
+      "withdraw_to_disengage_socket_mm": 1.3,
+      "radial_exit_mm": 50,
+      "engaged_swing_deg": 60,
+      "socket_and_tool_co_rotate_with_screw": true,
+      "target_screw_not_excluded_from_exit_checks": true
+    },
+    "clocking": "Each screw has an explicit tool envelope, handle clocked from radial−30deg to radial+30deg while exact hex rotates0..60deg. This is not a sourced universal tool specification."
+  },
+  "four_radial_rib_keepers": {
+    "angles_deg": [
+      82,
+      172,
+      262,
+      352
+    ],
+    "radial_interval_mm": [
+      15,
+      31
+    ],
+    "width_mm": 3,
+    "Z_mm": [
+      49.87,
+      56.57
+    ]
+  },
+  "image_files": {
+    "before": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/before.png",
+    "after": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/after.png",
+    "tool": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/tool_local_route.png"
+  },
+  "initial_loading_closure": {
+    "four_actual_corners": true,
+    "M2_absent_full_M3_initial_insertion_sweep_mm3": 0,
+    "four_preloaded_M3_screws_at_withdraw_mm": 3.2,
+    "M2_screw_full_sweep_and_driver_vs_preloaded4_mm3": 0,
+    "RR_motor_vs_preloaded4_check": {
+      "preloaded_screw_maxZ_mm": 59.47,
+      "actual_M3_motor_minZ_mm": 59.468046198939994,
+      "axial_interval_requiring_distance_bound_mm": 0.001955801060004423,
+      "actual_source_M3_to_preloaded_screws_distance_mm": 0.0999999999965695,
+      "initial_clearance_greater_than_interval": true,
+      "remaining_positiveZ_motor_positions_Z_halfspace_clear": true,
+      "M2_motor_approach_clear_of_preloaded_M3_screws_by_Z": true,
+      "preload_screw_minZ_mm": 50.47,
+      "actual_M2_maxZ_mm": 48.320000100000115,
+      "note": "Only motor vs4preloaded screws, not whole surrounding leg motor removal/installation route."
+    },
+    "four_local_load_ports_radius_mm": 3,
+    "local_load_port_Z_mm": [
+      45.47,
+      56.57
+    ],
+    "new_removed_material_per_leg_mm3": 11.630231527847066,
+    "M2_PCD12_bearing_material_removed_mm3": 0,
+    "retention_fixture_designed": false,
+    "source": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/initial_loading_relief_summary.json"
+  },
+  "final_CAD_frozen": true
+}

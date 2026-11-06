@@ -1,0 +1,143 @@
+{
+  "status": "ROBO_PUP_STATIC_SITE_BROWSER_PASS",
+  "checks": [
+    {
+      "name": "Root opens current MAIN only",
+      "pass": true
+    },
+    {
+      "name": "Four clear navigation entries",
+      "pass": true
+    },
+    {
+      "name": "One content panel at a time",
+      "pass": true
+    },
+    {
+      "name": "Real current robot CAD image loads",
+      "pass": true
+    },
+    {
+      "name": "Current count356 preserved",
+      "pass": true
+    },
+    {
+      "name": "Historical C1 count absent from current summary",
+      "pass": true
+    },
+    {
+      "name": "Home decision opens parts panel",
+      "pass": true
+    },
+    {
+      "name": "Adopted D1 part picture shown",
+      "pass": true
+    },
+    {
+      "name": "Region selection m1",
+      "pass": true
+    },
+    {
+      "name": "Region selection m3",
+      "pass": true
+    },
+    {
+      "name": "Region selection pin",
+      "pass": true
+    },
+    {
+      "name": "Region selection bodyadapter",
+      "pass": true
+    },
+    {
+      "name": "Region selection bodyother",
+      "pass": true
+    },
+    {
+      "name": "Region selection battery",
+      "pass": true
+    },
+    {
+      "name": "Region selection legother",
+      "pass": true
+    },
+    {
+      "name": "Leg group m1",
+      "pass": true
+    },
+    {
+      "name": "Leg group m2",
+      "pass": true
+    },
+    {
+      "name": "Leg group m3",
+      "pass": true
+    },
+    {
+      "name": "Leg group plate",
+      "pass": true
+    },
+    {
+      "name": "Leg group stop",
+      "pass": true
+    },
+    {
+      "name": "Existing D1 deep link retained",
+      "pass": true
+    },
+    {
+      "name": "CAD zoom dialog works",
+      "pass": true
+    },
+    {
+      "name": "Actual simulation panel shown",
+      "pass": true
+    },
+    {
+      "name": "Continuous walking scope remains explicit",
+      "pass": true
+    },
+    {
+      "name": "Actual IsaacLab movie plays inline",
+      "pass": true
+    },
+    {
+      "name": "Historical comparison accessible in archive",
+      "pass": true
+    },
+    {
+      "name": "Historical R2 routes to actual comparison",
+      "pass": true
+    },
+    {
+      "name": "Historical switch never changes current summary",
+      "pass": true
+    },
+    {
+      "name": "Main downloads point to versioned GitHub release",
+      "pass": true
+    },
+    {
+      "name": "Home mobile no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "Mobile width parts",
+      "pass": true
+    },
+    {
+      "name": "Mobile width sim",
+      "pass": true
+    },
+    {
+      "name": "Mobile width history",
+      "pass": true
+    },
+    {
+      "name": "No JavaScript errors or HTTP failures",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "bad": []
+}

@@ -1,0 +1,147 @@
+{
+  "status": "READ_ONLY_ROOT_SECTION_GEOMETRY_REVIEW_NOT_LOAD_VALIDATION",
+  "units": {
+    "length": "mm",
+    "area": "mm2",
+    "volume": "mm3"
+  },
+  "candidate_classification": "几何连接成立的结构概念候选",
+  "CAD_modified": false,
+  "formal_R4_modified": false,
+  "all_tracked_CAD_and_manifest_sha256_unchanged": true,
+  "input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/whole_robot_click_compare/legother_optimization_candidates/m3/RR_B_7007_integrated_candidate.step": "880554332815dead0c3cf57c70223368f6872be3cd28e7afb0b42017984f4ba5",
+    "source:/whole_robot_click_compare/legother_optimization_candidates/m3/bridge_added_candidate.step": "f4e30afdb0b6ca21896f42701353b56c4f38187848f4466169756cb8eccb22cc",
+    "source:/whole_robot_click_compare/legother_optimization_candidates/m3/7007_opening_55p8_candidate.step": "37418a0705409458268c15ba973c6a2215f5f2ebc3bfc5849cbe4d0493f56982",
+    "source:/whole_robot_click_compare/legother_optimization_candidates/m3/7007_front_ring_removed.step": "4c3f42d3d20c942cdb488f7e4d694b0d7f8a3a810e5ff3138fc0c9c26e3681c8",
+    "source:/whole_robot_click_compare/legother_optimization_candidates/m3/M3_local_candidate_assembly.step": "bb8556286450ee05f37ab5b23397b479f037f8cdfb89c8b7d28cdecacab7d2be"
+  },
+  "measurement_method": {
+    "CAD_kernel": "OpenCascade via OCP",
+    "method": "Actual BRep Boolean common intersections with 0.01 mm horizontal slabs restricted to the exact bridge XY box; compute absolute volume using BRepGProp.VolumeProperties and divide by slab height. The overlap volume divided by the 0.5 mm overlap depth gives the nominal projected footprint. This is a geometric footprint, not a mechanically validated effective load-bearing area.",
+    "bridge_XY_box_mm": [
+      -165.46,
+      -25,
+      -159.46,
+      -19
+    ],
+    "B_support_Z_mm": [
+      53.57,
+      59.57
+    ],
+    "bridge_start_Z_mm": 59.07,
+    "original_7007_lowest_Z_mm": 95.97999989852259
+  },
+  "measurements": [
+    {
+      "slab_Z_mm": [
+        53.57,
+        53.58
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.16364425958654596,
+      "B_slab_volume_divided_by_height_mm2": 16.364425958654596,
+      "bridge_slab_volume_divided_by_height_mm2": 0.0,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 0.0
+    },
+    {
+      "slab_Z_mm": [
+        57,
+        57.01
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.16364425958654627,
+      "B_slab_volume_divided_by_height_mm2": 16.36442595865463,
+      "bridge_slab_volume_divided_by_height_mm2": 0.0,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 0.0
+    },
+    {
+      "slab_Z_mm": [
+        59.07,
+        59.08
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.16364425958654627,
+      "B_slab_volume_divided_by_height_mm2": 16.36442595865463,
+      "bridge_slab_volume_divided_by_height_mm2": 35.99999999999284,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 16.364425958654614
+    },
+    {
+      "slab_Z_mm": [
+        59.56,
+        59.57
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.16364425958654533,
+      "B_slab_volume_divided_by_height_mm2": 16.364425958654532,
+      "bridge_slab_volume_divided_by_height_mm2": 35.99999999999284,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 16.36442595865465
+    },
+    {
+      "slab_Z_mm": [
+        59.57,
+        59.58
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.0,
+      "B_slab_volume_divided_by_height_mm2": 0.0,
+      "bridge_slab_volume_divided_by_height_mm2": 35.99999999999284,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 0.0
+    },
+    {
+      "slab_Z_mm": [
+        60,
+        60.01
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.0,
+      "B_slab_volume_divided_by_height_mm2": 0.0,
+      "bridge_slab_volume_divided_by_height_mm2": 35.99999999999284,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 0.0
+    },
+    {
+      "slab_Z_mm": [
+        95.95,
+        95.96000000000001
+      ],
+      "slab_height_mm": 0.01,
+      "B_material_volume_in_bridge_XY_box_mm3": 0.0,
+      "B_slab_volume_divided_by_height_mm2": 0.0,
+      "bridge_slab_volume_divided_by_height_mm2": 36.00000000001842,
+      "B_bridge_overlap_slab_volume_divided_by_height_mm2": 0.0
+    }
+  ],
+  "derived_geometry": {
+    "B_bridge_overlap_depth_mm": 0.5,
+    "B_bridge_overlap_volume_mm3": 8.182212979328959,
+    "nominal_projected_overlap_footprint_mm2": 16.364425958657918,
+    "bridge_root_rectangular_section_mm": [
+      6,
+      6
+    ],
+    "bridge_root_rectangular_section_area_mm2": 36,
+    "projected_footprint_fraction_of_bridge_section": 0.4545673877404977,
+    "B_support_thickness_mm": 6,
+    "B_support_material_volume_in_bridge_XY_column_mm3": 98.18655575194654,
+    "B_support_volume_divided_by_6mm_mm2": 16.36442595865776,
+    "approximate_free_bridge_span_mm": 36.40999989852259
+  },
+  "engineering_judgment": {
+    "half_mm_interpretation": "0.5 mm is the Boolean penetration depth into the existing B top surface. It does not by itself mean the final one-piece part has an isolated 0.5 mm thick structural neck. The B material at the same projected footprint continues through its 6 mm thickness.",
+    "root_status": "The 16.3644 mm2 geometric bridge-foot projection is only about 45.46% of the 36 mm2 bridge section and is spatially confined at the B outer edge. Together with the approximately 36.41 mm bridge span and absent fillets/ribs, this is insufficient evidence of strength or stiffness. Do not describe it as a demonstrated load-capable optimization.",
+    "recommended_next_design_work": "Expand the bridge-foot projection into B, improve fillets or ribs and the transition into 7007, then verify loads, stiffness and fatigue. Merely increasing Z penetration depth does not automatically enlarge the current projected footprint or resolve the stress concentration. Any geometry enlargement needs a fresh motor, 7017 stop-column, fastener, motion and assembly clearance check.",
+    "changed_load_path": "Removing the three front-shell fasteners moves the shell-to-thigh load path through the four retained rear fasteners, B and the new bridge. Rear fastener capacity, bridge bending/torsion and motor alignment have not been validated."
+  },
+  "remaining_limits": [
+    "No forces, torques, duty cycle, impact load, material allowables, boundary conditions or fastener preload were assigned.",
+    "No FEA, strength, stiffness, fatigue, tolerance, stress concentration, manufacturability or complete motion audit was performed.",
+    "The projected footprint is a geometric descriptor and must not be used as a verified allowable load area.",
+    "The clear diameter-46.3 cylindrical column only addresses that envelope against this integrated structure; it does not validate the real motor rear projections, rear screw disengagement, tools, wiring or full assembly/disassembly sequence.",
+    "Only the right-rear representative candidate exists. No formal R4 parts were changed and the confirmed formal net reduction remains zero."
+  ],
+  "manufacturing_release": false,
+  "load_capability_proven": false
+}

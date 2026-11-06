@@ -1,0 +1,362 @@
+{
+  "status": "THREE_VERSION_DELIVERY_INTEGRITY_PASS",
+  "date": "2026-11-05",
+  "checks": [
+    {
+      "label": "All three version counts bind to the independent component audit",
+      "pass": true
+    },
+    {
+      "label": "All independent component classification checks pass",
+      "pass": true
+    },
+    {
+      "label": "All regions including head close the three totals",
+      "pass": true
+    },
+    {
+      "label": "All three deltas reconcile",
+      "pass": true
+    },
+    {
+      "label": "Current C1 is explicitly not the final near-baseline design",
+      "pass": true
+    },
+    {
+      "label": "Original-architecture and near-baseline objective is recorded",
+      "pass": true
+    },
+    {
+      "label": "Current formal and candidate CAD unchanged: CURRENT_MODEL.json",
+      "pass": true
+    },
+    {
+      "label": "Current formal and candidate CAD unchanged: PA35_CURRENT_REVIEW.step",
+      "pass": true
+    },
+    {
+      "label": "Current formal and candidate CAD unchanged: PA35_C1_ORIGINAL_CONNECTION_QUADRUPED_CANDIDATE.step",
+      "pass": true
+    },
+    {
+      "label": "All three actual CAD images use the exact same camera and scale",
+      "pass": true
+    },
+    {
+      "label": "Original CAD sources remain unchanged during rendering",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: leg_connection_compare.json",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: 00_full_assembly_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: source_rep_324312_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: source_rep_325684_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: source_rep_327086_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_328462_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_329840_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_331233_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_332599_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_335352_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_336717_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_338044_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_339426_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_340773_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_342155_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_343505_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_344894_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_346263_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_347628_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_349010_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_353147_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_355893_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_360040_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_48079_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: source_rep_49459_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_50826_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_52218_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_53593_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_54967_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_56356_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_57734_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_59123_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: source_rep_591304_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_600829_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_602223_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_60491_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_604953_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_606337_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_607723_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_609107_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_610492_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_611878_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_613268_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_614663_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_616020_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_618794_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_620149_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_621552_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_622916_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_625652_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_627033_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_629814_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_631186_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_632561_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_636656_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_64593_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_65992_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_67342_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_68715_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_70101_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_71477_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_72875_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_74236_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_75600_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_76973_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_79750_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Original CAD source unchanged: rep_83885_60pct.step",
+      "pass": true
+    },
+    {
+      "label": "Actual image hash: original_same_camera.png",
+      "pass": true
+    },
+    {
+      "label": "Actual CAD image dimensions: original_same_camera.png",
+      "pass": true
+    },
+    {
+      "label": "Actual image hash: whole_before.png",
+      "pass": true
+    },
+    {
+      "label": "Actual CAD image dimensions: whole_before.png",
+      "pass": true
+    },
+    {
+      "label": "Actual image hash: whole_after.png",
+      "pass": true
+    },
+    {
+      "label": "Actual CAD image dimensions: whole_after.png",
+      "pass": true
+    },
+    {
+      "label": "Original CAD leaf-node and physical-piece levels remain distinct",
+      "pass": true
+    },
+    {
+      "label": "Three-way comparison does not adopt or edit any CAD",
+      "pass": true
+    },
+    {
+      "label": "Optimization is not achieved by omitting necessary hardware from the model",
+      "pass": true
+    }
+  ],
+  "totals": {
+    "baseline": 219,
+    "r4": 396,
+    "c1": 352
+  },
+  "formalCADModified": false,
+  "candidateAdopted": false,
+  "currentCandidateMeetsFinalObjective": false
+}

@@ -1,0 +1,62 @@
+{
+  "status": "ORIGINAL_M2_CONNECTION_EXPLANATION_READY",
+  "formalCADModified": false,
+  "sourceImage": "source:/whole_robot_click_compare/legother_audit/assets/m2_before.png",
+  "sourceImageSHA": "ee411384a29aa36102ce9aaba185efce82dd3112285d401e55e12aae95125715",
+  "auditFile": "source:/whole_robot_click_compare/original_architecture_candidate/mount_route/mount_route_review.json",
+  "auditSHA": "961ba17e7838d3a7e3d078fc05812fbda9a96b5d39fde480d4f1acb407d213df",
+  "diagram": "source:/whole_robot_click_compare/original_m2_connection/original-m2-connection.svg",
+  "diagramSHA": "7b5dcd7fa1658d17f5d8983843953999ad5acb54002e3d025f4116cd735023d5",
+  "sourceIDs": [
+    6,
+    9,
+    181
+  ],
+  "renderCamera": {
+    "focal": [
+      -138.66337331504516,
+      -2.772178005549455,
+      4.064406224365061
+    ],
+    "position": [
+      -339.7451782743546,
+      97.76872447410524,
+      255.4166624235019
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "parallel_scale": 61.94700534692064
+  },
+  "statorAnchorWorld": [
+    -121.58024894235453,
+    -18.879751057683382,
+    41.88000000000295
+  ],
+  "outputAnchorWorld": [
+    -140.46,
+    0,
+    45.57
+  ],
+  "anchorsPixels": [
+    [
+      1158.0114286600794,
+      803.3723129983199
+    ],
+    [
+      1037.5457118509742,
+      671.2037945694559
+    ]
+  ],
+  "markersAreGeometryReferencesNotScrews": true,
+  "modeledExternalScrewsOnM2StatorAxes": 0,
+  "originalM2StatorHolePositions": [
+    4,
+    4
+  ],
+  "outputPhaseValidated": false,
+  "explicitMimeDataBundle": "source:/whole_robot_click_compare/original_m2_connection/diagram-data.js",
+  "explicitMimeDataBundleSHA": "55fc5f3ec562d6eb176f237017776e5650bf84401aaa12e2e1c4b2958b3c083c"
+}

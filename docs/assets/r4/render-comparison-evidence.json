@@ -1,0 +1,422 @@
+{
+  "status": "CANONICAL_R4_COMPARISON_ACTUAL_CAD_ASSETS_READY",
+  "formal_CAD_modified": false,
+  "R2_historical_asset_hashes_unchanged": true,
+  "R2_historical_asset_hashes": {
+    "source:/whole_robot_click_compare/assets/whole_original_iso.png": "c99ba06085ffda9dfa5aaac1d38f884eebfdc8e4aa3f0f079a5235485deaea47",
+    "source:/whole_robot_click_compare/assets/whole_current_iso.png": "bdd2f7d255cfeec7949757168d3aaa2c868e76a265d50cfaf5f6662bf02e4859",
+    "source:/whole_robot_click_compare/assets/compare-assets.js": "313e23e87c5752ddbfae2bb7ae27d89632da9b392980c57766e128dedb48b8ca",
+    "source:/whole_robot_click_compare/assets/whole_original_side.png": "cdc85450624426a8dad1a5b7c25aaaee60d5c554ed51876f9a3f52ad98e198a9",
+    "source:/whole_robot_click_compare/assets/whole_current_side.png": "dd61e272e26e6493faffbc354b660d7e8776b304a717fe9b38b3d2336a207785",
+    "source:/whole_robot_click_compare/assets/m1_before.png": "bb1706c7f0257996c880f98ee3906b39b4dea252a485817d5e03b2f0bc1bd120",
+    "source:/whole_robot_click_compare/assets/m1_after.png": "d63975f3f81f1424a397b267053636f9401caabdd90b0105108256fe8484c00a",
+    "source:/whole_robot_click_compare/assets/ab_before.png": "ddf34e0ef419def242a26e4fd538769cc68a265ef72d505dac217afdb6e61d19",
+    "source:/whole_robot_click_compare/assets/ab_after.png": "59573128fe6e319b23f0c17b93ffe356b740eac181b22ce19d70e9a7acfe73e5",
+    "source:/whole_robot_click_compare/assets/m3_before.png": "83586125eb3740005e3110bfcaef2e8fb1e91166744474fa3883583b44cfe622",
+    "source:/whole_robot_click_compare/assets/m3_after.png": "9d84c4045fd3d19e5b0630a84c22b2cdad64fe12cc117cd403e64f671febb1d8",
+    "source:/whole_robot_click_compare/assets/pin_before.png": "b0da4e89f852a92e33ad7e702771d36a5cd87ff0aa70cb41dd60ddc37bba8c06",
+    "source:/whole_robot_click_compare/assets/pin_after.png": "e887b328a2b58bfaade2ec1ecaee95b8d5f468a010d1d5259aa12577b45a42ff",
+    "source:/whole_robot_click_compare/assets/legother_before.png": "1f4dd1d54d1eb97d625d1e5f2fc8d651b87aaa09dee5886041934da9af15353d",
+    "source:/whole_robot_click_compare/assets/legother_after.png": "cbbbc534ad7e77b82b783db846b196c31244042b43031f47f74f871f00bfeafb",
+    "source:/whole_robot_click_compare/assets/bodyadapter_before.png": "5cb284bd3d0ea506ebefd0e1327eb0f310f550169295810d5d53c0b5e589d538",
+    "source:/whole_robot_click_compare/assets/bodyadapter_after.png": "c730a0d7ed4537c4fdbf5517e6b8a85bf1cb7308b97c2b6c2071a8cf389ce21e",
+    "source:/whole_robot_click_compare/assets/bodyother_before.png": "48eb6d2484ca7e126f4a459d1444d3b05a3d634489bdc9552b388fb1824e8315",
+    "source:/whole_robot_click_compare/assets/bodyother_after.png": "996d864b79710421625f5be97487b1567110570e4c63003744b3e3787fd93f51",
+    "source:/whole_robot_click_compare/assets/battery_before.png": "2354f9d308aadb69e2c80deb1e3755c7f10f067c93fff5a38064f7809a421b9b",
+    "source:/whole_robot_click_compare/assets/battery_after.png": "76e5d10a4700e5b6aef7a1577c6f7b7b01f50302588f73cdea9497b9cc47e042",
+    "source:/whole_robot_click_compare/assets/render-comparison-evidence.json": "c300d23c35b30413c9f7c03c0f024d9ee5701658b9efdbef38e5bc75c0b0b003",
+    "source:/whole_robot_click_compare/assets/compare-assets.json": "7cdc477bce934aa04698c44e93465562be2b37c520a2deb0fc3a2b56ae76d367",
+    "source:/whole_robot_click_compare/assets/image-validation.json": "5e367067cb6df1a771c9a52d3609cf1e8498b1775a0ccb93a74f95aa16fc3b7b"
+  },
+  "official_R4_source_hashes": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "e0f44462561f14070ef08c9c6c8d69f21d91593ba49cacb3ea9cd8e9404faa85",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49"
+  },
+  "original_battery_and_wiring_layout_excluded_for_219_scope": true,
+  "current_R4_mechanical_count_excluding_battery": 396,
+  "whole_camera_exactly_matches_historical_R2_comparison": true,
+  "selection_ghost_only_in_battery_detail_and_NOT_BOM": true,
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_original_iso.png",
+      "sha256": "bdc7efdb2e37fd509eee3b912672474e51d6a2125bce834ea85a0c774421c184",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 246.51251076623436
+      },
+      "source_instance_count": 203,
+      "battery_in_scene": false,
+      "selection_ghost_in_scene": false,
+      "CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_current_iso.png",
+      "sha256": "453c2d411b23c6573bf64c72827d0a1a0ec1481efe700e8f8c014985fe6f3b7e",
+      "camera": {
+        "focal": [
+          11.535278788104367,
+          -117.65507896221116,
+          1.5264716803361598
+        ],
+        "position": [
+          -773.1828877078243,
+          274.7040042857531,
+          982.424179800247
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 246.51251076623436
+      },
+      "source_instance_count": 384,
+      "battery_in_scene": false,
+      "selection_ghost_in_scene": false,
+      "CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_original_side.png",
+      "sha256": "cbfee6142a2021a4ad0ce17f30f5bc9d7676da9f01bcbb59f318030777797edf",
+      "camera": {
+        "focal": [
+          22.123205436892988,
+          -116.04655929101827,
+          0.5580017061822206
+        ],
+        "position": [
+          22.123205436892988,
+          40.750025178745354,
+          1307.196205620879
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 213.83780389000302
+      },
+      "source_instance_count": 203,
+      "battery_in_scene": false,
+      "selection_ghost_in_scene": false,
+      "CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_current_side.png",
+      "sha256": "80b7cee5c7004a8237e123d26d016142c115565af8070a88a0c0b02b114aeca7",
+      "camera": {
+        "focal": [
+          22.123205436892988,
+          -116.04655929101827,
+          0.5580017061822206
+        ],
+        "position": [
+          22.123205436892988,
+          40.750025178745354,
+          1307.196205620879
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 213.83780389000302
+      },
+      "source_instance_count": 384,
+      "battery_in_scene": false,
+      "selection_ghost_in_scene": false,
+      "CAD_modified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyadapter_before.png",
+      "sha256": "f183858b6548854208e096cc1777a9ad38388f9d408b9cee4e58b1d67543be4c",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": false,
+      "selection_reference_world_bounds_mm": null
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyadapter_after.png",
+      "sha256": "11e42e4ceca1266de6703f96fbc15d8c85d60ffb550348062158fc9f4f6b293c",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": false,
+      "selection_reference_world_bounds_mm": null
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyother_before.png",
+      "sha256": "251b09a511fd40be8ce121023fa960b7538eb432aebb1aa0c5800af8c8dceddc",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": false,
+      "selection_reference_world_bounds_mm": null
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyother_after.png",
+      "sha256": "ec327aaed7e1d228ada405ab0f82dc3420c925f89b8ee6f6759f6ca0ec355e2d",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": false,
+      "selection_reference_world_bounds_mm": null
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/battery_before.png",
+      "sha256": "3cf93798ad64f741e821cd1078cd0347959c9bb2a0793152a912bd3667d62ccb",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": false,
+      "selection_reference_world_bounds_mm": null
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/battery_after.png",
+      "sha256": "260f07db1de0c57d24f7cc8cdf2307144fd15b0498394366aebc19543bf5234d",
+      "camera": {
+        "focal": [
+          0.47425721437318497,
+          -5.774430937104052,
+          -0.5928215179664813
+        ],
+        "position": [
+          -456.656216246685,
+          222.79080579342505,
+          570.8202703083564
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 144.34385941197118
+      },
+      "source_instance_count": 35,
+      "battery_in_scene": false,
+      "selection_ghost_NONBOM": true,
+      "selection_reference_world_bounds_mm": [
+        -55,
+        -30,
+        -34,
+        55,
+        30,
+        34
+      ]
+    }
+  ],
+  "image_checks": [
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_original_iso.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        253,
+        84,
+        1371,
+        1107
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_current_iso.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        229,
+        84,
+        1313,
+        1116
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_original_side.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        205,
+        84,
+        1395,
+        1110
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/whole_current_side.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        205,
+        84,
+        1395,
+        1115
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyadapter_before.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyadapter_after.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyother_before.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/bodyother_after.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/battery_before.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/assets/r4/battery_after.png",
+      "not_clipped": true,
+      "occupied_bbox": [
+        112,
+        266,
+        1488,
+        934
+      ],
+      "hash_pass": true
+    }
+  ],
+  "currentRevision": "R4",
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49"
+}

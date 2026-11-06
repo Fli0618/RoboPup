@@ -1,0 +1,111 @@
+{
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/before.png",
+      "file_sha256": "d41cb411dd067e3eb4231b28a6e6d1025e8c7f80926988eb7396f49e0e0faa14",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -788.5,
+          299.0,
+          364.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 45.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        557,
+        179,
+        1094,
+        1017
+      ],
+      "display_exploded": false,
+      "display_only_offsets_mm": {},
+      "source_ids": [
+        "Z12_A_V3_local_head_reliefs",
+        "Z12_B_V3_stop_ears_and_head_relief",
+        "AB_join_M3x10_1",
+        "AB_join_thin_washer_1",
+        "AB_join_M3x10_2",
+        "AB_join_thin_washer_2",
+        "AB_join_M3x10_3",
+        "AB_join_thin_washer_3",
+        "AB_join_M3x10_4",
+        "AB_join_thin_washer_4"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/after.png",
+      "file_sha256": "307f8e14097729c670bc834967613b2a435fc616866c809ee7013e527318091b",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -788.5,
+          299.0,
+          364.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 45.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        557,
+        179,
+        1094,
+        1017
+      ],
+      "display_exploded": false,
+      "display_only_offsets_mm": {},
+      "source_ids": [
+        "onepiece"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    }
+  ],
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/service_window/RR_SERVICE_WINDOW_V2.step": "f21706031894938e69f7d0b7021269a4ed2222b639095a9e5c938cc47243b6db",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/022_027_AB_join_M3x10_1_b894b94606.step": "b894b946069183ea1af6265f8f9a969dff35ab4dfb224ae8ce443025fdfe6c5c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/023_028_AB_join_thin_washer_1_cbd9d336e0.step": "cbd9d336e0a62ec814cdd1b1fcc7b322e334174d85df6f74ca8e0977cec86090",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/024_029_AB_join_M3x10_2_ba832cf05c.step": "ba832cf05c2f936e8b94af603e1f5a3d3782f93e55d52227c6217ca87ff2662c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/025_030_AB_join_thin_washer_2_cc4163402d.step": "cc4163402d5fb28dc94435770df0c6489fa2c6d871eee763a909c790309390bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/026_031_AB_join_M3x10_3_73c3af6879.step": "73c3af6879d4b2a00bfd96bc07fb30d845610318a48537f757bd9e72e2fdfd5a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/027_032_AB_join_thin_washer_3_05a6d4d4e3.step": "05a6d4d4e3bc968642b1907d62b4460e204f990c67939b4f2d5e6e55cefb4085",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/028_033_AB_join_M3x10_4_b7f52e2a6e.step": "b7f52e2a6efaa32a7873021aedc687d27a1955d85b63f4081bee1bc5bdc887dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/029_034_AB_join_thin_washer_4_f36033f425.step": "f36033f425aac0e318a1c9297d4a87d0cb482081b549cdcd87ef33e2390b3d36"
+  },
+  "same_camera_same_scale": true,
+  "shows_service_window_geometry": true
+}

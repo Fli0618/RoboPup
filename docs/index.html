@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>四足设计MAIN · D1杯式连接</title>
+  <link rel="stylesheet" href="style.css?v=D1-direct-grips-1">
+  <script defer src="assets/compare-assets.js"></script>
+  <script defer src="assets/r4/compare-assets-r4.js?v=R4-1d35a808"></script>
+  <script defer src="page-state.js?v=R4-1d35a808"></script>
+  <script defer src="region-data.js?v=R4-1d35a808"></script>
+  <script defer src="legother_audit/legother-audit.js?v=leg137-1"></script>
+  <script defer src="legother_audit/assets/legother-assets.js?v=leg137-1"></script>
+  <script defer src="legother_simplification_review/plan.js?v=R4-simplification-1"></script>
+  <script defer src="legother_optimization_candidates/inline-review.js?v=137-optimization-3"></script>
+  <script defer src="legother_optimization_candidates/candidate-state.js?v=137-optimization-3"></script>
+  <script defer src="original_architecture_candidate/review-data.js?v=C1-2"></script>
+  <script defer src="triple_comparison/three-version-data.js?v=triple-1"></script>
+  <script defer src="original_m2_connection/diagram-data.js?v=M2-1"></script>
+  <script defer src="main-design-state.js?v=D1-direct-grips-1"></script>
+  <script defer src="app.js?v=physical-scope-1"></script>
+  <script defer src="main-design-view.js?v=D1-direct-grips-1"></script>
+  <script defer src="ab-main-detail.js?v=D1-direct-grips-1"></script>
+  <script defer src="main-whole-data.js?v=D1-direct-grips-1"></script>
+  <script defer src="main-whole-view.js?v=physical-scope-1"></script>
+  <script defer src="pin-main-detail.js?v=D1-direct-grips-1"></script>
+  <script defer src="sleeve_direct_review/review-data.js?v=D1-direct-grips-1"></script>
+  <script defer src="sleeve-review-view.js?v=D1-direct-grips-1"></script>
+  <script defer src="physical_connection_review/review-data.js?v=physical-scope-1"></script>
+  <script defer src="physical-connection-view.js?v=physical-scope-1"></script>
+  <script defer src="isaac_sim_review/data.js?v=isaac-lab-contact-20261106"></script>
+  <script defer src="isaac-sim-view.js?v=isaac-lab-contact-20261106"></script>
+  <link rel="stylesheet" href="review-shell.css?v=robopup-20261106">
+  <script defer src="review-shell.js?v=robopup-20261106"></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <div><p class="eyebrow" id="pageEyebrow">PA35 · 设计主线已确定 · D1</p>
+      <h1 id="pageMainTitle">设计MAIN · D1杯式连接</h1>
+      <p class="intro" id="pageIntro">MAIN完整四足已采用D1杯式连接，并取消M1、M3两类独立衬套；本次364→356件。</p></div>
+      <div class="total total-three"><span id="totalScope">统一模型计数 · 不含电池包</span><div><span class="summary-version"><small>原CAD基准</small><b id="originalCount">219</b></span><i>→</i><span class="summary-version"><small id="summaryCurrentLabel">MAIN D1整机</small><b id="currentCount">356</b></span><i id="summaryCandidateArrow">→</i><span id="summaryCandidateVersion" class="summary-version"><small>历史C1候选</small><b id="summaryCandidateCount">352</b></span></div><strong id="totalDelta" hidden>+177</strong></div>
+    </header>
+
+    <section id="designMain" class="design-main" aria-labelledby="designMainTitle" data-design-id="D1">
+      <div class="design-main-heading"><div><p class="eyebrow">MAIN · 当前设计主线</p><h2 id="designMainTitle">D1杯式连接 · 正式采用</h2></div><span id="designMainBadge" class="design-main-badge">已由你选定</span></div>
+      <p id="designMainScope" class="design-main-scope">四腿D1杯式连接和M1/M3原件直接适配已合并；原销轴固定保留。完整运动、锁紧与承载继续验证。</p>
+      <div class="design-main-grid"><figure class="design-main-figure"><nav class="design-main-views" aria-label="选择D1主方案视图"><button type="button" data-main-view="assembly" aria-pressed="true">杯式装配布局</button><button type="button" data-main-view="holes" aria-pressed="false">两组孔怎么连接</button><button type="button" data-main-view="part" aria-pressed="false">一体杯式支架</button><button type="button" data-main-view="direction" aria-pressed="false">杯口朝哪边</button></nav><button id="mainDesignZoom" class="design-main-image-button" type="button" aria-label="放大D1主方案CAD"><img id="mainDesignImage" src="resources/main/views/connection-exploded.png" alt="D1已采用主方案：M2输出经杯体连接M3定子"><span>点击原位放大 ↗</span></button><figcaption id="mainDesignImageCaption">真实CAD显示分解，仅为看清连接关系，不代表已验证装配顺序。</figcaption></figure>
+      <aside class="design-main-facts"><div class="design-main-route"><span>内侧M2输出</span><b>6孔 · PCD Ø24</b><i>↓</i><strong>一体杯底</strong><i>↓</i><b>4孔 · PCD Ø38.5</b><span>外侧M3后壳（定子）</span></div><dl><div><dt>接口间距</dt><dd>14 → 10 mm</dd></div><div><dt>实际已建模</dt><dd>完整四足整机</dd></div><div><dt>本处相对R4</dt><dd>少9件/腿</dd></div><div><dt>相对C1额外减件</dt><dd>0件，避免重复累计</dd></div></dl><p class="design-main-open-item"><b>继续收口：</b>M3后端螺钉座面尚有0.10 mm间隙；整腿运动、实际工具及锁紧验证未完成。设计采纳不等于制造放行。</p><div class="design-main-downloads"><a id="mainDesignPartLink" href="resources/main/PA35_MAIN_D1_CONNECTION.step">MAIN · D1支架 STEP ↗</a><a id="mainDesignAssemblyLink" href="resources/main/PA35_MAIN_D1_LOCAL_ASSEMBLY.step">MAIN · D1局部装配 STEP ↗</a></div></aside></div>
+      <nav class="design-main-actions" aria-label="D1主线与来源对比"><button type="button" data-main-action="home">回到MAIN · D1</button><button type="button" data-main-action="details">看D1完整前后对比</button><button type="button" data-main-action="history">看原CAD / R4 / C1对比</button></nav>
+      <p class="design-main-export-note">MAIN完整整机：396→364→356；本次取消M1四只、M3四只独立衬套。下面原CAD219、R4396、C1352为历史比较。</p>
+    </section>
+
+    <section class="revision-bar" aria-label="版本选择"><div class="segmented revision-switch" role="group" aria-label="切换当前与历史版本"><button data-mode="r4" class="active" aria-pressed="true">历史 R4 · 默认</button><button data-mode="r2" aria-pressed="false">历史 R2</button></div><p id="freshnessBadge" class="freshness-badge" data-model-sha="1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49">历史 R4 · 模型 SHA 1d35a8083f2a</p><div class="current-links"><a href="archive-downloads.html?file=PA35_CURRENT_REVIEW.step" id="currentStepLink">当前整机 STEP ↗</a><a href="archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html" id="currentReviewLink">R4 模型说明 ↗</a></div></section>
+    <p class="revision-note" id="revisionNote">R4范围：两版均不计电池包。219 → 396；R4电池固定件待设计，未纳入当前数量。原CAD已有机身支撑和紧固件照常计入。</p>
+
+    <nav id="reviewNavigation" class="review-navigation" aria-label="选择三者整机对比或来源台账" hidden><button id="showPendingReview">三者整机：原CAD／R4／C1</button><button id="showBaselineReview">原CAD → R4 · 来源台账</button></nav>
+    <section id="originalArchitectureCandidate" class="architecture-candidate review-primary" aria-labelledby="architectureTitle" hidden>
+      <div class="architecture-heading"><div><p class="eyebrow">历史三版同一口径 · 当前采用MAIN D1</p><h2 id="architectureTitle">历史比较：原CAD基准 → R4 → C1</h2></div><span>历史C1未采用 · 当前主线为D1</span></div>
+      <section id="threeVersionComparison" class="three-version-comparison" aria-labelledby="threeVersionTitle" hidden>
+        <h3 id="threeVersionTitle">历史对照：原CAD、R4与当时C1候选</h3>
+        <p class="three-version-objective"><b>当时C1的设计目标：</b>沿用原CAD连接架构适配PA35，减少独立连接件。C1保留作历史对照；当前采用MAIN D1。</p>
+        <div class="three-count-cards"><article><span>原始CAD基准</span><strong>219</strong><small>结构与装配思路基准</small></article><article><span>历史R4评审基线</span><strong>396</strong><small>比基准多177项</small></article><article><span>历史C1候选 · 未采用</span><strong>352</strong><small>比R4少44；比基准仍多133</small></article></div>
+        <p class="three-target-gap"><b>历史C1为352个已建模项。</b> 此数量不代表当前MAIN，也不代表原／新实物完整BOM。</p>
+        <div id="threeVersionGallery" class="three-version-gallery">
+          <figure><figcaption><span class="mini-tag old">原CAD基准</span><b>219项</b></figcaption><button class="leg-image-button" data-three-zoom="baseline" aria-label="放大原CAD基准整机"><img id="threeBaselineImage" alt="原始CAD严格60%基准的完整四足，与R4/C1相同相机和尺度"><span>点击放大 ↗</span></button></figure>
+          <figure><figcaption><span class="mini-tag old">历史R4</span><b>396项 · +177</b></figcaption><button class="leg-image-button" data-three-zoom="r4" aria-label="放大历史R4整机"><img id="threeR4Image" alt="历史R4完整四足，396项"><span>点击放大 ↗</span></button></figure>
+          <figure><figcaption><span class="mini-tag new">C1优化中</span><b>352项 · +133</b></figcaption><button class="leg-image-button" data-three-zoom="c1" aria-label="放大C1优化中候选整机"><img id="threeC1Image" alt="C1当前完整四足候选，352项，尚未达到接近基准目标"><span>点击放大 ↗</span></button></figure>
+        </div>
+        <p id="threeVersionScope" class="three-version-scope"></p>
+        <div class="three-region-heading"><h3>哪些部位还没有回到基准数量</h3><p>点一行，在本页定位到相应部位和前后图。</p></div>
+        <div class="table-scroll"><table class="three-region-table"><thead><tr><th>部位</th><th>原CAD</th><th>R4</th><th>C1</th><th>C1−基准</th><th>C1−R4</th></tr></thead><tbody id="threeRegionRows"></tbody><tfoot><tr><th>整机合计</th><th>219</th><th>396</th><th>352</th><th>+133</th><th>−44</th></tr></tfoot></table></div>
+        <p class="three-count-caution">219是原CAD已画模型的基准，原CAD未画齐的必要紧固件需单独核对、按同完整度比较。优化要减少实物需要的独立件和连接层，不能靠漏画或删模型凑数。</p>
+        <div class="three-evidence-links"><a href="triple_comparison/count-audit.json">三版逐项计数依据 ↗</a><a href="triple_comparison/render-evidence.json">三版同相机图像依据 ↗</a></div>
+      </section>
+      <p id="threeVersionUnavailable" class="three-version-unavailable" hidden>三版计数或图像尚未与当前模型同步，暂不显示三列结果。</p>
+      <div class="architecture-counts" hidden><div><small>修改前 · 历史R4</small><strong>396</strong><span>正式评审模型</span></div><b>→</b><div><small>修改后 · C1待审核</small><strong id="architectureCandidateCount">352</strong><span id="architectureTargetNote">候选模型少44项，均在137之外</span></div></div>
+      <h3 class="current-c1-changes">历史C1建立过的改型 · 与当前MAIN分开记录</h3>
+      <nav class="architecture-tabs" aria-label="查看原架构候选部件前后"><button data-architecture-part="whole" aria-pressed="true">完整四足 · 看整体变化</button><button data-architecture-part="carrier" aria-pressed="false">一体主支架 · 减36项</button><button data-architecture-part="m1" aria-pressed="false">M1直接夹座 · 减4项</button><button data-architecture-part="m3" aria-pressed="false" hidden>M3定位面并入 · 减4项</button></nav>
+      <div class="architecture-selected"><h4 id="architecturePartTitle"></h4><p id="architecturePartNote"></p></div>
+      <nav id="architectureVariants" class="architecture-variants" aria-label="查看具体加工件前后" hidden></nav>
+      <div class="leg-local-grid architecture-pair"><figure><figcaption><span class="mini-tag old">修改前 · R4</span><b id="architectureBeforeCaption"></b></figcaption><button class="leg-image-button" data-architecture-zoom="before" aria-label="放大原架构候选修改前图"><img id="architectureBefore" alt="历史R4修改前真实CAD"><span>点击放大 ↗</span></button></figure><figure><figcaption><span class="mini-tag new">修改后 · C1候选</span><b id="architectureAfterCaption"></b></figcaption><button class="leg-image-button" data-architecture-zoom="after" aria-label="放大原架构候选修改后图"><img id="architectureAfter" alt="按原架构直接改型的独立候选真实CAD"><span>点击放大 ↗</span></button></figure></div>
+      <figure id="architectureToolFigure" class="architecture-tool-figure" hidden><figcaption>RR局部工具路径示意 · 特制包络，尚非已采购工具</figcaption><button class="leg-image-button" data-architecture-tool-zoom aria-label="放大一体主支架的局部工具路径"><img id="architectureToolImage" alt="RR一体侧窗支架中的短L工具及保留螺钉的真实CAD示意"><span>点击放大 ↗</span></button></figure>
+      <p class="architecture-correction"><b>原方案核对结果：</b>原M2、M3本来就有前后端螺钉固定孔，不是只靠短环夹紧。原CAD未画齐这些螺钉。“原模型零件少”不能直接等同“实物不需要这些连接”。本版优先取消适配新增的接缝和衬套。</p>
+      <div class="architecture-details"><div><h4 id="architectureReductionTitle">44项具体减少在哪里</h4><div class="table-scroll"><table><thead><tr><th>变化</th><th>四腿减少</th></tr></thead><tbody><tr><td>A/B两件改为一体主支架</td><td>4件结构</td></tr><tr><td>取消A/B接缝螺钉</td><td>16颗</td></tr><tr><td>取消相应垫圈</td><td>16片</td></tr><tr><td>夹座直接匹配，取消M1独立衬套</td><td>4只</td></tr><tr id="architectureM3Reduction" hidden><td>M3辅助定位面并入7007，取消独立衬套</td><td>4只</td></tr></tbody><tfoot><tr><th>候选模型减少合计</th><th id="architectureReductionTotal">44项</th></tr></tfoot></table></div><p>两端板仍各包含1个固定主体＋2个可拆抱箍，不把一份STEP当成一个物理件；12台电机和原夹紧螺钉保留。</p></div><div><h4>这版还需要验证什么</h4><p id="architectureLimit"></p><p>四腿侧窗均完成实体、孔底保护与就位硬件静态检查；工具与退钉采样仅覆盖RR代表腿，其他三腿路径未全核。本版未合并“B＋7007接桥”，也未叠加M3的12/16项目标；这份历史候选不覆盖当前MAIN；当前MAIN的实际改型见主线。</p><div id="architectureDownloads" class="leg-candidate-downloads"></div></div></div>
+      <details class="architecture-source"><summary>原M2、M3到底靠什么固定？</summary><div class="table-scroll"><table><thead><tr><th>原部位</th><th>原件可见固定孔位／腿</th><th>当前已画壳体固定螺钉／腿</th><th>核对结论</th></tr></thead><tbody><tr><td>M2：7017前／后两侧</td><td>4＋4</td><td>4颗</td><td>原孔轴与原电机前后固定孔对应</td></tr><tr><td>M3：7007前侧／7003后侧</td><td>8＋8</td><td>前3＋后4＝7颗</td><td>原两端均有正向螺钉固定孔系</td></tr></tbody></table></div><p>原孔位数与当前已画螺钉数分别列出，不能相减当作实物增减；原实物是否装满尚无确认。已对上的24处定子孔轴，在原装配中均未找到对应的独立螺钉实例。原模型少画不代表原结构无需这些连接；2.69 mm短环也不能作为纯摩擦夹持的证据。</p><a id="architectureSourceEvidence" href="original_architecture_candidate/mount_route/mount_route_review.json">查看原CAD孔轴与工程图核对 ↗</a></details>
+    </section>
+
+    <div class="context"><span class="dot orange"></span><b>仍有新增连接层</b><span class="dot amber"></span><b>模型差额，含原 CAD 漏画小件</b><span class="dot green"></span><b id="resolvedLegend">已恢复／替换减项</b><span class="context-end">同视角、同尺度 · 原CAD含旧电机均为60%基准；当前PA35保持采购尺寸</span></div>
+    <h2 id="baselineComparisonHeading" class="baseline-comparison-heading">来源台账：原CAD → 当前正式R4</h2>
+    <nav id="wholeDesignSwitch" class="ab-design-switch"><button data-whole-design="main">MAIN D1完整整机</button><button data-whole-design="r4">历史R4完整整机</button><p>当前整机已合并四腿D1和两类无衬套改型；历史R4保留原396件。</p></nav>
+    <section class="whole-section" aria-label="两版整机对照">
+      <div class="view-tools"><div class="segmented" role="group" aria-label="选择整机视角"><button class="active" data-view="iso" aria-pressed="true">斜视</button><button data-view="side" aria-pressed="false">侧视</button></div><p id="wholeHint">选中编号后，两图会同步定位同一个装配部位。</p><button class="subtle" id="clearSelection">查看全部位置</button></div>
+      <div class="whole-grid">
+        <article class="whole-card before"><div class="card-heading"><div><span class="version" id="beforeVersion">原始 CAD 连接方案</span><h2 id="beforeTitle">原方案 · 60% 基准（电池除外）</h2></div><span class="count" id="beforeCount">219 件</span></div><div class="image-stage" data-side="before"><img id="wholeBefore" alt="原始四足狗装配方案，严格60%基准，排除电池"><svg class="leaders" viewBox="0 0 1600 1200" aria-hidden="true"></svg><div class="hotspots"></div><button class="image-expand" data-zoom="before" aria-label="放大原方案整机图">放大 ↗</button><span class="image-legend" id="beforeLegend">原架子与连接关系；电池不计入</span></div></article>
+        <article class="whole-card after"><div class="card-heading"><div><span class="version" id="afterVersion">历史 R4 评审模型</span><h2 id="afterTitle">PA35 · 原架子已恢复</h2></div><span class="count" id="afterCount">396 件</span></div><div class="image-stage" data-side="after"><img id="wholeAfter" alt="历史R4完整四足狗评审CAD，12台PA35，电池及固定件待设计"><svg class="leaders" viewBox="0 0 1600 1200" aria-hidden="true"></svg><div class="hotspots"></div><button class="image-expand" data-zoom="after" aria-label="放大历史R4整机图">放大 ↗</button><span class="image-legend" id="afterLegend">原架子已恢复；腿部沿用；电池待选</span></div></article>
+      </div>
+    </section>
+
+    <nav class="region-list" id="regionList" aria-label="选择增减件部位"></nav>
+
+    <section class="detail" id="detail" aria-labelledby="detailTitle">
+      <div class="detail-heading"><div><p class="eyebrow" id="detailCategory"></p><h2 id="detailTitle"></h2></div><div class="detail-nav"><button id="previousRegion" aria-label="上一个部位">← 上一处</button><span id="regionPosition"></span><button id="nextRegion" aria-label="下一个部位">下一处 →</button></div></div>
+      <div class="detail-summary"><p id="detailLead"></p><div class="delta-box"><span id="detailDeltaScope">整机模型变化</span><strong id="detailDelta"></strong><small id="perPosition"></small></div></div>
+      <p class="scope-count" id="scopeCount"></p>
+      <nav id="abDesignSwitch" class="ab-design-switch" aria-label="选择主支架正式主线或历史版本" hidden><button type="button" data-ab-design="main" aria-pressed="true">MAIN D1正式方案</button><button type="button" data-ab-design="r4" aria-pressed="false">历史R4 A/B</button><p id="abDesignMeaning">本处默认显示正式MAIN；历史整机导出统计单独保留。</p></nav>
+      <p id="legBreakdownUnavailable" class="leg-breakdown-unavailable" role="status" hidden>腿部137件明细与当前模型尚未同步，请先更新逐项台账和安装位置图。本区暂停展示旧的大腿局部图，避免误认为它能代表完整137件。</p>
+      <section id="legBreakdown" class="leg-breakdown" aria-labelledby="legBreakdownTitle" hidden>
+        <div class="leg-breakdown-heading"><div><p class="eyebrow">把整机差额拆到实际安装位置</p><h3 id="legBreakdownTitle">先找144颗螺钉，再核对为什么净差是137</h3></div><span class="leg-audit-tag">实际CAD · 只做展示分解</span></div>
+        <div class="leg-equation" aria-label="137件差额的计算"><div><strong>144</strong><span>当前四腿接口螺钉</span></div><b>＋</b><div><strong>76 − 83</strong><span>其余连接小件：当前 − 原模型</span></div><b>＝</b><div class="result"><strong>137</strong><span>整个区域的模型净差额</span></div></div>
+        <p class="leg-summary-note" id="legAuditSummary">一条腿36颗，四条腿144颗。137不是这张图上另外137只独立零件，也不是可以直接删去137件。</p>
+        <section class="leg-optimization" id="legOptimization" aria-labelledby="legOptimizationTitle" hidden>
+          <p class="eyebrow">这137项能不能全部精简？</p>
+          <h3 id="legOptimizationTitle">全部纳入评审；目前不能把137项全部取消</h3>
+          <p class="optimization-answer">137是净差额。当前连接共<b>220项</b>，原CAD画出<b>83项</b>；要把差额归零，须从220减到83，不能靠恢复原CAD漏画的螺钉来实现。</p>
+          <div class="optimization-pool"><div><strong>192</strong><span>首轮保留并核查功能</span><small>有连接用途，不代表已证明是绝对最少</small></div><div class="research"><strong>28</strong><span>M3前后固定，优先研究</span><small>每腿前3＋后4；不等于28颗都可删除</small></div><div><strong>0</strong><span>目前已验证可正式减少</span><small>此历史评估未删接口螺钉；本次M1/M3减件不在本区</small></div></div>
+          <nav id="optimizationPopulations" class="optimization-populations" aria-label="按连接功能查看精简评估"></nav>
+          <p class="optimization-focus-note" id="optimizationFocusNote">点一组，在下方原位显示该部位的模型前后对比。</p>
+          <button id="goOriginalArchitecture" class="leg-plan-m3" hidden>查看按原思路直接改型的完整四足候选 ↓</button>
+          <details class="optimization-ledger"><summary>展开全部220项的处理，核对为何不能直接删137项</summary><div class="table-scroll"><table><thead><tr><th>连接功能</th><th>四腿当前</th><th>首轮处理</th><th>判断依据</th></tr></thead><tbody id="optimizationRows"></tbody><tfoot><tr><th>合计</th><th>220</th><td colspan="2">192项先保留核查＋28项优先研究</td></tr></tfoot></table></div><p>即使假定M3的28项全取消，其他192项还须再减109项，才会回到原CAD的83项。现有最小改动方案没有这样的依据。</p><a href="legother_optimization_candidates/audit/all137_partition.json">查看逐实例功能分类与核对结果 ↗</a></details>
+        </section>
+        <section class="leg-simplification" id="legSimplification" aria-labelledby="legSimplificationTitle" hidden>
+          <div class="leg-simplification-heading"><div><p class="eyebrow">其他分区的精简目标 · 不拿来抵扣137</p><h3 id="legSimplificationTitle">另有44项目标，全部在137之外</h3></div><span class="leg-plan-tag">设计目标 · 尚未建模验证</span></div>
+          <div class="leg-plan-stages"><div><small>现行整机模型</small><strong id="legPlanCurrent">396</strong><span>本次评估没有改件</span></div><div class="target-stage"><small>首轮设计目标</small><strong id="legPlanTarget">352</strong><span id="legPlanTargetNote">争取减少44项，均在137之外</span></div><div class="conditional-stage"><small>第二轮 · M3条件探索</small><strong>12 或 16</strong><span>互斥路线的四腿算术上限，尚未证明可净减</span></div></div>
+          <p class="leg-plan-scope" id="legPlanScope">同一模型口径，不含电池包。当前数量与目标数量分别展示；本次可直接删除的已证实数量为0。</p>
+          <div class="leg-plan-first"><p><b>44项来自哪里：</b>恢复一体主支架，取消A/B接缝及多出的支架36项；M1、M3夹持面直接适配PA35，取消独立衬套各4项。</p><div class="leg-plan-actions"><button data-plan-region="ab">看A/B接缝 · 36项</button><button data-plan-region="m1">看M1衬套 · 4项</button><button data-plan-region="m3">看M3衬套 · 4项</button></div></div>
+          <details class="leg-plan-details"><summary>这137项里，哪些先保留，哪些值得继续研究？</summary><div class="table-scroll"><table><thead><tr><th>连接位置</th><th>当前四腿数量</th><th>首轮处理</th><th>原因</th></tr></thead><tbody id="legPlanRows"></tbody></table></div><p class="leg-plan-condition" id="legPlanCondition">M3前端3颗与后端4颗分别连接不同结构件，需要先重建一条完整传力路线。12或16是两条互斥路线各自取消原螺钉的毛减上限；净减还要扣除新增的替代结构与紧固件，不能相加。</p><button class="leg-plan-m3" id="legPlanInspectM3">定位M3前后端，查看现有13颗／腿</button></details>
+          <a class="leg-plan-evidence" href="legother_simplification_review/plan.json" id="legPlanEvidence">查看精简评估与依据 ↗</a>
+        </section>
+        <div class="leg-overview-grid">
+          <figure><figcaption><span class="mini-tag old">原方案</span><b>完整代表腿 · 安装位置参照</b></figcaption><div class="leg-overview-stage" data-leg-side="before"><button class="leg-image-button" data-leg-zoom="overview-before" aria-label="放大原完整腿定位图"><img id="legOverviewBefore" alt="原CAD完整代表腿及各安装位置"><span>点击放大 ↗</span></button><svg class="leg-overview-leaders" viewBox="0 0 1600 1200" aria-hidden="true"></svg><div class="leg-overview-hotspots"></div></div></figure>
+          <figure><figcaption><span class="mini-tag new">历史 R4</span><b>完整代表腿 · 这36颗分布在5处</b></figcaption><div class="leg-overview-stage" data-leg-side="after"><button class="leg-image-button" data-leg-zoom="overview-after" aria-label="放大当前完整腿定位图"><img id="legOverviewAfter" alt="历史R4完整代表腿及36颗接口螺钉分布"><span>点击放大 ↗</span></button><svg class="leg-overview-leaders" viewBox="0 0 1600 1200" aria-hidden="true"></svg><div class="leg-overview-hotspots"></div></div></figure>
+        </div>
+        <div class="leg-groups-heading" id="legComponentReview"><h3>逐部件前后对比 · 留在本页看</h3><p>图示是一条代表腿；数量同时列出四条腿汇总。</p></div>
+        <nav id="legGroupButtons" class="leg-group-buttons" aria-label="选择腿部小件安装位置"></nav>
+        <div class="leg-selected-heading"><h3 id="legGroupTitle"></h3><div id="legGroupCount"></div></div>
+        <p class="leg-group-note" id="legGroupNote"></p>
+        <div id="legComparisonControls" class="leg-comparison-controls" hidden><div class="segmented" role="group" aria-label="选择部件前后对比范围"><button data-leg-comparison="original_current" class="active" aria-pressed="true">原CAD → 历史R4</button><button data-leg-comparison="current_proposal" aria-pressed="false">历史R4 → 精简提案</button></div><p id="legComparisonMeaning">这里对比的是已经发生的适配变化。</p></div>
+        <div id="legCandidateViews" class="leg-candidate-views" hidden><span>同一候选，切换观察：</span><div class="segmented" role="group" aria-label="选择候选CAD观察范围"><button data-candidate-view="parts" aria-pressed="true">完整加工件前后</button><button data-candidate-view="interface" aria-pressed="false">电机接口局部前后</button></div><p id="legCandidateViewNote"></p></div>
+        <div class="leg-local-grid">
+          <figure><figcaption><span class="mini-tag old" id="legGroupBeforeTag">原方案</span><b id="legGroupBeforeCaption">原部位及模型已画件</b></figcaption><button class="leg-image-button" data-leg-zoom="group-before" aria-label="放大所选部位修改前CAD"><img id="legGroupBefore" alt="所选螺钉位置的原CAD装配"><span>点击放大 ↗</span></button></figure>
+          <figure><figcaption><span class="mini-tag new" id="legGroupAfterTag">历史 R4</span><b id="legGroupAfterCaption"></b></figcaption><button class="leg-image-button" data-leg-zoom="group-after" aria-label="放大所选部位修改后CAD"><img id="legGroupAfter" alt="所选螺钉位置的历史R4装配"><span>点击放大 ↗</span></button><p id="legCandidateUnavailable" class="leg-candidate-unavailable" hidden>这个部位尚无通过实体检查的候选后图，暂不计减件。</p></figure>
+        </div>
+        <section id="recessedCupConcept" class="original-m2-connection" aria-labelledby="recessedCupTitle">
+          <p class="eyebrow">按原凹杯思路直接适配PA35 · D1右后腿局部真实CAD · 已正式采用为MAIN</p>
+          <h3 id="recessedCupTitle">已建模：电机内嵌20 mm，M2—M3接口间距14 → 10 mm</h3>
+          <p>这里已从概念示意更新为真实STEP渲染。保留实际PA35原尺寸及M2位置；A/B接缝取消，M3和后端螺钉向内移4 mm。绿色杯体与M3定子固定；M2输出连接杯底，带动整个M3组件。杯壁不与M3输出端固定。</p>
+          <section id="d1ConnectionMap" aria-labelledby="d1ConnectionTitle" style="scroll-margin-top:25px">
+            <h4 id="d1ConnectionTitle">这两台电机到底怎么接：内圈接M2输出，外圈接M3后壳</h4>
+            <p>沿用原件的两条连接路径，适配PA35后改变孔圈和轴向台阶。<b>D1两组连接孔都在杯底；杯口边缘没有另一组电机固定孔。</b>图中蓝、橙圈分别标出实际螺钉轴，未增加孔或改动模型。</p>
+            <div class="d1-grid"><figure><figcaption>真实D1杯口正视孔位：蓝内圈6孔接M2输出；橙外圈4孔接M3后壳</figcaption><button type="button" class="d1-zoom" data-d1-zoom="connection-hole-map.png"><img src="recessed_cup_candidate/connection-hole-map.png?v=15a67c5345" alt="真实D1杯口正视孔位：蓝内圈6孔接M2输出；橙外圈4孔接M3后壳"><span>点击放大 ↗</span></button></figure><figure><figcaption>实际CAD显示分解：蓝M2输出 → 灰杯体 → 橙M3定子；不是装配路径验证</figcaption><button type="button" class="d1-zoom" data-d1-zoom="connection-exploded.png"><img src="recessed_cup_candidate/connection-exploded.png?v=15a67c5345" alt="实际CAD显示分解：蓝M2输出 → 灰杯体 → 橙M3定子；不是装配路径验证"><span>点击放大 ↗</span></button></figure></div>
+            <div class="d1-table-wrap"><table class="d1-table"><thead><tr><th>孔组</th><th>连接对象</th><th>D1实际接口</th><th>螺钉拧入方向</th></tr></thead><tbody><tr><td>蓝色内圈</td><td>内侧M2的输出法兰</td><td>6 × M4×8，PCD Ø24 mm</td><td>从杯腔朝M2，−Z</td></tr><tr><td>橙色外圈</td><td>外侧M3的后壳螺纹孔（定子）</td><td>4 × M3×6，PCD Ø38.5 mm</td><td>从M2侧朝M3，+Z</td></tr></tbody></table></div>
+            <p><b>运动关系：</b>M2输出转动 → 杯体和M3整套随动；M3自己的输出再驱动下一级腿部件。M2壳体另由7017固定，M3输出不固定在杯体上。杯壁与M3留间隙，未设计成已验证的过盈、夹紧或定位配合。</p>
+            <p><b>与原CAD区别：</b>原7003中央孔组接M2输出，外围孔组接M3定子；D1保持同样功能分工，外圈固定改为PA35的后端4孔，收在杯底PCD Ø38.5，不能把原外围孔原位置照搬到PA35。D1杯口没有新增“第二端固定”。</p>
+            <p class="original-m2-count-note"><b>这张图说明连接对象，不代表已完成锁紧设计。</b>两组螺钉方向相反，M3装入后会遮挡杯腔一侧操作；预装、锁紧、工具进入与拆卸顺序还需闭合。直接读取螺钉STEP平面后确认：M2输出头下平面49.77与新肩49.77名义对齐；M3后端头下平面52.67与新肩52.77相差0.10 mm，当前摆位未贴紧。需要核对螺钉最终就位和有效螺纹深度，不能直接称已夹紧。现有体积无干涉结果不能替代这些检查。本次只补标记图，D1零件数变化0，R4/C1/D1几何均未改动。</p>
+          </section>
+          <details><summary>看你指出的原CAD凹杯参考（原7003，不是当前PA35主方案）</summary><img style="width:100%;max-width:760px;display:block" src="legother_audit/assets/stop_before.png" alt="原CAD7003凹杯结构参考；与下面候选不是同尺寸比较"><p>原CAD参考仅说明结构路线。下面R4/D1两组前后图使用相同镜头和倍率；本图不用于计算尺寸差。</p></details>
+          <h4>加工件前后：两件加接缝紧固件 → 一个内凹支架</h4>
+          <div class="d1-grid"><figure><figcaption>R4：A/B分体，保留接缝4颗螺钉、4片垫圈</figcaption><button type="button" class="d1-zoom" data-d1-zoom="part_before.png"><img src="recessed_cup_candidate/part_before.png?v=184cc3e993" alt="R4：A/B分体，保留接缝4颗螺钉、4片垫圈"><span>点击放大 ↗</span></button></figure><figure><figcaption>D1局部：单一有效实体，凹杯内径47.2 / 外径52 / 深20 mm</figcaption><button type="button" class="d1-zoom" data-d1-zoom="part_after.png"><img src="recessed_cup_candidate/part_after.png?v=184cc3e993" alt="D1局部：单一有效实体，凹杯内径47.2 / 外径52 / 深20 mm"><span>点击放大 ↗</span></button></figure></div>
+          <h4>实际电机装入后的显示剖切：同视角、同倍率</h4>
+          <div class="d1-grid"><figure><figcaption>R4装配：M2输出面45.57 → M3后端面59.57 mm，间距14 mm</figcaption><button type="button" class="d1-zoom" data-d1-zoom="section_before.png"><img src="recessed_cup_candidate/section_before.png?v=184cc3e993" alt="R4装配：M2输出面45.57 → M3后端面59.57 mm，间距14 mm"><span>点击放大 ↗</span></button></figure><figure><figcaption>D1装配：M2输出面45.57 → M3后端面55.57 mm，间距10 mm</figcaption><button type="button" class="d1-zoom" data-d1-zoom="section_after.png"><img src="recessed_cup_candidate/section_after.png?v=184cc3e993" alt="D1装配：M2输出面45.57 → M3后端面55.57 mm，间距10 mm"><span>点击放大 ↗</span></button></figure></div>
+          <p><b>空间变化：</b>接口间距缩短4 mm；杯腔内嵌深度20 mm。20 mm不是额外缩短量，两者不能相加。杯体沿轴向包覆电机，支架本身包围盒反而加长；整腿、整机外廓缩短尚未验证。杯内半径比电机最大XY包围半宽大约0.596 mm，这不是已验证的制造公差或全运动最小间隙。</p>
+          <div class="d1-table-wrap"><table class="d1-table"><thead><tr><th>本处同一范围</th><th>R4</th><th>C1已算的一体路线</th><th>D1新局部</th></tr></thead><tbody><tr><td>A/B连接支架</td><td>2</td><td>1</td><td>1</td></tr><tr><td>接缝螺钉</td><td>4</td><td>0</td><td>0</td></tr><tr><td>接缝垫圈</td><td>4</td><td>0</td><td>0</td></tr><tr><td>M2输出6 + M3后端4螺钉</td><td>10</td><td>10</td><td>10</td></tr><tr><td>以上小计（不含电机）</td><td>20</td><td>11</td><td>11</td></tr></tbody></table></div>
+          <p class="original-m2-count-note"><b>已采用D1相对R4此处少9件/腿；相对C1额外少0件。</b>同一连接层四腿少36件；已按四条腿各自孔位重建并合入整机，不能再从352里扣36。原219 / R4 396 / C1 352及137差额台账保持原数，当前完整MAIN已合并D1及M1/M3直接适配，356件。</p>
+          <p><b>已查：</b>单一有效实体、STEP回读；与M2/M3实际电机、7017、内移7007、M2输出6颗、M3后端4颗、M2壳体4颗共18项D1支架体积干涉检查通过（阈值10⁻⁵ mm³）；M2与内移M3之间体积交叠为0。原外缘止挡材料保留在原位。另做60组移动M3/后端螺钉与固定M2/7017/输出及壳体螺钉的交叉检查，未新增体积干涉。5 mm试做曾发现两组螺钉头互撞，现退至4 mm，失败证据保留。这里只证明所列静态体积关系，不等于完整装配通过。</p>
+          <p><b>主线采纳后继续完成：</b>内移后的整条M3侧腿组重建、连杆/止挡对位、相邻零件及全行程检查；实际工具进入与退钉、装拆顺序；螺纹与预紧、强度和制造公差。这版没有验证快拆，也没有继承旧C1的工具路径结论。</p>
+          <p class="d1-links"><a href="recessed_cup_candidate/RR_RECESSED_CUP_D1.step">下载D1单件STEP</a> · <a href="archive-downloads.html?file=whole_robot_click_compare/recessed_cup_candidate/RR_D1_LOCAL_AFTER.step">下载D1局部装配STEP</a> · <a href="archive-downloads.html?file=whole_robot_click_compare/recessed_cup_candidate/RR_R4_LOCAL_BEFORE.step">下载R4相同局部STEP</a> · <a href="recessed_cup_candidate/evidence.json">干涉和计数依据</a></p>
+        </section>
+        <section id="originalM2Connection" class="original-m2-connection" aria-labelledby="originalM2ConnectionTitle" hidden>
+          <p class="eyebrow">回答这张原M2图为什么没看到安装螺钉</p><h3 id="originalM2ConnectionTitle">原方案有螺钉连接；这处安装螺钉没有画齐</h3>
+          <p>图中只选了蓝色电机模组、灰色7017髋法兰和7003主支架；电机被平移拉开方便观察，实际装配会贴合。蓝色电机内的螺钉细节随整套模组一起计1件，不能代替电机与灰色支架之间的安装螺钉。</p>
+          <div class="original-m2-routes"><div><b>固定壳体：7017 ⇄ M2定子</b><span>原7017前后各有4个对应孔位，孔轴与电机壳体孔匹配；这两组孔轴上没有找到独立安装螺钉实例。</span></div><div><b>传递运动：M2输出 ⇄ 7003</b><span>7003中央六孔用于输出连接；该图也未独立画出这组螺钉。源输出盘角相位有偏差，不能称六孔装配已验证。</span></div></div>
+          <button class="leg-image-button original-m2-diagram" data-original-m2-zoom="diagram" aria-label="放大原M2固定与输出连接说明"><img id="originalM2Diagram" alt="在原M2真实CAD图上标注7017外围定子固定孔和7003中央输出接口"><span>点击放大查看孔位 ↗</span></button>
+          <p class="original-m2-count-note"><b>计数结论：</b>219是原CAD已画内容的模型基准，尚不是原机完整实物BOM。不能据219→396就认定实物多了177件；也不能直接从孔位数推定必须装满几颗螺钉。原遗漏螺钉规格、长度和实际用量仍待核实。</p>
+          <details><summary>看原工程图上的通孔与沉孔依据</summary><div class="original-m2-drawings"><button data-original-m2-zoom="drawing7017"><img id="originalM2Drawing7017" alt="原7017髋关节法兰工程图，M2两侧各4处通孔与沉孔"><span>7017：两侧各4处通孔／沉孔 · 点击放大</span></button><button data-original-m2-zoom="drawing7003"><img id="originalM2Drawing7003" alt="原7003支架工程图，中央输出六孔与M3后端固定孔"><span>7003：中央输出六孔 · 点击放大</span></button></div><p>图纸为原始100%尺寸，页面结构图按60%基准；原图孔径不直接当作当前PA35螺钉规格。</p></details>
+          <a href="original_architecture_candidate/mount_route/mount_route_review.json">查看原孔轴匹配、螺钉漏画及输出相位依据 ↗</a>
+        </section>
+        <div id="legComponentDecision" class="leg-component-decision" hidden><div><h4 id="legDecisionTitle"></h4><strong id="legDecisionResult"></strong></div><p id="legDecisionReason"></p><p class="decision-affected" id="legDecisionAffected"></p><div id="legCandidateCounts" class="leg-candidate-counts" hidden></div><p id="legCandidateChecks" hidden></p><div id="legCandidateDownloads" class="leg-candidate-downloads" hidden></div></div>
+        <figure class="leg-hardware-tray"><figcaption><b>把这一腿36颗全部排开，逐颗数清</b><span>真实CAD实体仅平移展示；没有复制充数、没有改尺寸</span></figcaption><button class="leg-image-button" data-leg-zoom="hardware-tray" aria-label="放大一条腿36颗螺钉排布图"><img id="legHardwareTray" alt="一条腿36颗接口螺钉按8组逐颗排开"><span>点击放大逐颗看 ↗</span></button></figure>
+        <div class="leg-count-ledger"><div><h3>144颗分组清单</h3><div class="table-scroll"><table><thead><tr><th>安装位置</th><th>每腿</th><th>四腿</th></tr></thead><tbody id="legInterfaceRows"></tbody><tfoot><tr><th>接口螺钉合计</th><th>36</th><th>144</th></tr></tfoot></table></div><h3 class="leg-per-leg-heading">四条腿的净差额并不相同</h3><div class="table-scroll"><table><thead><tr><th>腿位</th><th>原模型</th><th>当前</th><th>净差</th></tr></thead><tbody id="legPerLegRows"></tbody><tfoot><tr><th>本区合计</th><th>159</th><th>296</th><th>+137</th></tr></tfoot></table></div><p>原CAD各腿画出的连接小件不完全相同，不能把137直接平均到每条腿。</p></div><div><h3>剩下的 −7 从哪里来</h3><p id="legCreditIntro"></p><div id="legCreditRows"></div><p class="leg-credit-note" id="legCreditNote"></p></div></div>
+        <details class="leg-source-details"><summary>查看逐项计数依据与原CAD不对称处</summary><div id="legSourceDetails"></div><a href="legother_audit/legother-audit.json" id="legAuditFile">打开逐项审计台账 ↗</a></details>
+      </section>
+      <div class="local-grid">
+        <figure><figcaption><span class="mini-tag old">原方案</span><b id="beforeCaption"></b></figcaption><button class="local-image-button" data-local-zoom="before" aria-label="放大原方案局部图"><img id="localBefore" alt="所选部位的原CAD局部装配"><span>点击放大 ↗</span></button><p class="assembly-flow" id="beforeFlow"></p></figure>
+        <figure><figcaption><span class="mini-tag new" id="localCurrentTag">历史 R4</span><b id="afterCaption"></b></figcaption><button class="local-image-button" data-local-zoom="after" aria-label="放大当前方案局部图"><img id="localAfter" alt="所选部位的当前CAD局部装配"><span>点击放大 ↗</span></button><p class="assembly-flow" id="afterFlow"></p></figure>
+      </div>
+      <section id="sleeveDirectReview" class="sleeve-direct-review" aria-labelledby="sleeveDirectReviewTitle" hidden>
+        <div class="sleeve-review-heading"><div><p class="eyebrow">本次MAIN改型 · 真实部件前后对比</p><h3 id="sleeveDirectReviewTitle">通过修改原件，取消独立衬套</h3></div><span id="sleeveReviewCount">已合并 · 四腿少4件</span></div>
+        <p id="sleeveReviewDescription"></p>
+        <nav class="sleeve-view-switch" aria-label="切换修改前或当前MAIN直接适配"><button type="button" data-sleeve-view="main" aria-pressed="true">当前MAIN · 原件直接适配</button><button type="button" data-sleeve-view="before" aria-pressed="false">修改前 · 独立衬套</button><p>完整MAIN已合并：364→356；修改前保留作对照。</p></nav>
+        <div class="sleeve-pair">
+          <figure><figcaption><span class="mini-tag old">修改前 · 364件版本</span><b id="sleeveBeforeCaption"></b></figcaption><button type="button" class="sleeve-review-zoom" data-sleeve-zoom="before"><img id="sleeveBeforeImage" alt="修改前保留独立衬套的真实CAD"><span>点击原位放大 ↗</span></button></figure>
+          <figure><figcaption><span class="mini-tag new">当前MAIN · 356件</span><b id="sleeveAfterCaption"></b></figcaption><button type="button" class="sleeve-review-zoom" data-sleeve-zoom="after"><img id="sleeveAfterImage" alt="当前MAIN原件直接适配的真实CAD"><span>点击原位放大 ↗</span></button></figure>
+        </div>
+        <div class="sleeve-review-notes"><div><h4>具体改什么</h4><p id="sleeveReviewChanges"></p><p id="sleeveReviewManufacturing">须按新内壁尺寸重做原材料毛坯；不能把现有成品大孔直接镗成小孔。</p></div><div><h4>已检查与仍需验证</h4><p id="sleeveReviewLimits"></p></div></div>
+        <p id="sleeveReviewTotal" class="sleeve-review-total">M1四只＋M3四只合计少8件：364→356；已合入完整MAIN。</p>
+        <div id="sleeveReviewFiles" class="sleeve-review-files"></div>
+      </section>
+      <div class="explain-grid"><div><h3 id="partsHeading">这些件是怎么多出来的</h3><div class="parts-list" id="partsList"></div><p class="interpretation" id="interpretation"></p></div><div class="reuse"><h3 id="reuseHeading">当前处理与原连接思路</h3><p id="reuseText"></p><p class="target" id="targetText"></p><a id="evidenceLink" href="archive-downloads.html?file=assembly_delta_review/review.html">查看已有装配依据 ↗</a></div></div>
+    </section>
+
+    <section class="reconciliation" aria-labelledby="ledgerTitle"><div><p class="eyebrow">同一计数范围加总</p><h2 id="ledgerTitle">177 件的来源在这里闭合</h2><p id="ledgerNote">原219 → 当前396，两版均不计电池包；R4固定件待设计。原CAD已有机身支撑和紧固件照常计入。“模型差额”不等于实际新增采购数量；原 CAD 未画全的小件另行核对。</p></div><div class="table-scroll"><table><thead><tr><th>部位</th><th>模型变化</th><th>性质</th></tr></thead><tbody id="ledgerBody"></tbody><tfoot><tr><th>合计</th><th id="ledgerTotal">+177</th><td id="ledgerScope">原219 → 当前396（电池除外）</td></tr></tfoot></table></div></section>
+    <footer><p id="footerScope">计数口径：完整电机模组各计 1；端板、抱箍、挡块等分别计件；线束布局占位和单件附加曲面不另计。R4两版均不计电池包；R4固定件待设计，未纳入当前数量。原CAD已有机身支撑和紧固件照常计入，不将未选电池算成减件。</p><p id="footerStatus">本页显示历史R4模型：原架子已恢复；腿部暂沿用原R2几何；电池及固定件待设计。局部分层仅用于观察连接关系。后续零件继续先看前后图，再验证、并入。</p><div class="footer-links"><a href="resources/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json" id="countLedgerLink">当前模型台账</a><a href="archive-downloads.html?file=pa35_whole_robot_R4_original_frame/review.html" id="footerReviewLink">历史R4模型说明</a><a href="?version=r4&amp;region=m1&amp;view=iso&amp;abdesign=main#sleeveDirectReview">本次M1/M3直接适配</a><a href="assets/r4/render-comparison-evidence.json" id="renderProof">图像来源记录</a><a href="?version=r2" id="historyLink">切换历史R2</a></div></footer>
+  </main>
+  <button id="pendingReviewShortcut" class="pending-review-shortcut" hidden>回到MAIN · D1 ↑</button>
+  <dialog id="zoomDialog"><div class="zoom-toolbar"><p id="zoomTitle"></p><button id="zoomClose" aria-label="关闭放大图">关闭 ×</button></div><div class="zoom-scroll"><img id="zoomImage" alt="CAD装配图放大"></div></dialog>
+</body>
+</html>

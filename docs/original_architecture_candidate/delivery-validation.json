@@ -1,0 +1,1620 @@
+{
+  "status": "C1_GEOMETRY_PREVIEW_DELIVERY_PASS_NOT_ASSEMBLY_RELEASE",
+  "date": "2026-11-05",
+  "checks": [
+    {
+      "label": "Full candidate STEP hash matches its manifest and same-page preview",
+      "pass": true
+    },
+    {
+      "label": "Preview is bound to the current R4 assembly",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: whole_robot_manifest.json",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: CURRENT_MODEL.json",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step",
+      "pass": true
+    },
+    {
+      "label": "Formal source unchanged: PA35_CURRENT_REVIEW.step",
+      "pass": true
+    },
+    {
+      "label": "Candidate named-instance count reconciles with explicit reduction",
+      "pass": true
+    },
+    {
+      "label": "Physical-piece convention closes without counting arbitrary shells",
+      "pass": true
+    },
+    {
+      "label": "Candidate model reduction reconciles with the current 396 count",
+      "pass": true
+    },
+    {
+      "label": "Replacement and removed component populations reconcile",
+      "pass": true
+    },
+    {
+      "label": "Reduction items have explicit, separate populations",
+      "pass": true
+    },
+    {
+      "label": "All twelve actual PA35 motor instances remain",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RR_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RR_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RR_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FR_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FR_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FR_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RL_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RL_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: RL_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FL_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FL_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Motor actual size and pose retained: FL_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_extension_shaft_V1_local_clearance",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_body_stop_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_ONE_PIECE_CARRIER_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_7017_V3_positive_q2_stop_column",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_7009_V3G2_short_pocket",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_7007_V4_M2_supported_clearance_DIRECT_M3_LOCATION_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_7004_V3_replaceable_PA_stop",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_7005_V4_M2_pilot_1p6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_rear_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_rear_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_rear_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_rear_M3x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_shell_M3x6_low_head_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_shell_M3x6_low_head_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_shell_M3x6_low_head_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_shell_M3x6_low_head_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3E_M4x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3E_M4x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3G_NBK_SET_M4x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3E_M4x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3E_M4x6_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_output_V3E_M4x6_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_shell_V3F_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_shell_V3F_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_shell_V3F_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_q2_stop_M3x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_q2_stop_M3x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_plate_SNS_M2_5_MS_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_plate_SNS_M2_5_MS_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_plate_SNS_M2_5_MS_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_plate_SNS_M2_5_MS_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_plate_SNS_M2_5_MS_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_188",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_189",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_191",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_194",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_198",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_199",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_200",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_202",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_203",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_204",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_205",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_206",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_209",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_212",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_213",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_214",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_215",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_216",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_217",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_219",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_220",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_221",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_222",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_source_224",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_nominal_side_keeper",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_foot_M2x22_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_foot_M2_nut_AF4_T1p6_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RR_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_extension_shaft_V1_local_clearance",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_body_stop_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_ONE_PIECE_CARRIER_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_7017_V3_positive_q2_stop_column",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_7009_V3G2_short_pocket",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_7007_V4_M2_supported_clearance_DIRECT_M3_LOCATION_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_7004_V3_replaceable_PA_stop",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_7005_V4_M2_pilot_1p6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_rear_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_rear_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_rear_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_rear_M3x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_shell_M3x6_low_head_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_shell_M3x6_low_head_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_shell_M3x6_low_head_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_shell_M3x6_low_head_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3E_M4x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3E_M4x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3G_NBK_SET_M4x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3E_M4x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3E_M4x6_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_output_V3E_M4x6_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_shell_V3F_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_shell_V3F_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_shell_V3F_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_q2_stop_M3x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_q2_stop_M3x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_plate_SNS_M2_5_MS_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_plate_SNS_M2_5_MS_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_plate_SNS_M2_5_MS_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_plate_SNS_M2_5_MS_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_plate_SNS_M2_5_MS_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_188",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_189",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_191",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_194",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_198",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_199",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_200",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_202",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_203",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_204",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_205",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_206",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_209",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_212",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_213",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_214",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_215",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_216",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_217",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_219",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_220",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_221",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_222",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_source_224",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_nominal_side_keeper",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_foot_M2x22_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_foot_M2_nut_AF4_T1p6_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FR_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_extension_shaft_V1_local_clearance",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_body_stop_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_ONE_PIECE_CARRIER_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_7017_V3_positive_q2_stop_column",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_7009_V3G2_short_pocket",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_7007_V4_M2_supported_clearance_DIRECT_M3_LOCATION_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_7004_V3_replaceable_PA_stop",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_7005_V4_M2_pilot_1p6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_rear_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_rear_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_rear_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_rear_M3x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_shell_M3x6_low_head_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_shell_M3x6_low_head_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_shell_M3x6_low_head_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_shell_M3x6_low_head_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3E_M4x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3E_M4x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3G_NBK_SET_M4x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3E_M4x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3E_M4x6_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_output_V3E_M4x6_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_shell_V3F_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_shell_V3F_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_shell_V3F_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_q2_stop_M3x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_q2_stop_M3x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_plate_SNS_M2_5_MS_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_plate_SNS_M2_5_MS_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_plate_SNS_M2_5_MS_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_plate_SNS_M2_5_MS_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_plate_SNS_M2_5_MS_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_188",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_189",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_191",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_194",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_198",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_199",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_200",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_202",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_203",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_204",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_205",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_206",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_209",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_212",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_213",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_214",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_215",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_216",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_217",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_219",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_220",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_221",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_222",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_source_224",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_nominal_side_keeper",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_foot_M2x22_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_foot_M2_nut_AF4_T1p6_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: RL_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_extension_shaft_V1_local_clearance",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_body_stop_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_ONE_PIECE_CARRIER_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_7017_V3_positive_q2_stop_column",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_7009_V3G2_short_pocket",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_7007_V4_M2_supported_clearance_DIRECT_M3_LOCATION_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_7004_V3_replaceable_PA_stop",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_7005_V4_M2_pilot_1p6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_rear_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_rear_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_rear_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_rear_M3x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_shell_M3x6_low_head_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_shell_M3x6_low_head_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_shell_M3x6_low_head_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_shell_M3x6_low_head_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_output_M4x8_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3E_M4x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3E_M4x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3G_NBK_SET_M4x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3E_M4x6_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3E_M4x6_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_output_V3E_M4x6_6",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_shell_V3F_M3x6_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_shell_V3F_M3x6_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_shell_V3F_M3x6_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_q2_stop_M3x8_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_q2_stop_M3x8_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_plate_SNS_M2_5_MS_1",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_plate_SNS_M2_5_MS_2",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_plate_SNS_M2_5_MS_3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_plate_SNS_M2_5_MS_4",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_plate_SNS_M2_5_MS_5",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_188",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_189",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_191",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_194",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_198",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_199",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_200",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_202",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_203",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_204",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_205",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_206",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_209",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_212",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_213",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_214",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_215",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_216",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_217",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_219",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_220",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_221",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_222",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_source_224",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_nominal_side_keeper",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_foot_M2x22_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_foot_M2_nut_AF4_T1p6_nominal",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_foot_M2_lower_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_foot_M2_upper_washer_D4p5_d2p2_t0p3",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M1_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M2_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FL_M3_ACTUAL_PA35",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: HEAD_original_0deg_UNCHANGED",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: REAR_shared_support_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FRONT_shared_support_V1_clearance_candidate",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: REAR_7001_V1_local_motor_clearance_DIRECT_M1_GRIPS_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: FRONT_7001_V1_local_motor_clearance_DIRECT_M1_GRIPS_CONCEPT",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_142",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_143",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_144",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_145",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_146",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_147",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_148",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_149",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_150",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_151",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_152",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_153",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_155_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_156",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_159",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_161_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_162",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_164_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_165",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_166",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_167_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_168",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_169",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_170_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_171",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_172",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: ORIGINAL_FRAME_173_CLOSED_MEASURED_PROFILE",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_174",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_175",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_177",
+      "pass": true
+    },
+    {
+      "label": "Candidate part definition matches manifest: BODY_SOURCE_178",
+      "pass": true
+    },
+    {
+      "label": "Exported full candidate STEP has verified bounds on readback",
+      "pass": true
+    },
+    {
+      "label": "Concept preview is not promoted or manufacturing released",
+      "pass": true
+    },
+    {
+      "label": "All reduction populations are outside legother137",
+      "pass": true
+    },
+    {
+      "label": "Frozen four-corner carrier mapping matches the exported whole robot",
+      "pass": true
+    },
+    {
+      "label": "Frozen M1 paired-grip mapping matches the exported whole robot",
+      "pass": true
+    },
+    {
+      "label": "Frozen M3 direct-location mapping matches the exported whole robot",
+      "pass": true
+    },
+    {
+      "label": "No separate candidate HTML page was created",
+      "pass": true
+    },
+    {
+      "label": "Original hole positions are not misreported as proved screw counts",
+      "pass": true
+    },
+    {
+      "label": "Plain fusion tool-path failure is retained in evidence",
+      "pass": true
+    },
+    {
+      "label": "Local window path evidence retains the actual custom-tool and quick-release limitation",
+      "pass": true
+    },
+    {
+      "label": "Tool qualification and loose-screw support are visible in the user review",
+      "pass": true
+    },
+    {
+      "label": "Whole actual-CAD render hash: whole_before.png",
+      "pass": true
+    },
+    {
+      "label": "Whole actual-CAD render hash: whole_after.png",
+      "pass": true
+    },
+    {
+      "label": "Whole current/candidate views share camera and scale",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: whole before",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: whole after",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: carrier before",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: carrier after",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: m1 before",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: m1 after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: pair before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: pair after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rear_fixed before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rear_fixed after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: front_fixed before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: front_fixed after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rr_cap before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rr_cap after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rl_cap before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: rl_cap after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: fr_cap before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: fr_cap after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: fl_cap before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: fl_cap after",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: section before",
+      "pass": true
+    },
+    {
+      "label": "Individual changed-part image: section after",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: m3 before",
+      "pass": true
+    },
+    {
+      "label": "Real CAD preview image exists at usable resolution: m3 after",
+      "pass": true
+    }
+  ],
+  "formalCADModified": false,
+  "formalReduction": 0,
+  "candidateModelCount": 352,
+  "candidateReduction": 44,
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "candidateSHA": "f06a40e396d1112ee7f9d73c7d5a22469197058247b7f45cf9993c53b91593c0"
+}

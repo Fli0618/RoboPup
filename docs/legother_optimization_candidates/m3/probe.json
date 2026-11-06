@@ -1,0 +1,100 @@
+{
+  "bridge_B_common": {
+    "volume_mm3": 8.182212979328957,
+    "surface_area_mm2": 42.11947441248513,
+    "valid": true,
+    "stats": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 5,
+      "edges": 18,
+      "bounds_xyz_mm": [
+        -164.95489742783178,
+        -24.494897427831802,
+        59.07,
+        -159.45999999999998,
+        -18.999999999999996,
+        59.57
+      ],
+      "extents_xyz_mm": [
+        5.494897427831802,
+        5.4948974278318055,
+        0.5
+      ]
+    }
+  },
+  "bridge_7007_common": {
+    "volume_mm3": 20.83928677744614,
+    "surface_area_mm2": 55.346546849596855,
+    "valid": true,
+    "stats": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 7,
+      "edges": 30,
+      "bounds_xyz_mm": [
+        -165.45174313179658,
+        -24.991743133243695,
+        95.97999989635521,
+        -159.4599999,
+        -18.999999899999988,
+        98.00000010000002
+      ],
+      "extents_xyz_mm": [
+        5.991743231796562,
+        5.991743233243707,
+        2.0200002036448126
+      ]
+    }
+  },
+  "integrated": {
+    "volume_mm3": 33499.25812414719,
+    "surface_area_mm2": 29628.610745868496,
+    "valid": true,
+    "stats": {
+      "solids": 1,
+      "shells": 1,
+      "faces": 693,
+      "edges": 3656,
+      "bounds_xyz_mm": [
+        -189.4966151766,
+        -145.66180592253895,
+        53.57,
+        -104.1729985128,
+        32.40000009999748,
+        110.74000017030554
+      ],
+      "extents_xyz_mm": [
+        85.32361666379998,
+        178.06180602253642,
+        57.170000170305535
+      ]
+    }
+  },
+  "axial_column_above_B": {
+    "volume_mm3": 0.0,
+    "surface_area_mm2": 0.0,
+    "valid": true,
+    "stats": {
+      "empty": true,
+      "solids": 0
+    }
+  },
+  "bridge_obstacles": [
+    {
+      "source_id": "M3_slotted_thigh_reducer",
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0
+    },
+    {
+      "source_id": "7017_V3_positive_q2_stop_column",
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0
+    },
+    {
+      "source_id": "M3",
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "id": "carrier_one_piece_7003_route",
+  "title": "恢复一体主支架路线：保留R4两端电机真实界面，取消AB接缝",
+  "status": "REAL_CAD_SINGLE_SOLID_CONCEPT_ASSEMBLY_SEQUENCE_NOT_CLOSED",
+  "candidate_only": true,
+  "formal_R4_modified": false,
+  "formal_R4_promoted_net_reduction": 0,
+  "manufacturing_release": false,
+  "load_capacity_release": false,
+  "complete_assembly_disassembly_release": false,
+  "source_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/pa35_whole_robot_R4_original_frame/01_assemblies/PA35_R4_COMPLETE_QUADRUPED_ORIGINAL_FRAME.step": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/022_027_AB_join_M3x10_1_b894b94606.step": "b894b946069183ea1af6265f8f9a969dff35ab4dfb224ae8ce443025fdfe6c5c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/023_028_AB_join_thin_washer_1_cbd9d336e0.step": "cbd9d336e0a62ec814cdd1b1fcc7b322e334174d85df6f74ca8e0977cec86090",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/024_029_AB_join_M3x10_2_ba832cf05c.step": "ba832cf05c2f936e8b94af603e1f5a3d3782f93e55d52227c6217ca87ff2662c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/025_030_AB_join_thin_washer_2_cc4163402d.step": "cc4163402d5fb28dc94435770df0c6489fa2c6d871eee763a909c790309390bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/026_031_AB_join_M3x10_3_73c3af6879.step": "73c3af6879d4b2a00bfd96bc07fb30d845610318a48537f757bd9e72e2fdfd5a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/027_032_AB_join_thin_washer_3_05a6d4d4e3.step": "05a6d4d4e3bc968642b1907d62b4460e204f990c67939b4f2d5e6e55cefb4085",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/028_033_AB_join_M3x10_4_b7f52e2a6e.step": "b7f52e2a6efaa32a7873021aedc687d27a1955d85b63f4081bee1bc5bdc887dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/029_034_AB_join_thin_washer_4_f36033f425.step": "f36033f425aac0e318a1c9297d4a87d0cb482081b549cdcd87ef33e2390b3d36",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/012_017_M2_output_M4x8_1_5d8a31d97e.step": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/013_018_M2_output_M4x8_2_3e163ffe40.step": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/014_019_M2_output_M4x8_3_f08b2386cf.step": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/015_020_M2_output_M4x8_4_d49a039b3a.step": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/016_021_M2_output_M4x8_5_550a143496.step": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/017_022_M2_output_M4x8_6_f8340b9b89.step": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/018_023_M3_rear_M3x6_1_380bef829c.step": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/019_024_M3_rear_M3x6_2_d6fb336400.step": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/020_025_M3_rear_M3x6_3_30ae9d25e8.step": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/021_026_M3_rear_M3x6_4_cc7c2c4586.step": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd"
+  },
+  "source_R3_reusable_leg_carrier_candidate": false,
+  "R3_note": "已检查R3 build_R3.py：R3只减少机身端板连接，四腿几何保持不变，未发现可复用的一体7003腿支架。",
+  "design_basis": "原7003单件连接架思路；实际几何从当前R4 RR A/B原位融合重建，不是原7003未经修改的复制。",
+  "geometry": {
+    "before_structures": {
+      "valid": true,
+      "geometry": {
+        "solids": 2,
+        "shells": 2,
+        "faces": 103,
+        "edges": 436,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          45.57,
+          -104.1729985128,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          16.4
+        ]
+      },
+      "volume_mm3": 30300.67733553084,
+      "area_mm2": 16900.163117832075
+    },
+    "A": {
+      "valid": true,
+      "geometry": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 45,
+        "edges": 192,
+        "bounds_xyz_mm": [
+          -171.46,
+          -31.0,
+          45.57,
+          -109.46,
+          31.0,
+          53.57
+        ],
+        "extents_xyz_mm": [
+          62.000000000000014,
+          62.0,
+          8.0
+        ]
+      },
+      "volume_mm3": 12974.269204999382,
+      "area_mm2": 8531.653443212703
+    },
+    "B": {
+      "valid": true,
+      "geometry": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 58,
+        "edges": 244,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          53.57,
+          -104.1729985128,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          8.399999999999999
+        ]
+      },
+      "volume_mm3": 17326.40813052564,
+      "area_mm2": 8368.50967461936
+    },
+    "A_B_original_position_fused_single_solid": {
+      "valid": true,
+      "geometry": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 119,
+        "edges": 450,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          45.57,
+          -104.1729985128,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          16.4
+        ]
+      },
+      "volume_mm3": 30300.67733553092,
+      "area_mm2": 12163.63729912912
+    },
+    "after": {
+      "valid": true,
+      "geometry": {
+        "solids": 1,
+        "shells": 1,
+        "faces": 100,
+        "edges": 370,
+        "bounds_xyz_mm": [
+          -171.46,
+          -32.674590336900856,
+          45.57,
+          -104.1729985128,
+          31.0,
+          61.97
+        ],
+        "extents_xyz_mm": [
+          67.2870014872,
+          63.674590336900856,
+          16.4
+        ]
+      },
+      "volume_mm3": 30597.11801832414,
+      "area_mm2": 11820.889540622535
+    },
+    "old_AB_seam_world_Z_mm": 53.57,
+    "added_material": {
+      "valid": true,
+      "geometry": {
+        "solids": 4,
+        "shells": 4,
+        "faces": 20,
+        "edges": 48,
+        "bounds_xyz_mm": [
+          -169.66,
+          -29.2,
+          49.57,
+          -111.25999999999999,
+          29.2,
+          59.57
+        ],
+        "extents_xyz_mm": [
+          58.400000000000006,
+          58.4,
+          10.0
+        ]
+      },
+      "volume_mm3": 296.4406827927328,
+      "area_mm2": 454.6512888275394
+    },
+    "removed_current_carrier_material": {
+      "valid": true,
+      "geometry": {
+        "empty": true,
+        "solids": 0
+      },
+      "volume_mm3": 0.0,
+      "area_mm2": 0.0
+    },
+    "bounds_unchanged": true,
+    "original_material_fully_preserved": true,
+    "added_material_outside_four_AB_fill_cylinders_mm3": 0.0,
+    "readback": {
+      "before.step": {
+        "file_sha256": "ba018d88347161197551be6ef84a980b4674d77cda738015474009cdc789fd87",
+        "valid": true,
+        "geometry": {
+          "solids": 2,
+          "shells": 2,
+          "faces": 103,
+          "edges": 436,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            45.57,
+            -104.1729985128,
+            31.0,
+            61.97
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 30300.67733553084,
+        "area_mm2": 16900.163117832075
+      },
+      "after.step": {
+        "file_sha256": "18ffbeb4d4f261b62ceca1bdc237ef9370e445451e636700c1a95436f0510c04",
+        "valid": true,
+        "geometry": {
+          "solids": 1,
+          "shells": 1,
+          "faces": 100,
+          "edges": 370,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            45.57,
+            -104.1729985128,
+            31.0,
+            61.97
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            16.4
+          ]
+        },
+        "volume_mm3": 30597.118018322213,
+        "area_mm2": 11820.889540622971
+      },
+      "before_with_AB_hardware.step": {
+        "file_sha256": "4c6ba4b1c2166236222d17fbd52b8e9ae6453873c7ecf5fbe370b480db860395",
+        "valid": true,
+        "geometry": {
+          "solids": 10,
+          "shells": 10,
+          "faces": 167,
+          "edges": 676,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            45.57,
+            -104.1729985128,
+            31.0,
+            63.07
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            17.5
+          ]
+        },
+        "volume_mm3": 30880.838095417996,
+        "area_mm2": 17939.25918627691
+      },
+      "after_with_retained_motor_hardware.step": {
+        "file_sha256": "d9740b0be9556cf41f46cbc4be397b917d716aaa8a030de9515d433e1e6c41d3",
+        "valid": true,
+        "geometry": {
+          "solids": 11,
+          "shells": 11,
+          "faces": 220,
+          "edges": 850,
+          "bounds_xyz_mm": [
+            -171.46,
+            -32.674590336900856,
+            41.77,
+            -104.1729985128,
+            31.0,
+            62.67
+          ],
+          "extents_xyz_mm": [
+            67.2870014872,
+            63.674590336900856,
+            20.9
+          ]
+        },
+        "volume_mm3": 32457.00101534248,
+        "area_mm2": 14207.024136872948
+      }
+    }
+  },
+  "connections": {
+    "removed_labels": [
+      "RR_AB_join_M3x10_1",
+      "RR_AB_join_thin_washer_1",
+      "RR_AB_join_M3x10_2",
+      "RR_AB_join_thin_washer_2",
+      "RR_AB_join_M3x10_3",
+      "RR_AB_join_thin_washer_3",
+      "RR_AB_join_M3x10_4",
+      "RR_AB_join_thin_washer_4"
+    ],
+    "retained_motor_fasteners": [
+      {
+        "source_id": "M2_output_M4x8_1",
+        "label": "RR_M2_output_M4x8_1",
+        "axis_world_xy_mm": [
+          -148.9452813742,
+          -8.485281374239
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "5d8a31d97e0bbfbdfc54e394daec1d2728398279e0c54de29a294df5ef6ad711",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M2_output_M4x8_2",
+        "label": "RR_M2_output_M4x8_2",
+        "axis_world_xy_mm": [
+          -152.0511099154,
+          3.105828541229
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "3e163ffe4041e5991a1e2314487b9924ad11c36b4f9ad0228ecfa7ff26626acb",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M2_output_M4x8_3",
+        "label": "RR_M2_output_M4x8_3",
+        "axis_world_xy_mm": [
+          -143.5658285412,
+          11.591109915465
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "f08b2386cf70542327dec37a15566106e6f0b5cec60621465eb45337526d00d8",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M2_output_M4x8_4",
+        "label": "RR_M2_output_M4x8_4",
+        "axis_world_xy_mm": [
+          -131.9747186257,
+          8.485281374239
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "d49a039b3a65b7e81c5b4044d89e71b0e52f062ce43b0f44d5b32e53bd6e7864",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M2_output_M4x8_5",
+        "label": "RR_M2_output_M4x8_5",
+        "axis_world_xy_mm": [
+          -128.8688900845,
+          -3.105828541229
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "550a1434968e1f98137cfe8820c84db785667ad5ae0f21922ce86dbcea9e2c1c",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M2_output_M4x8_6",
+        "label": "RR_M2_output_M4x8_6",
+        "axis_world_xy_mm": [
+          -137.3541714587,
+          -11.59110991546
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "f8340b9b891a478ac145366520fba44738e62be2218847f9f08f74a7f710375d",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M3_rear_M3x6_1",
+        "label": "RR_M3_rear_M3x6_1",
+        "axis_world_xy_mm": [
+          -125.0862664315,
+          11.584939195681
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "380bef829c134dab74738fb82e48ebef36ee373b481470e43075666367558cbe",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M3_rear_M3x6_2",
+        "label": "RR_M3_rear_M3x6_2",
+        "axis_world_xy_mm": [
+          -152.0449391956,
+          15.373733568411001
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "d6fb336400bb5ca09da5789f1dde38dc72b37d164d6e2f405a2bfcfab462e5be",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M3_rear_M3x6_3",
+        "label": "RR_M3_rear_M3x6_3",
+        "axis_world_xy_mm": [
+          -128.8750608043,
+          -15.373733568399999
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "30ae9d25e86012af3c6c112bc8770dd5ac42962ba1dfd2691c0e4793fcc14813",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      },
+      {
+        "source_id": "M3_rear_M3x6_4",
+        "label": "RR_M3_rear_M3x6_4",
+        "axis_world_xy_mm": [
+          -155.8337335684,
+          -11.58493919567
+        ],
+        "axis_direction": [
+          0,
+          0,
+          1
+        ],
+        "retained_definition_sha256": "cc7c2c45864a05b0aafa5269d64b9bc6dc730357e355c3dfbf7da89bec757ddd",
+        "definition_to_world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "displacement_mm": [
+          0,
+          0,
+          0
+        ],
+        "candidate_material_added_intersection_mm3": 0.0
+      }
+    ],
+    "motor_output_interface_A_Z_mm": 45.57,
+    "motor_rear_interface_B_Z_mm": 59.57,
+    "motor_axis_world_XY_mm": [
+      -140.46,
+      0
+    ],
+    "interface_displacement_mm": [
+      0,
+      0,
+      0
+    ],
+    "moved_motor_holes": [],
+    "obsolete_AB_bores_closed": [
+      {
+        "axis_world_XY_mm": [
+          -112.96,
+          0
+        ],
+        "A_original_pilot_D_mm": 2.5,
+        "A_Z_mm": [
+          49.57,
+          53.57
+        ],
+        "B_original_clearance_D_mm": 3.4,
+        "B_Z_mm": [
+          53.57,
+          59.57
+        ]
+      },
+      {
+        "axis_world_XY_mm": [
+          -140.46,
+          27.5
+        ],
+        "A_original_pilot_D_mm": 2.5,
+        "A_Z_mm": [
+          49.57,
+          53.57
+        ],
+        "B_original_clearance_D_mm": 3.4,
+        "B_Z_mm": [
+          53.57,
+          59.57
+        ]
+      },
+      {
+        "axis_world_XY_mm": [
+          -167.96,
+          0
+        ],
+        "A_original_pilot_D_mm": 2.5,
+        "A_Z_mm": [
+          49.57,
+          53.57
+        ],
+        "B_original_clearance_D_mm": 3.4,
+        "B_Z_mm": [
+          53.57,
+          59.57
+        ]
+      },
+      {
+        "axis_world_XY_mm": [
+          -140.46,
+          -27.5
+        ],
+        "A_original_pilot_D_mm": 2.5,
+        "A_Z_mm": [
+          49.57,
+          53.57
+        ],
+        "B_original_clearance_D_mm": 3.4,
+        "B_Z_mm": [
+          53.57,
+          59.57
+        ]
+      }
+    ],
+    "new_hardware_per_leg": 0,
+    "floating_bridge_added": false,
+    "motor_head_relief_cavities_retained": true,
+    "side_tool_access_windows_added": false
+  },
+  "counts": {
+    "structure_per_leg_before": 2,
+    "structure_per_leg_after": 1,
+    "structure_gross_reduction_per_leg": 1,
+    "screws_gross_reduction_per_leg": 4,
+    "washers_gross_reduction_per_leg": 4,
+    "hardware_gross_reduction_per_leg": 8,
+    "combined_gross_reduction_per_leg": 9,
+    "four_legs_structure_target": 4,
+    "four_legs_hardware_target": 32,
+    "four_legs_combined_target": 36,
+    "actual_representative_RR_candidate_only": false,
+    "formal_R4_confirmed_net_reduction": 0
+  },
+  "checked": [
+    "R4 A与B原位布尔融合得到有效单闭合实体，未增加悬空连接桥。",
+    "STEP回读before为2个有效实体、after为1个有效实体。",
+    "整个原A/B材料均保留；仅四组废弃AB孔填料，边界范围不变。",
+    "保留M2输出6颗和M3后端4颗实际硬件源SHA与原矩阵；接口位移为0。",
+    "新增填孔材料对这10颗实际保留硬件的实体布尔交叠为0。",
+    "正式R4 manifest、装配文件和所有被读取定义SHA保持不变。",
+    "FR/RL/FL也从各自真实A/B源独立融合且回读为单有效实体，具体见four_leg_mapping.json；三腿废弃AB孔保留，RR孔已关闭。"
+  ],
+  "not_checked": [
+    "完整装配顺序尚未闭合：融合后两端电机紧固件头部位于内部腔体，尚无已验证工具进入、退牙或预装路线。",
+    "未添加侧向工具窗，现有头部避让腔不自动等于可操作路径。",
+    "未验证完整电机外壳、小凸点、线束、其余腿部零件、整机运动或碰撞。",
+    "未验证承载、强度、疲劳、公差、制造与实物拆装。"
+  ],
+  "limits": [
+    "这是可回读的真实一体CAD概念，尚不能作为已可装配的一体支架制造发布。",
+    "每腿理论减1结构件、4螺钉与4垫圈；正式R4仍未替换，净减0。"
+  ],
+  "images": {
+    "before": "original_architecture_candidate/carrier/before.png",
+    "after": "original_architecture_candidate/carrier/after.png",
+    "exploded_before": "original_architecture_candidate/carrier/exploded_before.png",
+    "exploded_after": "original_architecture_candidate/carrier/exploded_after.png"
+  },
+  "files": {
+    "before": "original_architecture_candidate/carrier/before.step",
+    "after": "original_architecture_candidate/carrier/after.step",
+    "before_with_hardware": "original_architecture_candidate/carrier/before_with_AB_hardware.step",
+    "after_with_motor_hardware": "original_architecture_candidate/carrier/after_with_retained_motor_hardware.step",
+    "evidence": "original_architecture_candidate/carrier/evidence.json"
+  },
+  "four_leg_mapping": "original_architecture_candidate/carrier/four_leg_mapping.json",
+  "same_camera_same_scale": true,
+  "image_evidence": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/before.png",
+      "file_sha256": "fc6712b3bbbdacbd16cb9a9da2d553428782431b79afb2aef5e8881da99c8e23",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -478.5,
+          269.0,
+          554.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 45.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        403,
+        184,
+        1239,
+        1009
+      ],
+      "display_exploded": false,
+      "display_only_offsets_mm": {},
+      "source_ids": [
+        "Z12_A_V3_local_head_reliefs",
+        "Z12_B_V3_stop_ears_and_head_relief",
+        "AB_join_M3x10_1",
+        "AB_join_thin_washer_1",
+        "AB_join_M3x10_2",
+        "AB_join_thin_washer_2",
+        "AB_join_M3x10_3",
+        "AB_join_thin_washer_3",
+        "AB_join_M3x10_4",
+        "AB_join_thin_washer_4"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/after.png",
+      "file_sha256": "24aaa0c6151c98f191f1514b35ac7646ea0e38cd78ef8d86c3521b94480c0b9c",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -478.5,
+          269.0,
+          554.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 45.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        403,
+        184,
+        1239,
+        1009
+      ],
+      "display_exploded": false,
+      "display_only_offsets_mm": {},
+      "source_ids": [
+        "onepiece"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/exploded_before.png",
+      "file_sha256": "1bcdbc51b3079276482530fbf44dde341ba640468a3860819405b4cb59a62054",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -478.5,
+          269.0,
+          554.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 51.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        416,
+        213,
+        1222,
+        1009
+      ],
+      "display_exploded": true,
+      "display_only_offsets_mm": {
+        "A": [
+          0,
+          0,
+          -5
+        ],
+        "B": [
+          0,
+          0,
+          5
+        ],
+        "AB_hardware": [
+          0,
+          0,
+          13
+        ]
+      },
+      "source_ids": [
+        "Z12_A_V3_local_head_reliefs",
+        "Z12_B_V3_stop_ears_and_head_relief",
+        "AB_join_M3x10_1",
+        "AB_join_thin_washer_1",
+        "AB_join_M3x10_2",
+        "AB_join_thin_washer_2",
+        "AB_join_M3x10_3",
+        "AB_join_thin_washer_3",
+        "AB_join_M3x10_4",
+        "AB_join_thin_washer_4"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/carrier/exploded_after.png",
+      "file_sha256": "0dd343353f4a45561618b54f742e0a0b9fe8c2335dc3767a21dfb947841b90cb",
+      "camera": {
+        "focal": [
+          -138.5,
+          -1.0,
+          54.0
+        ],
+        "position": [
+          -478.5,
+          269.0,
+          554.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "parallel_scale": 51.0,
+        "parallel_projection": true
+      },
+      "image_dimensions": [
+        1600,
+        1200
+      ],
+      "actual_CAD_triangulation": true,
+      "CAD_image_content_bounds_px": [
+        449,
+        233,
+        1187,
+        961
+      ],
+      "display_exploded": true,
+      "display_only_offsets_mm": {},
+      "source_ids": [
+        "onepiece"
+      ],
+      "no_clip_planes": true,
+      "installation_path_verified": false
+    }
+  ],
+  "source_render_input_sha256": {
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695",
+    "source:/whole_robot_click_compare/original_architecture_candidate/carrier/after.step": "18ffbeb4d4f261b62ceca1bdc237ef9370e445451e636700c1a95436f0510c04",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/005_RR_Z12_A_FINAL_ACTUAL_INTERFACE_REVIEW_b1e4339058.step": "b1e4339058239df59d2cfb9215f1a5d1b5605d01b4a4812b1ad3ab0c01611330",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/006_RR_Z12_B_FINAL_ACTUAL_INTERFACE_REVIEW_02239d6c15.step": "02239d6c152eecfc4cccba63b6098a42a1ec9582002494ebb4463ccf414fde24",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/022_027_AB_join_M3x10_1_b894b94606.step": "b894b946069183ea1af6265f8f9a969dff35ab4dfb224ae8ce443025fdfe6c5c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/023_028_AB_join_thin_washer_1_cbd9d336e0.step": "cbd9d336e0a62ec814cdd1b1fcc7b322e334174d85df6f74ca8e0977cec86090",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/024_029_AB_join_M3x10_2_ba832cf05c.step": "ba832cf05c2f936e8b94af603e1f5a3d3782f93e55d52227c6217ca87ff2662c",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/025_030_AB_join_thin_washer_2_cc4163402d.step": "cc4163402d5fb28dc94435770df0c6489fa2c6d871eee763a909c790309390bf",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/026_031_AB_join_M3x10_3_73c3af6879.step": "73c3af6879d4b2a00bfd96bc07fb30d845610318a48537f757bd9e72e2fdfd5a",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/027_032_AB_join_thin_washer_3_05a6d4d4e3.step": "05a6d4d4e3bc968642b1907d62b4460e204f990c67939b4f2d5e6e55cefb4085",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/028_033_AB_join_M3x10_4_b7f52e2a6e.step": "b7f52e2a6efaa32a7873021aedc687d27a1955d85b63f4081bee1bc5bdc887dc",
+    "source:/pa35_whole_robot_R4_original_frame/02_parts/029_034_AB_join_thin_washer_4_f36033f425.step": "f36033f425aac0e318a1c9297d4a87d0cb482081b549cdcd87ef33e2390b3d36"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "status": "SCREEN_NOT_VALIDATED",
+  "date": "2026-11-04",
+  "revision": "R4_ORIGINAL_FRAME_ADAPTIVE_BATTERY",
+  "modelSHA": "1d35a8083f2a306b124bc93f16d2391b771b8bdcee139c6c70a15d5df4f79a49",
+  "formalCADModified": false,
+  "currentWholeCount": 396,
+  "currentLegOtherCount": 296,
+  "currentLegOtherDelta": 137,
+  "confirmedReduction": 0,
+  "confirmedMeaning": "本轮没有经过候选建模和验证、可直接取消的零件。",
+  "phase1target": 44,
+  "phase1WholeTarget": 352,
+  "phase1Items": [
+    {
+      "id": "ab",
+      "region": "ab",
+      "name": "原7003一体主支架代替分体A/B",
+      "reduction": 36,
+      "perLegReduction": 9,
+      "countExplanation": "A/B结构8→4，减少4；接缝16螺钉＋16垫圈减少32；合36。7004 PA止挡保留。",
+      "requires": [
+        "两台电机孔系与定位直接并入同一主支架",
+        "M2输出及M3后端螺钉的安装顺序和工具全程可达",
+        "保留独立PA止挡、材料与快拆方式",
+        "候选实际CAD与载荷核验"
+      ]
+    },
+    {
+      "id": "m1",
+      "region": "m1",
+      "name": "M1夹座与抱箍直接适配PA35",
+      "reduction": 4,
+      "perLegReduction": 1,
+      "countExplanation": "配对夹座全部重做夹持面后，取消四只独立M1衬套；抱箍本身1→1。",
+      "requires": [
+        "固定夹座与可拆抱箍配对设计",
+        "定位、夹持承载与电机壳体接触要求核实",
+        "各腿配合、工具与拆装检查"
+      ]
+    },
+    {
+      "id": "m3",
+      "region": "m3",
+      "name": "M3原定位端直接适配PA35",
+      "reduction": 4,
+      "perLegReduction": 1,
+      "countExplanation": "取消四只独立短衬套；不据此一并取消M3前壳固定螺钉。",
+      "requires": [
+        "原大腿定位面直接改型",
+        "定位端与前壳抗转固定的分工仍成立",
+        "装拆与载荷核验"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "id": "outputs",
+      "name": "M1/M2/M3输出端",
+      "count": 72,
+      "decision": "首轮保留",
+      "reason": "三台电机每台6颗输出连接，不能按原CAD漏画直接减孔。",
+      "group": "m1"
+    },
+    {
+      "id": "m2shell",
+      "name": "M2壳体固定",
+      "count": 16,
+      "decision": "首轮保留",
+      "reason": "将M2定子固定到7017，承担实际连接功能。",
+      "group": "m2"
+    },
+    {
+      "id": "m3mount",
+      "name": "M3前壳＋后端固定",
+      "count": 28,
+      "decision": "优先研究路线整合",
+      "reason": "前3颗连接7007、后4颗连接载板；须先建立单一承载路线，不能把7颗当重复件一起删。",
+      "group": "m3"
+    },
+    {
+      "id": "plate",
+      "name": "内外大腿板连接",
+      "count": 20,
+      "decision": "首轮保留",
+      "reason": "原结构已有五孔，仅每腿画了1颗；恢复原思路不等于只用1颗。",
+      "group": "plate"
+    },
+    {
+      "id": "stop",
+      "name": "可换PA止挡固定",
+      "count": 8,
+      "decision": "首轮保留",
+      "reason": "维持原PA材料与独立更换方式，不将止挡并成金属件。",
+      "group": "stop"
+    },
+    {
+      "id": "other",
+      "name": "其余连接小件",
+      "count": 76,
+      "decision": "逐功能保留核对",
+      "reason": "含铜套、销垫、隔套与足端固定，不能按外观认作冗余。",
+      "group": null
+    }
+  ],
+  "phase1Scope": "44项全部来自137分区之外。它是设计目标，尚非完成的减件；当前整机仍为396项。",
+  "m3Alternatives": [
+    {
+      "id": "retain-rear",
+      "retained": "每腿后端4颗",
+      "removedPopulation": "每腿前壳3颗",
+      "grossFourLegReduction": 12,
+      "zeroAddedPartsArithmeticWholeCount": 340
+    },
+    {
+      "id": "retain-front",
+      "retained": "每腿前壳3颗",
+      "removedPopulation": "每腿后端4颗",
+      "grossFourLegReduction": 16,
+      "zeroAddedPartsArithmeticWholeCount": 336
+    }
+  ],
+  "m3AlternativesMutuallyExclusive": true,
+  "m3NetFormula": "净减＝取消的原件数−新增的替代结构与紧固件数。12与16是二选一的毛减数量，不能相加。",
+  "m3Conditions": [
+    "7003与7007源图同为6061，材料上不存在必然异材障碍",
+    "A/B、M3壳和7007/7005同属q2刚体组；新固定路线仍须避让q3输出7009与电机实体",
+    "用现有结构形成完整传力路线，核对新支架或紧固件是否把数量补回",
+    "检查安装顺序、工具退出、有效螺纹、预紧、载荷和制造公差"
+  ],
+  "recommendation": "先攻A/B一体支架36，再完成两套衬套直接适配8；M3固定路线另做条件候选，不提前承诺336或340。",
+  "manufacturingRelease": false,
+  "sourceInputSHA": {
+    "source:/whole_robot_click_compare/legother_simplification_review/interface_readonly_review.json": "a12a75982fffc79728fcca68dbfb14ad90e7f3f20964a4acd82cff365442e26d",
+    "source:/whole_robot_click_compare/legother_simplification_review/plate_stop_analysis.json": "a4fd7c03836c68f57cd83d4f6ad98031b45e51c4a7e054e18f407ccee1003a60",
+    "source:/whole_robot_click_compare/legother_audit/legother-audit.json": "bcf1b23cab17feabdb57371d8b07585d8a40af07ad19c3d0fca3a234ff249879",
+    "source:/pa35_whole_robot_R4_original_frame/whole_robot_manifest.json": "a596be536d77cfb961aaade5742f1c975671cabef06bd975ceef7c5460eeb695"
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "actual_CAD_before_and_after": true,
+  "identical_camera_scale_in_each_pair": true,
+  "orange_construction_overlap_note": "Orange annulus is real CAD construction geometry with .05mm radial fusion overlap into the original fixed seat; external displayed union is the emitted after STEP. The overlap is excluded in true-new-material interference evidence.",
+  "rendered_source_evidence_sha256": "542dcaceead4e84f0e903ae06a1440c678f6c4b5ceaee65597b66a1832ccc92e",
+  "source_STEP_files": {
+    "REAR_7001_fixed_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_fixed_before.step",
+      "sha256": "4445ba9fa9d3669fde84da402cde17c6c2e1d986074fb0206ed1e2df775128d3"
+    },
+    "REAR_7001_fixed_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_fixed_after.step",
+      "sha256": "cd8778cdbd58b123e978fe219425630989055758eacbe1a6e71d61aa7eaf546c"
+    },
+    "REAR_7001_three_solid_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_before.step",
+      "sha256": "f864089bd2c0a678e43b8a4d14f654728dec4d8453a291bf0bee2448915b3ed7"
+    },
+    "REAR_7001_three_solid_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_7001_three_solid_after.step",
+      "sha256": "d9a2cb4f0187805f50db671a01a5f54ffb960a4d497e997195f360b85e727438"
+    },
+    "FRONT_7001_fixed_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_fixed_before.step",
+      "sha256": "3d335aad63d7b8790dcc2110f5479d0c70a3e9a51492c70d2b15344b16fe33e9"
+    },
+    "FRONT_7001_fixed_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_fixed_after.step",
+      "sha256": "fd6ca35c562b2ab00acd09deea6eb415e51b761056ec805b35026e9ad21ca11d"
+    },
+    "FRONT_7001_three_solid_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_before.step",
+      "sha256": "ec026e99a0a6e37142cbd4d6833c6556f5dae5f3c3dfdf7603365e2a2e60c493"
+    },
+    "FRONT_7001_three_solid_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_7001_three_solid_after.step",
+      "sha256": "ca7e6446a463a87e4beac2b6db7aa634ac0d15ef58030e2ad9b550c1ff7bfd7b"
+    },
+    "RR_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_7002_before.step",
+      "sha256": "9436ed31026e0676cb8ffd2841d4d5292e2d9c88ec16cd22e102761992417dc2"
+    },
+    "RR_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_7002_after.step",
+      "sha256": "d7172da60381e88bbf8d48e0994bb3f41bba2998f7b8090952ccf44cd2cd870b"
+    },
+    "RR_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_removed_sleeve.step",
+      "sha256": "789dd73c8599a572269fe4a447b5a4862801484f7324d32d0491260e0cf9ce96"
+    },
+    "RR_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before_with_sleeve.step",
+      "sha256": "d23bb5edbbf99f6c0cf94959133ff38dd9993d70ae9667dbc7c710754d00a415"
+    },
+    "RR_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after_direct.step",
+      "sha256": "5de37e5a46f24f1b4e8510a8fc4a58c17cecdf6ccf6f9c1fe3fa257f40d6a11f"
+    },
+    "RR_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_added_cap.step",
+      "sha256": "ad9d936c3b93d56c26eca809fe38158d589ab270db6175b7e7edcca9f55722be"
+    },
+    "RR_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_added_fixed_blank.step",
+      "sha256": "7d6125c2ff0327efd6df1042eb71d36c8941a2bf1106c57d10167e4cbd08d459"
+    },
+    "RL_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_7002_before.step",
+      "sha256": "97ff5e8d19379cf52633b148339667092d3584a536f4d77bd1553c359e9ae3e2"
+    },
+    "RL_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_7002_after.step",
+      "sha256": "12fc8dd41067d383a98ad684db59e1fec3cdf6631a0d616032e7aa99a0329066"
+    },
+    "RL_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_removed_sleeve.step",
+      "sha256": "63e8825d2c23fff090b9fdefd9f37ce5db28f82ec2b68bf055d6ae811add0778"
+    },
+    "RL_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_pair_before_with_sleeve.step",
+      "sha256": "00c34de122f04a7730835d58b7058b714b3011bc6d82f652322ee17bb10db825"
+    },
+    "RL_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_pair_after_direct.step",
+      "sha256": "c9a98f868044a8a4a908ca824a0666f0812465fdcb6265ffe86ebc6f63b8c054"
+    },
+    "RL_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_added_cap.step",
+      "sha256": "18ec8d743d1892aaea83b070a0e3056f0eed7e1f17e783fb8e4cae23d1950a65"
+    },
+    "RL_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_added_fixed_blank.step",
+      "sha256": "801bf025d72e3763cb85059cd26d61c74e21c4df49eeee48bb18ac9d9691ec96"
+    },
+    "FR_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_7002_before.step",
+      "sha256": "e3a7fcaaf6538b5b6c8e481af6b39ceb065a5b610013a9800c34de85f54e012b"
+    },
+    "FR_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_7002_after.step",
+      "sha256": "f393f879af9671378f0dac9c4f8d499d58a9331bfa82a3c6229cf1f2aeb57a59"
+    },
+    "FR_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_removed_sleeve.step",
+      "sha256": "f9b8dddad0a4aa2a6682c221e93c181e0b00c4f0089c732e5b62b392aa75dc85"
+    },
+    "FR_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_pair_before_with_sleeve.step",
+      "sha256": "2eca8c55f02c3a2a7e09341db6aeddf811127c9a1db8386e5e0802dffe13d3b1"
+    },
+    "FR_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_pair_after_direct.step",
+      "sha256": "b1b8149febf1ef5169dcbef6d546bc44fe9816859dba356a1262e349adf6fee9"
+    },
+    "FR_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_added_cap.step",
+      "sha256": "9a06a2a820991792daaaee8d16923ca4a01fda75f27c47e38e80738816d07c9a"
+    },
+    "FR_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_added_fixed_blank.step",
+      "sha256": "678cea3b376ae7f2e313dcfcc0427a24ba5342100e6565d34fe3d079a1a9bdb0"
+    },
+    "FL_7002_before": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_7002_before.step",
+      "sha256": "63562310cf6c27f1775d14b10ee16ab76fe98337655fe79a3f3c0dba800d1d31"
+    },
+    "FL_7002_after": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_7002_after.step",
+      "sha256": "0ab916bd41fd4da4dd80836bb1b074af725daf59a9d700f4e1d568459d196cde"
+    },
+    "FL_removed_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_removed_sleeve.step",
+      "sha256": "05b693220949e570ddd8d900fe9c54367b85e5394435f48b7938a7a757fde923"
+    },
+    "FL_pair_before_with_sleeve": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_pair_before_with_sleeve.step",
+      "sha256": "109ca86f50d0bd2d8ef15e2199592e8c182b68ff689f355154f4baa67028f9c8"
+    },
+    "FL_pair_after_direct": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_pair_after_direct.step",
+      "sha256": "faa3455159589d8fb85a47238716dc9536fc3c3f87c661f7a8712ba7ab63e6c1"
+    },
+    "FL_added_cap": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_added_cap.step",
+      "sha256": "56acf71e662af3d1409c7a9a10985f772d89bf194e13ae138c453bac1c37a5eb"
+    },
+    "FL_added_fixed_blank": {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_added_fixed_blank.step",
+      "sha256": "02c596b5053e7a1fce39f61a11aba54763f13709255467c3edacb09766d8fdab"
+    }
+  },
+  "images": [
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_before.png",
+      "sha256": "4ff4f9b8af12e1d51870c627033e6f405d24cab9a5977f125ce5a6453f2261fa",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          43.28,
+          -65,
+          120
+        ],
+        "focus": [
+          -96.72,
+          0,
+          54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_after.png",
+      "sha256": "9023c093d110ec6dd2d1bcfe43b8c8f154e06a3ed2e0345df7864cca8cc8b6fc",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          43.28,
+          -65,
+          120
+        ],
+        "focus": [
+          -96.72,
+          0,
+          54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_cap_before_after.png",
+      "sha256": "c3e95f40f2061fa6834c59442718a10f9df5e7931fc15e80f5204632ec93e836",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RR cap7002"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_before.png",
+      "sha256": "3090cce8489a4d0019be7e0527b9f1a1121d66be0e6da57fed3b9c2ddc7c771c",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_after.png",
+      "sha256": "c7c34abd8e12d837e5262d3d4d6a985159ffd62277e8e906c4ce9ae4afc265b1",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_before_after.png",
+      "sha256": "8d49f26dc9ff46be1da2cea848000900ae723a01b871d46f45176562510c341a",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RR paired grip"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_before.png",
+      "sha256": "5d5d7eb8328e27684d5727469d7874e122d5f8b52403243b2803cd7ff7e9cd4a",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          53.28,
+          0,
+          33.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_after.png",
+      "sha256": "97cd8094255d0b5c8e26f04668811217c95bcfc86dbceb974107b541c86024fe",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          53.28,
+          0,
+          33.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_section_before_after.png",
+      "sha256": "4e89ddaf19f0990ef00ca4fae6afeeca57d23324b19da263eb3cdb93c8ca0467",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RR axial section"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_before.png",
+      "sha256": "172435a2964dbb45e8e9dfb153cd741c1792990ee92745dddba4447ebc9b3795",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -75,
+          70
+        ],
+        "focus": [
+          -96.72,
+          0,
+          0
+        ],
+        "parallel_scale": 75
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_after.png",
+      "sha256": "8021358a4672622fcd5f667697070f0fa4cf7424acd15bb62701778c3f1ab3c9",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -75,
+          70
+        ],
+        "focus": [
+          -96.72,
+          0,
+          0
+        ],
+        "parallel_scale": 75
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/REAR_fixed_before_after.png",
+      "sha256": "6a84d5f696b6fd87ccda0dc4cc0fc7413ffb815bf08210789fcf2d54a2a0e763",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "REAR fixed7001"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_before.png",
+      "sha256": "522e80f710988fcf2dcd953589b73e99da0c2811e627a9031abf01e217a4fa70",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -75,
+          70
+        ],
+        "focus": [
+          96.72,
+          0,
+          0
+        ],
+        "parallel_scale": 75
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_after.png",
+      "sha256": "579ba714fb4435d7956895c8ccc667252952212d859c09de908e79e15d19705a",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -75,
+          70
+        ],
+        "focus": [
+          96.72,
+          0,
+          0
+        ],
+        "parallel_scale": 75
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FRONT_fixed_before_after.png",
+      "sha256": "1d7e66f48cede34e9820dd46cfa5acb4e696f4cf5d7ade175b4392252bb8a96d",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FRONT fixed7001"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_before.png",
+      "sha256": "d11fadff240ecd4bf2a21f4e34854fdf7aa57c86c29863095be5ecd087571c72",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          43.28,
+          -65,
+          -120
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_after.png",
+      "sha256": "102fc93a3c6de81f24740b1cf8ca8d531e9042edf38ed13e1692c1158dfbf86d",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          43.28,
+          -65,
+          -120
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_cap_before_after.png",
+      "sha256": "8b364564bda3df30e4db86286580236ec788faa224189f1a906b92051c7a5ac2",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RL cap7002"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_before.png",
+      "sha256": "c6668b05412bd9097ee53466e6665e22be9ab1b7e9f7e2bcd2a52b9d83a89492",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          -128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_after.png",
+      "sha256": "b351abfee34a5acd78ea6a801bfd68ebf0504df4dde8c5913255438c8971b50d",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          -128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_before_after.png",
+      "sha256": "04802bc106c75142b0b3ab260781f0d6832cc5aa31311440db27b7c1fa1328fa",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RL paired grip"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_before.png",
+      "sha256": "3ad05a9560dddfc566a49589562d83f442aaca9931bd65a4ea0644594c122c50",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          53.28,
+          0,
+          -33.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_after.png",
+      "sha256": "cbffbc4ba74075d714aedf0b8c907958082657e385ba52efa6c9e6721a80d341",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          53.28,
+          0,
+          -33.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RL_section_before_after.png",
+      "sha256": "0e671e1c51578de082adc67c8e9cde94ff07027209321e046a93057668a2f7ab",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "RL axial section"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_before.png",
+      "sha256": "1764520f91f557da7833254d5c9e8af9e1175b8aa79220dc4ce0b0a5c5834986",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -43.28,
+          -65,
+          120
+        ],
+        "focus": [
+          96.72,
+          0,
+          54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_after.png",
+      "sha256": "216139b3a46d23a5578b009e9e1a12975f6ac8d30d45e77c1eaac55eee45b3b8",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -43.28,
+          -65,
+          120
+        ],
+        "focus": [
+          96.72,
+          0,
+          54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_cap_before_after.png",
+      "sha256": "c51090012c90619b82c6b2d4dbac358ef082b7e867645ff68e30e3ee2a53440e",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FR cap7002"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_before.png",
+      "sha256": "47f2eae1a1ae65b1fa96a84dca65a442af60c9992a5d0421c065faf4547f1964",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_after.png",
+      "sha256": "0357aceb58cec61f230ad13bddbca2793790871c8061d53d4fa7ac9a289ed126",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_before_after.png",
+      "sha256": "3dcb6deb18ed9c2d69c41ee8d1f5e6d82629633548646eea4beb9ce81a4393de",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FR paired grip"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_before.png",
+      "sha256": "3b14d65522406420586f485db9f468c65902f84adedbbdda4acaf972b4b3438b",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          246.72,
+          0,
+          33.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_after.png",
+      "sha256": "fc29a4eedacf6d92f166b177d8ae735dd288bd9a9aab888c08013be25c17f678",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          246.72,
+          0,
+          33.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FR_section_before_after.png",
+      "sha256": "15463934ef3cdf37e1b6ec8dc9d319e69f4137f6795436c30d6f7ea4a0cf29b6",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FR axial section"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_before.png",
+      "sha256": "36b152e0011a20d841fe527733d11ed079f59de30c68792dac9dc62a66aa680a",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -43.28,
+          -65,
+          -120
+        ],
+        "focus": [
+          96.72,
+          0,
+          -54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_after.png",
+      "sha256": "4b9c126141ddd86039856a8a9476f21110b8d81181c2bbc4eb337b73eb82f1bc",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -43.28,
+          -65,
+          -120
+        ],
+        "focus": [
+          96.72,
+          0,
+          -54.45
+        ],
+        "parallel_scale": 40
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_cap_before_after.png",
+      "sha256": "3f932fa965ef570af38927cde45891a711c8cbd42f58af098695218dc9f1abab",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FL cap7002"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_before.png",
+      "sha256": "bb95b3ed2933d19b87fa2c611149b29b6a824f6dc62fa0b5b9050075d0fd7b16",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -60,
+          -128.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_after.png",
+      "sha256": "9584f0fe8f4b2669febc7f44b75d940e9b26e01744386607b99ef755591f5762",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          -63.28,
+          -60,
+          -128.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_before_after.png",
+      "sha256": "a9e7ebac603f63e6e6afacd7c75c301366667510f7b67acdbbd4089fa8901497",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FL paired grip"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_before.png",
+      "sha256": "398dd04011fe41b2ac4e6901ab824532d16861172532dbbfbd1cdc82329d3481",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          246.72,
+          0,
+          -33.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_after.png",
+      "sha256": "0c4294342be6c76d1ff4419fd3ebf172953bf8bc5e1364ccdb2ec57d1a188aeb",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          246.72,
+          0,
+          -33.6
+        ],
+        "focus": [
+          96.72,
+          0,
+          -33.6
+        ],
+        "parallel_scale": 49
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/FL_section_before_after.png",
+      "sha256": "ba116aa0db4d3c1396be1482e70e720c1773852e7d0185e4c1123b79b2a59941",
+      "pixels": [
+        3000,
+        1200
+      ],
+      "actual_CAD": true,
+      "identical_camera_and_parallel_scale": true,
+      "title": "FL axial section"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_before.png",
+      "sha256": "3090cce8489a4d0019be7e0527b9f1a1121d66be0e6da57fed3b9c2ddc7c771c",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true,
+      "alias_of": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_before.png"
+    },
+    {
+      "file": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_pair_after.png",
+      "sha256": "c7c34abd8e12d837e5262d3d4d6a985159ffd62277e8e906c4ce9ae4afc265b1",
+      "pixels": [
+        1500,
+        1200
+      ],
+      "camera": {
+        "position": [
+          63.28,
+          -60,
+          128.6
+        ],
+        "focus": [
+          -96.72,
+          0,
+          33.6
+        ],
+        "parallel_scale": 54
+      },
+      "source": "Actual OCP STEP geometry; triangulation only for display",
+      "actual_CAD": true,
+      "alias_of": "source:/whole_robot_click_compare/original_architecture_candidate/m1/RR_after.png"
+    }
+  ]
+}
